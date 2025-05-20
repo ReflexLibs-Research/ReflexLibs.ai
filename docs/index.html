@@ -1,101 +1,214 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>ReflexLibs Timeline Scroll</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      display: flex;
-    }
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="light dark">
+    <title>ReflexLibs Timeline</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+        }
 
-    .column {
-      width: 50%;
-      overflow-y: scroll;
-      height: 100vh;
-      padding: 2rem;
-      box-sizing: border-box;
-    }
+        .column {
+            width: 50%;
+            overflow-y: auto;
+            padding: 1rem 2rem;
+            box-sizing: border-box;
+        }
 
-    .left {
-      background-color: #ffffff;
-      color: #000000;
-    }
+        .white-bg {
+            background: #fff;
+            color: #000;
+        }
 
-    .right {
-      background-color: #000000;
-      color: #ffffff;
-    }
+        .black-bg {
+            background: #000;
+            color: #fff;
+        }
 
-    .entry {
-      margin-bottom: 2rem;
-      font-size: 1.2rem;
-    }
+        .svg-header img {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem;
+        }
 
-    .url {
-      font-weight: bold;
-    }
+        .lang-box {
+            border-radius: 16px;
+            padding: 1rem;
+            width: 480px;
+            margin: 0 auto 1rem;
+        }
 
-    .year {
-      font-size: 0.9rem;
-      color: gray;
-    }
+        .white-bg .lang-box {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+        }
 
-    .right .year {
-      color: #888;
-    }
-  </style>
+        .black-bg .lang-box {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: .5rem;
+        }
+
+        .icon-container img {
+            width: 48px;
+            height: 48px;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: .5rem;
+        }
+
+        .section ul {
+            padding-left: 1.2rem;
+            margin: 0;
+        }
+
+        .section li {
+            margin-bottom: .25rem;
+        }
+    </style>
 </head>
+
 <body>
+    <div id="left-container" class="column"></div>
+    <div id="right-container" class="column"></div>
 
-  <div class="column left">
-    <div class="entry">
-      <div class="url">www.reflexlibs.com</div>
-      <div class="year">2018</div>
-    </div>
-    <div class="entry">
-      <div class="url">Launch of Delta One Tools</div>
-      <div class="year">2019</div>
-    </div>
-    <div class="entry">
-      <div class="url">Reflex Time Series Engine</div>
-      <div class="year">2020</div>
-    </div>
-    <div class="entry">
-      <div class="url">Curve Calibration Upgrades</div>
-      <div class="year">2021</div>
-    </div>
-    <div class="entry">
-      <div class="url">Enhanced FRA Futures Pricing</div>
-      <div class="year">2022</div>
-    </div>
-  </div>
+    <!-- SCRIPT AT BOTTOM SO #left-container/#right-container EXIST -->
+    <script>
+        const DotComOrAI = 'AI'; // or 'AI'
 
-  <div class="column right">
-    <div class="entry">
-      <div class="url">www.reflexlibs.ai</div>
-      <div class="year">2025</div>
-    </div>
-    <div class="entry">
-      <div class="url">AI Model Calibration Assistant</div>
-      <div class="year">2025</div>
-    </div>
-    <div class="entry">
-      <div class="url">Real-Time Vol Surface Monitor</div>
-      <div class="year">2025</div>
-    </div>
-    <div class="entry">
-      <div class="url">Monte Carlo GPU Engine</div>
-      <div class="year">2025</div>
-    </div>
-    <div class="entry">
-      <div class="url">Autonomous Curve Construction</div>
-      <div class="year">2025</div>
-    </div>
-  </div>
+        const apiBase = 'https://devriskevolutionwebservice.azurewebsites.net/reflexLibs/';
+        const logoBase = apiBase + 'ReflexLibsLogo/';
+        const iconBase = 'https://devriskevolutionwebservice.azurewebsites.net/Icon/Generic/Get?Category=math&SubCategory=ProgLanguage&Size=64x64&Name=';
 
+        const configs = {
+            com: {
+                apiUrl: apiBase + 'reflexlibs2018',
+                langApi: apiBase + 'reflexlanguages2018',
+                logoUrl: logoBase + 'com',
+                icons: ['CPlusPlus', 'CSharp'],
+                link: 'https://www.reflexlibs.com',
+                bgClass: 'white-bg'
+            },
+            ai: {
+                apiUrl: apiBase + 'reflexlibs2025',
+                langApi: apiBase + 'reflexlanguages2025',
+                logoUrl: logoBase + 'ai',
+                icons: ['CPlusPlus', 'CSharp', 'Python', 'Rust', 'JavaScript'],
+                link: 'https://www.reflexlibs.ai',
+                bgClass: 'black-bg'
+            }
+        };
+
+        const layoutMap = {
+            DotCom: { left: configs.com, right: configs.ai },
+            AI: { left: configs.ai, right: configs.com }
+        };
+
+        const layout = layoutMap[DotComOrAI];
+
+        function renderColumn(containerId, cfg) {
+            const c = document.getElementById(containerId);
+            c.className = `column ${cfg.bgClass}`;
+
+            const link = document.createElement('a');
+            link.href = cfg.link;
+            link.target = '_blank';
+
+            const logo = document.createElement('img');
+            logo.src = cfg.logoUrl;
+            logo.alt = 'ReflexLibs Logo';
+            link.appendChild(logo);
+            c.appendChild(link);
+
+            const box = document.createElement('div');
+            box.className = 'lang-box';
+
+            const iconsDiv = document.createElement('div');
+            iconsDiv.className = 'icon-container';
+
+            cfg.icons.forEach(name => {
+                const img = document.createElement('img');
+                img.src = iconBase + encodeURIComponent(name);
+                img.alt = name;
+                iconsDiv.appendChild(img);
+            });
+
+            box.appendChild(iconsDiv);
+
+            const bulletsDiv = document.createElement('div');
+            box.appendChild(bulletsDiv);
+            c.appendChild(box);
+
+            fetch(cfg.langApi, { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+                .then(r => r.ok ? r.json() : Promise.reject(r.status))
+                .then(data => {
+                    const list = Array.isArray(data.bullets) ? data.bullets
+                        : Array.isArray(data.Bullets) ? data.Bullets
+                            : [];
+
+                    if (list.length) {
+                        const ul = document.createElement('ul');
+                        list.forEach(txt => {
+                            const li = document.createElement('li');
+                            li.textContent = txt;
+                            ul.appendChild(li);
+                        });
+                        bulletsDiv.appendChild(ul);
+                    }
+                })
+                .catch(e => console.error('Bullets error:', e));
+
+            fetch(cfg.apiUrl, { headers: { 'Accept': 'application/json' }, cache: 'no-cache' })
+                .then(r => r.ok ? r.json() : Promise.reject(r.status))
+                .then(sections => {
+                    sections.forEach(s => {
+                        const sec = document.createElement('div');
+                        sec.className = 'section';
+
+                        const t = document.createElement('div');
+                        t.className = 'title';
+                        t.textContent = `${s.sectionID}. ${s.title}`;
+                        sec.appendChild(t);
+
+                        const ul = document.createElement('ul');
+                        (s.items || []).forEach(item => {
+                            const li = document.createElement('li');
+                            li.textContent = item;
+                            ul.appendChild(li);
+                        });
+
+                        sec.appendChild(ul);
+                        c.appendChild(sec);
+                    });
+                })
+                .catch(e => console.error('Sections error:', e));
+        }
+
+        renderColumn('left-container', layout.left);
+        renderColumn('right-container', layout.right);
+    </script>
 </body>
+
 </html>
