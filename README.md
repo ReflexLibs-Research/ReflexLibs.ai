@@ -21,6 +21,12 @@
             padding: 1rem 2rem;
             box-sizing: border-box;
         }
+        
+        .column ul {
+              list-style: none;
+              margin: 0;
+              padding-left: 0;
+        }
 
         .white-bg {
             background: #fff;
