@@ -7,93 +7,111 @@
     <title>ReflexLibs Timeline</title>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            font-family: 'Poppins', sans-serif;
-            height: 100vh;
-        }
+ <style>
+    /* basic page layout */
+    body {
+        margin: 0;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+    }
 
-        .column {
-            width: 50%;
-            overflow-y: auto;
-            padding: 1rem 2rem;
-            box-sizing: border-box;
-        }
-        
-        .column ul {
-              list-style: none;
-              margin: 0;
-              padding-left: 0;
-        }
+    .column {
+        width: 50%;
+        overflow-y: auto;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
 
-        .white-bg {
-            background: #fff;
-            color: #000;
-        }
+    /* 1) remove markers from all lists by default */
+    .column ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
 
-        .black-bg {
-            background: #000;
-            color: #fff;
-        }
+    /* background variants */
+    .white-bg {
+        background: #fff;
+        color: #000;
+    }
 
-        .svg-header img {
-            max-width: 400px;
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 1rem;
-        }
+    .black-bg {
+        background: #000;
+        color: #fff;
+    }
 
-        .lang-box {
-            border-radius: 16px;
-            padding: 1rem;
-            width: 480px;
-            margin: 0 auto 1rem;
-        }
+    /* optional SVG header sizing */
+    .svg-header img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto 1rem;
+    }
 
-        .white-bg .lang-box {
-            background: #f9f9f9;
-            border: 1px solid #ddd;
-        }
+    /* language box container */
+    .lang-box {
+        border-radius: 16px;
+        padding: 1rem;
+        width: 480px;
+        margin: 0 auto 1rem;
+    }
+    .white-bg .lang-box {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+    }
+    .black-bg .lang-box {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
 
-        .black-bg .lang-box {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-        }
+    /* 2) re-enable bullets here and box them */
+    .lang-box ul {
+        list-style-type: disc;       /* show discs */
+        list-style-position: inside; /* bullets inside padding */
+        background: #f0f0f0;         /* fill */
+        border: 1px solid #ccc;      /* outline */
+        border-radius: 8px;          /* rounded corners */
+        padding: 0.75rem 1rem;       /* space around items */
+        margin: 0 0 1rem;            /* bottom gap */
+    }
+    .lang-box li {
+        margin-bottom: 0.5rem;
+    }
 
-        .icon-container {
-            display: flex;
-            justify-content: center;
-            gap: 16px;
-            margin-bottom: .5rem;
-        }
+    /* icon row */
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 0.5rem;
+    }
+    .icon-container img {
+        width: 48px;
+        height: 48px;
+    }
 
-        .icon-container img {
-            width: 48px;
-            height: 48px;
-        }
+    /* timeline sections */
+    .section {
+        margin-bottom: 2rem;
+    }
+    .title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
 
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .title {
-            font-weight: 600;
-            font-size: 1.2rem;
-            margin-bottom: .5rem;
-        }
-
-        .section ul {
-            padding-left: 1.2rem;
-            margin: 0;
-        }
-
-        .section li {
-            margin-bottom: .25rem;
-        }
-    </style>
+    /* 3) keep these lists bullet-free and flush */
+    .section ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    .section li {
+        margin-bottom: 0.25rem;
+    }
+</style>
 </head>
 
 <body>
