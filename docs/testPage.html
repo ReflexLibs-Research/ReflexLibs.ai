@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReflexLibs CORS Test</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+    pre {
+      background: #eee;
+      padding: 1rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      border-left: 4px solid #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ReflexLibs CORS Test</h1>
+  <p>Calling API from: <code>https://devriskevolutionwebservice.azurewebsites.net/reflexLibs/reflexlibs2018</code></p>
+
+  <h3>Response:</h3>
+  <pre id="output">Waiting for response...</pre>
+
+  <script>
+    const output = document.getElementById("output");
+
+    fetch("https://devriskevolutionwebservice.azurewebsites.net/reflexLibs/reflexlibs2018")
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then(data => {
+        output.textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        output.textContent = "❌ ERROR:\n" + err;
+        console.error("CORS or fetch error:", err);
+      });
+  </script>
+
+</body>
+</html>
