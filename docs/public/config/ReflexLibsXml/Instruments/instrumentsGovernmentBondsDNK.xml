@@ -1,0 +1,285 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.DNK.DKK</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>DNK</Country>
+        <AccrualCalculator>DNK_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DNK_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>DKK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20141115.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20101115</Effective>
+        <Maturity>20141115</Maturity>
+        <FirstCouponDate>20111115</FirstCouponDate>
+        <ISIN>DK0009922833</ISIN>
+        <Name>2St.l.14 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20151115.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20031115</Effective>
+        <Maturity>20151115</Maturity>
+        <ISIN>DK0009921439</ISIN>
+        <Name>4St.l.15 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20161115.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20101115</Effective>
+        <Maturity>20161115</Maturity>
+        <ISIN>DK0009922759</ISIN>
+        <Name>4St.l.17 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20171115.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20051115</Effective>
+        <Maturity>20171115</Maturity>
+        <ISIN>DK0009921942</ISIN>
+        <Name>4St.l.17 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20181115.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20141115</Effective>
+        <FirstCouponDate>20151115</FirstCouponDate>
+        <Maturity>20181115</Maturity>
+        <ISIN>DK0009923484</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20191115.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20081115</Effective>
+        <FirstCouponDate>20091115</FirstCouponDate>
+        <Maturity>20191115</Maturity>
+        <ISIN>DK0009922403</ISIN>
+        <Name>4St.l.19 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.DNK.DKK.20201115.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20161115</Effective>
+        <FirstCouponDate>20171115</FirstCouponDate>
+        <Maturity>20201115</Maturity>
+        <ISIN>DK0009923641</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20211115.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20101115</Effective>
+        <FirstCouponDate>20111115</FirstCouponDate>
+        <Maturity>20211115</Maturity>
+        <ISIN>DK0009922676</ISIN>
+        <Name>3St.l. 21 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.DNK.DKK.20221115.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20181115</Effective>
+        <FirstCouponDate>20191115</FirstCouponDate>
+        <Maturity>20221115</Maturity>
+        <ISIN>DK0009923997</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20231115.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20111115</Effective>
+        <FirstCouponDate>20121115</FirstCouponDate>
+        <Maturity>20231115</Maturity>
+        <ISIN>DK0009923054</ISIN>
+        <Name>1,5St.l.23 GB</Name>
+        <Attributes>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A1G88A</Value>
+            </Attribute>
+            <Attribute>
+                <Key>Symbol</Key>
+                <Value>D3DA</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20241110.7.0</Identifier>
+        <Rate>0.07</Rate>
+        <Effective>19931110</Effective>
+        <FirstCouponDate>19941110</FirstCouponDate>
+        <Maturity>20241110</Maturity>
+        <ISIN>DK0009918138</ISIN>
+        <Name>7 St.l 24 GB</Name>
+        <Attributes>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>413690</Value>
+            </Attribute>
+            <Attribute>
+                <Key>Symbol</Key>
+                <Value>D3DH</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20251115.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20131115</Effective>
+        <FirstCouponDate>20141115</FirstCouponDate>
+        <Maturity>20251115</Maturity>
+        <ISIN>DK0009923138</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.DNK.DKK.20271115.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20161115</Effective>
+        <FirstCouponDate>20171115</FirstCouponDate>
+        <Maturity>20271115</Maturity>
+        <ISIN>DK0009923567</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.DNK.DKK.20291115.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20190123</Effective>
+        <FirstCouponDate>20191115</FirstCouponDate>
+        <Maturity>20291115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Stub>ShortStart</Stub>
+                <Tenor>12M</Tenor>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>DK0009923807</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20391115.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20071115</Effective>
+        <FirstCouponDate>20081115</FirstCouponDate>
+        <Maturity>20391115</Maturity>
+        <ISIN>DK0009922320</ISIN>
+        <Name>4 St.l.17 GB</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.DNK.DKK.20521115.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20191115</Effective>
+        <FirstCouponDate>20201115</FirstCouponDate>
+        <Maturity>20521115</Maturity>
+        <ISIN>DK0009924029</ISIN>
+    </FixedRateBond>
+
+    <!--- Inflation -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.DNK.DKK.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>DNK</Country>
+        <Issuer>KD</Issuer>
+        <AccrualCalculator>DNK_Accrual_CPI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DNK_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>DKK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>DNK</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.DNK.DKK.CPI.20231115.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20111115</Effective>
+        <FirstCouponDate>20121115</FirstCouponDate>
+        <Maturity>20231115</Maturity>
+        <ISIN>DK0009922916</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.DNK.DKK.CPI.20301115.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20171115</Effective>
+        <FirstCouponDate>20181115</FirstCouponDate>
+        <Maturity>20301115</Maturity>
+        <ISIN>DK0009923724</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Amortized loan? -->
+    <!--
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.DNK.DKK.20191115.4.0</Identifier>
+    <Rate>0.04</Rate>
+    <Effective>20560615</Effective>
+    <Maturity>20170615</Maturity>
+    <ISIN>DK0009902728</ISIN>
+    <Name> 4 S 2017 GB </Name>
+  </FixedRateBond>
+  -->
+
+</Instruments>

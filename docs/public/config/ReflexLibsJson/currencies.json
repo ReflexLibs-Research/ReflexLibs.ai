@@ -1,0 +1,705 @@
+{
+"currencies": [
+{
+"name": "AED",
+"decimalPlaces": "2",
+"iso4127Name": "AED",
+"iso4127Code": "784",
+"shortName": "Dirham",
+"fullName": "UAE Dirham"
+},
+{
+"name": "ARS",
+"decimalPlaces": "2",
+"iso4127Name": "ARS",
+"iso4127Code": "032",
+"shortName": "Peso",
+"fullName": "Argentine Peso",
+"symbol": "36"
+},
+{
+"name": "AUD",
+"decimalPlaces": "2",
+"iso4127Name": "AUD",
+"iso4127Code": "036",
+"shortName": "Dollar",
+"fullName": "Australian Dollar",
+"symbol": "36"
+},
+{
+"name": "BIF",
+"decimalPlaces": "0",
+"iso4127Name": "BIF",
+"iso4127Code": "108",
+"shortName": "Franc",
+"fullName": "Burundi Franc"
+},
+{
+"name": "BGN",
+"decimalPlaces": "2",
+"iso4127Name": "BGN",
+"iso4127Code": "975",
+"shortName": "Lev",
+"fullName": "Bulgarian Lev",
+"symbol": "1083,1074"
+},
+{
+"name": "BHD",
+"decimalPlaces": "2",
+"iso4127Name": "BHD",
+"iso4127Code": "048",
+"shortName": "Dinar",
+"fullName": "Bahraini Dinar"
+},
+{
+"name": "BOB",
+"decimalPlaces": "2",
+"iso4127Name": "BOB",
+"iso4127Code": "068",
+"shortName": "Boliviano",
+"fullName": "Boliviano"
+},
+{
+"name": "BRL",
+"decimalPlaces": "2",
+"iso4127Name": "BRL",
+"iso4127Code": "986",
+"shortName": "Real",
+"fullName": "Brazilian Real",
+"symbol": "36,98"
+},
+{
+"name": "BWP",
+"decimalPlaces": "2",
+"iso4127Name": "BWP",
+"iso4127Code": "072",
+"shortName": "Pula",
+"fullName": "Botswanan Pula",
+"symbol": "80"
+},
+{
+"name": "CAD",
+"decimalPlaces": "2",
+"iso4127Name": "CAD",
+"iso4127Code": "124",
+"shortName": "Dollar",
+"fullName": "Canadian Dollar",
+"subDivisionName": "Cent",
+"symbol": "36"
+},
+{
+"name": "CHF",
+"decimalPlaces": "2",
+"iso4127Name": "CHF",
+"iso4127Code": "756",
+"shortName": "Dollar",
+"fullName": "Canadian Dollar",
+"symbol": "36"
+},
+{
+"name": "CLP",
+"decimalPlaces": "2",
+"iso4127Name": "CLP",
+"iso4127Code": "970",
+"shortName": "Peso",
+"fullName": "Columbian Peso",
+"symbol": "36"
+},
+{
+"name": "CNY",
+"decimalPlaces": "2",
+"iso4127Name": "CNY",
+"iso4127Code": "156",
+"shortName": "Yuan Reminbi",
+"fullName": "Chinese Yuan Reminbi",
+"symbol": "165"
+},
+{
+"name": "COP",
+"decimalPlaces": "0",
+"iso4127Name": "COP",
+"iso4127Code": "152",
+"shortName": "Peso",
+"fullName": "Columbian Peso",
+"symbol": "36"
+},
+{
+"name": "CZK",
+"decimalPlaces": "2",
+"iso4127Name": "CZK",
+"iso4127Code": "203",
+"shortName": "Koruna",
+"fullName": "Czech Koruna",
+"symbol": "75,269"
+},
+{
+"name": "DKK",
+"decimalPlaces": "2",
+"iso4127Name": "DKK",
+"iso4127Code": "208",
+"shortName": "Krone",
+"fullName": "Danish Krone",
+"symbol": "107,114"
+},
+{
+"name": "DOP",
+"decimalPlaces": "2",
+"iso4127Name": "DOP",
+"iso4127Code": "214",
+"shortName": "Peso",
+"fullName": "Dominican Peso",
+"symbol": "82,68,36"
+},
+{
+"name": "EGP",
+"decimalPlaces": "2",
+"iso4127Name": "EGP",
+"iso4127Code": "818",
+"shortName": "Pound",
+"fullName": "Egyptian Pound",
+"symbol": "163"
+},
+{
+"name": "EUR",
+"decimalPlaces": "2",
+"iso4127Name": "EUR",
+"iso4127Code": "978",
+"shortName": "Euro",
+"fullName": "Euro",
+"symbol": "8364"
+},
+{
+"name": "GEL",
+"decimalPlaces": "2",
+"iso4127Name": "GEL",
+"iso4127Code": "981",
+"shortName": "Lari",
+"fullName": "Georian Lari"
+},
+{
+"name": "GBP",
+"decimalPlaces": "2",
+"iso4127Name": "GBP",
+"iso4127Code": "826",
+"shortName": "Pound",
+"fullName": "British Pound",
+"symbol": "163"
+},
+{
+"name": "GTQ",
+"decimalPlaces": "2",
+"iso4127Name": "GTQ",
+"iso4127Code": "320",
+"shortName": "Quetzal",
+"fullName": "Guatemala Quetzal",
+"symbol": "81"
+},
+{
+"name": "HNL",
+"decimalPlaces": "2",
+"iso4127Name": "HNL",
+"iso4127Code": "340",
+"shortName": "Lempira",
+"fullName": "Honduras Lempira",
+"symbol": "76"
+},
+{
+"name": "HKD",
+"decimalPlaces": "2",
+"iso4127Name": "HKD",
+"iso4127Code": "344",
+"shortName": "Dollar",
+"fullName": "Hong Kong Dollar",
+"symbol": "36"
+},
+{
+"name": "HUF",
+"decimalPlaces": "2",
+"iso4127Name": "HUF",
+"iso4127Code": "348",
+"shortName": "Forint",
+"fullName": "Hungarian Forint",
+"symbol": "36"
+},
+{
+"name": "IDR",
+"decimalPlaces": "2",
+"iso4127Name": "DIR",
+"iso4127Code": "360",
+"shortName": "Rupiah",
+"fullName": "Indonesian Rupiah",
+"symbol": "82,112"
+},
+{
+"name": "ILS",
+"decimalPlaces": "2",
+"iso4127Name": "ILS",
+"iso4127Code": "276",
+"shortName": "Sheqel",
+"fullName": "Israeli Sheqel",
+"symbol": "8362"
+},
+{
+"name": "INR",
+"decimalPlaces": "2",
+"iso4127Name": "INR",
+"iso4127Code": "356",
+"shortName": "Rupee",
+"fullName": "Indian Rupee"
+},
+{
+"name": "IQD",
+"decimalPlaces": "2",
+"iso4127Name": "IQD",
+"iso4127Code": "368",
+"shortName": "Dinar",
+"fullName": "Iraqi Dinar"
+},
+{
+"name": "IRR",
+"decimalPlaces": "2",
+"iso4127Name": "IRR",
+"iso4127Code": "364",
+"shortName": "Rial",
+"fullName": "Iranian Rial",
+"symbol": "65020"
+},
+{
+"name": "ISK",
+"decimalPlaces": "0",
+"iso4127Name": "ISK",
+"iso4127Code": "352",
+"shortName": "Krona",
+"fullName": "Icelandic Krona",
+"symbol": "107,114"
+},
+{
+"name": "JPY",
+"decimalPlaces": "0",
+"iso4127Name": "JPY",
+"iso4127Code": "392",
+"shortName": "Yen",
+"fullName": "Japanese Yen",
+"symbol": "165"
+},
+{
+"name": "KES",
+"decimalPlaces": "2",
+"iso4127Name": "KES",
+"iso4127Code": "404",
+"shortName": "Shilling",
+"fullName": "Kenyan Shilling"
+},
+{
+"name": "KHR",
+"decimalPlaces": "2",
+"iso4127Name": "KHR",
+"iso4127Code": "116",
+"shortName": "Riel",
+"fullName": "Cambodian Riel",
+"symbol": "6107"
+},
+{
+"name": "KZT",
+"decimalPlaces": "2",
+"iso4127Name": "KZT",
+"iso4127Code": "398",
+"shortName": "Tenge",
+"fullName": "Kazakhstan Tenge",
+"symbol": "1083, 1074"
+},
+{
+"name": "KRW",
+"decimalPlaces": "2",
+"iso4127Name": "KRW",
+"iso4127Code": "410",
+"shortName": "Won",
+"fullName": "Korean Won",
+"symbol": "6107"
+},
+{
+"name": "KWD",
+"decimalPlaces": "3",
+"iso4127Name": "KWD",
+"iso4127Code": "414",
+"shortName": "Dinar",
+"fullName": "Kuwati Dinar",
+"symbol": "6107"
+},
+{
+"name": "LTL",
+"decimalPlaces": "2",
+"iso4127Name": "LTL",
+"iso4127Code": "440",
+"shortName": "Litas",
+"fullName": "Lithuanian Litas",
+"symbol": "76,116"
+},
+{
+"name": "LVL",
+"decimalPlaces": "2",
+"iso4127Name": "LVL",
+"iso4127Code": "428",
+"shortName": "Lat",
+"fullName": "Latvian Lat",
+"symbol": "76,115"
+},
+{
+"name": "LYD",
+"decimalPlaces": "3",
+"iso4127Name": "LYD",
+"iso4127Code": "434",
+"shortName": "Lat",
+"fullName": "Lybian Pataca"
+},
+{
+"name": "MAD",
+"decimalPlaces": "2",
+"iso4127Name": "MAD",
+"iso4127Code": "504",
+"shortName": "Dirham",
+"fullName": "Moroccan Dirham"
+},
+{
+"name": "MKD",
+"decimalPlaces": "2",
+"iso4127Name": "MKD",
+"iso4127Code": "807",
+"shortName": "Denar",
+"fullName": "Macedonian Denar",
+"symbol": "1076,1077,1085"
+},
+{
+"name": "MOP",
+"decimalPlaces": "2",
+"iso4127Name": "MOP",
+"iso4127Code": "446",
+"shortName": "Pataca",
+"fullName": "Macao Pataca"
+},
+{
+"name": "MNT",
+"decimalPlaces": "2",
+"iso4127Name": "MNT",
+"iso4127Code": "496",
+"shortName": "Tugrik",
+"fullName": "Mogolia Tugrik",
+"symbol": "8366"
+},
+{
+"name": "MXN",
+"decimalPlaces": "2",
+"iso4127Name": "MXN",
+"iso4127Code": "484",
+"shortName": "Peso",
+"fullName": "Mexican Peso",
+"symbol": "36"
+},
+{
+"name": "MYR",
+"decimalPlaces": "2",
+"iso4127Name": "MYR",
+"iso4127Code": "458",
+"shortName": "Ringgit",
+"fullName": "Malaysian Ringgit",
+"symbol": "82,77"
+},
+{
+"name": "NIO",
+"decimalPlaces": "2",
+"iso4127Name": "NIO",
+"iso4127Code": "558",
+"shortName": "Cordoba Oro",
+"fullName": "Nicaraguan Cordoba Oro",
+"symbol": "36"
+},
+{
+"name": "NGN",
+"decimalPlaces": "2",
+"iso4127Name": "NGN",
+"iso4127Code": "566",
+"shortName": "Naira",
+"fullName": "Nigriean Naira",
+"symbol": "8358"
+},
+{
+"name": "NOK",
+"decimalPlaces": "2",
+"iso4127Name": "NOK",
+"iso4127Code": "578",
+"shortName": "Krone",
+"fullName": "Norwegian Krone"
+},
+{
+"name": "NZD",
+"decimalPlaces": "2",
+"iso4127Name": "NZD",
+"iso4127Code": "554",
+"shortName": "Dollar",
+"fullName": "New Zealand Dollar",
+"symbol": "36"
+},
+{
+"name": "OMR",
+"decimalPlaces": "2",
+"iso4127Name": "OMR",
+"iso4127Code": "512",
+"shortName": "Rial",
+"fullName": "Omani Rial",
+"symbol": "65020"
+},
+{
+"name": "PAB",
+"decimalPlaces": "2",
+"iso4127Name": "PAB",
+"iso4127Code": "590",
+"shortName": "Balboa",
+"fullName": "Panamanian Balboa",
+"symbol": "8360"
+},
+{
+"name": "PEN",
+"decimalPlaces": "2",
+"iso4127Name": "PEN",
+"iso4127Code": "604",
+"shortName": "Nuevo Sol",
+"fullName": "Peruvian Nuevo Sol",
+"symbol": "83,47,46"
+},
+{
+"name": "PYG",
+"decimalPlaces": "0",
+"iso4127Name": "PYG",
+"iso4127Code": "600",
+"shortName": "Guarani",
+"fullName": "Paragyan Guarani",
+"symbol": "71,115"
+},
+{
+"name": "PKR",
+"decimalPlaces": "2",
+"iso4127Name": "PYG",
+"iso4127Code": "586",
+"shortName": "Rupee",
+"fullName": "Pakistan Rupee",
+"symbol": "8360"
+},
+{
+"name": "PHP",
+"decimalPlaces": "2",
+"iso4127Name": "PHP",
+"iso4127Code": "608",
+"shortName": "Peso",
+"fullName": "Philippine Peso",
+"symbol": "8369"
+},
+{
+"name": "PLN",
+"decimalPlaces": "2",
+"iso4127Name": "PLN",
+"iso4127Code": "985",
+"shortName": "Zloty",
+"fullName": "Polish Zloty",
+"symbol": "122,322"
+},
+{
+"name": "QAR",
+"decimalPlaces": "2",
+"iso4127Name": "QAR",
+"iso4127Code": "634",
+"shortName": "Rial",
+"fullName": "Qatari Rial",
+"symbol": "65020"
+},
+{
+"name": "RON",
+"decimalPlaces": "2",
+"iso4127Name": "RON",
+"iso4127Code": "946",
+"shortName": "Leu",
+"fullName": "Romanian New Leu",
+"symbol": "108,101,105"
+},
+{
+"name": "RSD",
+"decimalPlaces": "2",
+"iso4127Name": "RSD",
+"iso4127Code": "941",
+"shortName": "Dinar",
+"fullName": "Serbian Dinar",
+"symbol": "1044,1080,1085,46"
+},
+{
+"name": "RUB",
+"decimalPlaces": "2",
+"iso4127Name": "RUB",
+"iso4127Code": "643",
+"shortName": "Ruble",
+"fullName": "Russian Ruble",
+"symbol": "1088,1091,1073"
+},
+{
+"name": "SAR",
+"decimalPlaces": "2",
+"iso4127Name": "SAR",
+"iso4127Code": "682",
+"shortName": "Riyal",
+"fullName": "Saudi Riyal",
+"symbol": "65020"
+},
+{
+"name": "SEK",
+"decimalPlaces": "2",
+"iso4127Name": "SEK",
+"iso4127Code": "752",
+"shortName": "Krona",
+"fullName": "Swedish Krona",
+"symbol": "107,114"
+},
+{
+"name": "SGD",
+"decimalPlaces": "2",
+"iso4127Name": "SGD",
+"iso4127Code": "702",
+"shortName": "Dollar",
+"fullName": "Singapore Dollar",
+"symbol": "36"
+},
+{
+"name": "SVC",
+"decimalPlaces": "2",
+"iso4127Name": "SVC",
+"iso4127Code": "222",
+"shortName": "Colon",
+"fullName": "El Salvador Colon",
+"symbol": "36"
+},
+{
+"name": "THB",
+"decimalPlaces": "2",
+"iso4127Name": "THB",
+"iso4127Code": "764",
+"shortName": "Baht",
+"fullName": "Thai Baht",
+"symbol": "3647"
+},
+{
+"name": "TMT",
+"decimalPlaces": "2",
+"iso4127Name": "TMT",
+"iso4127Code": "934",
+"shortName": "Manat",
+"fullName": "Turkmenistan New Manat"
+},
+{
+"name": "TRY",
+"decimalPlaces": "2",
+"iso4127Name": "TRY",
+"iso4127Code": "972",
+"shortName": "Somoni",
+"fullName": "Tajik Somoni"
+},
+{
+"name": "TWD",
+"decimalPlaces": "2",
+"iso4127Name": "TWD",
+"iso4127Code": "901",
+"shortName": "Dollar",
+"fullName": "Taiwan Dollar"
+},
+{
+"name": "UAH",
+"decimalPlaces": "2",
+"iso4127Name": "UAH",
+"iso4127Code": "980",
+"shortName": "Hryvnia",
+"fullName": "Ukranian Hryvnia",
+"symbol": "8372"
+},
+{
+"name": "UGX",
+"decimalPlaces": "0",
+"iso4127Name": "UGX",
+"iso4127Code": "800",
+"shortName": "Shilling",
+"fullName": "Uganda Shilling"
+},
+{
+"name": "USD",
+"decimalPlaces": "2",
+"iso4127Name": "USD",
+"iso4127Code": "840",
+"shortName": "Dollar",
+"fullName": "United States Dollar",
+"symbol": "36"
+},
+{
+"name": "UYU",
+"decimalPlaces": "2",
+"iso4127Name": "UYU",
+"iso4127Code": "860",
+"shortName": "Sum",
+"fullName": "Uzbekistan Sum",
+"symbol": "36,86"
+},
+{
+"name": "UZS",
+"decimalPlaces": "2",
+"iso4127Name": "BOB",
+"iso4127Code": "858",
+"shortName": "Peso",
+"fullName": "Urugyan Peso"
+},
+{
+"name": "VEF",
+"decimalPlaces": "2",
+"iso4127Name": "VEF",
+"iso4127Code": "937",
+"shortName": "Bolivar",
+"fullName": "Venezuelan Bolivar",
+"symbol": "66,115"
+},
+{
+"name": "VND",
+"decimalPlaces": "0",
+"iso4127Name": "VND",
+"iso4127Code": "704",
+"shortName": "Dong",
+"fullName": "Vietnamese Dong",
+"symbol": "8363"
+},
+{
+"name": "ZAR",
+"decimalPlaces": "2",
+"iso4127Name": "ZAR",
+"iso4127Code": "710",
+"shortName": "Rand",
+"fullName": "South African Rand",
+"symbol": "82"
+},
+{
+"name": "SDR",
+"decimalPlaces": "0",
+"fullName": "IMF Special drawing rights",
+"shortName": "IMF Special drawing rights",
+"iso4127Name": "SDR",
+"iso4127Code": "960"
+},
+{
+"name": "XBT",
+"decimalPlaces": "5",
+"shortName": "Bit Coin",
+"fullName": "Bit Coin",
+"iso4127Name": "Bit Coin",
+"iso4127Code": "999"
+},
+{
+"name": "XUA",
+"decimalPlaces": "0",
+"fullName": "African Development Bank, Unit of Account",
+"shortName": "ADB Unit of Account",
+"iso4127Name": "XUA",
+"iso4127Code": "965"
+}
+]
+}

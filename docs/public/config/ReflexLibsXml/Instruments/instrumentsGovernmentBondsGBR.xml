@@ -1,0 +1,1621 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.GBR.GBP</Identifier>
+        <ExCouponAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>-7</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <!--
+        <RollForwardIfNotBusinessDay>
+          <Calendar>LON</Calendar>
+        </RollForwardIfNotBusinessDay>
+       -->
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>GBR_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>GBR_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>GBR</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>GBP</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <!-- This bond is a double dated gilt, these have special yield calculations etc... which we currently don't support -->
+    <!--
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20171212.12.0</Identifier>
+    <Effective>19780615</Effective>
+    <Maturity>20171212</Maturity>
+    <Rate>0.1200</Rate>
+    <FirstCouponDate>19781212</FirstCouponDate>
+  </FixedRateBond>
+  -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20130307.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20080305</Effective>
+        <Maturity>20130307</Maturity>
+        <ISIN>GB00B29WRG55</ISIN>
+        <Name>UKT 4 1/2 03/07/13</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20130927.8.0</Identifier>
+        <Rate>0.0800</Rate>
+        <Effective>19930401</Effective>
+        <Maturity>20130927</Maturity>
+        <ISIN>GB0008921883</ISIN>
+        <Name>UKT 8  0/0 09/27/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20140307.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20090320</Effective>
+        <Maturity>20140307</Maturity>
+        <ISIN>GB00B3KJDW09</ISIN>
+        <Name>UKT 2  1/4 03/07/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20140907.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20020725</Effective>
+        <Maturity>20140907</Maturity>
+        <ISIN>GB0031829509</ISIN>
+        <Name>UKT 5  0/0 09/07/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20150122.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20091104</Effective>
+        <Maturity>20150122</Maturity>
+        <ISIN>GB00B4LFZR36</ISIN>
+        <Name>UKT 2  3/4 01/22/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20150907.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20030926</Effective>
+        <Maturity>20150907</Maturity>
+        <ISIN>GB0033280339</ISIN>
+        <Name>UKT 4  3/4 09/07/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20151207.8.0</Identifier>
+        <Rate>0.0800</Rate>
+        <Effective>19950126</Effective>
+        <Maturity>20151207</Maturity>
+        <ISIN>GB0008881541</ISIN>
+        <Name>UKT 8  0/0 12/07/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20160122.2.0</Identifier>
+        <Rate>0.0200</Rate>
+        <Effective>20101103</Effective>
+        <Maturity>20160122</Maturity>
+        <ISIN>GB00B3QCG246</ISIN>
+        <Name>UKT 2  0/0 01/22/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20160907.4.0</Identifier>
+        <Rate>0.0400</Rate>
+        <Effective>20060302</Effective>
+        <Maturity>20160907</Maturity>
+        <ISIN>GB00B0V3WX43</ISIN>
+        <Name>UKT 4  0/0 09/07/16</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20170122.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20110819</Effective>
+        <Maturity>20170122</Maturity>
+        <ISIN>GB00B3Z3K594</ISIN>
+        <Name>UKT 1  3/4 01/22/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20170825.8.75</Identifier>
+        <Rate>0.0875</Rate>
+        <Effective>19920430</Effective>
+        <Maturity>20170825</Maturity>
+        <ISIN>GB0008931148</ISIN>
+        <Name>UKT 8  3/4 08/25/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20170907.1.0</Identifier>
+        <Rate>0.0100</Rate>
+        <Issue>20120208</Issue>
+        <Effective>20120308</Effective>
+        <Maturity>20170907</Maturity>
+        <ISIN>GB00B7F9S958</ISIN>
+        <Name>UKT 1  0/0 09/07/17</Name>
+        <Attributes>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>B7F9S95</Value>
+            </Attribute>
+            <Attribute>
+                <Key>LSE</Key>
+                <Value>TG17</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WhenIssued</Key>
+                <Value>GB00B7WP6R04</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20180307.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20070525</Effective>
+        <Maturity>20180307</Maturity>
+        <ISIN>GB00B1VWPC84</ISIN>
+        <Name>UKT 5  0/0 03/07/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20180722.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20130215</Effective>
+        <FirstCouponDate>20130722</FirstCouponDate>
+        <Maturity>20180722</Maturity>
+        <ISIN>GB00B8KP6M44</ISIN>
+        <Name>UKT 1  1/4 07/22/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20190307.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20080926</Effective>
+        <FirstCouponDate>20090307</FirstCouponDate>
+        <Maturity>20190307</Maturity>
+        <ISIN>GB00B39R3F84</ISIN>
+        <Name>UKT 4  1/2 03/07/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20190722.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20131122</Effective>
+        <FirstCouponDate>20140122</FirstCouponDate>
+        <Maturity>20190722</Maturity>
+        <ISIN>GB00BDV0F150</ISIN>
+        <Name>UKT 1  3/4 07/22/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20190907.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20090708</Effective>
+        <FirstCouponDate>20090907</FirstCouponDate>
+        <Maturity>20190907</Maturity>
+        <ISIN>GB00B4YRFP41</ISIN>
+        <Name>UKT 3  3/4 09/07/19</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20200307.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20050329</Effective>
+        <FirstCouponDate>20050907</FirstCouponDate>
+        <Maturity>20200307</Maturity>
+        <ISIN>GB00B058DQ55</ISIN>
+        <Name>UKT 4  3/4 03/07/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20200722.2.0</Identifier>
+        <Rate>0.0200</Rate>
+        <Effective>20140903</Effective>
+        <FirstCouponDate>20150122</FirstCouponDate>
+        <Maturity>20200722</Maturity>
+        <ISIN>GB00BN65R198</ISIN>
+        <Name>UKT 2.000 07/22/2020</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20200907.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20100610</Effective>
+        <FirstCouponDate>20100907</FirstCouponDate>
+        <Maturity>20200907</Maturity>
+        <ISIN>GB00B582JV65</ISIN>
+        <Name>UKT 3  3/4 09/07/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20210122.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20150903</Effective>
+        <FirstCouponDate>20160122</FirstCouponDate>
+        <Maturity>20210122</Maturity>
+        <ISIN>GB00BYY5F581</ISIN>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20210607.8.0</Identifier>
+        <Rate>0.0800</Rate>
+        <Effective>19960229</Effective>
+        <FirstCouponDate>19960607</FirstCouponDate>
+        <Maturity>20210607</Maturity>
+        <ISIN>GB0009997999</ISIN>
+        <Name>UKT 8  0/0 06/07/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20210907.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20110318</Effective>
+        <FirstCouponDate>20110907</FirstCouponDate>
+        <Maturity>20210907</Maturity>
+        <ISIN>GB00B4RMG977</ISIN>
+        <Name>UKT 3  3/4 09/07/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20220307.4.0</Identifier>
+        <Rate>0.0400</Rate>
+        <Effective>20090227</Effective>
+        <FirstCouponDate>20090907</FirstCouponDate>
+        <Maturity>20220307</Maturity>
+        <ISIN>GB00B3KJDQ49</ISIN>
+        <Name>UKT 4  0/0 03/07/22</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20220722.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20160803</Effective>
+        <FirstCouponDate>20170122</FirstCouponDate>
+        <Maturity>20220722</Maturity>
+        <ISIN>GB00BD0PCK97</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20220907.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20120622</Effective>
+        <FirstCouponDate>20120907</FirstCouponDate>
+        <Maturity>20220907</Maturity>
+        <ISIN>GB00B7L9SL19</ISIN>
+        <Name>UKT 1  3/4 09/07/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20230131.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20200408</Effective>
+        <FirstCouponDate>20200731</FirstCouponDate>
+        <Maturity>20230131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BL68HG94</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20230722.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170720</Effective>
+        <FirstCouponDate>20180122</FirstCouponDate>
+        <Maturity>20230722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BF0HZ991</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20230907.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20130612</Effective>
+        <FirstCouponDate>20130907</FirstCouponDate>
+        <Maturity>20230907</Maturity>
+        <ISIN>GB00B7Z53659</ISIN>
+        <Name>UKT 2  1/4 09/07/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20240422.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20180725</Effective>
+        <FirstCouponDate>20181022</FirstCouponDate>
+        <Maturity>20240422</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BFWFPL34</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20240907.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140312</Effective>
+        <FirstCouponDate>20140907</FirstCouponDate>
+        <Maturity>20240907</Maturity>
+        <ISIN>GB00BHBFH458</ISIN>
+        <Name>UKT 2.750 09/07/2024</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20250307.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20010927</Effective>
+        <FirstCouponDate>20020307</FirstCouponDate>
+        <Maturity>20250307</Maturity>
+        <ISIN>GB0030880693</ISIN>
+        <Name>UKT 5  0/0 03/07/25</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20250607.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20190703</Effective>
+        <FirstCouponDate>20191207</FirstCouponDate>
+        <Maturity>20250607</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BK5CVX03</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20250907.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20150320</Effective>
+        <FirstCouponDate>20150907</FirstCouponDate>
+        <Maturity>20250907</Maturity>
+        <ISIN>GB00BTHH2R79</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20260722.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20160218</Effective>
+        <FirstCouponDate>20160722</FirstCouponDate>
+        <Maturity>20260722</Maturity>
+        <ISIN>GB00BYZW3G56</ISIN>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20270722.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20170315</Effective>
+        <Maturity>20270722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BDRHNP05</ISIN>
+        <FirstCouponDate>20170722</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20271207.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20060906</Effective>
+        <FirstCouponDate>20061207</FirstCouponDate>
+        <Maturity>20271207</Maturity>
+        <ISIN>GB00B16NNR78</ISIN>
+        <Name>UKT 4  1/4 12/07/27</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20280131.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20200612</Effective>
+        <FirstCouponDate>20210131</FirstCouponDate>
+        <Maturity>20280131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BMBL1G81</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20281022.1.625</Identifier>
+        <Rate>0.01625</Rate>
+        <Effective>20180316</Effective>
+        <Maturity>20281022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BFX0ZL78</ISIN>
+        <FirstCouponDate>20181022</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20281207.6.0</Identifier>
+        <Rate>0.0600</Rate>
+        <Effective>19980129</Effective>
+        <FirstCouponDate>19980607</FirstCouponDate>
+        <Maturity>20281207</Maturity>
+        <ISIN>GB0002404191</ISIN>
+        <Name>UKT 6  0/0 12/07/28</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20291022.0.875</Identifier>
+        <Rate>0.00875</Rate>
+        <Effective>20190619</Effective>
+        <FirstCouponDate>20191022</FirstCouponDate>
+        <Maturity>20291022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BJMHB534</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20301022.0.375</Identifier>
+        <Rate>0.00375</Rate>
+        <Effective>20200513</Effective>
+        <FirstCouponDate>20201022</FirstCouponDate>
+        <Maturity>20301022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BL68HH02</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20301207.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20071003</Effective>
+        <FirstCouponDate>20071207</FirstCouponDate>
+        <Maturity>20301207</Maturity>
+        <ISIN>GB00B24FF097</ISIN>
+        <Name>UKT 4  3/4 12/07/30</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20320607.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20000525</Effective>
+        <FirstCouponDate>20001207</FirstCouponDate>
+        <Maturity>20320607</Maturity>
+        <ISIN>GB0004893086</ISIN>
+        <Name>UKT 4  1/4 06/07/32</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20340907.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20090617</Effective>
+        <FirstCouponDate>20090907</FirstCouponDate>
+        <Maturity>20340907</Maturity>
+        <ISIN>GB00B52WS153</ISIN>
+        <Name>UKT 4  1/2 09/07/34</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20350731.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20200909</Effective>
+        <FirstCouponDate>20210131</FirstCouponDate>
+        <Maturity>20350731</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BMGR2916</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20360307.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20030227</Effective>
+        <FirstCouponDate>20030907</FirstCouponDate>
+        <Maturity>20360307</Maturity>
+        <ISIN>GB0032452392</ISIN>
+        <Name>UKT 4  1/4 03/07/36</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20370907.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20161109</Effective>
+        <Maturity>20370907</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BZB26Y51</ISIN>
+        <FirstCouponDate>20170307</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20381207.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20040423</Effective>
+        <FirstCouponDate>20041207</FirstCouponDate>
+        <Maturity>20381207</Maturity>
+        <ISIN>GB00B00NY175</ISIN>
+        <Name>UKT 4  3/4 12/07/38</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20390907.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20090305</Effective>
+        <FirstCouponDate>20090907</FirstCouponDate>
+        <Maturity>20390907</Maturity>
+        <ISIN>GB00B3KJDS62</ISIN>
+        <Name>UKT 4  1/4 09/07/39</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20401207.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20100630</Effective>
+        <FirstCouponDate>20101207</FirstCouponDate>
+        <Maturity>20401207</Maturity>
+        <ISIN>GB00B6460505</ISIN>
+        <Name>UKT 4  1/4 12/07/40</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20411022.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20200122</Effective>
+        <FirstCouponDate>20200422</FirstCouponDate>
+        <Maturity>20411022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BJQWYH73</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20421207.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20070606</Effective>
+        <FirstCouponDate>20071207</FirstCouponDate>
+        <Maturity>20421207</Maturity>
+        <ISIN>GB00B1VWPJ53</ISIN>
+        <Name>UKT 4  1/2 12/07/42</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20440122.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20121024</Effective>
+        <FirstCouponDate>20130122</FirstCouponDate>
+        <Maturity>20440122</Maturity>
+        <ISIN>GB00B84Z9V04</ISIN>
+        <Name>UKT 3  1/4 01/22/44</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20450122.3.5</Identifier>
+        <Rate>0.0350</Rate>
+        <Effective>20140625</Effective>
+        <FirstCouponDate>20150122</FirstCouponDate>
+        <Maturity>20450122</Maturity>
+        <ISIN>GB00BN65R313</ISIN>
+        <Name>UKT 3.500 01/22/2045</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20461207.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20060512</Effective>
+        <FirstCouponDate>20061207</FirstCouponDate>
+        <Maturity>20461207</Maturity>
+        <ISIN>GB00B128DP45</ISIN>
+        <Name>UKT 4  1/4 12/07/46</Name>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20470722.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20160921</Effective>
+        <FirstCouponDate>20170122</FirstCouponDate>
+        <Maturity>20470722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BDCHBW80</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20490122.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20180912</Effective>
+        <FirstCouponDate>20190122</FirstCouponDate>
+        <Maturity>20490122</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BFWFPP71</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20491207.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20080903</Effective>
+        <FirstCouponDate>20081207</FirstCouponDate>
+        <Maturity>20491207</Maturity>
+        <ISIN>GB00B39R3707</ISIN>
+        <Name>UKT 4  1/4 12/07/49</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20501022.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20200610</Effective>
+        <FirstCouponDate>20201022</FirstCouponDate>
+        <Maturity>20501022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BMBL1F74</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20520722.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20110928</Effective>
+        <FirstCouponDate>20120122</FirstCouponDate>
+        <Maturity>20520722</Maturity>
+        <ISIN>GB00B6RNH572</ISIN>
+        <Name>UKT 3  3/4 07/22/52</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20551207.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20050527</Effective>
+        <FirstCouponDate>20051207</FirstCouponDate>
+        <Maturity>20551207</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00B06YGN05</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20570722.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20170125</Effective>
+        <Maturity>20570722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BD0XH204</ISIN>
+        <FirstCouponDate>20170722</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20600122.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20091022</Effective>
+        <FirstCouponDate>20100122</FirstCouponDate>
+        <Maturity>20600122</Maturity>
+        <ISIN>GB00B54QLM75</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20611022.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200520</Effective>
+        <FirstCouponDate>20201022</FirstCouponDate>
+        <Maturity>20611022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BMBL1D50</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20650722.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20151021</Effective>
+        <FirstCouponDate>20160122</FirstCouponDate>
+        <Maturity>20650722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BYYMZX75</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GBR.GBP.20680722.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20130626</Effective>
+        <FirstCouponDate>20140122</FirstCouponDate>
+        <Maturity>20680722</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BBJNQY21</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GBR.GBP.20711022.1.625</Identifier>
+        <Rate>0.01625</Rate>
+        <Effective>20180516</Effective>
+        <Maturity>20711022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GB00BFMCN652</ISIN>
+        <FirstCouponDate>20181022</FirstCouponDate>
+    </FixedRateBond>
+
+
+    <!-- Inflation linked -->
+
+    <!-- There are two style of inflation linkers in the UK old style 8M look back and new 3M look back, so we extend the instrument id to differentiate these -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.GBR.GBP.RPI</Identifier>
+        <ExCouponAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>-7</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>GBR</Country>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>GBP</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Conventions are for a 3M look back -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.GBR.GBP.RPI.3M</Identifier>
+        <AccrualCalculator>GBR_Accrual_RPI_3M</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>GBR_YieldToDirtyPrice_RPI_3M</YieldToDirtyPriceCalculator>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+                <InflationIndex>
+                    <Region>GBR</Region>
+                    <Name>RPI</Name>
+                    <BaseYear>1987</BaseYear>
+                </InflationIndex>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!-- 3M look back bonds -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20171122.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20060208</Effective>
+        <Maturity>20171122</Maturity>
+        <ISIN>GB00B0V3WQ75</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>193.725</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20191122.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20130821</Effective>
+        <FirstCouponDate>20131122</FirstCouponDate>
+        <Maturity>20191122</Maturity>
+        <ISIN>GB00BBDR7T29</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>249.80645</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20221122.1.875</Identifier>
+        <Rate>0.01875</Rate>
+        <Effective>20070711</Effective>
+        <FirstCouponDate>20071122</FirstCouponDate>
+        <Maturity>20221122</Maturity>
+        <ISIN>GB00B1Z5HQ14</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>205.65806</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20240322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20121012</Effective>
+        <FirstCouponDate>20130322</FirstCouponDate>
+        <Maturity>20240322</Maturity>
+        <ISIN>GB00B85SFQ54</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>242.41935</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20260322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20150716</Effective>
+        <FirstCouponDate>20150922</FirstCouponDate>
+        <Maturity>20260322</Maturity>
+        <ISIN>GB00BYY5F144</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>258.24194</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20271122.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20060426</Effective>
+        <FirstCouponDate>20061122</FirstCouponDate>
+        <Maturity>20271122</Maturity>
+        <ISIN>GB00B128DH60</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>194.06667</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20280810.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20180621</Effective>
+        <FirstCouponDate>20190210</FirstCouponDate>
+        <Maturity>20280810</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>279.23333</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+        <ISIN>GB00BZ1NTB69</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20290322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20111123</Effective>
+        <FirstCouponDate>20120322</FirstCouponDate>
+        <Maturity>20290322</Maturity>
+        <ISIN>GB00B3Y1JG82</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>237.42</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20321122.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20081029</Effective>
+        <FirstCouponDate>20090522</FirstCouponDate>
+        <Maturity>20321122</Maturity>
+        <ISIN>GB00B3D4VD98</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>217.13226</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20340322.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20110525</Effective>
+        <FirstCouponDate>20110922</FirstCouponDate>
+        <Maturity>20340322</Maturity>
+        <ISIN>GB00B46CGH68</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>232.22903</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20361122.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20160311</Effective>
+        <FirstCouponDate>20160522</FirstCouponDate>
+        <Maturity>20361122</Maturity>
+        <ISIN>GB00BYZW3J87</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>260.01935</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20371122.1.125</Identifier>
+        <Rate>0.01125</Rate>
+        <Effective>20070221</Effective>
+        <FirstCouponDate>20070522</FirstCouponDate>
+        <Maturity>20371122</Maturity>
+        <ISIN>GB00B1L6W962</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>202.24286</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20400322.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20100128</Effective>
+        <FirstCouponDate>20100922</FirstCouponDate>
+        <Maturity>20400322</Maturity>
+        <ISIN>GB00B3LZBF68</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>216.52258</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.GBR.GBP.RPI.3M.20410810.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20180712</Effective>
+        <FirstCouponDate>20190210</FirstCouponDate>
+        <Maturity>20410810</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>280.05484</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+        <ISIN>GB00BGDYHF49</ISIN>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20421122.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20090724</Effective>
+        <FirstCouponDate>20091122</FirstCouponDate>
+        <Maturity>20421122</Maturity>
+        <ISIN>GB00B3MYD345</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>212.46452</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20440322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20120725</Effective>
+        <FirstCouponDate>20130322</FirstCouponDate>
+        <Maturity>20440322</Maturity>
+        <ISIN>GB00B7RN0G65</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>242.42258</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20460322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20150624</Effective>
+        <FirstCouponDate>20150922</FirstCouponDate>
+        <Maturity>20460322</Maturity>
+        <ISIN>GB00BYMWG366</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>257.79</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20471122.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20071121</Effective>
+        <FirstCouponDate>20080522</FirstCouponDate>
+        <Maturity>20471122</Maturity>
+        <ISIN>GB00B24FFM16</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>207.76667</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.GBR.GBP.RPI.3M.20480810.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20171108</Effective>
+        <Maturity>20480810</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>GB00BZ13DV40</ISIN>
+        <FirstCouponDate>20180210</FirstCouponDate>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20500322.0.5</Identifier>
+        <Rate>0.0050</Rate>
+        <Effective>20090925</Effective>
+        <FirstCouponDate>20100322</FirstCouponDate>
+        <Maturity>20500322</Maturity>
+        <ISIN>GB00B421JZ66</ISIN>
+        <Name>UKTI 0 1/2 03/22/50</Name>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>213.4</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20520322.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20120926</Effective>
+        <FirstCouponDate>20130322</FirstCouponDate>
+        <Maturity>20520322</Maturity>
+        <ISIN>GB00B73ZYW09</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>242.05</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20551122.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20050923</Effective>
+        <FirstCouponDate>20060522</FirstCouponDate>
+        <Maturity>20551122</Maturity>
+        <ISIN>GB00B0CNHZ09</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>192.2</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20580322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20140730</Effective>
+        <FirstCouponDate>20150322</FirstCouponDate>
+        <Maturity>20580322</Maturity>
+        <ISIN>GB00BP9DLZ64</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>255.8871</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20620322.0.375</Identifier>
+        <Rate>0.00375</Rate>
+        <Effective>20111026</Effective>
+        <FirstCouponDate>20120322</FirstCouponDate>
+        <Maturity>20620322</Maturity>
+        <ISIN>GB00B4PTCY75</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>235.82903</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20651122.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20160224</Effective>
+        <FirstCouponDate>20160522</FirstCouponDate>
+        <Maturity>20651122</Maturity>
+        <ISIN>GB00BD9MZZ71</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>260.43448</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.3M.20680322.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20130925</Effective>
+        <FirstCouponDate>20140322</FirstCouponDate>
+        <Maturity>20680322</Maturity>
+        <ISIN>GB00BDX8CX86</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>249.7</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Conventions are for a 8M look back -->
+    <!--! Some older bonds used inflation index values before the 1986 rebase, see here http://www.jdawiseman.com/papers/finmkts/gilt_statics_non-conventionals.html -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.GBR.GBP.RPI.8M</Identifier>
+        <AccrualCalculator>GBR_Accrual_RPI_8M</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>GBR_YieldToDirtyPrice_RPI_8M</YieldToDirtyPriceCalculator>
+        <!-- Cash flow rounding is specified per unit of face, although in the docs it is sometimes per 100 of face-->
+        <CashFlowRounding>
+            <Mode>Down</Mode>
+            <DecimalPlaces>6</DecimalPlaces>
+        </CashFlowRounding>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <LookbackAdjuster>
+                    <Tenor>-8M</Tenor>
+                    <TargetDayOfMonth>
+                        <DayOfMonth>1</DayOfMonth>
+                    </TargetDayOfMonth>
+                </LookbackAdjuster>
+                <InflationIndex>
+                    <Region>GBR</Region>
+                    <Name>RPI</Name>
+                    <BaseYear>1974</BaseYear>
+                </InflationIndex>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20130816.2.5</Identifier>
+        <Rate>0.0250</Rate>
+        <Effective>19850221</Effective>
+        <Maturity>20130816</Maturity>
+        <ISIN>GB0009036715</ISIN>
+        <Name>UKTI 2 1/2 08/16/13</Name>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>351.9</BaseValue>
+                <!-- =351.9/3.945 -->
+                <RebaseValue><Date>19880101</Date><RebaseYear>1987</RebaseYear><BaseValue>89.201520912548006</BaseValue></RebaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20160726.2.5</Identifier>
+        <Rate>0.0250</Rate>
+        <Effective>19830119</Effective>
+        <Maturity>20160726</Maturity>
+        <ISIN>GB0009075325</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>322.0</BaseValue> 
+                <!-- =322/3.945 -->
+                <RebaseValue><Date>19880101</Date><RebaseYear>1987</RebaseYear><BaseValue>81.6223067173637</BaseValue></RebaseValue> 
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20200416.2.5</Identifier>
+        <Rate>0.0250</Rate>
+        <Effective>19831012</Effective>
+        <Maturity>20200416</Maturity>
+        <ISIN>GB0009081828</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>327.3</BaseValue> 
+                <!-- =327.3/3.945 -->
+                <RebaseValue><Date>19880101</Date><RebaseYear>1987</RebaseYear><BaseValue>82.9657794676806</BaseValue></RebaseValue> 
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20240717.2.5</Identifier>
+        <Rate>0.0250</Rate>
+        <Effective>19861230</Effective>
+        <Maturity>20240717</Maturity>
+        <ISIN>GB0008983024</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>385.3</BaseValue> 
+                <!-- =385.3/3.945 -->
+                <RebaseValue><Date>19880101</Date><RebaseYear>1987</RebaseYear><BaseValue>97.6679340937896</BaseValue></RebaseValue> 
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20300722.4.125</Identifier>
+        <Rate>0.04125</Rate>
+        <Effective>19920612</Effective>
+        <Maturity>20300722</Maturity>
+        <ISIN>GB0008932666</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>135.1</BaseValue>
+                <InflationIndex>
+                    <Region>GBR</Region>
+                    <Name>RPI</Name>
+                    <BaseYear>1987</BaseYear>
+                </InflationIndex>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.8M.20350126.2.0</Identifier>
+        <Rate>0.0200</Rate>
+        <Effective>20020711</Effective>
+        <Maturity>20350126</Maturity>
+        <ISIN>GB0031790826</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>173.6</BaseValue>
+                <InflationIndex>
+                    <Region>GBR</Region>
+                    <Name>RPI</Name>
+                    <BaseYear>1987</BaseYear>
+                </InflationIndex>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+        <!-- Cash flow rounding is specified per unit of face, although in the docs it is sometimes per 100 of face-->
+        <CashFlowRounding>
+            <Mode>Nearest</Mode>
+            <DecimalPlaces>8</DecimalPlaces>
+        </CashFlowRounding>
+    </InflationLinkedFixedRateBond>
+
+    <!-- WI ISINs, need to find out more about these -->
+    <!--
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.20421207.4.5</Identifier><Rate>0.045</Rate><Effective>20111207</Effective>Maturity>20421207</Maturity><ISIN>GB00B73TB219</ISIN><Name>UKT 4  1/2 12/07/42</Name></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B73NR929</Identifier><Rate>0.00125</Rate><Effective>20121012</Effective><Maturity>20240322</Maturity><ISIN>GB00B73NR929</ISIN><Name>UKTI 0 1/8 03/24/24 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B8BJS635</Identifier><Rate>0.00125</Rate><Effective>20121012</Effective><Maturity>20240322</Maturity><ISIN>GB00B8BJS635</ISIN><Name>UKTI 0 1/8 03/24/24 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B9GDGP27</Identifier><Rate>0.00125</Rate><Effective>20121012</Effective><Maturity>20240322</Maturity><ISIN>GB00B9GDGP27</ISIN><Name>UKTI 0 1/8 03/24/24 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B7F9S404</Identifier><Rate>0.00125</Rate><Effective>20111123</Effective><Maturity>20290322</Maturity><ISIN>GB00B7F9S404</ISIN><Name>UKTI 0 1/8 03/22/29 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B7GY2X13</Identifier><Rate>0.00125</Rate><Effective>20111123</Effective><Maturity>20290322</Maturity><ISIN>GB00B7GY2X13</ISIN><Name>UKTI 0 1/8 03/22/29 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B7GZY721</Identifier><Rate>0.00125</Rate><Effective>20111123</Effective><Maturity>20290322</Maturity><ISIN>GB00B7GZY721</ISIN><Name>UKTI 0 1/8 03/22/29 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+<InflationLinkedFixedRateBond><Identifier leaf="true">RE.0.InflationBond.GBR.GBP.RPI.GB00B7WGX498</Identifier><Rate>0.00125</Rate><Effective>20111123</Effective><Maturity>20290322</Maturity><ISIN>GB00B7WGX498</ISIN><Name>UKTI 0 1/8 03/22/29 WI</Name><FixedLeg><Accrual><Tenor>6M</Tenor><Stub>ShortStart</Stub></Accrual></FixedLeg></InflationLinkedFixedRateBond>
+-->
+</Instruments>

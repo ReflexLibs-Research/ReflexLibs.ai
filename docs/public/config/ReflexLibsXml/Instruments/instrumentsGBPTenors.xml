@@ -1,0 +1,141 @@
+<Instruments>
+
+<Deposit Tenors1="1W;2W;[1-12]M">
+    <Identifier>RE.0.Deposit.GBP.LIBOR.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Tenor>${Tenor1}</Tenor>
+</Deposit>
+
+<DepositFuture Years="[1989-2030]" Months="3;6;9;12">
+    <Identifier>RE.0.DepositFuture.GBP.LIBOR.M.3.${Year}.${MonthIndex}</Identifier>
+    <ContractYear>${Year}</ContractYear>
+    <ContractMonth>${MonthName}</ContractMonth>
+</DepositFuture>
+
+
+<!--  LIBOR interest rate swaps
+    Tenors1 : Term of swap
+    Tenors2 : Term of LIBOR
+    Tenors2 : Term of Fixed
+-->
+<FixedRateSwap Tenors1="3M;6M;9M;12M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1M;3M" Tenors3="3M;6M;12M">
+    <Identifier>RE.0.InterestRateSwap.GBP.LIBOR.${TenorPeriod2}.${TenorStep2}.${TenorPeriod3}.${TenorStep3}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+<FixedRateSwap Tenors1="3M;6M;9M;12M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="6M" Tenors3="6M;12M">
+    <Identifier>RE.0.InterestRateSwap.GBP.LIBOR.${TenorPeriod2}.${TenorStep2}.${TenorPeriod3}.${TenorStep3}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+
+<!-- Forward starting -->
+<!-- TODO FIXME 
+<FixedRateSwap><Identifier>RE.0.ForwardInterestRateSwap.GBP.LIBOR.M.6.M.12.M.1.M.6</Identifier><Maturity><Tenor>6M</Tenor></Maturity></FixedRateSwap>
+<FixedRateSwap><Identifier>RE.0.ForwardInterestRateSwap.GBP.LIBOR.M.6.M.12.M.3.M.6</Identifier><Maturity><Tenor>6M</Tenor></Maturity></FixedRateSwap>
+-->
+
+<!--  OIS interest rate swaps -->
+
+<!-- Annual payers -->
+<FixedRateSwap Tenors1="1W;2W;3W;[1-12]M;15M;18M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.OISRateSwap.GBP.SONIA.D.1.M.12.M.12.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+<!-- Zero coupon -->
+<FixedRateSwap Tenors1="1W;2W;3W;[1-12]M;15M;18M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.OISRateSwap.GBP.SONIA.D.1.ZERO.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+<!-- Tenor basis -->
+
+<TenorBasisSwap Tenors1="[1-10]Y;12Y;15Y;20Y;25Y;30Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.TenorBasisSwap.GBP.LIBOR.M.1.M.3.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+<TenorBasisSwap Tenors1="[1-10]Y;12Y;15Y;20Y;25Y;30Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.TenorBasisSwap.GBP.LIBOR.M.1.M.6.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+<TenorBasisSwap Tenors1="[1-10]Y;12Y;15Y;20Y;25Y;30Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.TenorBasisSwap.GBP.LIBOR.M.3.M.6.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+
+<!-- Index basis -->
+
+<IndexBasisSwap Tenors1="3M;6M;9M;[1-30]Y;40Y;50Y;60Y">
+    <Identifier>RE.0.IndexBasisSwap.GBP.SONIA.D.1.M.3.LIBOR.M.3.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</IndexBasisSwap>
+
+
+<!-- Inflation swaps -->
+
+<InflationSwap Tenors1="[1-30]Y;40Y;50Y;60Y">
+    <Identifier>RE.0.INFLATIONSWAP.GBR.RPI.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</InflationSwap>
+
+<!-- Index month to index month with 15th of month roll -->
+<InflationSwap Years="[2012-2020]" Months="[1-12]" Values="[1-10]">
+  <Identifier>RE.0.INFLATIONSWAP.GBR.RPI.ZERO.${Year}.${MonthName}.Y.${Value}</Identifier>
+  <Effective>
+    <InflationIndexMonth>
+        <InflationIndex>
+            <Region>GBR</Region>
+            <Name>RPI</Name>
+            <BaseYear>1987</BaseYear>
+        </InflationIndex>
+        <IndexMonth>${Year}${MonthIndex}</IndexMonth>
+    </InflationIndexMonth>
+    <TargetDayOfMonth><DayOfMonth>15</DayOfMonth></TargetDayOfMonth>
+  </Effective>
+  <Maturity>
+    <InflationIndexMonth>
+        <InflationIndex>
+            <Region>GBR</Region>
+            <Name>RPI</Name>
+            <BaseYear>1987</BaseYear>
+        </InflationIndex>
+        <IndexMonth>${Year}${MonthIndex}</IndexMonth>
+        <OffsetYears>${Value}</OffsetYears>
+    </InflationIndexMonth>
+    <TargetDayOfMonth><DayOfMonth>15</DayOfMonth></TargetDayOfMonth>
+  </Maturity>
+  <Tenor>${Value}Y</Tenor>
+</InflationSwap>
+
+
+</Instruments>

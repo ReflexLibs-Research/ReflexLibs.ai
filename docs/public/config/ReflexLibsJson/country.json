@@ -1,0 +1,64 @@
+[
+  {
+    "Id": "EUR",
+    "Name": "European Union",
+    "ShortCode": "EU",
+    "NumericCode": "999"
+  },
+  {
+    "Id": "ARG",
+    "Name": "Argentina",
+    "ShortCode": "AR",
+    "NumericCode": "32",
+    "Currency": "ARS"
+  },
+  {
+    "Id": "AUS",
+    "Name": "Australia",
+    "ShortCode": "AU",
+    "NumericCode": "36",
+    "Currency": "AUD"
+  },
+  {
+    "Id": "AUT",
+    "Name": "Austria",
+    "ShortCode": "AT",
+    "NumericCode": "40",
+    "Currency": "EUR"
+  },
+  {
+    "Id": "BHR",
+    "Name": "Bahrain",
+    "ShortCode": "BH",
+    "NumericCode": "48",
+    "Currency": "BHD"
+  },
+  {
+    "Id": "BEL",
+    "Name": "Belgium",
+    "ShortCode": "BE",
+    "NumericCode": "56",
+    "Currency": "EUR"
+  },
+  {
+    "Id": "BOL",
+    "Name": "Bolivia",
+    "ShortCode": "BO",
+    "NumericCode": "68",
+    "Currency": "BOB"
+  },
+  {
+    "Id": "VNM",
+    "Name": "Viet Nam",
+    "ShortCode": "VN",
+    "NumericCode": "704",
+    "Currency": "VND"
+  },
+  {
+    "Id": "SDR",
+    "Name": "International Monetary Fund",
+    "ShortCode": "IM",
+    "NumericCode": "960",
+    "Currency": "SDR"
+  }
+]

@@ -1,0 +1,43 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.CHL</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Semi</Frequency>
+        <AccrualCalculator>CHL_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>CHL_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Country>CHL</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>CLP</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHL.CLP.20231015.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Issue>20031015</Issue>
+        <Effective>20031015</Effective>
+        <Maturity>20231015</Maturity>
+        <ISIN>CL0000000787</ISIN>
+    </FixedRateBond>
+
+</Instruments>

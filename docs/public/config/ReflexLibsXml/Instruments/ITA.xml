@@ -1,0 +1,17 @@
+<Instruments>
+
+<xi:include href="instrumentsDEU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsDEU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsBondFuturesDEU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+<xi:include href="instrumentsESP.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsESP.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsBondFuturesESP.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+
+<xi:include href="instrumentsITA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsITA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsBondFuturesITA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>
+

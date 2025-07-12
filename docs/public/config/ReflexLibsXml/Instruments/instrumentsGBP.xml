@@ -1,0 +1,632 @@
+<Instruments>
+
+<!-- Deposits -->
+
+<Deposit>
+  <Identifier>RE.0.Deposit.GBP.SONIA.D.1</Identifier>
+  <Index>
+    <Currency>GBP</Currency>
+    <Name>SONIA</Name>
+  </Index>
+  <Basis>Act/365</Basis>
+  <Tenor>1D</Tenor>
+  <CoverageStartAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.GBP.LIBOR</Identifier>
+  <Index>
+    <Currency>GBP</Currency>
+    <Name>LIBOR</Name>
+  </Index>
+  <Basis>Act/365</Basis>
+  <CoverageStartAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier>RE.0.Deposit.GBP.LIBOR.D.ON</Identifier>
+  <Tenor>1D</Tenor>
+  <CoverageStartAdjuster/>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.GBP.LIBOR.W</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+<!--<Deposit>
+    <Identifier>RE.0.Deposit.GBP.LIBOR.{TenorPeriod}.{TenorStep}</Identifier>
+    <Tenors>1W;2W;2M;3M;6M;12M</Tenors>
+</Deposit>-->
+
+<!-- Deposit Futures -->
+
+<DepositFuture>
+  <Identifier leaf="false">RE.0.DepositFuture.GBP.LIBOR.M.3</Identifier>
+  <Underlying>RE.0.Deposit.GBP.LIBOR.M.3</Underlying>
+  <Delivery>CME_DELIVERY</Delivery>
+  <LastTrading>CME_TRADING</LastTrading>
+  <Notional>10000.0</Notional>
+  <TickSize>12.5</TickSize>
+</DepositFuture>
+
+
+<!-- Interest rate LIBOR swaps -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>0</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <Basis>ACT/365</Basis>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <BreakEvenLeg/>
+    <PaymentAdjuster>
+        <RollForwardIfNotBusinessDay>
+        <Calendar>LNB</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </PaymentAdjuster>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+  </FloatLeg>
+</FixedRateSwap>
+
+<!-- 1M LIBOR  -->
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.1</Identifier>
+    <FloatLeg>
+    <Accrual>
+        <Tenor>3M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+                <BusinessDayRule>MF</BusinessDayRule>
+                <Calendar>LNB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.1</Observable>
+    </FloatLeg>
+</FixedRateSwap>
+
+<!-- 3M LIBOR  -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.3</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.3</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<!-- 6M LIBOR  -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.6</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+
+<!-- Quarterly fixed versus 1M LIBOR -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.1.M.3</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+<!-- Semi fixed versus 1M LIBOR -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.1.M.6</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+<!-- Annual fixed versus 1M LIBOR -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.1.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+<!-- Quarterly fixed versus 3M LIBOR, quoted by Barclays -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.3.M.3</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+<!-- Semi fixed versus 3M LIBOR -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.3.M.6</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+<!-- Annual fixed versus 3M LIBOR, quoted by Icap and others -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.3.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+<!-- Semi-annual versus 6M LIBOR -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.6.M.6</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+<!-- Annual fixed versus 6M LIBOR - Most Liquid and quoted curve as of Nov-2012 -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.GBP.LIBOR.M.6.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+
+
+<!-- Forward starting -->
+
+<!-- Starting in 1 month -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.ForwardInterestRateSwap.GBP.LIBOR.M.6.M.12.M.1</Identifier>
+  <Effective>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+    <Tenor>1M</Tenor>
+  </Effective>
+</FixedRateSwap>
+
+<!-- Starting in 3 month -->
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.ForwardInterestRateSwap.GBP.LIBOR.M.6.M.12.M.3</Identifier>
+  <Effective>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+    <Tenor>3M</Tenor>
+  </Effective>
+</FixedRateSwap>
+
+
+<!-- Overnight index swaps SONIA -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.GBP.SONIA.D.1</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>0</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <Reset>
+      <Calendar>LNB</Calendar>
+    </Reset>
+    <Observable>RE.0.Deposit.GBP.SONIA.D.1</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.GBP.SONIA.D.1.M.12.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.GBP.SONIA.D.1.ZERO.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+
+<!-- Tenor basis swaps -->
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>0</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>0</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>0</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR.M.1</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.1</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR.M.1.M.3</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.3</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR.M.1.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR.M.3</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.GBP.LIBOR.M.3.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+
+<!-- Index basis swaps -->
+
+<IndexBasisSwap>
+  <Identifier leaf="false">RE.0.IndexBasisSwap.GBP.SONIA.D.1.M.3.LIBOR.M.3</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>0</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>0</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <Observable>RE.0.Deposit.GBP.LIBOR.M.3</Observable>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.GBP.SONIA.D.1</Observable>
+  <Compounding>INCLUSIVE</Compounding>
+    <PaymentAdjuster/>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</IndexBasisSwap>
+
+
+
+<!-- Inflation swaps -->
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.GBR.RPI</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>0</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <InflationLinkedZeroCouponLeg>
+    <NotionalDetails>
+      <Currency>GBP</Currency>
+      <Final>true</Final>
+    </NotionalDetails>
+    <InflationLinkedNotionalDetails>
+      <Final>UpliftOnly</Final>
+      <InflationIndex>
+          <Region>GBR</Region>
+          <Name>RPI</Name>
+          <BaseYear>1987</BaseYear>
+      </InflationIndex>
+      <LookbackAdjuster>
+          <Tenor>-2M</Tenor>
+          <TargetDayOfMonth>
+              <DayOfMonth>1</DayOfMonth>
+          </TargetDayOfMonth>
+      </LookbackAdjuster>
+      </InflationLinkedNotionalDetails>
+  </InflationLinkedZeroCouponLeg>
+</InflationSwap>
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.GBR.RPI.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+    <RateAccrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </RateAccrual>
+    <Compounding>True</Compounding>
+  </FixedLeg>
+</InflationSwap>
+
+
+
+<!--<InflationSwap>
+  <Identifier>RE.0.INFLATIONSWAP.GBR.RPI.ZERO.2015.Jan.Y.10</Identifier>
+  <Effective>
+    <InflationIndexMonth>
+        <InflationIndexId><Country>GBR</Country><Name>RPI</Name></InflationIndexId>
+        <IndexMonth>201501</IndexMonth>
+    </InflationIndexMonth>
+    <TargetDayOfMonth><DayOfMonth>15</DayOfMonth></TargetDayOfMonth>
+  </Effective>
+  <Maturity>
+    <InflationIndexMonth>
+        <InflationIndexId><Country>GBR</Country><Name>RPI</Name></InflationIndexId>
+        <IndexMonth>202501</IndexMonth>
+    </InflationIndexMonth>
+  </Maturity>
+  <Tenor>10Y</Tenor>
+</InflationSwap>-->
+
+
+<xi:include href="instrumentsGBPTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>
+
+
+

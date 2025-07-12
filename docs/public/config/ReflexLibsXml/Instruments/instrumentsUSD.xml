@@ -1,0 +1,719 @@
+<Instruments>
+
+<!-- Deposits -->
+
+<Deposit>
+  <Identifier>RE.0.Deposit.USD.FEDFUND.D.1</Identifier>
+  <Index>
+    <Currency>USD</Currency>
+    <Name>FEDFUND</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <Tenor>1D</Tenor>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.USD.LIBOR</Identifier>
+  <Index>
+    <Currency>USD</Currency>
+    <Name>LIBOR</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+<!-- Daily rates differ only in that the maturity date if following not modified following -->
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.USD.LIBOR.D</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<!-- Overnight is a special case as coverage start is the same as today and is following not modified following -->
+<Deposit>
+  <Identifier>RE.0.Deposit.USD.LIBOR.D.ON</Identifier>
+  <Tenor>1D</Tenor>
+  <CoverageStartAdjuster/> <!-- This nulls out the inherited date adjuster for the coverage start -->
+</Deposit>
+
+<!-- Weekly rates differ only in that the maturity date if following not modified following -->
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.USD.LIBOR.W</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+<FRA>
+ <Identifier>RE.0.FRA.USD.LIBOR.M.3.M.4</Identifier>
+ <Deposit>RE.0.Deposit.USD.LIBOR.M.3</Deposit>
+ <SpotToStartAdjuster><Tenor>4M</Tenor></SpotToStartAdjuster>
+ <StartToEndAdjuster><Tenor>3M</Tenor></StartToEndAdjuster>
+</FRA>
+
+
+<!-- Deposit Futures -->
+
+<DepositFuture>
+  <Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.1</Identifier>
+  <Underlying>RE.0.Deposit.USD.LIBOR.M.1</Underlying>
+  <Delivery>CME_DELIVERY</Delivery>
+  <LastTrading>CME_TRADING</LastTrading>
+  <Notional>10000.0</Notional>
+  <TickSize>25.0</TickSize>
+</DepositFuture>
+
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.1.2011</Identifier><ContractYear>2011</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.1.2012</Identifier><ContractYear>2012</ContractYear></DepositFuture>
+
+
+<DepositFuture>
+  <Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3</Identifier>
+  <Underlying>RE.0.Deposit.USD.LIBOR.M.3</Underlying>
+  <Delivery>CME_DELIVERY</Delivery>
+  <LastTrading>CME_TRADING</LastTrading>
+  <Notional>10000.0</Notional>
+  <TickSize>25.0</TickSize>
+</DepositFuture>
+
+
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1981</Identifier><ContractYear>1981</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1982</Identifier><ContractYear>1982</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1983</Identifier><ContractYear>1983</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1984</Identifier><ContractYear>1984</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1985</Identifier><ContractYear>1985</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1986</Identifier><ContractYear>1986</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1987</Identifier><ContractYear>1987</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1988</Identifier><ContractYear>1988</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1989</Identifier><ContractYear>1989</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1990</Identifier><ContractYear>1990</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1991</Identifier><ContractYear>1991</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1992</Identifier><ContractYear>1992</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1993</Identifier><ContractYear>1993</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1994</Identifier><ContractYear>1994</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1995</Identifier><ContractYear>1995</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1996</Identifier><ContractYear>1996</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1997</Identifier><ContractYear>1997</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1998</Identifier><ContractYear>1998</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.1999</Identifier><ContractYear>1999</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2000</Identifier><ContractYear>2000</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2001</Identifier><ContractYear>2001</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2002</Identifier><ContractYear>2002</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2003</Identifier><ContractYear>2003</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2004</Identifier><ContractYear>2004</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2005</Identifier><ContractYear>2005</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2006</Identifier><ContractYear>2006</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2007</Identifier><ContractYear>2007</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2008</Identifier><ContractYear>2008</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2009</Identifier><ContractYear>2009</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2010</Identifier><ContractYear>2010</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2011</Identifier><ContractYear>2011</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2012</Identifier><ContractYear>2012</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2013</Identifier><ContractYear>2013</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2014</Identifier><ContractYear>2014</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2015</Identifier><ContractYear>2015</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2016</Identifier><ContractYear>2016</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2017</Identifier><ContractYear>2017</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2018</Identifier><ContractYear>2018</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2019</Identifier><ContractYear>2019</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2020</Identifier><ContractYear>2020</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2021</Identifier><ContractYear>2021</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2022</Identifier><ContractYear>2022</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2023</Identifier><ContractYear>2023</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2024</Identifier><ContractYear>2024</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2025</Identifier><ContractYear>2025</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2026</Identifier><ContractYear>2026</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2027</Identifier><ContractYear>2027</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2028</Identifier><ContractYear>2028</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2029</Identifier><ContractYear>2029</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.USD.LIBOR.M.3.2030</Identifier><ContractYear>2030</ContractYear></DepositFuture>
+
+
+<!-- OIS swaps -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.USD</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+  </FloatLeg>
+</FixedRateSwap>
+
+<!-- OIS rate swap -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.USD.FEDFUND.D.1</Identifier>
+  <FloatLeg>
+    <Reset>
+        <Calendar>NYB</Calendar>
+    </Reset>
+    <Observable>RE.0.Deposit.USD.FEDFUND.D.1</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+  </FloatLeg>
+</FixedRateSwap>
+
+<!-- OIS annual pay rate swaps -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.USD.FEDFUND.D.1.M.12.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.USD.FEDFUND.D.1.ZERO.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+
+<!-- LIBOR interest rate swaps -->
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR</Identifier>
+    <Effective>
+      <OffsetByBusinessDays>
+        <Calendar>NYB</Calendar>
+        <NumberOfBusinessDays>2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+      <BusinessAdjustToMonth>
+        <BusinessDayRule>F</BusinessDayRule>
+        <Calendar>LNB&amp;NYB</Calendar>
+      </BusinessAdjustToMonth>
+    </Effective>
+    <FixedLeg>
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+      <Basis>30I/360</Basis>
+      <BreakEvenLeg/>
+    </FixedLeg>
+    <FloatLeg>
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+      <Basis>ACT/360</Basis>
+    </FloatLeg>
+  </FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.1</Identifier>
+    <FloatLeg>
+    <Accrual>
+        <Tenor>1M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+                <BusinessDayRule>MF</BusinessDayRule>
+                <Calendar>LNB&amp;NYB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.1</Observable>
+    </FloatLeg>
+</FixedRateSwap>
+
+  <FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.3</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.3</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+  <FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.6</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.3.M.6</Identifier>
+    <FixedLeg>
+        <Accrual>
+        <Tenor>6M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+            <BusinessDayRule>MF</BusinessDayRule>
+            <Calendar>NYB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+        </Accrual>
+        <BreakEvenLeg/>
+    </FixedLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.1.M.12</Identifier>
+    <FixedLeg>
+    <Accrual>
+        <Tenor>12M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+                <BusinessDayRule>MF</BusinessDayRule>
+                <Calendar>NYB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+    </Accrual>
+    <BreakEvenLeg/>
+    </FixedLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.3.M.12</Identifier>
+    <FixedLeg>
+        <Accrual>
+        <Tenor>12M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+            <BusinessDayRule>MF</BusinessDayRule>
+            <Calendar>NYB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+        </Accrual>
+        <BreakEvenLeg/>
+    </FixedLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.M.6.M.6</Identifier>
+    <FixedLeg>
+        <Accrual>
+        <Tenor>6M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+            <BusinessDayRule>MF</BusinessDayRule>
+            <Calendar>NYB</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+        </Accrual>
+        <BreakEvenLeg/>
+    </FixedLeg>
+</FixedRateSwap>
+
+<!-- CMS swaps -->
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.CMSSwap.USD.LIBOR</Identifier>
+    <Effective>
+      <OffsetByBusinessDays>
+        <Calendar>NYB</Calendar>
+        <NumberOfBusinessDays>2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+      <BusinessAdjustToMonth>
+        <BusinessDayRule>F</BusinessDayRule>
+        <Calendar>LNB&amp;NYB</Calendar>
+      </BusinessAdjustToMonth>
+    </Effective>
+    <FixedLeg>
+      <NotionalDetails>
+        <Currency>USD</Currency>
+      </NotionalDetails>
+      <Basis>30I/360</Basis>
+      <BreakEvenLeg/>
+    </FixedLeg>
+    <FloatLeg>
+      <NotionalDetails>
+        <Currency>USD</Currency>
+      </NotionalDetails>
+      <Basis>ACT/360</Basis>
+    </FloatLeg>
+</FixedRateSwap>
+
+<!-- Floating 3Y swap rate against 6M fixed -->
+<!-- TODO FIXME
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.CMSSwap.USD.LIBOR.Y.3.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.InterestRateSwap.USD.LIBOR.M.3.M.6.Y.3</Observable>
+  </FloatLeg>
+  <FixedLeg>
+      <Accrual>
+        <Tenor>6M</Tenor>
+        <Adjuster>
+          <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+          </BusinessAdjustToMonth>
+        </Adjuster>
+      </Accrual>
+      <BreakEvenLeg/>
+    </FixedLeg>
+</FixedRateSwap>
+
+<FixedRateSwap><Identifier>RE.0.CMSSwap.USD.LIBOR.Y.3.M.6.Y.5</Identifier><Maturity><Tenor>5Y</Tenor></Maturity></FixedRateSwap>
+-->
+
+<!-- IMM swaps -->
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.USD.LIBOR.IMM</Identifier>
+  <Effective>
+    <DateRuleOffset>
+      <DateRule>CME_DELIVERY</DateRule>
+      <Offset>0</Offset>
+    </DateRuleOffset>
+  </Effective>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>1Y</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <DateRule>CME_DELIVERY</DateRule>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.3</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap><Identifier>RE.0.InterestRateSwap.USD.LIBOR.IMM.4</Identifier><Maturity><DateRuleOffset><DateRule>CME_DELIVERY</DateRule><Offset>4</Offset></DateRuleOffset></Maturity></FixedRateSwap>
+<FixedRateSwap><Identifier>RE.0.InterestRateSwap.USD.LIBOR.IMM.8</Identifier><Maturity><DateRuleOffset><DateRule>CME_DELIVERY</DateRule><Offset>8</Offset></DateRuleOffset></Maturity></FixedRateSwap>
+
+
+<!-- Tenor basis swaps -->
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.USD.LIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+ <TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.USD.LIBOR.M.1.M.3</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.1</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.USD.LIBOR.M.3.M.6</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+<!-- Index basis swaps -->
+
+<IndexBasisSwap>
+  <Identifier leaf="false">RE.0.IndexBasisSwap.USD.FEDFUND.D.1.M.3.LIBOR.M.3</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>LNB&amp;NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>LNB</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <Observable>RE.0.Deposit.USD.LIBOR.M.3</Observable>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.USD.FEDFUND.D.1</Observable>
+    <PaymentAdjuster/>
+    <Averaging>
+      <Type>UNWEIGHTED</Type>
+      <Tenor>1D</Tenor>
+      <Adjuster>
+        <NextBusinessDay>
+          <Calendar>NYB</Calendar>
+        </NextBusinessDay>
+      </Adjuster>
+    </Averaging>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</IndexBasisSwap>
+
+
+<!-- Inflation swaps -->
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.USD.CPI</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>NYB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>USD</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <InflationLinkedZeroCouponLeg>
+      <NotionalDetails>
+        <Currency>USD</Currency>
+        <Final>true</Final>
+      </NotionalDetails>
+      <InflationLinkedNotionalDetails>
+          <Final>UpliftOnly</Final>
+          <InflationIndex>
+              <Region>USA</Region>
+              <Name>CPI</Name>
+              <Component>AllUrban</Component>
+              <BaseYear>1982</BaseYear>
+          </InflationIndex>
+          <LookbackAdjuster>
+              <Tenor>-3M</Tenor>
+          </LookbackAdjuster>
+      </InflationLinkedNotionalDetails>
+  </InflationLinkedZeroCouponLeg>
+</InflationSwap>
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.USD.CPI.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+    <RateAccrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>NYB</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </RateAccrual>
+    <Compounding>True</Compounding>
+  </FixedLeg>
+</InflationSwap>
+
+
+
+<xi:include href="instrumentsUSDTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>

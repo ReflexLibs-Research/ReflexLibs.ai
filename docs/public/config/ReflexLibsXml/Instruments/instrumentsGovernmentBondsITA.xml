@@ -1,0 +1,1903 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.ITA</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>ITA_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>ITA_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>ITA</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <!--
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR...</Identifier>
+    <Rate></Rate>
+    <Effective></Effective>
+    <Maturity></Maturity>
+    <ISIN></ISIN>
+  </FixedRateBond>
+  -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20130415.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20080415</Effective>
+        <FirstCouponDate>20080415</FirstCouponDate>
+        <Maturity>20130415</Maturity>
+        <ISIN>IT0004365554</ISIN>
+        <Name>BTPS 4 1/4 04/15/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20130601.2.0</Identifier>
+        <Rate>0.0200</Rate>
+        <Effective>20100601</Effective>
+        <FirstCouponDate>20101201</FirstCouponDate>
+        <Maturity>20130601</Maturity>
+        <ISIN>IT0004612179</ISIN>
+        <Name>BTPS 2 06/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20130801.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20030201</Effective>
+        <FirstCouponDate>20030801</FirstCouponDate>
+        <Maturity>20130801</Maturity>
+        <ISIN>IT0003472336</ISIN>
+        <Name>BTPS 4 1/4 08/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20131101.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20101101</Effective>
+        <FirstCouponDate>20110501</FirstCouponDate>
+        <Maturity>20131101</Maturity>
+        <ISIN>IT0004653108</ISIN>
+        <Name>BTPS 2 1/4 11/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20131215.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20081215</Effective>
+        <FirstCouponDate>20090615</FirstCouponDate>
+        <Maturity>20131215</Maturity>
+        <ISIN>IT0004448863</ISIN>
+        <Name>BTPS 3 3/4 12/15/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20140401.3.0</Identifier>
+        <Rate>0.0300</Rate>
+        <Effective>20110401</Effective>
+        <FirstCouponDate>20111001</FirstCouponDate>
+        <Maturity>20140401</Maturity>
+        <ISIN>IT0004707995</ISIN>
+        <Name>BTPS 3 04/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20140601.3.5</Identifier>
+        <Rate>0.0350</Rate>
+        <Effective>20090601</Effective>
+        <FirstCouponDate>20091201</FirstCouponDate>
+        <Maturity>20140601</Maturity>
+        <ISIN>IT0004505076</ISIN>
+        <Name>BTPS 3 1/2 06/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20140701.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20110701</Effective>
+        <FirstCouponDate>20120101</FirstCouponDate>
+        <Maturity>20140701</Maturity>
+        <ISIN>IT0004750409</ISIN>
+        <Name>BTPS 4 1/4 07/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20140801.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20040201</Effective>
+        <FirstCouponDate>20040801</FirstCouponDate>
+        <Maturity>20140801</Maturity>
+        <ISIN>IT0003618383</ISIN>
+        <Name>BTPS 4 1/4 08/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20141115.6.0</Identifier>
+        <Rate>0.0600</Rate>
+        <Effective>20111115</Effective>
+        <FirstCouponDate>20120515</FirstCouponDate>
+        <Maturity>20141115</Maturity>
+        <ISIN>IT0004780380</ISIN>
+        <Name>BTPS 6 11/15/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20150201.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20040801</Effective>
+        <FirstCouponDate>20050201</FirstCouponDate>
+        <Maturity>20150201</Maturity>
+        <ISIN>IT0003719918</ISIN>
+        <Name>BTPS 4 1/4 02/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20150301.2.5</Identifier>
+        <Rate>0.0250</Rate>
+        <Effective>20120301</Effective>
+        <FirstCouponDate>20120901</FirstCouponDate>
+        <Maturity>20150301</Maturity>
+        <ISIN>IT0004805070</ISIN>
+        <Name>BTPS 2 1/2 03/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20150415.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20100115</Effective>
+        <FirstCouponDate>20100415</FirstCouponDate>
+        <Maturity>20150415</Maturity>
+        <ISIN>IT0004568272</ISIN>
+        <Name>BTPS 3 04/15/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20150615.3.0</Identifier>
+        <Rate>0.0300</Rate>
+        <Effective>20100615</Effective>
+        <FirstCouponDate>20101215</FirstCouponDate>
+        <Maturity>20150615</Maturity>
+        <ISIN>IT0004615917</ISIN>
+        <Name>BTPS 3 06/15/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20150801.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20050201</Effective>
+        <FirstCouponDate>20050801</FirstCouponDate>
+        <Maturity>20150801</Maturity>
+        <ISIN>IT0003844534</ISIN>
+        <Name>BTPS 3 3/4 08/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20151101.3.0</Identifier>
+        <Rate>0.0300</Rate>
+        <Effective>20101101</Effective>
+        <FirstCouponDate>20110501</FirstCouponDate>
+        <Maturity>20151101</Maturity>
+        <ISIN>IT0004656275</ISIN>
+        <Name>BTPS 3 11/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20160415.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20110415</Effective>
+        <FirstCouponDate>20111015</FirstCouponDate>
+        <Maturity>20160415</Maturity>
+        <ISIN>IT0004712748</ISIN>
+        <Name>BTPS 3 3/4 04/15/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20160515.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20130415</Effective>
+        <FirstCouponDate>20130515</FirstCouponDate>
+        <Maturity>20160515</Maturity>
+        <ISIN>IT0004917792</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20160801.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20060201</Effective>
+        <FirstCouponDate>20060801</FirstCouponDate>
+        <Maturity>20160801</Maturity>
+        <ISIN>IT0004019581</ISIN>
+        <Name>BTPS 3 3/4 08/01/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20160915.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20110915</Effective>
+        <FirstCouponDate>20120315</FirstCouponDate>
+        <Maturity>20160915</Maturity>
+        <ISIN>IT0004761950</ISIN>
+        <Name>BTPS 4 3/4 09/15/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20161115.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20130916</Effective>
+        <FirstCouponDate>20131115</FirstCouponDate>
+        <Maturity>20161115</Maturity>
+        <ISIN>IT0004960826</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20161215.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20140115</Effective>
+        <FirstCouponDate>20140615</FirstCouponDate>
+        <Maturity>20161215</Maturity>
+        <ISIN>IT0004987191</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20170201.4.0</Identifier>
+        <Rate>0.0400</Rate>
+        <Effective>20060801</Effective>
+        <FirstCouponDate>20070201</FirstCouponDate>
+        <Maturity>20170201</Maturity>
+        <ISIN>IT0004164775</ISIN>
+        <Name>BTPS 4 02/01/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20170501.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20120201</Effective>
+        <FirstCouponDate>20120501</FirstCouponDate>
+        <Maturity>20170501</Maturity>
+        <ISIN>IT0004793474</ISIN>
+        <Name>BTPS 4 3/4 05/01/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20170515.1.15</Identifier>
+        <Rate>0.0115</Rate>
+        <Effective>20140515</Effective>
+        <FirstCouponDate>20141115</FirstCouponDate>
+        <Maturity>20170515</Maturity>
+        <ISIN>IT0005023459</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20170601.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20120601</Effective>
+        <FirstCouponDate>20121201</FirstCouponDate>
+        <Maturity>20170601</Maturity>
+        <ISIN>IT0004820426</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20170801.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>20020201</Effective>
+        <FirstCouponDate>20020801</FirstCouponDate>
+        <Maturity>20170801</Maturity>
+        <ISIN>IT0003242747</ISIN>
+        <Name>BTPS 5 1/4 08/01/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20171101.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20121101</Effective>
+        <FirstCouponDate>20130501</FirstCouponDate>
+        <Maturity>20171101</Maturity>
+        <ISIN>IT0004867070</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20180115.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20141015</Effective>
+        <FirstCouponDate>20150115</FirstCouponDate>
+        <Maturity>20180115</Maturity>
+        <ISIN>IT0005058463</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20180201.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20070801</Effective>
+        <FirstCouponDate>20080201</FirstCouponDate>
+        <Maturity>20180201</Maturity>
+        <ISIN>IT0004273493</ISIN>
+        <Name>BTPS 4 1/2 02/01/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20180515.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20150415</Effective>
+        <FirstCouponDate>20150515</FirstCouponDate>
+        <Maturity>20180515</Maturity>
+        <ISIN>IT0005106049</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20180601.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20130402</Effective>
+        <FirstCouponDate>20130601</FirstCouponDate>
+        <Maturity>20180601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0004907843</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20180801.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20080201</Effective>
+        <FirstCouponDate>20080801</FirstCouponDate>
+        <Maturity>20180801</Maturity>
+        <ISIN>IT0004361041</ISIN>
+        <Name>BTPS 4 1/2 08/01/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20181015.0.3</Identifier>
+        <Rate>0.003</Rate>
+        <Effective>20151015</Effective>
+        <FirstCouponDate>20160415</FirstCouponDate>
+        <Maturity>20181015</Maturity>
+        <ISIN>IT0005139099</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20181201.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20130902</Effective>
+        <FirstCouponDate>20131201</FirstCouponDate>
+        <Maturity>20181201</Maturity>
+        <ISIN>IT0004957574</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190201.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20030201</Effective>
+        <FirstCouponDate>20030801</FirstCouponDate>
+        <Maturity>20190201</Maturity>
+        <ISIN>IT0003493258</ISIN>
+        <Name>BTPS 4 1/4 02/01/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190301.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20080901</Effective>
+        <FirstCouponDate>20090301</FirstCouponDate>
+        <Maturity>20190301</Maturity>
+        <ISIN>IT0004423957</ISIN>
+        <Name>BTPS 4 1/2 03/01/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190415.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20160415</Effective>
+        <FirstCouponDate>20161015</FirstCouponDate>
+        <Maturity>20190415</Maturity>
+        <ISIN>IT0005177271</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190501.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20140203</Effective>
+        <FirstCouponDate>20140501</FirstCouponDate>
+        <Maturity>20190501</Maturity>
+        <ISIN>IT0004992308</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190801.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20140701</Effective>
+        <FirstCouponDate>20140801</FirstCouponDate>
+        <Maturity>20190801</Maturity>
+        <ISIN>IT0005030504</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20190901.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20090301</Effective>
+        <FirstCouponDate>20090901</FirstCouponDate>
+        <Maturity>20190901</Maturity>
+        <ISIN>IT0004489610</ISIN>
+        <Name>BTPS 4 1/4 09/01/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20191015.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20161015</Effective>
+        <FirstCouponDate>20170415</FirstCouponDate>
+        <Maturity>20191015</Maturity>
+        <ISIN>IT0005217929</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20191201.1.05</Identifier>
+        <Rate>0.0105</Rate>
+        <Effective>20141201</Effective>
+        <FirstCouponDate>20150601</FirstCouponDate>
+        <Maturity>20191201</Maturity>
+        <ISIN>IT0005069395</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20200201.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20040201</Effective>
+        <FirstCouponDate>20040801</FirstCouponDate>
+        <Maturity>20200201</Maturity>
+        <ISIN>IT0003644769</ISIN>
+        <Name>BTPS 4 1/2 02/01/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20200301.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20090901</Effective>
+        <FirstCouponDate>20100301</FirstCouponDate>
+        <Maturity>20200301</Maturity>
+        <ISIN>IT0004536949</ISIN>
+        <Name>BTPS 4 1/4 03/01/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20200501.0.7</Identifier>
+        <Rate>0.007</Rate>
+        <Effective>20150501</Effective>
+        <FirstCouponDate>20151101</FirstCouponDate>
+        <Maturity>20200501</Maturity>
+        <ISIN>IT0005107708</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20200615.0.35</Identifier>
+        <Rate>0.0035</Rate>
+        <Effective>20170418</Effective>
+        <Maturity>20200615</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005250946</ISIN>
+        <FirstCouponDate>20170615</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20220715.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20190315</Effective>
+        <FirstCouponDate>20190715</FirstCouponDate>
+        <Maturity>20220715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005366007</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20200901.4.0</Identifier>
+        <Rate>0.0400</Rate>
+        <Effective>20100301</Effective>
+        <FirstCouponDate>20100901</FirstCouponDate>
+        <Maturity>20200901</Maturity>
+        <ISIN>IT0004594930</ISIN>
+        <Name>BTPS 4 09/01/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20201015.0.2</Identifier>
+        <Rate>0.002</Rate>
+        <Effective>20171016</Effective>
+        <Maturity>20201015</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005285041</ISIN>
+        <FirstCouponDate>20180415</FirstCouponDate>
+    </FixedRateBond>
+
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20201101.0.65</Identifier>
+        <Rate>0.0065</Rate>
+        <Effective>20151101</Effective>
+        <FirstCouponDate>20160501</FirstCouponDate>
+        <Maturity>20201101</Maturity>
+        <ISIN>IT0005142143</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20210301.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20100901</Effective>
+        <FirstCouponDate>20110301</FirstCouponDate>
+        <Maturity>20210301</Maturity>
+        <ISIN>IT0004634132</ISIN>
+        <Name>BTPS 3 3/4 03/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20210415.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20180415</Effective>
+        <Maturity>20210415</Maturity>
+        <ISIN>IT0005330961</ISIN>
+        <FirstCouponDate>20181015</FirstCouponDate>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20210501.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20131016</Effective>
+        <FirstCouponDate>20131101</FirstCouponDate>
+        <Maturity>20210501</Maturity>
+        <ISIN>IT0004966401</ISIN>
+        <Name>BTPS 3 3/4 03/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20210601.0.45</Identifier>
+        <Rate>0.0045</Rate>
+        <Effective>20160401</Effective>
+        <FirstCouponDate>20160601</FirstCouponDate>
+        <Maturity>20210601</Maturity>
+        <ISIN>IT0005175598</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20210801.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20060201</Effective>
+        <FirstCouponDate>20060801</FirstCouponDate>
+        <Maturity>20210801</Maturity>
+        <ISIN>IT0004009673</ISIN>
+        <Name>BTPS 3 3/4 08/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20210901.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20110301</Effective>
+        <FirstCouponDate>20110901</FirstCouponDate>
+        <Maturity>20210901</Maturity>
+        <ISIN>IT0004695075</ISIN>
+        <Name>BTPS 4 3/4 09/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20211015.2.3</Identifier>
+        <Rate>0.023</Rate>
+        <Effective>20181015</Effective>
+        <FirstCouponDate>20190415</FirstCouponDate>
+        <Maturity>20211015</Maturity>
+        <ISIN>IT0005348443</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20211101.0.35</Identifier>
+        <Rate>0.0035</Rate>
+        <Effective>20161003</Effective>
+        <FirstCouponDate>20161101</FirstCouponDate>
+        <Maturity>20211101</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005216491</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20211215.2.15</Identifier>
+        <Rate>0.0215</Rate>
+        <Effective>20140615</Effective>
+        <FirstCouponDate>20141215</FirstCouponDate>
+        <Maturity>20211215</Maturity>
+        <ISIN>IT0005028003</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20220301.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20110901</Effective>
+        <FirstCouponDate>20120301</FirstCouponDate>
+        <Maturity>20220301</Maturity>
+        <ISIN>IT0004759673</ISIN>
+        <Name>BTPS 5 03/01/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20220401.1.2</Identifier>
+        <Rate>0.012</Rate>
+        <Effective>20170301</Effective>
+        <FirstCouponDate>20170401</FirstCouponDate>
+        <Maturity>20220401</Maturity>
+        <ISIN>IT0005244782</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20220415.1.35</Identifier>
+        <Rate>0.0135</Rate>
+        <Effective>20150216</Effective>
+        <FirstCouponDate>20150415</FirstCouponDate>
+        <Maturity>20220415</Maturity>
+        <ISIN>IT0005086886</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20220901.5.5</Identifier>
+        <Rate>0.0550</Rate>
+        <Effective>20120301</Effective>
+        <FirstCouponDate>20120901</FirstCouponDate>
+        <Maturity>20220901</Maturity>
+        <ISIN>IT0004801541</ISIN>
+        <Name>BTPS 5 1/2 09/01/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20220915.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20150915</Effective>
+        <FirstCouponDate>20160315</FirstCouponDate>
+        <Maturity>20220915</Maturity>
+        <ISIN>IT0005135840</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20220801.0.9</Identifier>
+        <Rate>0.009</Rate>
+        <Effective>20170801</Effective>
+        <FirstCouponDate>20180201</FirstCouponDate>
+        <Maturity>20220801</Maturity>
+        <ISIN>IT0005277444</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20221101.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20120501</Effective>
+        <FirstCouponDate>20121101</FirstCouponDate>
+        <Maturity>20221101</Maturity>
+        <ISIN>IT0004848831</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20230115.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20190619</Effective>
+        <FirstCouponDate>20200115</FirstCouponDate>
+        <Maturity>20230115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005384497</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20230301.0.95</Identifier>
+        <Rate>0.0095</Rate>
+        <Effective>20180301</Effective>
+        <FirstCouponDate>20180901</FirstCouponDate>
+        <Maturity>20230301</Maturity>
+        <ISIN>IT0005325946</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20230315.0.95</Identifier>
+        <Rate>0.0095</Rate>
+        <Effective>20160315</Effective>
+        <FirstCouponDate>20160915</FirstCouponDate>
+        <Maturity>20230315</Maturity>
+        <ISIN>IT0005172322</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20230501.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20130301</Effective>
+        <FirstCouponDate>20130501</FirstCouponDate>
+        <Maturity>20230501</Maturity>
+        <ISIN>IT0004898034</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20230615.0.6</Identifier>
+        <Rate>0.006</Rate>
+        <Effective>20200316</Effective>
+        <FirstCouponDate>20200615</FirstCouponDate>
+        <Maturity>20230615</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005405318</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20230801.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20080201</Effective>
+        <FirstCouponDate>20080801</FirstCouponDate>
+        <Maturity>20230801</Maturity>
+        <ISIN>IT0004356843</ISIN>
+        <Name>BTPS 4 3/4 08/01/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20230815.0.3</Identifier>
+        <Rate>0.003</Rate>
+        <Effective>20200615</Effective>
+        <FirstCouponDate>20200815</FirstCouponDate>
+        <Maturity>20230815</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005413684</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20231001.2.45</Identifier>
+        <Rate>0.0245</Rate>
+        <Effective>20180801</Effective>
+        <FirstCouponDate>20181001</FirstCouponDate>
+        <Maturity>20231001</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005344335</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20231015.0.65</Identifier>
+        <Rate>0.0065</Rate>
+        <Effective>20160915</Effective>
+        <FirstCouponDate>20161015</FirstCouponDate>
+        <Maturity>20231015</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005215246</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20231101.9.0</Identifier>
+        <Rate>0.0900</Rate>
+        <Effective>19931101</Effective>
+        <FirstCouponDate>19940501</FirstCouponDate>
+        <Maturity>20231101</Maturity>
+        <ISIN>IT0000366655</ISIN>
+        <Name>BTPS 9 11/01/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20231222.8.5</Identifier>
+        <Rate>0.0850</Rate>
+        <Effective>19931222</Effective>
+        <Maturity>20231222</Maturity>
+        <ISIN>IT0000366721</ISIN>
+        <Name>BTPS 8 1/2 12/22/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20240115.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20201015</Effective>
+        <FirstCouponDate>20210115</FirstCouponDate>
+        <Maturity>20240115</Maturity>
+        <ISIN>IT0005424251</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20240301.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20130801</Effective>
+        <FirstCouponDate>20130901</FirstCouponDate>
+        <Maturity>20240301</Maturity>
+        <ISIN>IT0004953417</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20240515.1.85</Identifier>
+        <Rate>0.0185</Rate>
+        <Effective>20170315</Effective>
+        <FirstCouponDate>20170515</FirstCouponDate>
+        <Maturity>20240515</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005246340</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20240701.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20190401</Effective>
+        <FirstCouponDate>20190701</FirstCouponDate>
+        <Maturity>20240701</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005367492</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20240901.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20140301</Effective>
+        <FirstCouponDate>20140901</FirstCouponDate>
+        <Maturity>20240901</Maturity>
+        <ISIN>IT0005001547</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20241115.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20170915</Effective>
+        <FirstCouponDate>20171115</FirstCouponDate>
+        <Maturity>20241115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005282527</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20241201.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20140901</Effective>
+        <FirstCouponDate>20141201</FirstCouponDate>
+        <Maturity>20241201</Maturity>
+        <ISIN>IT0005045270</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20250201.0.35</Identifier>
+        <Rate>0.0035</Rate>
+        <Effective>20191001</Effective>
+        <FirstCouponDate>20200201</FirstCouponDate>
+        <Maturity>20250201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005386245</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20250301.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20090301</Effective>
+        <FirstCouponDate>20090901</FirstCouponDate>
+        <Maturity>20250301</Maturity>
+        <ISIN>IT0004513641</ISIN>
+        <Name>BTPS 5 03/01/25</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20250515.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20180315</Effective>
+        <FirstCouponDate>20180515</FirstCouponDate>
+        <Maturity>20250515</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005327306</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20250601.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20150302</Effective>
+        <FirstCouponDate>20150601</FirstCouponDate>
+        <Maturity>20250601</Maturity>
+        <ISIN>IT0005090318</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20250701.1.85</Identifier>
+        <Rate>0.0185</Rate>
+        <Effective>20200428</Effective>
+        <FirstCouponDate>20200701</FirstCouponDate>
+        <Maturity>20250701</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005408502</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20251115.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20180917</Effective>
+        <FirstCouponDate>20181115</FirstCouponDate>
+        <Maturity>20251115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005345183</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20251201.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20150901</Effective>
+        <FirstCouponDate>20151201</FirstCouponDate>
+        <Maturity>20251201</Maturity>
+        <ISIN>IT0005127086</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20260201.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200801</Effective>
+        <FirstCouponDate>20210201</FirstCouponDate>
+        <Maturity>20260201</Maturity>
+        <ISIN>IT0005419848</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20260601.1.6</Identifier>
+        <Rate>0.016</Rate>
+        <Effective>20160301</Effective>
+        <FirstCouponDate>20160601</FirstCouponDate>
+        <Maturity>20260601</Maturity>
+        <ISIN>IT0005170839</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20260301.4.5</Identifier>
+        <Rate>0.0450</Rate>
+        <Effective>20100901</Effective>
+        <FirstCouponDate>20110301</FirstCouponDate>
+        <Maturity>20260301</Maturity>
+        <ISIN>IT0004644735</ISIN>
+        <Name>BTPS 4 1/2 03/01/26</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20260715.2.1</Identifier>
+        <Rate>0.021</Rate>
+        <Effective>20190415</Effective>
+        <FirstCouponDate>20190715</FirstCouponDate>
+        <Maturity>20260715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005370306</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20261101.7.25</Identifier>
+        <Rate>0.0725</Rate>
+        <Effective>19961101</Effective>
+        <FirstCouponDate>19970501</FirstCouponDate>
+        <Maturity>20261101</Maturity>
+        <ISIN>IT0001086567</ISIN>
+        <Name>BTPS 7 1/4 11/01/26</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20261201.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20160801</Effective>
+        <FirstCouponDate>20161201</FirstCouponDate>
+        <Maturity>20261201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005210650</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20270115.0.85</Identifier>
+        <Rate>0.0085</Rate>
+        <Effective>20191115</Effective>
+        <FirstCouponDate>20200115</FirstCouponDate>
+        <Maturity>20270115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005390874</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20270601.2.2</Identifier>
+        <Rate>0.022</Rate>
+        <Effective>20170201</Effective>
+        <FirstCouponDate>20170601</FirstCouponDate>
+        <Maturity>20270601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005240830</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20270801.2.05</Identifier>
+        <Rate>0.0205</Rate>
+        <Effective>20170407</Effective>
+        <FirstCouponDate>20170801</FirstCouponDate>
+        <Maturity>20270801</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005274805</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20270915.0.95</Identifier>
+        <Rate>0.0095</Rate>
+        <Effective>20200716</Effective>
+        <FirstCouponDate>20200915</FirstCouponDate>
+        <Maturity>20270915</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005416570</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20271101.6.5</Identifier>
+        <Rate>0.0650</Rate>
+        <Effective>19971101</Effective>
+        <FirstCouponDate>19980501</FirstCouponDate>
+        <Maturity>20271101</Maturity>
+        <ISIN>IT0001174611</ISIN>
+        <Name>BTPS 6 1/2 11/01/27</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20280201.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20180201</Effective>
+        <FirstCouponDate>20180801</FirstCouponDate>
+        <Maturity>20280201</Maturity>
+        <ISIN>IT0005323032</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20280901.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20130122</Effective>
+        <FirstCouponDate>20130301</FirstCouponDate>
+        <Maturity>20280901</Maturity>
+        <ISIN>IT0004889033</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20290801.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20190201</Effective>
+        <FirstCouponDate>20190801</FirstCouponDate>
+        <Maturity>20290801</Maturity>
+        <ISIN>IT0005365165</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20291101.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>19981101</Effective>
+        <FirstCouponDate>19990501</FirstCouponDate>
+        <Maturity>20291101</Maturity>
+        <ISIN>IT0001278511</ISIN>
+        <Name>BTPS 5 1/4 11/01/29</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20281201.2.8</Identifier>
+        <Rate>0.028</Rate>
+        <Effective>20180801</Effective>
+        <FirstCouponDate>20181201</FirstCouponDate>
+        <Maturity>20281201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005340929</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20300301.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20140301</Effective>
+        <FirstCouponDate>20140901</FirstCouponDate>
+        <Maturity>20300301</Maturity>
+        <ISIN>IT0005024234</ISIN>
+    </FixedRateBond>
+
+    <!-- Check effective date -->
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20300401.1.35</Identifier>
+        <Rate>0.0135</Rate>
+        <Effective>20190901</Effective>
+        <FirstCouponDate>20191001</FirstCouponDate>
+        <Maturity>20300401</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005383309</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20300801.0.95</Identifier>
+        <Rate>0.0095</Rate>
+        <Effective>20200301</Effective>
+        <FirstCouponDate>20200801</FirstCouponDate>
+        <Maturity>20300801</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005403396</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20301201.1.65</Identifier>
+        <Rate>0.0165</Rate>
+        <Effective>20200601</Effective>
+        <FirstCouponDate>20201201</FirstCouponDate>
+        <Maturity>20301201</Maturity>
+        <ISIN>IT0005413171</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20310401.0.9</Identifier>
+        <Rate>0.009</Rate>
+        <Effective>20201001</Effective>
+        <FirstCouponDate>20210401</FirstCouponDate>
+        <Maturity>20310401</Maturity>
+        <ISIN>IT0005422891</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20310501.6.0</Identifier>
+        <Rate>0.0600</Rate>
+        <Effective>19991101</Effective>
+        <FirstCouponDate>20000501</FirstCouponDate>
+        <Maturity>20310501</Maturity>
+        <ISIN>IT0001444378</ISIN>
+        <Name>BTPS 6 05/01/31</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20320301.1.65</Identifier>
+        <Rate>0.0165</Rate>
+        <Effective>20150301</Effective>
+        <FirstCouponDate>20150901</FirstCouponDate>
+        <Maturity>20320301</Maturity>
+        <ISIN>IT0005094088</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20330201.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20020201</Effective>
+        <FirstCouponDate>20020801</FirstCouponDate>
+        <Maturity>20330201</Maturity>
+        <ISIN>IT0003256820</ISIN>
+        <Name>BTPS 5 3/4 02/01/33</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20330901.2.45</Identifier>
+        <Rate>0.0245</Rate>
+        <Effective>20160901</Effective>
+        <FirstCouponDate>20170301</FirstCouponDate>
+        <Maturity>20330901</Maturity>
+        <ISIN>IT0005240350</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20360901.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20160301</Effective>
+        <FirstCouponDate>20160901</FirstCouponDate>
+        <Maturity>20360901</Maturity>
+        <ISIN>IT0005177909</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20340801.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20030801</Effective>
+        <FirstCouponDate>20040201</FirstCouponDate>
+        <Maturity>20340801</Maturity>
+        <ISIN>IT0003535157</ISIN>
+        <Name>BTPS 5 08/01/34</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20350301.3.35</Identifier>
+        <Rate>0.0335</Rate>
+        <Effective>20180901</Effective>
+        <FirstCouponDate>20190301</FirstCouponDate>
+        <Maturity>20350301</Maturity>
+        <ISIN>IT0005358806</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20360301.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20200218</Effective>
+        <FirstCouponDate>20200901</FirstCouponDate>
+        <Maturity>20360301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005402117</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20370201.4.0</Identifier>
+        <Rate>0.0400</Rate>
+        <Effective>20050801</Effective>
+        <FirstCouponDate>20060201</FirstCouponDate>
+        <Maturity>20370201</Maturity>
+        <ISIN>IT0003934657</ISIN>
+        <Name>BTPS 4 02/01/37</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20380901.2.95</Identifier>
+        <Rate>0.0295</Rate>
+        <Effective>20170901</Effective>
+        <FirstCouponDate>20180301</FirstCouponDate>
+        <Maturity>20380901</Maturity>
+        <ISIN>IT0005321325</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20390801.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20070801</Effective>
+        <FirstCouponDate>20080201</FirstCouponDate>
+        <Maturity>20390801</Maturity>
+        <ISIN>IT0004286966</ISIN>
+        <Name>BTPS 5 08/01/39</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20400301.3.1</Identifier>
+        <Rate>0.031</Rate>
+        <Effective>20190301</Effective>
+        <FirstCouponDate>20190901</FirstCouponDate>
+        <Maturity>20400301</Maturity>
+        <ISIN>IT0005377152</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20400901.5.0</Identifier>
+        <Rate>0.0500</Rate>
+        <Effective>20090901</Effective>
+        <FirstCouponDate>20100301</FirstCouponDate>
+        <Maturity>20400901</Maturity>
+        <ISIN>IT0004532559</ISIN>
+        <Name>BTPS 5 09/01/40</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20410301.1.8</Identifier>
+        <Rate>0.018</Rate>
+        <Effective>20200915</Effective>
+        <FirstCouponDate>20210301</FirstCouponDate>
+        <Maturity>20410301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IT0005421703</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20440901.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20130301</Effective>
+        <FirstCouponDate>20130901</FirstCouponDate>
+        <Maturity>20440901</Maturity>
+        <ISIN>IT0004923998</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20460901.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20140901</Effective>
+        <FirstCouponDate>20150301</FirstCouponDate>
+        <Maturity>20460901</Maturity>
+        <ISIN>IT0005083057</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ITA.EUR.20470301.2.7</Identifier>
+        <Rate>0.027</Rate>
+        <Effective>20160209</Effective>
+        <FirstCouponDate>20160301</FirstCouponDate>
+        <Maturity>20470301</Maturity>
+        <ISIN>IT0005162828</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20480301.3.45</Identifier>
+        <Rate>0.0345</Rate>
+        <Effective>20170301</Effective>
+        <FirstCouponDate>20170901</FirstCouponDate>
+        <Maturity>20480301</Maturity>
+        <ISIN>IT0005273013</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20490901.3.85</Identifier>
+        <Rate>0.0385</Rate>
+        <Effective>20180901</Effective>
+        <FirstCouponDate>20190301</FirstCouponDate>
+        <Maturity>20490901</Maturity>
+        <ISIN>IT0005363111</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20500901.2.45</Identifier>
+        <Rate>0.0245</Rate>
+        <Effective>20190901</Effective>
+        <FirstCouponDate>20200301</FirstCouponDate>
+        <Maturity>20500901</Maturity>
+        <ISIN>IT0005398406</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20510901.1.7</Identifier>
+        <Rate>0.017</Rate>
+        <Effective>20200901</Effective>
+        <FirstCouponDate>20210301</FirstCouponDate>
+        <Maturity>20510901</Maturity>
+        <ISIN>IT0005425233</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ITA.EUR.20670301.2.8</Identifier>
+        <Rate>0.028</Rate>
+        <Effective>20160901</Effective>
+        <FirstCouponDate>20170301</FirstCouponDate>
+        <Maturity>20670301</Maturity>
+        <ISIN>IT0005217390</ISIN>
+    </FixedRateBond>
+
+
+    <!-- Inflation bonds -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.ITA.EUR.HICPXTOB</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>ITA</Country>
+        <AccrualCalculator>ITA_Accrual_HICP</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>ITA_YieldToDirtyPrice_HICP</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2005</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!--
+  <InflationLinkedFixedRateBond>
+    <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB..</Identifier>
+    <Rate></Rate>
+    <Effective></Effective>
+    <Maturity></Maturity>
+    <ISIN></ISIN>
+  </InflationLinkedFixedRateBond>
+  -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20120915.1.85</Identifier>
+        <Rate>0.0185</Rate>
+        <Effective>20070315</Effective>
+        <FirstCouponDate>20070915</FirstCouponDate>
+        <Maturity>20120915</Maturity>
+        <ISIN>IT0004216351</ISIN>
+        <Name>BTPS 1.85 09/15/12</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20140915.2.15</Identifier>
+        <Rate>0.0215</Rate>
+        <Effective>20030915</Effective>
+        <FirstCouponDate>20040315</FirstCouponDate>
+        <Maturity>20140915</Maturity>
+        <ISIN>IT0003625909</ISIN>
+        <Name>BTPS 2.15 09/15/14</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20160915.2.1</Identifier>
+        <Rate>0.0210</Rate>
+        <Effective>20100915</Effective>
+        <FirstCouponDate>20110315</FirstCouponDate>
+        <Maturity>20160915</Maturity>
+        <ISIN>IT0004682107</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>93.59091</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20170915.2.1</Identifier>
+        <Rate>0.0210</Rate>
+        <Effective>20060315</Effective>
+        <FirstCouponDate>20060915</FirstCouponDate>
+        <Maturity>20170915</Maturity>
+        <ISIN>IT0004085210</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>86.20821</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20180915.1.7</Identifier>
+        <Rate>0.017</Rate>
+        <Effective>20130131</Effective>
+        <FirstCouponDate>20130315</FirstCouponDate>
+        <Maturity>20180915</Maturity>
+        <ISIN>IT0004890882</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.10699</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20190915.2.35</Identifier>
+        <Rate>0.0235</Rate>
+        <Effective>20080315</Effective>
+        <FirstCouponDate>20080915</FirstCouponDate>
+        <Maturity>20190915</Maturity>
+        <ISIN>IT0004380546</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>90.50955</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20210915.2.1</Identifier>
+        <Rate>0.0210</Rate>
+        <Effective>20100315</Effective>
+        <FirstCouponDate>20100915</FirstCouponDate>
+        <Maturity>20210915</Maturity>
+        <ISIN>IT0004604671</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>92.47911</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20220515.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20160515</Effective>
+        <FirstCouponDate>20161115</FirstCouponDate>
+        <Maturity>20220515</Maturity>
+        <ISIN>IT0005188120</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.39</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20230515.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20180328</Effective>
+        <FirstCouponDate>20180515</FirstCouponDate>
+        <Maturity>20230515</Maturity>
+        <ISIN>IT0005329344</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20230915.2.6</Identifier>
+        <Rate>0.0260</Rate>
+        <Effective>20070315</Effective>
+        <FirstCouponDate>20070915</FirstCouponDate>
+        <Maturity>20230915</Maturity>
+        <ISIN>IT0004243512</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>87.75905</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20240915.2.35</Identifier>
+        <Rate>0.0235</Rate>
+        <Effective>20140325</Effective>
+        <FirstCouponDate>20140915</FirstCouponDate>
+        <Maturity>20240915</Maturity>
+        <ISIN>IT0005004426</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.69882</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20260515.0.65</Identifier>
+        <Rate>0.0065</Rate>
+        <Effective>20200629</Effective>
+        <FirstCouponDate>20201115</FirstCouponDate>
+        <Maturity>20260515</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IT0005415416</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20260915.3.1</Identifier>
+        <Rate>0.0310</Rate>
+        <Effective>20110315</Effective>
+        <FirstCouponDate>20110915</FirstCouponDate>
+        <Maturity>20260915</Maturity>
+        <ISIN>IT0004735152</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>94.47707</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20280515.1.3</Identifier>
+        <Rate>0.013</Rate>
+        <Effective>20161115</Effective>
+        <FirstCouponDate>20170515</FirstCouponDate>
+        <Maturity>20280515</Maturity>
+        <ISIN>IT0005246134</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20320915.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20150915</Effective>
+        <FirstCouponDate>20160315</FirstCouponDate>
+        <Maturity>20320915</Maturity>
+        <ISIN>IT0005138828</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>100.30185</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20300515.0.4</Identifier>
+        <Rate>0.004</Rate>
+        <Effective>20190515</Effective>
+        <FirstCouponDate>20191115</FirstCouponDate>
+        <Maturity>20300515</Maturity>
+        <ISIN>IT0005387052</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20350915.2.35</Identifier>
+        <Rate>0.0235</Rate>
+        <Effective>20040915</Effective>
+        <FirstCouponDate>20050315</FirstCouponDate>
+        <Maturity>20350915</Maturity>
+        <ISIN>IT0003745541</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>83.81258</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.HICPXTOB.20410915.2.55</Identifier>
+        <Rate>0.0255</Rate>
+        <Effective>20090915</Effective>
+        <FirstCouponDate>20100315</FirstCouponDate>
+        <Maturity>20410915</Maturity>
+        <ISIN>IT0004545890</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Inflation bonds BTP Italia Linked to Italian FOI -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.ITA.EUR.FOI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>ITA</Country>
+        <AccrualCalculator>ITA_Accrual_FOI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>ITA_YieldToDirtyPrice_FOI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <InflationIndex>
+                    <Region>ITA</Region>
+                    <Name>FOI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <Final>Full</Final>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20160326.2.45</Identifier>
+        <Rate>0.0245</Rate>
+        <Effective>20120326</Effective>
+        <FirstCouponDate>20120926</FirstCouponDate>
+        <Maturity>20160326</Maturity>
+        <ISIN>IT0004806888</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.73999</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20160611.3.55</Identifier>
+        <Rate>0.0355</Rate>
+        <Effective>20120611</Effective>
+        <FirstCouponDate>20121211</FirstCouponDate>
+        <Maturity>20160611</Maturity>
+        <ISIN>IT0004821432</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.96687</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20161022.2.55</Identifier>
+        <Rate>0.0255</Rate>
+        <Effective>20121022</Effective>
+        <FirstCouponDate>20130422</FirstCouponDate>
+        <Maturity>20161022</Maturity>
+        <ISIN>IT0004863608</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.56</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20170422.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20130422</Effective>
+        <FirstCouponDate>20131022</FirstCouponDate>
+        <Maturity>20170422</Maturity>
+        <ISIN>IT0004917958</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.56</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20171112.2.15</Identifier>
+        <Rate>0.0215</Rate>
+        <Effective>20131112</Effective>
+        <FirstCouponDate>20140512</FirstCouponDate>
+        <Maturity>20171112</Maturity>
+        <ISIN>IT0004969207</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>100.14317</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20200423.1.65</Identifier>
+        <Rate>0.0165</Rate>
+        <Effective>20140423</Effective>
+        <FirstCouponDate>20141023</FirstCouponDate>
+        <Maturity>20200423</Maturity>
+        <ISIN>IT0005012783</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.55333</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ITA.EUR.FOI.20201027.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20141027</Effective>
+        <FirstCouponDate>20150427</FirstCouponDate>
+        <Maturity>20201027</Maturity>
+        <ISIN>IT0005058919</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.52667</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+
+</Instruments>

@@ -1,0 +1,3029 @@
+<Calendars>
+
+<Calendar>
+    <Name>WEEKEND</Name>
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+</Calendar>
+
+<Calendar>
+    <Name>CME</Name>    <!--Chicago Mercantile Exch. trading holidays (Interest rate contracts)-->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20110219</Date>
+        <Date>20110422</Date>
+        <Date>20110704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>TRG</Name>
+        <Days>
+            <Day>Saturday</Day>
+            <Day>Sunday</Day>
+        </Days>
+    <Dates>
+        <Date>20070101</Date>
+        <Date>20070406</Date>
+        <Date>20070409</Date>
+        <Date>20070501</Date>
+        <Date>20071225</Date>
+        <Date>20071226</Date>
+        <Date>20080101</Date>
+        <Date>20080321</Date>
+        <Date>20080324</Date>
+        <Date>20080501</Date>
+        <Date>20081225</Date>
+        <Date>20081226</Date>
+        <Date>20090101</Date>
+        <Date>20090410</Date>
+        <Date>20090413</Date>
+        <Date>20090501</Date>
+        <Date>20091225</Date>
+        <Date>20091226</Date>
+        <Date>20100101</Date>
+        <Date>20100402</Date>
+        <Date>20100405</Date>
+        <Date>20100501</Date>
+        <Date>20101225</Date>
+        <Date>20101226</Date>
+        <Date>20110101</Date>
+        <Date>20110422</Date>
+        <Date>20110425</Date>
+        <Date>20110501</Date>
+        <Date>20111225</Date>
+        <Date>20111226</Date>
+        <Date>20120101</Date>
+        <Date>20120406</Date>
+        <Date>20120409</Date>
+        <Date>20120501</Date>
+        <Date>20121225</Date>
+        <Date>20121226</Date>
+        <Date>20130101</Date>
+        <Date>20130329</Date>
+        <Date>20130401</Date>
+        <Date>20130501</Date>
+        <Date>20131225</Date>
+        <Date>20131226</Date>
+        <Date>20140101</Date>
+        <Date>20140418</Date>
+        <Date>20140421</Date>
+        <Date>20140501</Date>
+        <Date>20141225</Date>
+        <Date>20141226</Date>
+        <Date>20150101</Date>
+        <Date>20150403</Date>
+        <Date>20150406</Date>
+        <Date>20150501</Date>
+        <Date>20151225</Date>
+        <Date>20151226</Date>
+        <Date>20160101</Date>
+        <Date>20160325</Date>
+        <Date>20160328</Date>
+        <Date>20160501</Date>
+        <Date>20161225</Date>
+        <Date>20161226</Date>
+        <Date>20170101</Date>
+        <Date>20170414</Date>
+        <Date>20170417</Date>
+        <Date>20170501</Date>
+        <Date>20171225</Date>
+        <Date>20171226</Date>
+        <Date>20180101</Date>
+        <Date>20180330</Date>
+        <Date>20180402</Date>
+        <Date>20180501</Date>
+        <Date>20181225</Date>
+        <Date>20181226</Date>
+        <Date>20190101</Date>
+        <Date>20190419</Date>
+        <Date>20190422</Date>
+        <Date>20190501</Date>
+        <Date>20191225</Date>
+        <Date>20191226</Date>
+        <Date>20200101</Date>
+        <Date>20200410</Date>
+        <Date>20200413</Date>
+        <Date>20200501</Date>
+        <Date>20201225</Date>
+        <Date>20201226</Date>
+        <Date>20210101</Date>
+        <Date>20210402</Date>
+        <Date>20210405</Date>
+        <Date>20210501</Date>
+        <Date>20211225</Date>
+        <Date>20211226</Date>
+        <Date>20220101</Date>
+        <Date>20220415</Date>
+        <Date>20220418</Date>
+        <Date>20220501</Date>
+        <Date>20221225</Date>
+        <Date>20221226</Date>
+        <Date>20230101</Date>
+        <Date>20230407</Date>
+        <Date>20230410</Date>
+        <Date>20230501</Date>
+        <Date>20231225</Date>
+        <Date>20231226</Date>
+        <Date>20240101</Date>
+        <Date>20240329</Date>
+        <Date>20240401</Date>
+        <Date>20240501</Date>
+        <Date>20241225</Date>
+        <Date>20241226</Date>
+        <Date>20250101</Date>
+        <Date>20250418</Date>
+        <Date>20250421</Date>
+        <Date>20250501</Date>
+        <Date>20251225</Date>
+        <Date>20251226</Date>
+        <Date>20260101</Date>
+        <Date>20260403</Date>
+        <Date>20260406</Date>
+        <Date>20260501</Date>
+        <Date>20261225</Date>
+        <Date>20261226</Date>
+        <Date>20270101</Date>
+        <Date>20270326</Date>
+        <Date>20270329</Date>
+        <Date>20270501</Date>
+        <Date>20271225</Date>
+        <Date>20271226</Date>
+        <Date>20280101</Date>
+        <Date>20280414</Date>
+        <Date>20280417</Date>
+        <Date>20280501</Date>
+        <Date>20281225</Date>
+        <Date>20281226</Date>
+        <Date>20290101</Date>
+        <Date>20290330</Date>
+        <Date>20290402</Date>
+        <Date>20290501</Date>
+        <Date>20291225</Date>
+        <Date>20291226</Date>
+        <Date>20300101</Date>
+        <Date>20300419</Date>
+        <Date>20300422</Date>
+        <Date>20300501</Date>
+        <Date>20301225</Date>
+        <Date>20301226</Date>
+        <Date>20310101</Date>
+        <Date>20310411</Date>
+        <Date>20310414</Date>
+        <Date>20310501</Date>
+        <Date>20311225</Date>
+        <Date>20311226</Date>
+        <Date>20320101</Date>
+        <Date>20320326</Date>
+        <Date>20320329</Date>
+        <Date>20320501</Date>
+        <Date>20321225</Date>
+        <Date>20321226</Date>
+        <Date>20330101</Date>
+        <Date>20330415</Date>
+        <Date>20330418</Date>
+        <Date>20330501</Date>
+        <Date>20331225</Date>
+        <Date>20331226</Date>
+        <Date>20340101</Date>
+        <Date>20340407</Date>
+        <Date>20340410</Date>
+        <Date>20340501</Date>
+        <Date>20341225</Date>
+        <Date>20341226</Date>
+        <Date>20350101</Date>
+        <Date>20350323</Date>
+        <Date>20350326</Date>
+        <Date>20350501</Date>
+        <Date>20351225</Date>
+        <Date>20351226</Date>
+        <Date>20360101</Date>
+        <Date>20360411</Date>
+        <Date>20360414</Date>
+        <Date>20360501</Date>
+        <Date>20361225</Date>
+        <Date>20361226</Date>
+        <Date>20370101</Date>
+        <Date>20370403</Date>
+        <Date>20370406</Date>
+        <Date>20370501</Date>
+        <Date>20371225</Date>
+        <Date>20371226</Date>
+        <Date>20380101</Date>
+        <Date>20380423</Date>
+        <Date>20380426</Date>
+        <Date>20380501</Date>
+        <Date>20381225</Date>
+        <Date>20381226</Date>
+        <Date>20390101</Date>
+        <Date>20390408</Date>
+        <Date>20390411</Date>
+        <Date>20390501</Date>
+        <Date>20391225</Date>
+        <Date>20391226</Date>
+        <Date>20400101</Date>
+        <Date>20400330</Date>
+        <Date>20400402</Date>
+        <Date>20400501</Date>
+        <Date>20401225</Date>
+        <Date>20401226</Date>
+        <Date>20410101</Date>
+        <Date>20410419</Date>
+        <Date>20410422</Date>
+        <Date>20410501</Date>
+        <Date>20411225</Date>
+        <Date>20411226</Date>
+        <Date>20420101</Date>
+        <Date>20420404</Date>
+        <Date>20420407</Date>
+        <Date>20420501</Date>
+        <Date>20421225</Date>
+        <Date>20421226</Date>
+        <Date>20430101</Date>
+        <Date>20430327</Date>
+        <Date>20430330</Date>
+        <Date>20430501</Date>
+        <Date>20431225</Date>
+        <Date>20431226</Date>
+        <Date>20440101</Date>
+        <Date>20440415</Date>
+        <Date>20440418</Date>
+        <Date>20440501</Date>
+        <Date>20441225</Date>
+        <Date>20441226</Date>
+        <Date>20450101</Date>
+        <Date>20450407</Date>
+        <Date>20450410</Date>
+        <Date>20450501</Date>
+        <Date>20451225</Date>
+        <Date>20451226</Date>
+        <Date>20460101</Date>
+        <Date>20460323</Date>
+        <Date>20460326</Date>
+        <Date>20460501</Date>
+        <Date>20461225</Date>
+        <Date>20461226</Date>
+        <Date>20470101</Date>
+        <Date>20470412</Date>
+        <Date>20470415</Date>
+        <Date>20470501</Date>
+        <Date>20471225</Date>
+        <Date>20471226</Date>
+
+    </Dates>
+</Calendar>
+
+
+<Calendar>
+    <Name>ECG</Name>    <!-- EURO - ECB Monetary Policy Meeting days -->
+    <Days>
+      <Day>Saturday</Day>
+      <Day>Sunday</Day>
+    </Days>
+</Calendar>
+
+<Calendar>
+    <Name>NYB</Name>    <!-- New York - New York bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20110219</Date>
+        <Date>20110422</Date>
+        <Date>20110704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>NY</Name> <!-- New York - Generic NY Calendar -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20110219</Date>
+        <Date>20110422</Date>
+        <Date>20110704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>LON</Name>    <!-- London - Generic Lon Calendar -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>19800101</Date>
+        <Date>19800404</Date>
+        <Date>19800407</Date>
+        <Date>19800505</Date>
+        <Date>19800526</Date>
+        <Date>19800825</Date>
+        <Date>19801225</Date>
+        <Date>19801226</Date>
+        <Date>19810101</Date>
+        <Date>19810417</Date>
+        <Date>19810420</Date>
+        <Date>19810504</Date>
+        <Date>19810525</Date>
+        <Date>19810831</Date>
+        <Date>19811225</Date>
+        <Date>19811228</Date>
+        <Date>19820101</Date>
+        <Date>19820409</Date>
+        <Date>19820412</Date>
+        <Date>19820503</Date>
+        <Date>19820531</Date>
+        <Date>19820830</Date>
+        <Date>19821227</Date>
+        <Date>19821228</Date>
+        <Date>19830103</Date>
+        <Date>19830401</Date>
+        <Date>19830404</Date>
+        <Date>19830502</Date>
+        <Date>19830530</Date>
+        <Date>19830829</Date>
+        <Date>19831226</Date>
+        <Date>19831227</Date>
+        <Date>19840102</Date>
+        <Date>19840420</Date>
+        <Date>19840423</Date>
+        <Date>19840507</Date>
+        <Date>19840528</Date>
+        <Date>19840827</Date>
+        <Date>19841225</Date>
+        <Date>19841226</Date>
+        <Date>19850101</Date>
+        <Date>19850405</Date>
+        <Date>19850408</Date>
+        <Date>19850506</Date>
+        <Date>19850527</Date>
+        <Date>19850826</Date>
+        <Date>19851225</Date>
+        <Date>19851226</Date>
+        <Date>19860101</Date>
+        <Date>19860328</Date>
+        <Date>19860331</Date>
+        <Date>19860505</Date>
+        <Date>19860526</Date>
+        <Date>19860825</Date>
+        <Date>19861225</Date>
+        <Date>19861226</Date>
+        <Date>19870101</Date>
+        <Date>19870417</Date>
+        <Date>19870420</Date>
+        <Date>19870504</Date>
+        <Date>19870525</Date>
+        <Date>19870831</Date>
+        <Date>19871225</Date>
+        <Date>19871228</Date>
+        <Date>19880101</Date>
+        <Date>19880401</Date>
+        <Date>19880404</Date>
+        <Date>19880502</Date>
+        <Date>19880530</Date>
+        <Date>19880829</Date>
+        <Date>19881226</Date>
+        <Date>19881227</Date>
+        <Date>19890102</Date>
+        <Date>19890324</Date>
+        <Date>19890327</Date>
+        <Date>19890501</Date>
+        <Date>19890529</Date>
+        <Date>19890828</Date>
+        <Date>19891225</Date>
+        <Date>19891226</Date>
+        <Date>19900101</Date>
+        <Date>19900413</Date>
+        <Date>19900416</Date>
+        <Date>19900507</Date>
+        <Date>19900528</Date>
+        <Date>19900827</Date>
+        <Date>19901225</Date>
+        <Date>19901226</Date>
+        <Date>19910101</Date>
+        <Date>19910329</Date>
+        <Date>19910401</Date>
+        <Date>19910506</Date>
+        <Date>19910527</Date>
+        <Date>19910826</Date>
+        <Date>19911225</Date>
+        <Date>19911226</Date>
+        <Date>19920101</Date>
+        <Date>19920417</Date>
+        <Date>19920420</Date>
+        <Date>19920504</Date>
+        <Date>19920525</Date>
+        <Date>19920831</Date>
+        <Date>19921225</Date>
+        <Date>19921228</Date>
+        <Date>19930101</Date>
+        <Date>19930409</Date>
+        <Date>19930412</Date>
+        <Date>19930503</Date>
+        <Date>19930531</Date>
+        <Date>19930830</Date>
+        <Date>19931227</Date>
+        <Date>19931228</Date>
+        <Date>19940103</Date>
+        <Date>19940401</Date>
+        <Date>19940404</Date>
+        <Date>19940502</Date>
+        <Date>19940530</Date>
+        <Date>19940829</Date>
+        <Date>19941226</Date>
+        <Date>19941227</Date>
+        <Date>19950102</Date>
+        <Date>19950414</Date>
+        <Date>19950417</Date>
+        <Date>19950501</Date>
+        <Date>19950529</Date>
+        <Date>19950828</Date>
+        <Date>19951225</Date>
+        <Date>19951226</Date>
+        <Date>19960101</Date>
+        <Date>19960405</Date>
+        <Date>19960408</Date>
+        <Date>19960506</Date>
+        <Date>19960527</Date>
+        <Date>19960826</Date>
+        <Date>19961225</Date>
+        <Date>19961226</Date>
+        <Date>19970101</Date>
+        <Date>19970328</Date>
+        <Date>19970331</Date>
+        <Date>19970505</Date>
+        <Date>19970526</Date>
+        <Date>19970825</Date>
+        <Date>19971225</Date>
+        <Date>19971226</Date>
+        <Date>19980101</Date>
+        <Date>19980410</Date>
+        <Date>19980413</Date>
+        <Date>19980504</Date>
+        <Date>19980525</Date>
+        <Date>19980831</Date>
+        <Date>19981225</Date>
+        <Date>19981228</Date>
+        <Date>19990101</Date>
+        <Date>19990402</Date>
+        <Date>19990405</Date>
+        <Date>19990503</Date>
+        <Date>19990531</Date>
+        <Date>19990830</Date>
+        <Date>19991227</Date>
+        <Date>19991228</Date>
+        <Date>19991231</Date>
+        <Date>20000103</Date>
+        <Date>20000421</Date>
+        <Date>20000424</Date>
+        <Date>20000501</Date>
+        <Date>20000529</Date>
+        <Date>20000828</Date>
+        <Date>20001225</Date>
+        <Date>20001226</Date>
+        <Date>20010101</Date>
+        <Date>20010413</Date>
+        <Date>20010416</Date>
+        <Date>20010507</Date>
+        <Date>20010528</Date>
+        <Date>20010827</Date>
+        <Date>20011225</Date>
+        <Date>20011226</Date>
+        <Date>20020101</Date>
+        <Date>20020329</Date>
+        <Date>20020401</Date>
+        <Date>20020506</Date>
+        <Date>20020603</Date>
+        <Date>20020604</Date>
+        <Date>20020826</Date>
+        <Date>20021225</Date>
+        <Date>20021226</Date>
+        <Date>20030101</Date>
+        <Date>20030418</Date>
+        <Date>20030421</Date>
+        <Date>20030505</Date>
+        <Date>20030526</Date>
+        <Date>20030825</Date>
+        <Date>20031225</Date>
+        <Date>20031226</Date>
+        <Date>20040101</Date>
+        <Date>20040409</Date>
+        <Date>20040412</Date>
+        <Date>20040503</Date>
+        <Date>20040531</Date>
+        <Date>20040830</Date>
+        <Date>20041227</Date>
+        <Date>20041228</Date>
+        <Date>20050103</Date>
+        <Date>20050325</Date>
+        <Date>20050328</Date>
+        <Date>20050502</Date>
+        <Date>20050530</Date>
+        <Date>20050829</Date>
+        <Date>20051226</Date>
+        <Date>20051227</Date>
+        <Date>20060102</Date>
+        <Date>20060414</Date>
+        <Date>20060417</Date>
+        <Date>20060501</Date>
+        <Date>20060529</Date>
+        <Date>20060828</Date>
+        <Date>20061225</Date>
+        <Date>20061226</Date>
+        <Date>20070101</Date>
+        <Date>20070406</Date>
+        <Date>20070409</Date>
+        <Date>20070507</Date>
+        <Date>20070528</Date>
+        <Date>20070827</Date>
+        <Date>20071225</Date>
+        <Date>20071226</Date>
+        <Date>20080101</Date>
+        <Date>20080321</Date>
+        <Date>20080324</Date>
+        <Date>20080505</Date>
+        <Date>20080526</Date>
+        <Date>20080825</Date>
+        <Date>20081225</Date>
+        <Date>20081226</Date>
+        <Date>20090101</Date>
+        <Date>20090410</Date>
+        <Date>20090413</Date>
+        <Date>20090504</Date>
+        <Date>20090525</Date>
+        <Date>20090831</Date>
+        <Date>20091225</Date>
+        <Date>20091228</Date>
+        <Date>20100101</Date>
+        <Date>20100402</Date>
+        <Date>20100405</Date>
+        <Date>20100503</Date>
+        <Date>20100531</Date>
+        <Date>20100830</Date>
+        <Date>20101227</Date>
+        <Date>20101228</Date>
+        <Date>20110103</Date>
+        <Date>20110422</Date>
+        <Date>20110425</Date>
+        <Date>20110429</Date>   <!-- Royal Wedding -->
+        <Date>20110502</Date>
+        <Date>20110530</Date>
+        <Date>20110829</Date>
+        <Date>20111226</Date>
+        <Date>20111227</Date>
+        <Date>20120102</Date>
+        <Date>20120406</Date>
+        <Date>20120409</Date>
+        <Date>20120507</Date>
+        <Date>20120604</Date>
+        <Date>20120605</Date>
+        <Date>20120827</Date>
+        <Date>20121225</Date>
+        <Date>20121226</Date>
+        <Date>20130101</Date>
+        <Date>20130329</Date>
+        <Date>20130401</Date>
+        <Date>20130506</Date>
+        <Date>20130527</Date>
+        <Date>20130826</Date>
+        <Date>20131225</Date>
+        <Date>20131226</Date>
+        <Date>20140101</Date>
+        <Date>20140418</Date>
+        <Date>20140421</Date>
+        <Date>20140505</Date>
+        <Date>20140526</Date>
+        <Date>20140825</Date>
+        <Date>20141225</Date>
+        <Date>20141226</Date>
+        <Date>20150101</Date>
+        <Date>20150403</Date>
+        <Date>20150406</Date>
+        <Date>20150504</Date>
+        <Date>20150525</Date>
+        <Date>20150831</Date>
+        <Date>20151225</Date>
+        <Date>20151228</Date>
+        <Date>20160101</Date>
+        <Date>20160325</Date>
+        <Date>20160328</Date>
+        <Date>20160502</Date>
+        <Date>20160530</Date>
+        <Date>20160829</Date>
+        <Date>20161226</Date>
+        <Date>20161227</Date>
+        <Date>20170102</Date>
+        <Date>20170414</Date>
+        <Date>20170417</Date>
+        <Date>20170501</Date>
+        <Date>20170529</Date>
+        <Date>20170828</Date>
+        <Date>20171225</Date>
+        <Date>20171226</Date>
+        <Date>20180101</Date>
+        <Date>20180330</Date>
+        <Date>20180402</Date>
+        <Date>20180507</Date>
+        <Date>20180528</Date>
+        <Date>20180827</Date>
+        <Date>20181225</Date>
+        <Date>20181226</Date>
+        <Date>20190101</Date>
+        <Date>20190419</Date>
+        <Date>20190422</Date>
+        <Date>20190506</Date>
+        <Date>20190527</Date>
+        <Date>20190826</Date>
+        <Date>20191225</Date>
+        <Date>20191226</Date>
+        <Date>20200101</Date>
+        <Date>20200410</Date>
+        <Date>20200413</Date>
+        <Date>20200504</Date>
+        <Date>20200525</Date>
+        <Date>20200831</Date>
+        <Date>20201225</Date>
+        <Date>20201228</Date>
+        <Date>20210101</Date>
+        <Date>20210402</Date>
+        <Date>20210405</Date>
+        <Date>20210503</Date>
+        <Date>20210531</Date>
+        <Date>20210830</Date>
+        <Date>20211227</Date>
+        <Date>20211228</Date>
+        <Date>20220103</Date>
+        <Date>20220415</Date>
+        <Date>20220418</Date>
+        <Date>20220502</Date>
+        <Date>20220530</Date>
+        <Date>20220829</Date>
+        <Date>20221226</Date>
+        <Date>20221227</Date>
+        <Date>20230102</Date>
+        <Date>20230407</Date>
+        <Date>20230410</Date>
+        <Date>20230501</Date>
+        <Date>20230529</Date>
+        <Date>20230828</Date>
+        <Date>20231225</Date>
+        <Date>20231226</Date>
+        <Date>20240101</Date>
+        <Date>20240329</Date>
+        <Date>20240401</Date>
+        <Date>20240506</Date>
+        <Date>20240527</Date>
+        <Date>20240826</Date>
+        <Date>20241225</Date>
+        <Date>20241226</Date>
+        <Date>20250101</Date>
+        <Date>20250418</Date>
+        <Date>20250421</Date>
+        <Date>20250505</Date>
+        <Date>20250526</Date>
+        <Date>20250825</Date>
+        <Date>20251225</Date>
+        <Date>20251226</Date>
+        <Date>20260101</Date>
+        <Date>20260403</Date>
+        <Date>20260406</Date>
+        <Date>20260504</Date>
+        <Date>20260525</Date>
+        <Date>20260831</Date>
+        <Date>20261225</Date>
+        <Date>20261228</Date>
+        <Date>20270101</Date>
+        <Date>20270326</Date>
+        <Date>20270329</Date>
+        <Date>20270503</Date>
+        <Date>20270531</Date>
+        <Date>20270830</Date>
+        <Date>20271227</Date>
+        <Date>20271228</Date>
+        <Date>20280103</Date>
+        <Date>20280414</Date>
+        <Date>20280417</Date>
+        <Date>20280501</Date>
+        <Date>20280529</Date>
+        <Date>20280828</Date>
+        <Date>20281225</Date>
+        <Date>20281226</Date>
+        <Date>20290101</Date>
+        <Date>20290330</Date>
+        <Date>20290402</Date>
+        <Date>20290507</Date>
+        <Date>20290528</Date>
+        <Date>20290827</Date>
+        <Date>20291225</Date>
+        <Date>20291226</Date>
+        <Date>20300101</Date>
+        <Date>20300419</Date>
+        <Date>20300422</Date>
+        <Date>20300506</Date>
+        <Date>20300527</Date>
+        <Date>20300826</Date>
+        <Date>20301225</Date>
+        <Date>20301226</Date>
+        <Date>20310101</Date>
+        <Date>20310411</Date>
+        <Date>20310414</Date>
+        <Date>20310505</Date>
+        <Date>20310526</Date>
+        <Date>20310825</Date>
+        <Date>20311225</Date>
+        <Date>20311226</Date>
+        <Date>20320101</Date>
+        <Date>20320326</Date>
+        <Date>20320329</Date>
+        <Date>20320503</Date>
+        <Date>20320531</Date>
+        <Date>20320830</Date>
+        <Date>20321227</Date>
+        <Date>20321228</Date>
+        <Date>20330103</Date>
+        <Date>20330415</Date>
+        <Date>20330418</Date>
+        <Date>20330502</Date>
+        <Date>20330530</Date>
+        <Date>20330829</Date>
+        <Date>20331226</Date>
+        <Date>20331227</Date>
+        <Date>20340102</Date>
+        <Date>20340407</Date>
+        <Date>20340410</Date>
+        <Date>20340501</Date>
+        <Date>20340529</Date>
+        <Date>20340828</Date>
+        <Date>20341225</Date>
+        <Date>20341226</Date>
+        <Date>20350101</Date>
+        <Date>20350323</Date>
+        <Date>20350326</Date>
+        <Date>20350507</Date>
+        <Date>20350528</Date>
+        <Date>20350827</Date>
+        <Date>20351225</Date>
+        <Date>20351226</Date>
+        <Date>20360101</Date>
+        <Date>20360411</Date>
+        <Date>20360414</Date>
+        <Date>20360505</Date>
+        <Date>20360526</Date>
+        <Date>20360825</Date>
+        <Date>20361225</Date>
+        <Date>20361226</Date>
+        <Date>20370101</Date>
+        <Date>20370403</Date>
+        <Date>20370406</Date>
+        <Date>20370504</Date>
+        <Date>20370525</Date>
+        <Date>20370831</Date>
+        <Date>20371225</Date>
+        <Date>20371228</Date>
+        <Date>20380101</Date>
+        <Date>20380423</Date>
+        <Date>20380426</Date>
+        <Date>20380503</Date>
+        <Date>20380531</Date>
+        <Date>20380830</Date>
+        <Date>20381227</Date>
+        <Date>20381228</Date>
+        <Date>20390103</Date>
+        <Date>20390408</Date>
+        <Date>20390411</Date>
+        <Date>20390502</Date>
+        <Date>20390530</Date>
+        <Date>20390829</Date>
+        <Date>20391226</Date>
+        <Date>20391227</Date>
+        <Date>20400102</Date>
+        <Date>20400330</Date>
+        <Date>20400402</Date>
+        <Date>20400507</Date>
+        <Date>20400528</Date>
+        <Date>20400827</Date>
+        <Date>20401225</Date>
+        <Date>20401226</Date>
+        <Date>20410101</Date>
+        <Date>20410419</Date>
+        <Date>20410422</Date>
+        <Date>20410506</Date>
+        <Date>20410527</Date>
+        <Date>20410826</Date>
+        <Date>20411225</Date>
+        <Date>20411226</Date>
+        <Date>20420101</Date>
+        <Date>20420404</Date>
+        <Date>20420407</Date>
+        <Date>20420505</Date>
+        <Date>20420526</Date>
+        <Date>20420825</Date>
+        <Date>20421225</Date>
+        <Date>20421226</Date>
+        <Date>20430101</Date>
+        <Date>20430327</Date>
+        <Date>20430330</Date>
+        <Date>20430504</Date>
+        <Date>20430525</Date>
+        <Date>20430831</Date>
+        <Date>20431225</Date>
+        <Date>20431228</Date>
+        <Date>20440101</Date>
+        <Date>20440415</Date>
+        <Date>20440418</Date>
+        <Date>20440502</Date>
+        <Date>20440530</Date>
+        <Date>20440829</Date>
+        <Date>20441226</Date>
+        <Date>20441227</Date>
+        <Date>20450102</Date>
+        <Date>20450407</Date>
+        <Date>20450410</Date>
+        <Date>20450501</Date>
+        <Date>20450529</Date>
+        <Date>20450828</Date>
+        <Date>20451225</Date>
+        <Date>20451226</Date>
+        <Date>20460101</Date>
+        <Date>20460323</Date>
+        <Date>20460326</Date>
+        <Date>20460507</Date>
+        <Date>20460528</Date>
+        <Date>20460827</Date>
+        <Date>20461225</Date>
+        <Date>20461226</Date>
+        <Date>20470101</Date>
+        <Date>20470412</Date>
+        <Date>20470415</Date>
+        <Date>20470506</Date>
+        <Date>20470527</Date>
+        <Date>20470826</Date>
+        <Date>20471225</Date>
+        <Date>20471226</Date>
+        <Date>20480101</Date>
+        <Date>20480403</Date>
+        <Date>20480406</Date>
+        <Date>20480504</Date>
+        <Date>20480525</Date>
+        <Date>20480831</Date>
+        <Date>20481225</Date>
+        <Date>20481228</Date>
+        <Date>20490101</Date>
+        <Date>20490423</Date>
+        <Date>20490426</Date>
+        <Date>20490503</Date>
+        <Date>20490531</Date>
+        <Date>20490830</Date>
+        <Date>20491227</Date>
+        <Date>20491228</Date>
+        <Date>20500103</Date>
+        <Date>20500408</Date>
+        <Date>20500411</Date>
+        <Date>20500502</Date>
+        <Date>20500530</Date>
+        <Date>20500829</Date>
+        <Date>20501226</Date>
+        <Date>20501227</Date>
+        <Date>20510102</Date>
+        <Date>20510331</Date>
+        <Date>20510403</Date>
+        <Date>20510501</Date>
+        <Date>20510529</Date>
+        <Date>20510828</Date>
+        <Date>20511225</Date>
+        <Date>20511226</Date>
+        <Date>20520101</Date>
+        <Date>20520419</Date>
+        <Date>20520422</Date>
+        <Date>20520506</Date>
+        <Date>20520527</Date>
+        <Date>20520826</Date>
+        <Date>20521225</Date>
+        <Date>20521226</Date>
+        <Date>20530101</Date>
+        <Date>20530404</Date>
+        <Date>20530407</Date>
+        <Date>20530505</Date>
+        <Date>20530526</Date>
+        <Date>20530825</Date>
+        <Date>20531225</Date>
+        <Date>20531226</Date>
+        <Date>20540101</Date>
+        <Date>20540327</Date>
+        <Date>20540330</Date>
+        <Date>20540504</Date>
+        <Date>20540525</Date>
+        <Date>20540831</Date>
+        <Date>20541225</Date>
+        <Date>20541228</Date>
+        <Date>20550101</Date>
+        <Date>20550416</Date>
+        <Date>20550419</Date>
+        <Date>20550503</Date>
+        <Date>20550531</Date>
+        <Date>20550830</Date>
+        <Date>20551227</Date>
+        <Date>20551228</Date>
+        <Date>20560103</Date>
+        <Date>20560331</Date>
+        <Date>20560403</Date>
+        <Date>20560501</Date>
+        <Date>20560529</Date>
+        <Date>20560828</Date>
+        <Date>20561225</Date>
+        <Date>20561226</Date>
+        <Date>20570101</Date>
+        <Date>20570420</Date>
+        <Date>20570423</Date>
+        <Date>20570507</Date>
+        <Date>20570528</Date>
+        <Date>20570827</Date>
+        <Date>20571225</Date>
+        <Date>20571226</Date>
+        <Date>20580101</Date>
+        <Date>20580412</Date>
+        <Date>20580415</Date>
+        <Date>20580506</Date>
+        <Date>20580527</Date>
+        <Date>20580826</Date>
+        <Date>20581225</Date>
+        <Date>20581226</Date>
+        <Date>20590101</Date>
+        <Date>20590328</Date>
+        <Date>20590331</Date>
+        <Date>20590505</Date>
+        <Date>20590526</Date>
+        <Date>20590825</Date>
+        <Date>20591225</Date>
+        <Date>20591226</Date>
+        <Date>20600101</Date>
+        <Date>20600416</Date>
+        <Date>20600419</Date>
+        <Date>20600503</Date>
+        <Date>20600531</Date>
+        <Date>20600830</Date>
+        <Date>20601227</Date>
+        <Date>20601228</Date>
+        <Date>20610103</Date>
+        <Date>20610408</Date>
+        <Date>20610411</Date>
+        <Date>20610502</Date>
+        <Date>20610530</Date>
+        <Date>20610829</Date>
+        <Date>20611226</Date>
+        <Date>20611227</Date>
+        <Date>20620102</Date>
+        <Date>20620324</Date>
+        <Date>20620327</Date>
+        <Date>20620501</Date>
+        <Date>20620529</Date>
+        <Date>20620828</Date>
+        <Date>20621225</Date>
+        <Date>20621226</Date>
+        <Date>20630101</Date>
+        <Date>20630413</Date>
+        <Date>20630416</Date>
+        <Date>20630507</Date>
+        <Date>20630528</Date>
+        <Date>20630827</Date>
+        <Date>20631225</Date>
+        <Date>20631226</Date>
+        <Date>20640101</Date>
+        <Date>20640404</Date>
+        <Date>20640407</Date>
+        <Date>20640505</Date>
+        <Date>20640526</Date>
+        <Date>20640825</Date>
+        <Date>20641225</Date>
+        <Date>20641226</Date>
+        <Date>20650101</Date>
+        <Date>20650327</Date>
+        <Date>20650330</Date>
+        <Date>20650504</Date>
+        <Date>20650525</Date>
+        <Date>20650831</Date>
+        <Date>20651225</Date>
+        <Date>20651228</Date>
+        <Date>20660101</Date>
+        <Date>20660409</Date>
+        <Date>20660412</Date>
+        <Date>20660503</Date>
+        <Date>20660531</Date>
+        <Date>20660830</Date>
+        <Date>20661227</Date>
+        <Date>20661228</Date>
+        <Date>20670103</Date>
+        <Date>20670401</Date>
+        <Date>20670404</Date>
+        <Date>20670502</Date>
+        <Date>20670530</Date>
+        <Date>20670829</Date>
+        <Date>20671226</Date>
+        <Date>20671227</Date>
+        <Date>20680102</Date>
+        <Date>20680420</Date>
+        <Date>20680423</Date>
+        <Date>20680507</Date>
+        <Date>20680528</Date>
+        <Date>20680827</Date>
+        <Date>20681225</Date>
+        <Date>20681226</Date>
+        <Date>20690101</Date>
+        <Date>20690412</Date>
+        <Date>20690415</Date>
+        <Date>20690506</Date>
+        <Date>20690527</Date>
+        <Date>20690826</Date>
+        <Date>20691225</Date>
+        <Date>20691226</Date>
+        <Date>20700101</Date>
+        <Date>20700328</Date>
+        <Date>20700331</Date>
+        <Date>20700505</Date>
+        <Date>20700526</Date>
+        <Date>20700825</Date>
+        <Date>20701225</Date>
+        <Date>20701226</Date>
+        <Date>20710101</Date>
+        <Date>20710417</Date>
+        <Date>20710420</Date>
+        <Date>20710504</Date>
+        <Date>20710525</Date>
+        <Date>20710831</Date>
+        <Date>20711225</Date>
+        <Date>20711228</Date>
+        <Date>20720101</Date>
+        <Date>20720408</Date>
+        <Date>20720411</Date>
+        <Date>20720502</Date>
+        <Date>20720530</Date>
+        <Date>20720829</Date>
+        <Date>20721226</Date>
+        <Date>20721227</Date>
+        <Date>20730102</Date>
+        <Date>20730324</Date>
+        <Date>20730327</Date>
+        <Date>20730501</Date>
+        <Date>20730529</Date>
+        <Date>20730828</Date>
+        <Date>20731225</Date>
+        <Date>20731226</Date>
+        <Date>20740101</Date>
+        <Date>20740413</Date>
+        <Date>20740416</Date>
+        <Date>20740507</Date>
+        <Date>20740528</Date>
+        <Date>20740827</Date>
+        <Date>20741225</Date>
+        <Date>20741226</Date>
+        <Date>20750101</Date>
+        <Date>20750405</Date>
+        <Date>20750408</Date>
+        <Date>20750506</Date>
+        <Date>20750527</Date>
+        <Date>20750826</Date>
+        <Date>20751225</Date>
+        <Date>20751226</Date>
+        <Date>20760101</Date>
+        <Date>20760424</Date>
+        <Date>20760427</Date>
+        <Date>20760504</Date>
+        <Date>20760525</Date>
+        <Date>20760831</Date>
+        <Date>20761225</Date>
+        <Date>20761228</Date>
+        <Date>20770101</Date>
+        <Date>20770409</Date>
+        <Date>20770412</Date>
+        <Date>20770503</Date>
+        <Date>20770531</Date>
+        <Date>20770830</Date>
+        <Date>20771227</Date>
+        <Date>20771228</Date>
+        <Date>20780103</Date>
+        <Date>20780401</Date>
+        <Date>20780404</Date>
+        <Date>20780502</Date>
+        <Date>20780530</Date>
+        <Date>20780829</Date>
+        <Date>20781226</Date>
+        <Date>20781227</Date>
+        <Date>20790102</Date>
+        <Date>20790421</Date>
+        <Date>20790424</Date>
+        <Date>20790501</Date>
+        <Date>20790529</Date>
+        <Date>20790828</Date>
+        <Date>20791225</Date>
+        <Date>20791226</Date>
+        <Date>20800101</Date>
+        <Date>20800405</Date>
+        <Date>20800408</Date>
+        <Date>20800506</Date>
+        <Date>20800527</Date>
+        <Date>20800826</Date>
+        <Date>20801225</Date>
+        <Date>20801226</Date>
+        <Date>20810101</Date>
+        <Date>20810328</Date>
+        <Date>20810331</Date>
+        <Date>20810505</Date>
+        <Date>20810526</Date>
+        <Date>20810825</Date>
+        <Date>20811225</Date>
+        <Date>20811226</Date>
+        <Date>20820101</Date>
+        <Date>20820417</Date>
+        <Date>20820420</Date>
+        <Date>20820504</Date>
+        <Date>20820525</Date>
+        <Date>20820831</Date>
+        <Date>20821225</Date>
+        <Date>20821228</Date>
+        <Date>20830101</Date>
+        <Date>20830402</Date>
+        <Date>20830405</Date>
+        <Date>20830503</Date>
+        <Date>20830531</Date>
+        <Date>20830830</Date>
+        <Date>20831227</Date>
+        <Date>20831228</Date>
+        <Date>20840103</Date>
+        <Date>20840324</Date>
+        <Date>20840327</Date>
+        <Date>20840501</Date>
+        <Date>20840529</Date>
+        <Date>20840828</Date>
+        <Date>20841225</Date>
+        <Date>20841226</Date>
+        <Date>20850101</Date>
+        <Date>20850413</Date>
+        <Date>20850416</Date>
+        <Date>20850507</Date>
+        <Date>20850528</Date>
+        <Date>20850827</Date>
+        <Date>20851225</Date>
+        <Date>20851226</Date>
+        <Date>20860101</Date>
+        <Date>20860329</Date>
+        <Date>20860401</Date>
+        <Date>20860506</Date>
+        <Date>20860527</Date>
+        <Date>20860826</Date>
+        <Date>20861225</Date>
+        <Date>20861226</Date>
+        <Date>20870101</Date>
+        <Date>20870418</Date>
+        <Date>20870421</Date>
+        <Date>20870505</Date>
+        <Date>20870526</Date>
+        <Date>20870825</Date>
+        <Date>20871225</Date>
+        <Date>20871226</Date>
+        <Date>20880101</Date>
+        <Date>20880409</Date>
+        <Date>20880412</Date>
+        <Date>20880503</Date>
+        <Date>20880531</Date>
+        <Date>20880830</Date>
+        <Date>20881227</Date>
+        <Date>20881228</Date>
+        <Date>20890103</Date>
+        <Date>20890401</Date>
+        <Date>20890404</Date>
+        <Date>20890502</Date>
+        <Date>20890530</Date>
+        <Date>20890829</Date>
+        <Date>20891226</Date>
+        <Date>20891227</Date>
+        <Date>20900102</Date>
+        <Date>20900414</Date>
+        <Date>20900417</Date>
+        <Date>20900501</Date>
+        <Date>20900529</Date>
+        <Date>20900828</Date>
+        <Date>20901225</Date>
+        <Date>20901226</Date>
+        <Date>20910101</Date>
+        <Date>20910406</Date>
+        <Date>20910409</Date>
+        <Date>20910507</Date>
+        <Date>20910528</Date>
+        <Date>20910827</Date>
+        <Date>20911225</Date>
+        <Date>20911226</Date>
+        <Date>20920101</Date>
+        <Date>20920328</Date>
+        <Date>20920331</Date>
+        <Date>20920505</Date>
+        <Date>20920526</Date>
+        <Date>20920825</Date>
+        <Date>20921225</Date>
+        <Date>20921226</Date>
+        <Date>20930101</Date>
+        <Date>20930410</Date>
+        <Date>20930413</Date>
+        <Date>20930504</Date>
+        <Date>20930525</Date>
+        <Date>20930831</Date>
+        <Date>20931225</Date>
+        <Date>20931228</Date>
+        <Date>20940101</Date>
+        <Date>20940402</Date>
+        <Date>20940405</Date>
+        <Date>20940503</Date>
+        <Date>20940531</Date>
+        <Date>20940830</Date>
+        <Date>20941227</Date>
+        <Date>20941228</Date>
+        <Date>20950103</Date>
+        <Date>20950422</Date>
+        <Date>20950425</Date>
+        <Date>20950502</Date>
+        <Date>20950530</Date>
+        <Date>20950829</Date>
+        <Date>20951226</Date>
+        <Date>20951227</Date>
+        <Date>20960102</Date>
+        <Date>20960413</Date>
+        <Date>20960416</Date>
+        <Date>20960507</Date>
+        <Date>20960528</Date>
+        <Date>20960827</Date>
+        <Date>20961225</Date>
+        <Date>20961226</Date>
+        <Date>20970101</Date>
+        <Date>20970329</Date>
+        <Date>20970401</Date>
+        <Date>20970506</Date>
+        <Date>20970527</Date>
+        <Date>20970826</Date>
+        <Date>20971225</Date>
+        <Date>20971226</Date>
+        <Date>20980101</Date>
+        <Date>20980418</Date>
+        <Date>20980421</Date>
+        <Date>20980505</Date>
+        <Date>20980526</Date>
+        <Date>20980825</Date>
+        <Date>20981225</Date>
+        <Date>20981226</Date>
+    </Dates>
+</Calendar>
+    
+<Calendar>
+    <Name>BBU</Name>    <!-- London - BBA Libor (USD Overnight) non-fixing days -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+    
+<Calendar>
+    <Name>LCH</Name>    <!-- London - LCH.Clearnet (SwapClear) non-business days -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>LNB</Name>    <!-- London - London bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>19800101</Date>
+        <Date>19800404</Date>
+        <Date>19800407</Date>
+        <Date>19800505</Date>
+        <Date>19800526</Date>
+        <Date>19800825</Date>
+        <Date>19801225</Date>
+        <Date>19801226</Date>
+        <Date>19810101</Date>
+        <Date>19810417</Date>
+        <Date>19810420</Date>
+        <Date>19810504</Date>
+        <Date>19810525</Date>
+        <Date>19810831</Date>
+        <Date>19811225</Date>
+        <Date>19811228</Date>
+        <Date>19820101</Date>
+        <Date>19820409</Date>
+        <Date>19820412</Date>
+        <Date>19820503</Date>
+        <Date>19820531</Date>
+        <Date>19820830</Date>
+        <Date>19821227</Date>
+        <Date>19821228</Date>
+        <Date>19830103</Date>
+        <Date>19830401</Date>
+        <Date>19830404</Date>
+        <Date>19830502</Date>
+        <Date>19830530</Date>
+        <Date>19830829</Date>
+        <Date>19831226</Date>
+        <Date>19831227</Date>
+        <Date>19840102</Date>
+        <Date>19840420</Date>
+        <Date>19840423</Date>
+        <Date>19840507</Date>
+        <Date>19840528</Date>
+        <Date>19840827</Date>
+        <Date>19841225</Date>
+        <Date>19841226</Date>
+        <Date>19850101</Date>
+        <Date>19850405</Date>
+        <Date>19850408</Date>
+        <Date>19850506</Date>
+        <Date>19850527</Date>
+        <Date>19850826</Date>
+        <Date>19851225</Date>
+        <Date>19851226</Date>
+        <Date>19860101</Date>
+        <Date>19860328</Date>
+        <Date>19860331</Date>
+        <Date>19860505</Date>
+        <Date>19860526</Date>
+        <Date>19860825</Date>
+        <Date>19861225</Date>
+        <Date>19861226</Date>
+        <Date>19870101</Date>
+        <Date>19870417</Date>
+        <Date>19870420</Date>
+        <Date>19870504</Date>
+        <Date>19870525</Date>
+        <Date>19870831</Date>
+        <Date>19871225</Date>
+        <Date>19871228</Date>
+        <Date>19880101</Date>
+        <Date>19880401</Date>
+        <Date>19880404</Date>
+        <Date>19880502</Date>
+        <Date>19880530</Date>
+        <Date>19880829</Date>
+        <Date>19881226</Date>
+        <Date>19881227</Date>
+        <Date>19890102</Date>
+        <Date>19890324</Date>
+        <Date>19890327</Date>
+        <Date>19890501</Date>
+        <Date>19890529</Date>
+        <Date>19890828</Date>
+        <Date>19891225</Date>
+        <Date>19891226</Date>
+        <Date>19900101</Date>
+        <Date>19900413</Date>
+        <Date>19900416</Date>
+        <Date>19900507</Date>
+        <Date>19900528</Date>
+        <Date>19900827</Date>
+        <Date>19901225</Date>
+        <Date>19901226</Date>
+        <Date>19910101</Date>
+        <Date>19910329</Date>
+        <Date>19910401</Date>
+        <Date>19910506</Date>
+        <Date>19910527</Date>
+        <Date>19910826</Date>
+        <Date>19911225</Date>
+        <Date>19911226</Date>
+        <Date>19920101</Date>
+        <Date>19920417</Date>
+        <Date>19920420</Date>
+        <Date>19920504</Date>
+        <Date>19920525</Date>
+        <Date>19920831</Date>
+        <Date>19921225</Date>
+        <Date>19921228</Date>
+        <Date>19930101</Date>
+        <Date>19930409</Date>
+        <Date>19930412</Date>
+        <Date>19930503</Date>
+        <Date>19930531</Date>
+        <Date>19930830</Date>
+        <Date>19931227</Date>
+        <Date>19931228</Date>
+        <Date>19940103</Date>
+        <Date>19940401</Date>
+        <Date>19940404</Date>
+        <Date>19940502</Date>
+        <Date>19940530</Date>
+        <Date>19940829</Date>
+        <Date>19941226</Date>
+        <Date>19941227</Date>
+        <Date>19950102</Date>
+        <Date>19950414</Date>
+        <Date>19950417</Date>
+        <Date>19950501</Date>
+        <Date>19950529</Date>
+        <Date>19950828</Date>
+        <Date>19951225</Date>
+        <Date>19951226</Date>
+        <Date>19960101</Date>
+        <Date>19960405</Date>
+        <Date>19960408</Date>
+        <Date>19960506</Date>
+        <Date>19960527</Date>
+        <Date>19960826</Date>
+        <Date>19961225</Date>
+        <Date>19961226</Date>
+        <Date>19970101</Date>
+        <Date>19970328</Date>
+        <Date>19970331</Date>
+        <Date>19970505</Date>
+        <Date>19970526</Date>
+        <Date>19970825</Date>
+        <Date>19971225</Date>
+        <Date>19971226</Date>
+        <Date>19980101</Date>
+        <Date>19980410</Date>
+        <Date>19980413</Date>
+        <Date>19980504</Date>
+        <Date>19980525</Date>
+        <Date>19980831</Date>
+        <Date>19981225</Date>
+        <Date>19981228</Date>
+        <Date>19990101</Date>
+        <Date>19990402</Date>
+        <Date>19990405</Date>
+        <Date>19990503</Date>
+        <Date>19990531</Date>
+        <Date>19990830</Date>
+        <Date>19991227</Date>
+        <Date>19991228</Date>
+        <Date>19991231</Date>
+        <Date>20000103</Date>
+        <Date>20000421</Date>
+        <Date>20000424</Date>
+        <Date>20000501</Date>
+        <Date>20000529</Date>
+        <Date>20000828</Date>
+        <Date>20001225</Date>
+        <Date>20001226</Date>
+        <Date>20010101</Date>
+        <Date>20010413</Date>
+        <Date>20010416</Date>
+        <Date>20010507</Date>
+        <Date>20010528</Date>
+        <Date>20010827</Date>
+        <Date>20011225</Date>
+        <Date>20011226</Date>
+        <Date>20020101</Date>
+        <Date>20020329</Date>
+        <Date>20020401</Date>
+        <Date>20020506</Date>
+        <Date>20020603</Date>
+        <Date>20020604</Date>
+        <Date>20020826</Date>
+        <Date>20021225</Date>
+        <Date>20021226</Date>
+        <Date>20030101</Date>
+        <Date>20030418</Date>
+        <Date>20030421</Date>
+        <Date>20030505</Date>
+        <Date>20030526</Date>
+        <Date>20030825</Date>
+        <Date>20031225</Date>
+        <Date>20031226</Date>
+        <Date>20040101</Date>
+        <Date>20040409</Date>
+        <Date>20040412</Date>
+        <Date>20040503</Date>
+        <Date>20040531</Date>
+        <Date>20040830</Date>
+        <Date>20041227</Date>
+        <Date>20041228</Date>
+        <Date>20050103</Date>
+        <Date>20050325</Date>
+        <Date>20050328</Date>
+        <Date>20050502</Date>
+        <Date>20050530</Date>
+        <Date>20050829</Date>
+        <Date>20051226</Date>
+        <Date>20051227</Date>
+        <Date>20060102</Date>
+        <Date>20060414</Date>
+        <Date>20060417</Date>
+        <Date>20060501</Date>
+        <Date>20060529</Date>
+        <Date>20060828</Date>
+        <Date>20061225</Date>
+        <Date>20061226</Date>
+        <Date>20070101</Date>
+        <Date>20070406</Date>
+        <Date>20070409</Date>
+        <Date>20070507</Date>
+        <Date>20070528</Date>
+        <Date>20070827</Date>
+        <Date>20071225</Date>
+        <Date>20071226</Date>
+        <Date>20080101</Date>
+        <Date>20080321</Date>
+        <Date>20080324</Date>
+        <Date>20080505</Date>
+        <Date>20080526</Date>
+        <Date>20080825</Date>
+        <Date>20081225</Date>
+        <Date>20081226</Date>
+        <Date>20090101</Date>
+        <Date>20090410</Date>
+        <Date>20090413</Date>
+        <Date>20090504</Date>
+        <Date>20090525</Date>
+        <Date>20090831</Date>
+        <Date>20091225</Date>
+        <Date>20091228</Date>
+        <Date>20100101</Date>
+        <Date>20100402</Date>
+        <Date>20100405</Date>
+        <Date>20100503</Date>
+        <Date>20100531</Date>
+        <Date>20100830</Date>
+        <Date>20101227</Date>
+        <Date>20101228</Date>
+        <Date>20110103</Date>
+        <Date>20110422</Date>
+        <Date>20110425</Date>
+        <Date>20110429</Date>   <!-- Royal Wedding -->
+        <Date>20110502</Date>
+        <Date>20110530</Date>
+        <Date>20110829</Date>
+        <Date>20111226</Date>
+        <Date>20111227</Date>
+        <Date>20120102</Date>
+        <Date>20120406</Date>
+        <Date>20120409</Date>
+        <Date>20120507</Date>
+        <Date>20120604</Date>
+        <Date>20120605</Date>
+        <Date>20120827</Date>
+        <Date>20121225</Date>
+        <Date>20121226</Date>
+        <Date>20130101</Date>
+        <Date>20130329</Date>
+        <Date>20130401</Date>
+        <Date>20130506</Date>
+        <Date>20130527</Date>
+        <Date>20130826</Date>
+        <Date>20131225</Date>
+        <Date>20131226</Date>
+        <Date>20140101</Date>
+        <Date>20140418</Date>
+        <Date>20140421</Date>
+        <Date>20140505</Date>
+        <Date>20140526</Date>
+        <Date>20140825</Date>
+        <Date>20141225</Date>
+        <Date>20141226</Date>
+        <Date>20150101</Date>
+        <Date>20150403</Date>
+        <Date>20150406</Date>
+        <Date>20150504</Date>
+        <Date>20150525</Date>
+        <Date>20150831</Date>
+        <Date>20151225</Date>
+        <Date>20151228</Date>
+        <Date>20160101</Date>
+        <Date>20160325</Date>
+        <Date>20160328</Date>
+        <Date>20160502</Date>
+        <Date>20160530</Date>
+        <Date>20160829</Date>
+        <Date>20161226</Date>
+        <Date>20161227</Date>
+        <Date>20170102</Date>
+        <Date>20170414</Date>
+        <Date>20170417</Date>
+        <Date>20170501</Date>
+        <Date>20170529</Date>
+        <Date>20170828</Date>
+        <Date>20171225</Date>
+        <Date>20171226</Date>
+        <Date>20180101</Date>
+        <Date>20180330</Date>
+        <Date>20180402</Date>
+        <Date>20180507</Date>
+        <Date>20180528</Date>
+        <Date>20180827</Date>
+        <Date>20181225</Date>
+        <Date>20181226</Date>
+        <Date>20190101</Date>
+        <Date>20190419</Date>
+        <Date>20190422</Date>
+        <Date>20190506</Date>
+        <Date>20190527</Date>
+        <Date>20190826</Date>
+        <Date>20191225</Date>
+        <Date>20191226</Date>
+        <Date>20200101</Date>
+        <Date>20200410</Date>
+        <Date>20200413</Date>
+        <Date>20200504</Date>
+        <Date>20200525</Date>
+        <Date>20200831</Date>
+        <Date>20201225</Date>
+        <Date>20201228</Date>
+        <Date>20210101</Date>
+        <Date>20210402</Date>
+        <Date>20210405</Date>
+        <Date>20210503</Date>
+        <Date>20210531</Date>
+        <Date>20210830</Date>
+        <Date>20211227</Date>
+        <Date>20211228</Date>
+        <Date>20220103</Date>
+        <Date>20220415</Date>
+        <Date>20220418</Date>
+        <Date>20220502</Date>
+        <Date>20220530</Date>
+        <Date>20220829</Date>
+        <Date>20221226</Date>
+        <Date>20221227</Date>
+        <Date>20230102</Date>
+        <Date>20230407</Date>
+        <Date>20230410</Date>
+        <Date>20230501</Date>
+        <Date>20230529</Date>
+        <Date>20230828</Date>
+        <Date>20231225</Date>
+        <Date>20231226</Date>
+        <Date>20240101</Date>
+        <Date>20240329</Date>
+        <Date>20240401</Date>
+        <Date>20240506</Date>
+        <Date>20240527</Date>
+        <Date>20240826</Date>
+        <Date>20241225</Date>
+        <Date>20241226</Date>
+        <Date>20250101</Date>
+        <Date>20250418</Date>
+        <Date>20250421</Date>
+        <Date>20250505</Date>
+        <Date>20250526</Date>
+        <Date>20250825</Date>
+        <Date>20251225</Date>
+        <Date>20251226</Date>
+        <Date>20260101</Date>
+        <Date>20260403</Date>
+        <Date>20260406</Date>
+        <Date>20260504</Date>
+        <Date>20260525</Date>
+        <Date>20260831</Date>
+        <Date>20261225</Date>
+        <Date>20261228</Date>
+        <Date>20270101</Date>
+        <Date>20270326</Date>
+        <Date>20270329</Date>
+        <Date>20270503</Date>
+        <Date>20270531</Date>
+        <Date>20270830</Date>
+        <Date>20271227</Date>
+        <Date>20271228</Date>
+        <Date>20280103</Date>
+        <Date>20280414</Date>
+        <Date>20280417</Date>
+        <Date>20280501</Date>
+        <Date>20280529</Date>
+        <Date>20280828</Date>
+        <Date>20281225</Date>
+        <Date>20281226</Date>
+        <Date>20290101</Date>
+        <Date>20290330</Date>
+        <Date>20290402</Date>
+        <Date>20290507</Date>
+        <Date>20290528</Date>
+        <Date>20290827</Date>
+        <Date>20291225</Date>
+        <Date>20291226</Date>
+        <Date>20300101</Date>
+        <Date>20300419</Date>
+        <Date>20300422</Date>
+        <Date>20300506</Date>
+        <Date>20300527</Date>
+        <Date>20300826</Date>
+        <Date>20301225</Date>
+        <Date>20301226</Date>
+        <Date>20310101</Date>
+        <Date>20310411</Date>
+        <Date>20310414</Date>
+        <Date>20310505</Date>
+        <Date>20310526</Date>
+        <Date>20310825</Date>
+        <Date>20311225</Date>
+        <Date>20311226</Date>
+        <Date>20320101</Date>
+        <Date>20320326</Date>
+        <Date>20320329</Date>
+        <Date>20320503</Date>
+        <Date>20320531</Date>
+        <Date>20320830</Date>
+        <Date>20321227</Date>
+        <Date>20321228</Date>
+        <Date>20330103</Date>
+        <Date>20330415</Date>
+        <Date>20330418</Date>
+        <Date>20330502</Date>
+        <Date>20330530</Date>
+        <Date>20330829</Date>
+        <Date>20331226</Date>
+        <Date>20331227</Date>
+        <Date>20340102</Date>
+        <Date>20340407</Date>
+        <Date>20340410</Date>
+        <Date>20340501</Date>
+        <Date>20340529</Date>
+        <Date>20340828</Date>
+        <Date>20341225</Date>
+        <Date>20341226</Date>
+        <Date>20350101</Date>
+        <Date>20350323</Date>
+        <Date>20350326</Date>
+        <Date>20350507</Date>
+        <Date>20350528</Date>
+        <Date>20350827</Date>
+        <Date>20351225</Date>
+        <Date>20351226</Date>
+        <Date>20360101</Date>
+        <Date>20360411</Date>
+        <Date>20360414</Date>
+        <Date>20360505</Date>
+        <Date>20360526</Date>
+        <Date>20360825</Date>
+        <Date>20361225</Date>
+        <Date>20361226</Date>
+        <Date>20370101</Date>
+        <Date>20370403</Date>
+        <Date>20370406</Date>
+        <Date>20370504</Date>
+        <Date>20370525</Date>
+        <Date>20370831</Date>
+        <Date>20371225</Date>
+        <Date>20371228</Date>
+        <Date>20380101</Date>
+        <Date>20380423</Date>
+        <Date>20380426</Date>
+        <Date>20380503</Date>
+        <Date>20380531</Date>
+        <Date>20380830</Date>
+        <Date>20381227</Date>
+        <Date>20381228</Date>
+        <Date>20390103</Date>
+        <Date>20390408</Date>
+        <Date>20390411</Date>
+        <Date>20390502</Date>
+        <Date>20390530</Date>
+        <Date>20390829</Date>
+        <Date>20391226</Date>
+        <Date>20391227</Date>
+        <Date>20400102</Date>
+        <Date>20400330</Date>
+        <Date>20400402</Date>
+        <Date>20400507</Date>
+        <Date>20400528</Date>
+        <Date>20400827</Date>
+        <Date>20401225</Date>
+        <Date>20401226</Date>
+        <Date>20410101</Date>
+        <Date>20410419</Date>
+        <Date>20410422</Date>
+        <Date>20410506</Date>
+        <Date>20410527</Date>
+        <Date>20410826</Date>
+        <Date>20411225</Date>
+        <Date>20411226</Date>
+        <Date>20420101</Date>
+        <Date>20420404</Date>
+        <Date>20420407</Date>
+        <Date>20420505</Date>
+        <Date>20420526</Date>
+        <Date>20420825</Date>
+        <Date>20421225</Date>
+        <Date>20421226</Date>
+        <Date>20430101</Date>
+        <Date>20430327</Date>
+        <Date>20430330</Date>
+        <Date>20430504</Date>
+        <Date>20430525</Date>
+        <Date>20430831</Date>
+        <Date>20431225</Date>
+        <Date>20431228</Date>
+        <Date>20440101</Date>
+        <Date>20440415</Date>
+        <Date>20440418</Date>
+        <Date>20440502</Date>
+        <Date>20440530</Date>
+        <Date>20440829</Date>
+        <Date>20441226</Date>
+        <Date>20441227</Date>
+        <Date>20450102</Date>
+        <Date>20450407</Date>
+        <Date>20450410</Date>
+        <Date>20450501</Date>
+        <Date>20450529</Date>
+        <Date>20450828</Date>
+        <Date>20451225</Date>
+        <Date>20451226</Date>
+        <Date>20460101</Date>
+        <Date>20460323</Date>
+        <Date>20460326</Date>
+        <Date>20460507</Date>
+        <Date>20460528</Date>
+        <Date>20460827</Date>
+        <Date>20461225</Date>
+        <Date>20461226</Date>
+        <Date>20470101</Date>
+        <Date>20470412</Date>
+        <Date>20470415</Date>
+        <Date>20470506</Date>
+        <Date>20470527</Date>
+        <Date>20470826</Date>
+        <Date>20471225</Date>
+        <Date>20471226</Date>
+        <Date>20480101</Date>
+        <Date>20480403</Date>
+        <Date>20480406</Date>
+        <Date>20480504</Date>
+        <Date>20480525</Date>
+        <Date>20480831</Date>
+        <Date>20481225</Date>
+        <Date>20481228</Date>
+        <Date>20490101</Date>
+        <Date>20490423</Date>
+        <Date>20490426</Date>
+        <Date>20490503</Date>
+        <Date>20490531</Date>
+        <Date>20490830</Date>
+        <Date>20491227</Date>
+        <Date>20491228</Date>
+        <Date>20500103</Date>
+        <Date>20500408</Date>
+        <Date>20500411</Date>
+        <Date>20500502</Date>
+        <Date>20500530</Date>
+        <Date>20500829</Date>
+        <Date>20501226</Date>
+        <Date>20501227</Date>
+        <Date>20510102</Date>
+        <Date>20510331</Date>
+        <Date>20510403</Date>
+        <Date>20510501</Date>
+        <Date>20510529</Date>
+        <Date>20510828</Date>
+        <Date>20511225</Date>
+        <Date>20511226</Date>
+        <Date>20520101</Date>
+        <Date>20520419</Date>
+        <Date>20520422</Date>
+        <Date>20520506</Date>
+        <Date>20520527</Date>
+        <Date>20520826</Date>
+        <Date>20521225</Date>
+        <Date>20521226</Date>
+        <Date>20530101</Date>
+        <Date>20530404</Date>
+        <Date>20530407</Date>
+        <Date>20530505</Date>
+        <Date>20530526</Date>
+        <Date>20530825</Date>
+        <Date>20531225</Date>
+        <Date>20531226</Date>
+        <Date>20540101</Date>
+        <Date>20540327</Date>
+        <Date>20540330</Date>
+        <Date>20540504</Date>
+        <Date>20540525</Date>
+        <Date>20540831</Date>
+        <Date>20541225</Date>
+        <Date>20541228</Date>
+        <Date>20550101</Date>
+        <Date>20550416</Date>
+        <Date>20550419</Date>
+        <Date>20550503</Date>
+        <Date>20550531</Date>
+        <Date>20550830</Date>
+        <Date>20551227</Date>
+        <Date>20551228</Date>
+        <Date>20560103</Date>
+        <Date>20560331</Date>
+        <Date>20560403</Date>
+        <Date>20560501</Date>
+        <Date>20560529</Date>
+        <Date>20560828</Date>
+        <Date>20561225</Date>
+        <Date>20561226</Date>
+        <Date>20570101</Date>
+        <Date>20570420</Date>
+        <Date>20570423</Date>
+        <Date>20570507</Date>
+        <Date>20570528</Date>
+        <Date>20570827</Date>
+        <Date>20571225</Date>
+        <Date>20571226</Date>
+        <Date>20580101</Date>
+        <Date>20580412</Date>
+        <Date>20580415</Date>
+        <Date>20580506</Date>
+        <Date>20580527</Date>
+        <Date>20580826</Date>
+        <Date>20581225</Date>
+        <Date>20581226</Date>
+        <Date>20590101</Date>
+        <Date>20590328</Date>
+        <Date>20590331</Date>
+        <Date>20590505</Date>
+        <Date>20590526</Date>
+        <Date>20590825</Date>
+        <Date>20591225</Date>
+        <Date>20591226</Date>
+        <Date>20600101</Date>
+        <Date>20600416</Date>
+        <Date>20600419</Date>
+        <Date>20600503</Date>
+        <Date>20600531</Date>
+        <Date>20600830</Date>
+        <Date>20601227</Date>
+        <Date>20601228</Date>
+        <Date>20610103</Date>
+        <Date>20610408</Date>
+        <Date>20610411</Date>
+        <Date>20610502</Date>
+        <Date>20610530</Date>
+        <Date>20610829</Date>
+        <Date>20611226</Date>
+        <Date>20611227</Date>
+        <Date>20620102</Date>
+        <Date>20620324</Date>
+        <Date>20620327</Date>
+        <Date>20620501</Date>
+        <Date>20620529</Date>
+        <Date>20620828</Date>
+        <Date>20621225</Date>
+        <Date>20621226</Date>
+        <Date>20630101</Date>
+        <Date>20630413</Date>
+        <Date>20630416</Date>
+        <Date>20630507</Date>
+        <Date>20630528</Date>
+        <Date>20630827</Date>
+        <Date>20631225</Date>
+        <Date>20631226</Date>
+        <Date>20640101</Date>
+        <Date>20640404</Date>
+        <Date>20640407</Date>
+        <Date>20640505</Date>
+        <Date>20640526</Date>
+        <Date>20640825</Date>
+        <Date>20641225</Date>
+        <Date>20641226</Date>
+        <Date>20650101</Date>
+        <Date>20650327</Date>
+        <Date>20650330</Date>
+        <Date>20650504</Date>
+        <Date>20650525</Date>
+        <Date>20650831</Date>
+        <Date>20651225</Date>
+        <Date>20651228</Date>
+        <Date>20660101</Date>
+        <Date>20660409</Date>
+        <Date>20660412</Date>
+        <Date>20660503</Date>
+        <Date>20660531</Date>
+        <Date>20660830</Date>
+        <Date>20661227</Date>
+        <Date>20661228</Date>
+        <Date>20670103</Date>
+        <Date>20670401</Date>
+        <Date>20670404</Date>
+        <Date>20670502</Date>
+        <Date>20670530</Date>
+        <Date>20670829</Date>
+        <Date>20671226</Date>
+        <Date>20671227</Date>
+        <Date>20680102</Date>
+        <Date>20680420</Date>
+        <Date>20680423</Date>
+        <Date>20680507</Date>
+        <Date>20680528</Date>
+        <Date>20680827</Date>
+        <Date>20681225</Date>
+        <Date>20681226</Date>
+        <Date>20690101</Date>
+        <Date>20690412</Date>
+        <Date>20690415</Date>
+        <Date>20690506</Date>
+        <Date>20690527</Date>
+        <Date>20690826</Date>
+        <Date>20691225</Date>
+        <Date>20691226</Date>
+        <Date>20700101</Date>
+        <Date>20700328</Date>
+        <Date>20700331</Date>
+        <Date>20700505</Date>
+        <Date>20700526</Date>
+        <Date>20700825</Date>
+        <Date>20701225</Date>
+        <Date>20701226</Date>
+        <Date>20710101</Date>
+        <Date>20710417</Date>
+        <Date>20710420</Date>
+        <Date>20710504</Date>
+        <Date>20710525</Date>
+        <Date>20710831</Date>
+        <Date>20711225</Date>
+        <Date>20711228</Date>
+        <Date>20720101</Date>
+        <Date>20720408</Date>
+        <Date>20720411</Date>
+        <Date>20720502</Date>
+        <Date>20720530</Date>
+        <Date>20720829</Date>
+        <Date>20721226</Date>
+        <Date>20721227</Date>
+        <Date>20730102</Date>
+        <Date>20730324</Date>
+        <Date>20730327</Date>
+        <Date>20730501</Date>
+        <Date>20730529</Date>
+        <Date>20730828</Date>
+        <Date>20731225</Date>
+        <Date>20731226</Date>
+        <Date>20740101</Date>
+        <Date>20740413</Date>
+        <Date>20740416</Date>
+        <Date>20740507</Date>
+        <Date>20740528</Date>
+        <Date>20740827</Date>
+        <Date>20741225</Date>
+        <Date>20741226</Date>
+        <Date>20750101</Date>
+        <Date>20750405</Date>
+        <Date>20750408</Date>
+        <Date>20750506</Date>
+        <Date>20750527</Date>
+        <Date>20750826</Date>
+        <Date>20751225</Date>
+        <Date>20751226</Date>
+        <Date>20760101</Date>
+        <Date>20760424</Date>
+        <Date>20760427</Date>
+        <Date>20760504</Date>
+        <Date>20760525</Date>
+        <Date>20760831</Date>
+        <Date>20761225</Date>
+        <Date>20761228</Date>
+        <Date>20770101</Date>
+        <Date>20770409</Date>
+        <Date>20770412</Date>
+        <Date>20770503</Date>
+        <Date>20770531</Date>
+        <Date>20770830</Date>
+        <Date>20771227</Date>
+        <Date>20771228</Date>
+        <Date>20780103</Date>
+        <Date>20780401</Date>
+        <Date>20780404</Date>
+        <Date>20780502</Date>
+        <Date>20780530</Date>
+        <Date>20780829</Date>
+        <Date>20781226</Date>
+        <Date>20781227</Date>
+        <Date>20790102</Date>
+        <Date>20790421</Date>
+        <Date>20790424</Date>
+        <Date>20790501</Date>
+        <Date>20790529</Date>
+        <Date>20790828</Date>
+        <Date>20791225</Date>
+        <Date>20791226</Date>
+        <Date>20800101</Date>
+        <Date>20800405</Date>
+        <Date>20800408</Date>
+        <Date>20800506</Date>
+        <Date>20800527</Date>
+        <Date>20800826</Date>
+        <Date>20801225</Date>
+        <Date>20801226</Date>
+        <Date>20810101</Date>
+        <Date>20810328</Date>
+        <Date>20810331</Date>
+        <Date>20810505</Date>
+        <Date>20810526</Date>
+        <Date>20810825</Date>
+        <Date>20811225</Date>
+        <Date>20811226</Date>
+        <Date>20820101</Date>
+        <Date>20820417</Date>
+        <Date>20820420</Date>
+        <Date>20820504</Date>
+        <Date>20820525</Date>
+        <Date>20820831</Date>
+        <Date>20821225</Date>
+        <Date>20821228</Date>
+        <Date>20830101</Date>
+        <Date>20830402</Date>
+        <Date>20830405</Date>
+        <Date>20830503</Date>
+        <Date>20830531</Date>
+        <Date>20830830</Date>
+        <Date>20831227</Date>
+        <Date>20831228</Date>
+        <Date>20840103</Date>
+        <Date>20840324</Date>
+        <Date>20840327</Date>
+        <Date>20840501</Date>
+        <Date>20840529</Date>
+        <Date>20840828</Date>
+        <Date>20841225</Date>
+        <Date>20841226</Date>
+        <Date>20850101</Date>
+        <Date>20850413</Date>
+        <Date>20850416</Date>
+        <Date>20850507</Date>
+        <Date>20850528</Date>
+        <Date>20850827</Date>
+        <Date>20851225</Date>
+        <Date>20851226</Date>
+        <Date>20860101</Date>
+        <Date>20860329</Date>
+        <Date>20860401</Date>
+        <Date>20860506</Date>
+        <Date>20860527</Date>
+        <Date>20860826</Date>
+        <Date>20861225</Date>
+        <Date>20861226</Date>
+        <Date>20870101</Date>
+        <Date>20870418</Date>
+        <Date>20870421</Date>
+        <Date>20870505</Date>
+        <Date>20870526</Date>
+        <Date>20870825</Date>
+        <Date>20871225</Date>
+        <Date>20871226</Date>
+        <Date>20880101</Date>
+        <Date>20880409</Date>
+        <Date>20880412</Date>
+        <Date>20880503</Date>
+        <Date>20880531</Date>
+        <Date>20880830</Date>
+        <Date>20881227</Date>
+        <Date>20881228</Date>
+        <Date>20890103</Date>
+        <Date>20890401</Date>
+        <Date>20890404</Date>
+        <Date>20890502</Date>
+        <Date>20890530</Date>
+        <Date>20890829</Date>
+        <Date>20891226</Date>
+        <Date>20891227</Date>
+        <Date>20900102</Date>
+        <Date>20900414</Date>
+        <Date>20900417</Date>
+        <Date>20900501</Date>
+        <Date>20900529</Date>
+        <Date>20900828</Date>
+        <Date>20901225</Date>
+        <Date>20901226</Date>
+        <Date>20910101</Date>
+        <Date>20910406</Date>
+        <Date>20910409</Date>
+        <Date>20910507</Date>
+        <Date>20910528</Date>
+        <Date>20910827</Date>
+        <Date>20911225</Date>
+        <Date>20911226</Date>
+        <Date>20920101</Date>
+        <Date>20920328</Date>
+        <Date>20920331</Date>
+        <Date>20920505</Date>
+        <Date>20920526</Date>
+        <Date>20920825</Date>
+        <Date>20921225</Date>
+        <Date>20921226</Date>
+        <Date>20930101</Date>
+        <Date>20930410</Date>
+        <Date>20930413</Date>
+        <Date>20930504</Date>
+        <Date>20930525</Date>
+        <Date>20930831</Date>
+        <Date>20931225</Date>
+        <Date>20931228</Date>
+        <Date>20940101</Date>
+        <Date>20940402</Date>
+        <Date>20940405</Date>
+        <Date>20940503</Date>
+        <Date>20940531</Date>
+        <Date>20940830</Date>
+        <Date>20941227</Date>
+        <Date>20941228</Date>
+        <Date>20950103</Date>
+        <Date>20950422</Date>
+        <Date>20950425</Date>
+        <Date>20950502</Date>
+        <Date>20950530</Date>
+        <Date>20950829</Date>
+        <Date>20951226</Date>
+        <Date>20951227</Date>
+        <Date>20960102</Date>
+        <Date>20960413</Date>
+        <Date>20960416</Date>
+        <Date>20960507</Date>
+        <Date>20960528</Date>
+        <Date>20960827</Date>
+        <Date>20961225</Date>
+        <Date>20961226</Date>
+        <Date>20970101</Date>
+        <Date>20970329</Date>
+        <Date>20970401</Date>
+        <Date>20970506</Date>
+        <Date>20970527</Date>
+        <Date>20970826</Date>
+        <Date>20971225</Date>
+        <Date>20971226</Date>
+        <Date>20980101</Date>
+        <Date>20980418</Date>
+        <Date>20980421</Date>
+        <Date>20980505</Date>
+        <Date>20980526</Date>
+        <Date>20980825</Date>
+        <Date>20981225</Date>
+    </Dates>
+</Calendar> 
+
+<Calendar>
+    <Name>TKB</Name>    <!-- Tokyo - Tokyo bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BAB</Name>    <!-- Argentina - Buenos Aries bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>SYB</Name>    <!-- Australia - Sydney bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20140101</Date> <!-- New years -->
+        <Date>20140127</Date> <!-- Australia day -->
+        <Date>20140418</Date> <!-- Good Friday -->
+        <Date>20140421</Date> <!-- Easter Monday -->
+        <Date>20140425</Date> <!-- Anzac day -->
+        <Date>20140609</Date> <!-- Queen's birthday --> 
+        <Date>20140929</Date> <!-- Family day -->
+        <Date>20141006</Date> <!-- Labor day -->
+        <Date>20141225</Date> <!-- Christmas -->
+        <Date>20141226</Date> <!-- Boxing day -->
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BHB</Name>    <!-- Bahrain - Bahrain bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BXB</Name>    <!-- Brazil - Brasilia bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>TRB</Name>    <!-- Canada - Toronto bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20100101</Date>  <!-- New year -->
+        <Date>20100215</Date>  <!-- Family day -->
+        <Date>20100402</Date>  <!-- Good Friday -->
+        <Date>20100524</Date>  <!-- Victoria day -->
+        <Date>20100701</Date>  <!-- Canada day -->
+        <Date>20100802</Date>  <!-- Civic holiday -->
+        <Date>20100906</Date>  <!-- Labor day -->
+        <Date>20101011</Date>  <!-- Thanksgiving -->
+        <Date>20101111</Date>  <!-- Remembrance day-->
+        <Date>20110101</Date>  <!-- New year -->
+        <Date>20110221</Date>  <!-- Family day -->
+        <Date>20110422</Date>  <!-- Good Friday -->
+        <Date>20110523</Date>  <!-- Victoria day -->
+        <Date>20110701</Date>  <!-- Canada day -->
+        <Date>20110801</Date>  <!-- Civic holiday -->
+        <Date>20110905</Date>  <!-- Labor day -->
+        <Date>20111010</Date>  <!-- Thanksgiving -->
+        <Date>20111111</Date>  <!-- Remembrance day-->
+        <Date>20111225</Date>  <!-- Christmas day -->
+        <Date>20111226</Date>  <!-- Boxing day --> 
+        <Date>20120102</Date>  <!-- New year -->
+        <Date>20120220</Date>  <!-- Family day -->
+        <Date>20120406</Date>  <!-- Good Friday -->
+        <Date>20120521</Date>  <!-- Victoria day -->
+        <Date>20120702</Date>  <!-- Canada day -->
+        <Date>20120806</Date>  <!-- Civic holiday -->
+        <Date>20120903</Date>  <!-- Labor day -->
+        <Date>20121008</Date>  <!-- Thanksgiving -->
+        <Date>20121112</Date>  <!-- Remembrance day-->
+        <Date>20121225</Date>  <!-- Christmas day -->
+        <Date>20121226</Date>  <!-- Boxing day --> 
+        <Date>20130101</Date>  <!-- New year -->
+        <Date>20130218</Date>  <!-- Family day -->
+        <Date>20130329</Date>  <!-- Good Friday -->
+        <Date>20130520</Date>  <!-- Victoria day -->
+        <Date>20130701</Date>  <!-- Canada day -->
+        <Date>20130805</Date>  <!-- Civic holiday -->
+        <Date>20130902</Date>  <!-- Labor day -->
+        <Date>20131014</Date>  <!-- Thanksgiving -->
+        <Date>20131111</Date>  <!-- Remembrance day-->
+        <Date>20131225</Date>  <!-- Christmas day -->
+        <Date>20131226</Date>  <!-- Boxing day --> 
+        <Date>20140101</Date>  <!-- New year -->
+        <Date>20140217</Date>  <!-- Family day -->
+        <Date>20140418</Date>  <!-- Good Friday -->
+        <Date>20140519</Date>  <!-- Victoria day -->
+        <Date>20140701</Date>  <!-- Canada day -->
+        <Date>20140804</Date>  <!-- Civic holiday -->
+        <Date>20140901</Date>  <!-- Labor day -->
+        <Date>20141013</Date>  <!-- Thanksgiving -->
+        <Date>20141111</Date>  <!-- Remembrance day-->
+        <Date>20141225</Date>  <!-- Christmas day -->
+        <Date>20141226</Date>  <!-- Boxing day --> 
+    </Dates>                   
+</Calendar>
+
+<Calendar>
+    <Name>SAB</Name>    <!-- Chile - Santiago bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BEB</Name>    <!-- China - Beijing bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>SHB</Name>    <!-- China - Shanghai bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>CFF</Name>    <!-- China - China Financial Futures Exchange trading holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>CYN</Name>    <!-- China - China Foreign Exchange Trade System trading holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BOB</Name>    <!-- Colombia - Bogota bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>PRB</Name>    <!-- Czech Republic - Prague bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>COB</Name>    <!-- Denmark - CHighhagen bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>QIB</Name>    <!-- Ecuador - Quito bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>ZUB</Name>    <!-- Zurich - Zurich bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120101</Date>  <!--New Year's Day-->
+        <Date>20120102</Date>  <!--Berchtold Day-->
+        <Date>20120406</Date>  <!--Good Friday-->
+        <Date>20120409</Date>  <!--Easter Monday-->
+        <Date>20120517</Date>  <!--Ascension Day-->
+        <Date>20120527</Date>  <!--Pentecost-->
+        <Date>20120528</Date>  <!--Pentecost Monday-->
+        <Date>20120801</Date>  <!--Swiss National Day-->
+        <Date>20121224</Date>  <!--Christmas Eve-->
+        <Date>20121225</Date>  <!--Christmas Day-->
+        <Date>20130101</Date>  <!--New Year's Day-->
+        <Date>20130102</Date>  <!--Berchtold Day-->
+        <Date>20130329</Date>  <!--Good Friday-->
+        <Date>20130401</Date>  <!--Easter Monday-->
+        <Date>20130509</Date>  <!--Ascension Day-->
+        <Date>20130519</Date>  <!--Pentecost-->
+        <Date>20130520</Date>  <!--Pentecost Monday-->
+        <Date>20130801</Date>  <!--Swiss National Day-->
+        <Date>20131224</Date>  <!--Christmas Eve-->
+        <Date>20131225</Date>  <!--Christmas Day-->
+        <Date>20140101</Date>  <!--New Year's Day-->
+        <Date>20140102</Date>  <!--Berchtold Day-->
+        <Date>20140418</Date>  <!--Good Friday-->
+        <Date>20140421</Date>  <!--Easter Monday-->
+        <Date>20140529</Date>  <!--Ascension Day-->
+        <Date>20140608</Date>  <!--Pentecost-->
+        <Date>20140609</Date>  <!--Pentecost Monday-->
+        <Date>20140801</Date>  <!--Swiss National Day-->
+        <Date>20141224</Date>  <!--Christmas Eve-->
+        <Date>20141225</Date>  <!--Christmas Day-->
+        <Date>20150101</Date>  <!--New Year's Day-->
+        <Date>20150102</Date>  <!--Berchtold Day-->
+        <Date>20150403</Date>  <!--Good Friday-->
+        <Date>20150406</Date>  <!--Easter Monday-->
+        <Date>20150514</Date>  <!--Ascension Day-->
+        <Date>20150524</Date>  <!--Pentecost-->
+        <Date>20150525</Date>  <!--Pentecost Monday-->
+        <Date>20150801</Date>  <!--Swiss National Day-->
+        <Date>20151224</Date>  <!--Christmas Eve-->
+        <Date>20151225</Date>  <!--Christmas Day-->
+        <Date>20160101</Date>  <!--New Year's Day-->
+        <Date>20160102</Date>  <!--Berchtold Day-->
+        <Date>20160325</Date>  <!--Good Friday-->
+        <Date>20160328</Date>  <!--Easter Monday-->
+        <Date>20160505</Date>  <!--Ascension Day-->
+        <Date>20160515</Date>  <!--Pentecost-->
+        <Date>20160516</Date>  <!--Pentecost Monday-->
+        <Date>20160801</Date>  <!--Swiss National Day-->
+        <Date>20161224</Date>  <!--Christmas Eve-->
+        <Date>20161225</Date>  <!--Christmas Day-->
+        <Date>20170101</Date>  <!--New Year's Day-->
+        <Date>20170102</Date>  <!--Berchtold Day-->
+        <Date>20170414</Date>  <!--Good Friday-->
+        <Date>20170417</Date>  <!--Easter Monday-->
+        <Date>20170525</Date>  <!--Ascension Day-->
+        <Date>20170604</Date>  <!--Pentecost-->
+        <Date>20170605</Date>  <!--Pentecost Monday-->
+        <Date>20170801</Date>  <!--Swiss National Day-->
+        <Date>20171224</Date>  <!--Christmas Eve-->
+        <Date>20171225</Date>  <!--Christmas Day-->
+        <Date>20180101</Date>  <!--New Year's Day-->
+        <Date>20180102</Date>  <!--Berchtold Day-->
+        <Date>20180330</Date>  <!--Good Friday-->
+        <Date>20180402</Date>  <!--Easter Monday-->
+        <Date>20180510</Date>  <!--Ascension Day-->
+        <Date>20180520</Date>  <!--Pentecost-->
+        <Date>20180521</Date>  <!--Pentecost Monday-->
+        <Date>20180801</Date>  <!--Swiss National Day-->
+        <Date>20181224</Date>  <!--Christmas Eve-->
+        <Date>20181225</Date>  <!--Christmas Day-->
+        <Date>20190101</Date>  <!--New Year's Day-->
+        <Date>20190102</Date>  <!--Berchtold Day-->
+        <Date>20190419</Date>  <!--Good Friday-->
+        <Date>20190422</Date>  <!--Easter Monday-->
+        <Date>20190530</Date>  <!--Ascension Day-->
+        <Date>20190609</Date>  <!--Pentecost-->
+        <Date>20190610</Date>  <!--Pentecost Monday-->
+        <Date>20190801</Date>  <!--Swiss National Day-->
+        <Date>20191224</Date>  <!--Christmas Eve-->
+        <Date>20191225</Date>  <!--Christmas Day-->
+        <Date>20200101</Date>  <!--New Year's Day-->
+        <Date>20200102</Date>  <!--Berchtold Day-->
+        <Date>20200410</Date>  <!--Good Friday-->
+        <Date>20200413</Date>  <!--Easter Monday-->
+        <Date>20200521</Date>  <!--Ascension Day-->
+        <Date>20200531</Date>  <!--Pentecost-->
+        <Date>20200601</Date>  <!--Pentecost Monday-->
+        <Date>20200801</Date>  <!--Swiss National Day-->
+        <Date>20201224</Date>  <!--Christmas Eve-->
+        <Date>20201225</Date>  <!--Christmas Day-->
+
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>CRB</Name>    <!-- Egypt - Cairo bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>ATB</Name>    <!-- Greece - Athens bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>HKB</Name>    <!-- Hong Kong - Hong Kong bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BDB</Name>    <!-- Hungary - Budapest bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>NEB</Name>    <!-- India - ZNew Delhi bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>JAB</Name>    <!-- Indonesia - Jakarta bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>TAB</Name>    <!-- Israel - Tel Aviv bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>TEL</Name>    <!-- Israel - Bank of Israel (Telbor) non-fixing days -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>KUB</Name>    <!-- Kuwait - Kuwait bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>KLB</Name>    <!-- Malaysia - Kuala Lumpur bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>MXB</Name>    <!-- Mexico - Mexico City bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>AUB</Name>    <!-- New Zealand - Auckland bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>OSB</Name>    <!-- Norway - Oslo bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>KAB</Name>    <!-- Pakistan - Karachi bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>MNB</Name>    <!-- Philippines - Manila bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>WAB</Name>    <!-- Poland - Warsaw bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>DOB</Name>    <!-- Qatar - Doha bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BCB</Name>    <!-- Romania - Bucharest bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>MWB</Name>    <!-- Russia - Moscow bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>RIB</Name>    <!-- Saudi Arabia - Riyadh bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>SIB</Name>    <!-- Singapore - Singapore bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BTB</Name>    <!-- Slovak Republic - Bratislava bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>LBB</Name>    <!-- Slovenia - Ljubljana bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>JOB</Name>    <!-- South Africa - Johannesburg bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>SEB</Name>    <!-- South Korea - Seoul bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>STB</Name>    <!-- Sweden - Stockholm bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>TPB</Name>    <!-- Taiwan - Taipei bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>BKB</Name>    <!-- Thailand - Bangkok bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>ISB</Name>    <!-- Turkey - Istanbul bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>AEB</Name>    <!-- United Arab Emirates - Abu Dhabi bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+
+<Calendar>
+    <Name>HAB</Name>    <!-- Vietnam - Hanoi bank holidays -->
+    <Days>
+        <Day>Saturday</Day>
+        <Day>Sunday</Day>
+    </Days>
+    <Dates>
+        <Date>20120219</Date>
+        <Date>20120422</Date>
+        <Date>20120704</Date>
+    </Dates>
+</Calendar>
+    
+</Calendars>

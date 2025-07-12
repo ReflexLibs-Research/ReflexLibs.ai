@@ -1,0 +1,508 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.HUN</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>HUN_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>HUN_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>HUN</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>HUF</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20161222.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20160101</Effective>
+        <Maturity>20161222</Maturity>
+        <ISIN>HU0000402623</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20170224.6.75</Identifier>
+        <Rate>0.0675</Rate>
+        <Effective>20160101</Effective>
+        <Maturity>20170224</Maturity>
+        <ISIN>HU0000402375</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20171124.6.75</Identifier>
+        <Rate>0.0675</Rate>
+        <Effective>20160101</Effective>
+        <Maturity>20171124</Maturity>
+        <ISIN>HU0000402037</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20180425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20140115</Effective>
+        <FirstCouponDate>20140425</FirstCouponDate>
+        <Maturity>20180425</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402730</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20180622.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20150114</Effective>
+        <FirstCouponDate>20150622</FirstCouponDate>
+        <Maturity>20180622</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402979</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20181220.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20130116</Effective>
+        <FirstCouponDate>20131220</FirstCouponDate>
+        <Maturity>20181220</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402631</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20190520.0.8</Identifier>
+        <Rate>0.008</Rate>
+        <Effective>20130123</Effective>
+        <FirstCouponDate>20130520</FirstCouponDate>
+        <Maturity>20190520</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402649</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20190624.6.5</Identifier>
+        <Rate>0.065</Rate>
+        <Effective>20080206</Effective>
+        <FirstCouponDate>20080624</FirstCouponDate>
+        <Maturity>20190624</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402433</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20191030.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20160113</Effective>
+        <FirstCouponDate>20161030</FirstCouponDate>
+        <Maturity>20191030</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403092</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20200624.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20140624</Effective>
+        <FirstCouponDate>20150624</FirstCouponDate>
+        <Maturity>20200624</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402953</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20200923.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20170111</Effective>
+        <FirstCouponDate>20170923</FirstCouponDate>
+        <Maturity>20200923</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403258</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20201112.7.5</Identifier>
+        <Rate>0.075</Rate>
+        <Effective>20040211</Effective>
+        <FirstCouponDate>20041112</FirstCouponDate>
+        <Maturity>20201112</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402235</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20211027.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20160113</Effective>
+        <FirstCouponDate>20161027</FirstCouponDate>
+        <Maturity>20211027</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403100</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20210421.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20180207</Effective>
+        <FirstCouponDate>20190421</FirstCouponDate>
+        <Maturity>20210421</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403464</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20220624.7.0</Identifier>
+        <Rate>0.07</Rate>
+        <Effective>20110119</Effective>
+        <FirstCouponDate>20110624</FirstCouponDate>
+        <Maturity>20220624</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402524</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20220824.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20190306</Effective>
+        <FirstCouponDate>20190824</FirstCouponDate>
+        <Maturity>20220824</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403704</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20221026.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20170111</Effective>
+        <FirstCouponDate>20171026</FirstCouponDate>
+        <Maturity>20221026</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403266</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20230823.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200415</Effective>
+        <FirstCouponDate>20200823</FirstCouponDate>
+        <Maturity>20230823</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404280</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20231124.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Effective>20070110</Effective>
+        <FirstCouponDate>20071124</FirstCouponDate>
+        <Maturity>20231124</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402383</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20240626.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20150318</Effective>
+        <FirstCouponDate>20150626</FirstCouponDate>
+        <Maturity>20240626</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403068</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20241024.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20180627</Effective>
+        <FirstCouponDate>20191024</FirstCouponDate>
+        <Maturity>20241024</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403571</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20250624.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20140115</Effective>
+        <FirstCouponDate>20140624</FirstCouponDate>
+        <Maturity>20250624</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402748</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20251126.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20191113</Effective>
+        <FirstCouponDate>20201126</FirstCouponDate>
+        <Maturity>20251126</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404058</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20260422.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200902</Effective>
+        <FirstCouponDate>20210422</FirstCouponDate>
+        <Maturity>20260422</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404611</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20261222.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20170524</Effective>
+        <FirstCouponDate>20171222</FirstCouponDate>
+        <Maturity>20261222</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403340</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20271027.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20160113</Effective>
+        <FirstCouponDate>20161027</FirstCouponDate>
+        <Maturity>20271027</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403118</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20281022.6.75</Identifier>
+        <Rate>0.0675</Rate>
+        <Effective>20110302</Effective>
+        <FirstCouponDate>20111022</FirstCouponDate>
+        <Maturity>20281022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000402532</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20290523.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20200624</Effective>
+        <FirstCouponDate>20210523</FirstCouponDate>
+        <Maturity>20290523</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404603</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20300821.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20190220</Effective>
+        <FirstCouponDate>20190821</FirstCouponDate>
+        <Maturity>20300821</Maturity>
+        <ISIN>HU0000403696</ISIN>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.HUN.HUF.20311022.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20150422</Effective>
+        <FirstCouponDate>20151022</FirstCouponDate>
+        <Maturity>20311022</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403001</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20330420.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20201028</Effective>
+        <FirstCouponDate>20210420</FirstCouponDate>
+        <Maturity>20330420</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404744</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20381027.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20180207</Effective>
+        <FirstCouponDate>20181027</FirstCouponDate>
+        <Maturity>20381027</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000403555</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.HUN.HUF.20410425.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20200122</Effective>
+        <FirstCouponDate>20210425</FirstCouponDate>
+        <Maturity>20410425</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>HU0000404165</ISIN>
+    </FixedRateBond>
+
+</Instruments>

@@ -1,0 +1,64 @@
+{
+"CME_DELIVERY": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed"
+},
+"CME_TRADING": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed",
+"mod": "NY -2"
+},
+"CME_DELIVERY_SERIAL": {
+"week": 3,
+"weekday": "Wed"
+},
+"CME_TRADING_SERIAL": {
+"week": 3,
+"weekday": "Wed",
+"mod": "NY -2"
+},
+"LIFFE_EURIBOR_DELIVERY": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed"
+},
+"LIFFE_EURIBOR_TRADING": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed",
+"mod": "TRG -2"
+},
+"LIFFE_EURIBOR_DELIVERY_SERIAL": {
+"week": 3,
+"weekday": "Wed"
+},
+"LIFFE_EURIBOR_TRADING_SERIAL": {
+"week": 3,
+"weekday": "Wed",
+"mod": "TRG -2"
+},
+"LIFFE_SHORT_STERING_DELIVERY": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed"
+},
+"LIFFE_SHORT_STERING_TRADING": {
+"months": ["Mar", "Jun", "Sep", "Dec"],
+"week": 3,
+"weekday": "Wed",
+"mod": "LNB 0"
+},
+"LIFFE_SHORT_STERING_DELIVERY_SERIAL": {
+"week": 3,
+"weekday": "Wed"
+},
+"LIFFE_SHORT_STERING_TRADING_SERIAL": {
+"week": 3,
+"weekday": "Wed",
+"mod": "LNB 0"
+}
+}
+
+

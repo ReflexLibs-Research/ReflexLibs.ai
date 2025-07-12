@@ -1,0 +1,715 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.ISR.ILS</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>ISR_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>ISR_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>ISR</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>ILS</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20160531.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20121106</Effective>
+        <FirstCouponDate>20120531</FirstCouponDate>
+        <Maturity>20160531</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011271660</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20160831.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20110111</Effective>
+        <FirstCouponDate>20110831</FirstCouponDate>
+        <Maturity>20160831</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011220196</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20170228.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20070228</Effective>
+        <FirstCouponDate>20080229</FirstCouponDate>
+        <Maturity>20170228</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011015752</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20171031.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20140708</Effective>
+        <FirstCouponDate>20141031</FirstCouponDate>
+        <Maturity>20171031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011327868</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20180131.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20140708</Effective>
+        <FirstCouponDate>20141031</FirstCouponDate>
+        <Maturity>20180131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011262180</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20181031.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20151007</Effective>
+        <FirstCouponDate>20151102</FirstCouponDate> <!-- Finanzen.net say 20151030 -->
+        <Maturity>20181031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011365488</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20190228.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Effective>20080611</Effective>
+        <FirstCouponDate>20090227</FirstCouponDate>
+        <Maturity>20190228</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011109076</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20190531.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20140408</Effective>
+        <FirstCouponDate>20140530</FirstCouponDate>
+        <Maturity>20190531</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011317703</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20200131.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20090130</Effective>
+        <FirstCouponDate>20100131</FirstCouponDate>
+        <Maturity>20200131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011157737</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20210131.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20170711</Effective>
+        <FirstCouponDate>20180131</FirstCouponDate>
+        <Maturity>20210131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011422230</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20210430.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20160405</Effective>
+        <FirstCouponDate>20160428</FirstCouponDate>
+        <Maturity>20210430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011381303</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20220131.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20110405</Effective>
+        <FirstCouponDate>20120131</FirstCouponDate>
+        <Maturity>20220131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011232720</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20220731.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20190603</Effective>
+        <FirstCouponDate>20190731</FirstCouponDate>
+        <Maturity>20220731</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011581043</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20221130.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20170711</Effective>
+        <FirstCouponDate>20171130</FirstCouponDate>
+        <Maturity>20221130</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011412256</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20230331.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20120807</Effective>
+        <FirstCouponDate>20130331</FirstCouponDate>
+        <Maturity>20230331</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011267478</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20230731.0.15</Identifier>
+        <Rate>0.0015</Rate>
+        <Effective>20200707</Effective>
+        <FirstCouponDate>20200731</FirstCouponDate>
+        <Maturity>20230731</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011671059</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20231130.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20181011</Effective>
+        <FirstCouponDate>20191130</FirstCouponDate>
+        <Maturity>20231130</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011550683</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20240331.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20140107</Effective>
+        <FirstCouponDate>20140331</FirstCouponDate>
+        <Maturity>20240331</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011308488</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20250430.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200204</Effective>
+        <FirstCouponDate>20200430</FirstCouponDate>
+        <Maturity>20250430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011626681</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20250831.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20150506</Effective>
+        <FirstCouponDate>20150831</FirstCouponDate>
+        <Maturity>20250831</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011355570</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20261030.6.25</Identifier>
+        <Rate>0.0625</Rate>
+        <Effective>20061031</Effective>
+        <FirstCouponDate>20071031</FirstCouponDate>
+        <Maturity>20261030</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0010994569</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20270331.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20161108</Effective>
+        <FirstCouponDate>20170331</FirstCouponDate>
+        <Maturity>20270331</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011393449</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20280928.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20180703</Effective>
+        <FirstCouponDate>20180930</FirstCouponDate>
+        <Maturity>20280928</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011508798</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20300331.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20191115</Effective>
+        <FirstCouponDate>20200331</FirstCouponDate>
+        <Maturity>20300331</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011609851</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20370531.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200512</Effective>
+        <FirstCouponDate>20200531</FirstCouponDate>
+        <Maturity>20370531</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011661803</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ISR.ILS.20420131.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20120110</Effective>
+        <FirstCouponDate>20120131</FirstCouponDate>
+        <Maturity>20420131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011254005</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ISR.ILS.20470331.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20170307</Effective>
+        <FirstCouponDate>20170331</FirstCouponDate>
+        <Maturity>20470331</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>IL0011401937</ISIN>
+    </FixedRateBond>
+
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.ISR.ILS.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>ISR</Country>
+        <AccrualCalculator>DEU_Accrual_HICP</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DEU_YieldToDirtyPrice_HICP</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>ILS</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>ISR</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20170530.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20120306</Effective>
+        <FirstCouponDate>20120531</FirstCouponDate>
+        <Maturity>20170530</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011259053</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20180430.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20080108</Effective>
+        <FirstCouponDate>20080430</FirstCouponDate>
+        <Maturity>20180430</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011089278</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20191031.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20090804</Effective>
+        <FirstCouponDate>20091030</FirstCouponDate>
+        <Maturity>20191031</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011147506</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20201030.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20160105</Effective>
+        <FirstCouponDate>20161031</FirstCouponDate>
+        <Maturity>20201030</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011371817</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20210730.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20010801</Effective>
+        <FirstCouponDate>20020731</FirstCouponDate>
+        <Maturity>20210730</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0095903329</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20220930.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20110705</Effective>
+        <FirstCouponDate>20110928</FirstCouponDate>
+        <Maturity>20220930</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011240566</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20230929.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20130403</Effective>
+        <FirstCouponDate>20130930</FirstCouponDate>
+        <Maturity>20230929</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011280810</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20240731.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20040824</Effective>
+        <FirstCouponDate>20050731</FirstCouponDate>
+        <Maturity>20240731</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0095904319</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20251031.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20150707</Effective>
+        <FirstCouponDate>20151030</FirstCouponDate>
+        <Maturity>20251031</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011359127</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Check effective date, no indicative data source found -->
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ISR.ILS.CPI.20260731.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20200730</Effective>
+        <FirstCouponDate>20210730</FirstCouponDate>
+        <Maturity>20260731</Maturity>
+        <ISIN>IL0011695645</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ISR.ILS.CPI.20270531.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170509</Effective>
+        <FirstCouponDate>20170530</FirstCouponDate>
+        <Maturity>20270531</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011408478</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Check effective date, no indicative data source found -->
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ISR.ILS.CPI.20290531.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20180531</Effective>
+        <FirstCouponDate>20190531</FirstCouponDate>
+        <Maturity>20290531</Maturity>
+        <ISIN>IL0011570236</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20360530.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20060627</Effective>
+        <FirstCouponDate>20070531</FirstCouponDate>
+        <Maturity>20360530</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0010977085</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20410830.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20100907</Effective>
+        <FirstCouponDate>20110831</FirstCouponDate>
+        <Maturity>20410830</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011205833</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ISR.ILS.CPI.20450531.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20150303</Effective>
+        <FirstCouponDate>20150531</FirstCouponDate>
+        <Maturity>20450531</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011348658</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <!-- Check effective date from MTS "Start Coupon Date" -->
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ISR.ILS.CPI.20511130.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200908</Effective>
+        <FirstCouponDate>20201130</FirstCouponDate>
+        <Maturity>20511130</Maturity>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>IL0011683013</ISIN>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>

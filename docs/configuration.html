@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ReflexLibs Viewer (AI/COM Mode)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Syntax Highlighting Themes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden; /* no outer scrollbar */
+      background: #fff;
+    }
+
+    .env-bar {
+      display: flex;
+    }
+
+    .env-box {
+      width: 50%;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .env-white {
+      background: #fff;
+      color: #000;
+    }
+
+    .env-black {
+      background: #000;
+      color: #eee;
+    }
+
+    .env-box h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+    }
+
+    .sub {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      background: #777;
+      padding: 0.75rem;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+
+    .menu-item {
+      padding: 0.4rem 1rem;
+      background: #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .menu-item.active {
+      background: #fff;
+      font-weight: bold;
+    }
+
+    .columns {
+      display: flex;
+      flex: 1 1 auto;
+      height: 100%;
+    }
+
+    .column {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .white-bg {
+      background: #eee;
+      color: #000;
+    }
+
+    .black-bg {
+      background: #111;
+      color: #eee;
+    }
+
+    .viewer {
+      flex-grow: 1;
+      padding: 1rem;
+      overflow: auto;
+      background: inherit;
+      color: inherit;
+    }
+
+    pre {
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    pre code {
+      font-family: 'Fira Code', Consolas, monospace;
+    }
+
+    /* 🔧 Critical Fixes for Theme Isolation */
+    .white-bg .hljs {
+      background: #eee !important;
+      color: #000 !important;
+    }
+
+    .black-bg .hljs {
+      background: #111 !important;
+      color: #eee !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ENV Panels -->
+  <div class="env-bar">
+    <div id="left-env" class="env-box"></div>
+    <div id="right-env" class="env-box"></div>
+  </div>
+
+  <!-- Unified Menu -->
+  <div class="menu" id="unified-menu"></div>
+
+  <!-- Code Viewers -->
+  <div class="columns">
+    <div id="left-container" class="column"></div>
+    <div id="right-container" class="column"></div>
+  </div>
+
+  <!-- Highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/json.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/xml.min.js"></script>
+
+  <script>
+    const MODE = 'ai'; // flip to 'com' to reverse layout
+
+    const baseXML = 'public/config/ReflexLibsXml/';
+    const baseJSON = 'public/config/ReflexLibsJson/';
+    const files = [
+      'bonds_all', 'calendars', 'central_banks',
+      'country', 'currencies', 'date_rules',
+      'inflation_index', 'interest_index', 'legal_entity'
+    ];
+
+    const configs = {
+      com: {
+        year: '2018',
+        domain: 'reflexlibs.com',
+        logoKey: 'com',
+        bgClass: 'white-bg',
+        envClass: 'env-white',
+        type: 'xml',
+        basePath: baseXML,
+        codeId: 'xml-viewer',
+        lang: 'xml'
+      },
+      ai: {
+        year: '2025',
+        domain: 'reflexlibs.ai',
+        logoKey: 'ai',
+        bgClass: 'black-bg',
+        envClass: 'env-black',
+        type: 'json',
+        basePath: baseJSON,
+        codeId: 'json-viewer',
+        lang: 'json'
+      }
+    };
+
+    const isAI = MODE === 'ai';
+    const leftCfg = isAI ? configs.ai : configs.com;
+    const rightCfg = isAI ? configs.com : configs.ai;
+
+    function renderEnv(containerId, cfg) {
+      const env = document.getElementById(containerId);
+      env.classList.add(cfg.envClass);
+      env.innerHTML = `
+        <div><strong>Environment:</strong> Prod</div>
+        <div><strong>Version:</strong> <em>1.0.0</em></div>
+        <div><strong>Last updated:</strong> <em>10–Jun–2025 17:15:00.000 UTC</em></div>
+        <h1>
+          <span style="color:${cfg.envClass === 'env-white' ? 'black' : 'white'}; font-weight:900">reflex</span>
+          <span style="color:orange; font-weight:900">libs</span>
+        </h1>
+        <div class="sub">
+          <span style="color:${cfg.envClass === 'env-white' ? 'gray' : 'white'}">${cfg.domain.split('.')[0]}</span>
+          <span style="color:orange">.${cfg.domain.split('.')[1]}</span>
+        </div>
+        <div class="sub" style="color:${cfg.envClass === 'env-white' ? '#777' : 'lightgray'}">${cfg.year}</div>
+      `;
+    }
+
+    function renderPanel(containerId, cfg) {
+      const container = document.getElementById(containerId);
+      container.className = `column ${cfg.bgClass}`;
+      container.innerHTML = `
+        <div class="viewer">
+          <pre><code id="${cfg.codeId}" class="language-${cfg.lang}">// Select a file</code></pre>
+        </div>
+      `;
+    }
+
+    async function loadFile(path, viewerId, lang) {
+      const viewer = document.getElementById(viewerId);
+      viewer.removeAttribute('data-highlighted');
+      viewer.textContent = 'Loading...';
+      viewer.className = '';
+      try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const text = await res.text();
+        viewer.textContent = text;
+        viewer.className = `language-${lang}`;
+        hljs.highlightElement(viewer);
+      } catch (err) {
+        viewer.textContent = `❌ Failed to load ${path}: ${err.message}`;
+      }
+    }
+
+    // Setup headers and layout
+    renderEnv('left-env', leftCfg);
+    renderEnv('right-env', rightCfg);
+    renderPanel('left-container', leftCfg);
+    renderPanel('right-container', rightCfg);
+
+    // Build unified menu
+    const menu = document.getElementById('unified-menu');
+    files.forEach(file => {
+      const btn = document.createElement('div');
+      btn.textContent = file;
+      btn.className = 'menu-item';
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.menu-item').forEach(el => el.classList.remove('active'));
+        btn.classList.add('active');
+        loadFile(`${leftCfg.basePath}${file}.${leftCfg.type}`, leftCfg.codeId, leftCfg.lang);
+        loadFile(`${rightCfg.basePath}${file}.${rightCfg.type}`, rightCfg.codeId, rightCfg.lang);
+      });
+      menu.appendChild(btn);
+    });
+
+    // Load default file on startup
+    loadFile(`${leftCfg.basePath}${files[0]}.${leftCfg.type}`, leftCfg.codeId, leftCfg.lang);
+    loadFile(`${rightCfg.basePath}${files[0]}.${rightCfg.type}`, rightCfg.codeId, rightCfg.lang);
+    document.querySelector('.menu-item').classList.add('active');
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<InterestIndexes>
+
+<!-- United Kingdom -->
+  
+<InterestIndex>
+  <Currency>GBP</Currency>
+  <Name>SONIA</Name>
+  <Type>Overnight</Type>
+  <PublicationCalendar>LON</PublicationCalendar>
+</InterestIndex>
+
+<InterestIndex>
+  <Currency>GBP</Currency>
+  <Name>LIBOR</Name>
+  <Description>London Interbank Offered Rate</Description>
+  <Type>Term</Type>
+  <PublicationCalendar>LON</PublicationCalendar>
+</InterestIndex>
+
+<!-- Russia -->
+  
+<InterestIndex>
+  <Currency>RUB</Currency>
+  <Name>RUONIA</Name>
+  <Description>Rouble Overnight Index Average</Description>
+  <Type>Overnight</Type>
+  <PublicationCalendar>MOS</PublicationCalendar>  
+
+</InterestIndex>
+
+<InterestIndex>
+  <Currency>RUB</Currency>
+  <Name>MOSPRime</Name>
+  <Description>Moscow Prime Offered Rate</Description>
+  <Type>Term</Type>
+  <PublicationCalendar>MOS</PublicationCalendar>
+</InterestIndex>
+  
+
+  
+</InterestIndexes>

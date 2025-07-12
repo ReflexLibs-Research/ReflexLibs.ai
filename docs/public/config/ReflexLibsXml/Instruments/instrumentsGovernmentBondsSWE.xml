@@ -1,0 +1,552 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.SWE</Identifier>
+        <ExCouponAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>-3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>SWE</Country>
+        <Issuer>KS</Issuer>
+        <AccrualCalculator>SWE_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>SWE_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>SEK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20160712.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20050712</Effective>
+        <Maturity>20160712</Maturity>
+        <ISIN>SE0001517699</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20170812.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20060812</Effective>
+        <Maturity>20170812</Maturity>
+        <ISIN>SE0001811399</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20190312.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20070312</Effective>
+        <Maturity>20190312</Maturity>
+        <ISIN>SE0002241083</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20201201.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20031201</Effective>
+        <Maturity>20201201</Maturity>
+        <ISIN>SE0001149311</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20220601.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20100601</Effective>
+        <Maturity>20220601</Maturity>
+        <ISIN>SE0003784461</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20231113.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20111113</Effective>
+        <Maturity>20231113</Maturity>
+        <ISIN>SE0004869071</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20250512.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20130512</Effective>
+        <Maturity>20250512</Maturity>
+        <ISIN>SE0005676608</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20261112.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20141112</Effective>
+        <Maturity>20261112</Maturity>
+        <ISIN>SE0007125927</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20280512.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20160512</Effective>
+        <Maturity>20280512</Maturity>
+        <ISIN>SE0009496367</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20291112.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20171112</Effective>
+        <Maturity>20291112</Maturity>
+        <ISIN>SE0011281922</ISIN>
+    </FixedRateBond>
+
+
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20300909.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20200909</Effective>
+        <FirstCouponDate>20210909</FirstCouponDate>
+        <Maturity>20300909</Maturity>
+        <ISIN>XS2226974504</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20310512.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20190512</Effective>
+        <FirstCouponDate>20200512</FirstCouponDate>
+        <Maturity>20310512</Maturity>
+        <ISIN>SE0013935319</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20320601.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20110601</Effective>
+        <Maturity>20320601</Maturity>
+        <ISIN>SE0004517290</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20390330.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20090330</Effective>
+        <Maturity>20390330</Maturity>
+        <ISIN>SE0002829192</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.SEK.20451124.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20201124</Effective>
+        <FirstCouponDate>20211124</FirstCouponDate>
+        <Maturity>20451124</Maturity>
+        <ISIN>SE0015193313</ISIN>
+    </FixedRateBond>
+
+    <!-- Foreign currency bonds -->
+
+    <!-- EUR -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.SWE.EUR</Identifier>
+        <FixedLeg>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+            </NotionalDetails>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20161127.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20131127</Effective>
+        <Maturity>20161127</Maturity>
+        <ISIN>XS0997474639</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20170625.0.13</Identifier>
+        <Rate>0.0013</Rate>
+        <Effective>20140625</Effective>
+        <Maturity>20170625</Maturity>
+        <ISIN>XS1081254465</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20180131.0.875</Identifier>
+        <Rate>0.00875</Rate>
+        <Effective>20130131</Effective>
+        <Maturity>20180131</Maturity>
+        <ISIN>XS0882814386</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>XS0883993825</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20190502.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20140502</Effective>
+        <Maturity>20190502</Maturity>
+        <ISIN>XS1062909384</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20200212.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20150212</Effective>
+        <Maturity>20200212</Maturity>
+        <ISIN>XS1189262345</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>XS1189262428</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.EUR.20261228.9.405</Identifier>
+        <Rate>0.09405</Rate>
+        <Effective>19960409</Effective>
+        <Maturity>20261228</Maturity>
+        <ISIN>ES0273315038</ISIN>
+    </FixedRateBond>
+
+
+    <!-- USD -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.SWE.USD</Identifier>
+        <Frequency>SemiAnnual</Frequency>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>USD</Currency>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20160919.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20140919</Effective>
+        <Maturity>20160919</Maturity>
+        <ISIN>XS1111084809</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAP96</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20161115.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130830</Effective>
+        <Maturity>20161115</Maturity>
+        <ISIN>XS0966306465</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAL82</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20170412.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20140325</Effective>
+        <Maturity>20170412</Maturity>
+        <ISIN>XS1048518945</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAM65</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20170815.0.875</Identifier>
+        <Rate>0.00875</Rate>
+        <Effective>20140528</Effective>
+        <Maturity>20170815</Maturity>
+        <ISIN>XS1071827643</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAN49</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20171113.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20141113</Effective>
+        <Maturity>20171113</Maturity>
+        <ISIN>XS1135379656</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAQ79</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20180123.0.875</Identifier>
+        <Rate>0.00875</Rate>
+        <Effective>20150123</Effective>
+        <Maturity>20180123</Maturity>
+        <ISIN>XS1171709857</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAR52</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20180227.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130227</Effective>
+        <Maturity>20180227</Maturity>
+        <ISIN>XS0895508314</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAF15</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20180515.1.125</Identifier>
+        <Rate>0.01125</Rate>
+        <Effective>20150513</Effective>
+        <Maturity>20180515</Maturity>
+        <ISIN>XS1231271294</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAU81</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20181005.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20151005</Effective>
+        <Maturity>20181005</Maturity>
+        <ISIN>XS1301030810</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAV64</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20190315.1.125</Identifier>
+        <Rate>0.01125</Rate>
+        <Effective>20160315</Effective>
+        <Maturity>20190315</Maturity>
+        <ISIN>XS1379422675</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20200324.1.625</Identifier>
+        <Rate>0.01625</Rate>
+        <Effective>20150324</Effective>
+        <Maturity>20200324</Maturity>
+        <ISIN>XS1207317428</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAT19</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.SWE.USD.20170316.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20150316</Effective>
+        <Maturity>20170316</Maturity>
+        <ISIN>XS1202015902</ISIN>
+        <Attributes>
+            <Attribute>
+                <Key>ISIN US</Key>
+                <Value>US87020DAS36</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+
+    <!-- Inflation linked -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.SWE.SEK.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>SWE</Country>
+        <AccrualCalculator>SWE_Accrual_CPI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>SWE_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>SEK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>SWE</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20170601.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20100601</Effective>
+        <Maturity>20170601</Maturity>
+        <ISIN>SE0003524669</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20190601.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20140601</Effective>
+        <Maturity>20190601</Maturity>
+        <ISIN>SE0006758736</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20201201.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>19951201</Effective>
+        <Maturity>20201201</Maturity>
+        <ISIN>SE0000317943</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20220601.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20110601</Effective>
+        <Maturity>20220601</Maturity>
+        <ISIN>SE0004211084</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20250601.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130601</Effective>
+        <Maturity>20250601</Maturity>
+        <ISIN>SE0005703550</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20260601.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20150601</Effective>
+        <Maturity>20260601</Maturity>
+        <ISIN>SE0008014062</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20271201.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20161201</Effective>
+        <Maturity>20271201</Maturity>
+        <ISIN>SE0009548704</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20281201.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>19981201</Effective>
+        <Maturity>20281201</Maturity>
+        <ISIN>SE0000556599</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20281201.3.5.19971201</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>19971201</Effective>
+        <Maturity>20281201</Maturity>
+        <ISIN>SE0000479453</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20300601.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20190601</Effective>
+        <FirstCouponDate>20200601</FirstCouponDate>
+        <Maturity>20300601</Maturity>
+        <ISIN>SE0013748258</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.SWE.SEK.CPI.20320601.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20140601</Effective>
+        <Maturity>20320601</Maturity>
+        <ISIN>SE0007045745</ISIN>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>

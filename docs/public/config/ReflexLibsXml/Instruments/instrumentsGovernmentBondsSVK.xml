@@ -1,0 +1,250 @@
+<Instruments>
+
+    <!-- Solvenia -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.SVK.EUR</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>SVN_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>SVN_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>SVK</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20181128.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20130528</Effective>
+        <FirstCouponDate>20131128</FirstCouponDate>
+        <Maturity>20181128</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>SK4120009234</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20200427.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20100427</Effective>
+        <FirstCouponDate>20110427</FirstCouponDate>
+        <Maturity>20200427</Maturity>
+        <ISIN>SK4120007204</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20230228.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20130228</Effective>
+        <FirstCouponDate>20140228</FirstCouponDate>
+        <Maturity>20230228</Maturity>
+        <ISIN>SK4120009044</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20231113.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160501</Effective>
+        <Maturity>20231113</Maturity>
+        <ISIN>SK4120011636</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20240617.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200601</Effective>
+        <Maturity>20240617</Maturity>
+        <ISIN>SK4000017398</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20241115.3.375</Identifier>
+        <Rate>0.03375</Rate>
+        <Effective>20121115</Effective>
+        <FirstCouponDate>20131115</FirstCouponDate>
+        <Maturity>20241115</Maturity>
+        <ISIN>SK4120008871</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20250514.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20200514</Effective>
+        <FirstCouponDate>20210514</FirstCouponDate>
+        <Maturity>20250514</Maturity>
+        <ISIN>SK4000017158</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20251014.4.35</Identifier>
+        <Rate>0.0435</Rate>
+        <Effective>20101014</Effective>
+        <FirstCouponDate>20111014</FirstCouponDate>
+        <Maturity>20251014</Maturity>
+        <ISIN>SK4120007543</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20260522.0.625</Identifier>
+        <Rate>0.00625</Rate>
+        <Effective>20161123</Effective>
+        <FirstCouponDate>20170522</FirstCouponDate>
+        <Maturity>20260522</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>SK4120012220</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20270121.1.375</Identifier>
+        <Rate>0.01375</Rate>
+        <Effective>20150121</Effective>
+        <FirstCouponDate>20160121</FirstCouponDate>
+        <Maturity>20270121</Maturity>
+        <ISIN>SK4120010430</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20270617.0.125</Identifier>
+        <Rate>0.00125</Rate>
+        <Effective>20200617</Effective>
+        <FirstCouponDate>20210617</FirstCouponDate>
+        <Maturity>20270617</Maturity>
+        <ISIN>SK4000017380</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20280612.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20180612</Effective>
+        <FirstCouponDate>20190612</FirstCouponDate>
+        <Maturity>20280612</Maturity>
+        <ISIN>SK4120014150</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20290116.3.625</Identifier>
+        <Rate>0.03625</Rate>
+        <Effective>20140116</Effective>
+        <FirstCouponDate>20150116</FirstCouponDate>
+        <Maturity>20290116</Maturity>
+        <ISIN>SK4120009762</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20290711.4.4</Identifier>
+        <Rate>0.044</Rate>
+        <Effective>20120711</Effective>
+        <FirstCouponDate>20130711</FirstCouponDate>
+        <Maturity>20290711</Maturity>
+        <ISIN>SK4120008665</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20300409.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20190409</Effective>
+        <FirstCouponDate>20200409</FirstCouponDate>
+        <Maturity>20300409</Maturity>
+        <ISIN>SK4120015173</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20310121.1.625</Identifier>
+        <Rate>0.01625</Rate>
+        <Effective>20160121</Effective>
+        <FirstCouponDate>20170121</FirstCouponDate>
+        <Maturity>20310121</Maturity>
+        <ISIN>SK4120011420</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20330208.3.875</Identifier>
+        <Rate>0.03875</Rate>
+        <Effective>20130208</Effective>
+        <FirstCouponDate>20140208</FirstCouponDate>
+        <Maturity>20330208</Maturity>
+        <ISIN>SK4120008954</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20370309.1.875</Identifier>
+        <Rate>0.01875</Rate>
+        <Effective>20170309</Effective>
+        <FirstCouponDate>20180309</FirstCouponDate>
+        <Maturity>20370309</Maturity>
+        <ISIN>SK4120012691</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20301009.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20200409</Effective>
+        <FirstCouponDate>20201009</FirstCouponDate>
+        <Maturity>20301009</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>SK4000017059</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20320514.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20200514</Effective>
+        <FirstCouponDate>20210514</FirstCouponDate>
+        <Maturity>20320514</Maturity>
+        <ISIN>SK4000017166</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20471017.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20171017</Effective>
+        <FirstCouponDate>20181017</FirstCouponDate>
+        <Maturity>20471017</Maturity>
+        <ISIN>SK4120013400</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.SVK.EUR.20680612.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20180612</Effective>
+        <FirstCouponDate>20190612</FirstCouponDate>
+        <Maturity>20680612</Maturity>
+        <ISIN>SK4120014184</ISIN>
+    </FixedRateBond>
+
+</Instruments>

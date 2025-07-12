@@ -1,0 +1,389 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.NLD</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>NLD_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>NLD_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>NLD</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final />
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20160715.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20060717</Effective>
+        <FirstCouponDate>20070715</FirstCouponDate>
+        <Maturity>20160715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0000102283</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20170115.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20110624</Effective>
+        <FirstCouponDate>20120115</FirstCouponDate>
+        <Maturity>20170115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0009819671</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20170415.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20140117</Effective>
+        <FirstCouponDate>20150415</FirstCouponDate>
+        <Maturity>20170415</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0010661930</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20170715.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20070716</Effective>
+        <FirstCouponDate>20080715</FirstCouponDate>
+        <Maturity>20170715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0006007239</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20180115.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20120706</Effective>
+        <FirstCouponDate>20130115</FirstCouponDate>
+        <Maturity>20180115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0010200606</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20180415.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150115</Effective>
+        <FirstCouponDate>20160415</FirstCouponDate>
+        <Maturity>20180415</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0011005137</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20180715.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20080225</Effective>
+        <FirstCouponDate>20080715</FirstCouponDate>
+        <Maturity>20180715</Maturity>
+        <ISIN>NL0006227316</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20190115.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20130628</Effective>
+        <FirstCouponDate>20140115</FirstCouponDate>
+        <Maturity>20190115</Maturity>
+        <ISIN>NL0010514246</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20190715.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20090213</Effective>
+        <FirstCouponDate>20090715</FirstCouponDate>
+        <Maturity>20190715</Maturity>
+        <ISIN>NL0009086115</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20200715.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20100205</Effective>
+        <FirstCouponDate>20100715</FirstCouponDate>
+        <Maturity>20200715</Maturity>
+        <ISIN>NL0009348242</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20200115.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20140929</Effective>
+        <FirstCouponDate>20150115</FirstCouponDate>
+        <Maturity>20200115</Maturity>
+        <ISIN>NL0010881827</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20210715.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20110304</Effective>
+        <FirstCouponDate>20110715</FirstCouponDate>
+        <Maturity>20210715</Maturity>
+        <ISIN>NL0009712470</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20220115.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160609</Effective>
+        <Maturity>20220115</Maturity>
+        <ISIN>NL0011896857</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20220715.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20120210</Effective>
+        <FirstCouponDate>20120715</FirstCouponDate>
+        <Maturity>20220715</Maturity>
+        <ISIN>NL0010060257</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20230115.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20060217</Effective>
+        <FirstCouponDate>20070115</FirstCouponDate>
+        <Maturity>20230115</Maturity>
+        <ISIN>NL0000102275</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20230115.7.5</Identifier>
+        <Rate>0.075</Rate>
+        <Effective>19930115</Effective>
+        <FirstCouponDate>19940115</FirstCouponDate>
+        <Maturity>20230115</Maturity>
+        <ISIN>NL0000102077</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20230715.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20130322</Effective>
+        <FirstCouponDate>20130715</FirstCouponDate>
+        <Maturity>20230715</Maturity>
+        <ISIN>NL0010418810</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20240115.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20171013</Effective>
+        <Maturity>20240115</Maturity>
+        <ISIN>NL0012650469</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20240715.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20140328</Effective>
+        <FirstCouponDate>20140715</FirstCouponDate>
+        <Maturity>20240715</Maturity>
+        <ISIN>NL0010733424</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20250715.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20150326</Effective>
+        <FirstCouponDate>20150715</FirstCouponDate>
+        <Maturity>20250715</Maturity>
+        <ISIN>NL0011220108</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20260715.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20160324</Effective>
+        <FirstCouponDate>20160715</FirstCouponDate>
+        <Maturity>20260715</Maturity>
+        <ISIN>NL0011819040</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20270115.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200528</Effective>
+        <FirstCouponDate>20210115</FirstCouponDate>
+        <Maturity>20270115</Maturity>
+        <ISIN>NL0015031501</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20270715.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170209</Effective>
+        <FirstCouponDate>20170715</FirstCouponDate>
+        <Maturity>20270715</Maturity>
+        <ISIN>NL0012171458</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20280115.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>19980115</Effective>
+        <FirstCouponDate>19990115</FirstCouponDate>
+        <Maturity>20280115</Maturity>
+        <ISIN>NL0000102317</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20280715.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20180315</Effective>
+        <FirstCouponDate>20180715</FirstCouponDate>
+        <Maturity>20280715</Maturity>
+        <ISIN>NL0012818504</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20290715.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20190214</Effective>
+        <FirstCouponDate>20190715</FirstCouponDate>
+        <Maturity>20290715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0013332430</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20300715.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200313</Effective>
+        <FirstCouponDate>20190715</FirstCouponDate>
+        <Maturity>20300715</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0014555419</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20330115.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20120309</Effective>
+        <FirstCouponDate>20130115</FirstCouponDate>
+        <Maturity>20330115</Maturity>
+        <ISIN>NL0010071189</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20370115.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20050425</Effective>
+        <FirstCouponDate>20060115</FirstCouponDate>
+        <Maturity>20370115</Maturity>
+        <ISIN>NL0000102234</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20400115.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20190523</Effective>
+        <FirstCouponDate>20200115</FirstCouponDate>
+        <Maturity>20400115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0013552060</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20420115.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20100521</Effective>
+        <FirstCouponDate>20110115</FirstCouponDate>
+        <Maturity>20420115</Maturity>
+        <ISIN>NL0009446418</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NLD.EUR.20470115.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140221</Effective>
+        <FirstCouponDate>20150115</FirstCouponDate>
+        <Maturity>20470115</Maturity>
+        <ISIN>NL0010721999</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.NLD.EUR.20520115.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200924</Effective>
+        <FirstCouponDate>20150115</FirstCouponDate>
+        <Maturity>20520115</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>NL0015614579</ISIN>
+    </FixedRateBond>
+</Instruments>

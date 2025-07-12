@@ -1,0 +1,9 @@
+<Instruments>
+
+<xi:include href="instrumentsGBP.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsGBR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsBondFuturesGBR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+
+</Instruments>
+

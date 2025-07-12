@@ -1,0 +1,1037 @@
+<Inflation>
+
+  <!-- AUS : Australia -->
+  <!-- Data from http://www.abs.gov.au -->
+  <!-- The publication dates are estimated in this data, the AUS CPI site claims they are published 4th Wednesday after apply date -->
+  <!-- This data corresponds to the "All groups Australia index - Series ID A2325846C -->
+  <InflationIndex>
+    <Identifier>
+      <Country>AUS</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.abs.gov.au</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>All groups Australia index</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>A2325846C</Value>
+      </Attribute>
+    </Attributes>
+
+    <!-- Base Year was changed to average of 2011-2012 index publications -->
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Mar</Month>
+      <Month>Jun</Month>
+      <Month>Sep</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>SYB</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- CAN : Canada -->
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>CAN</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.statcan.gc.ca</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Canadian CPI</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>v41690973</Value>
+      </Attribute>
+    </Attributes>
+
+    <!-- The CPI index was re-based in Jun 2007, see http://www.bankofcanada.ca/2007/06/change-official-time-base-reference/
+       The base index is not for a month, historic inflation values for 2002 were rescaled so that the average value for the 12
+       2002 values was 100
+   -->
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- Friday after third Wednesday -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <DayOfWeek>
+        <Day>Wednesday</Day>
+        <NumberOfWeeks>3</NumberOfWeeks>
+      </DayOfWeek>
+      <DayOfWeek>
+        <Day>Friday</Day>
+        <NumberOfWeeks>0</NumberOfWeeks>
+      </DayOfWeek>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRB</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <!-- Canadian statistics office -->
+  <!-- Canadian core CPI -->
+  <!-- http://www.statcan.gc.ca/start-debut-eng.html -->
+  <!-- http://www5.statcan.gc.ca/subject-sujet/subtheme-soustheme?pid=3956&id=2178&lang=eng&more=0 you can get the data in CANSIM table  326-0020 -->
+  <!-- Also here http://www.bankofcanada.ca/rates/price-indexes/cpi/ -->
+  <InflationIndex>
+
+    <Identifier>
+      <Country>CAN</Country>
+      <Name>CORE_CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.statcan.gc.ca</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Bank of Canada Core CPI</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>v41693242</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- Friday after third Wednesday -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <DayOfWeek>
+        <Day>Wednesday</Day>
+        <NumberOfWeeks>3</NumberOfWeeks>
+      </DayOfWeek>
+      <DayOfWeek>
+        <Day>Friday</Day>
+        <NumberOfWeeks>0</NumberOfWeeks>
+      </DayOfWeek>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRB</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- DEU : Germany -->
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>DEU</Country>
+      <Name>HICPXTOB</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>DEU</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- DNK : Denmark -->
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>DNK</Country>
+      <Name>CPI</Name>
+    </Identifier>
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://www.dst.dk/</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Danish CPI</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value></Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>10D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- ESP : Spain -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>ESP</Country>
+      <Name>HICPXTOB</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <!-- Temporary ESP SPAIN CPI-->
+  <InflationIndex>
+    <Identifier>
+      <Country>ESP</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- EUR : Europe -->
+
+  <!-- Publications are at http://epp.eurostat.ec.europa.eu/portal/page/portal/publications/collections/sif_dif/dif?cookies=disabled publication times are from this page -->
+  <InflationIndex>
+
+    <Identifier>
+      <Country>EUR</Country>
+      <Name>HICPXTOB</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- 16th of month -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <!-- Publications Implied Remaining 14 countries in EURO-18 excluding "BIG4", DEU, ESP, FRA, ITA -->
+  <InflationIndex>
+    <Identifier>
+      <Country>EUR</Country>
+      <Name>HICPXTOB-IMPL-14</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- 16th of month -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+
+  <!-- FRA : France -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>FRA</Country>
+      <Name>HICPXTOB</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+    <Identifier>
+      <Country>FRA</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+    <Identifier>
+      <Country>FRA</Country>
+      <Name>CPIXTOB</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+  <!-- GBR : Great Britain -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>GBR</Country>
+      <Name>RPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.ons.gov.uk</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>UK Retail Price Index</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- 15th of following month -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>LON</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+    <Identifier>
+      <Country>GBR</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.ons.gov.uk</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>UK Retail Price Index</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>LON</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  
+  <!-- ISR : Israel -->
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>ISR</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  
+  
+  <!-- ITA : Italy -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>ITA</Country>
+      <Name>HICPXTOB</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+    <Identifier>
+      <Country>ITA</Country>
+      <Name>FOI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+  
+  
+  <InflationIndex>
+    <Identifier>
+      <Country>ITA</Country>
+      <Name>FOIXTOB</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+  <InflationIndex>
+    <Identifier>
+      <Country>ITA</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>http://ec.europa.eu/eurostat</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>Euro area harmonized all items excluding tobacco, provisional</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>teicp240</Value>
+      </Attribute>
+    </Attributes>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  
+  
+  <!-- JPN : Japan -->
+
+  <InflationIndex>
+
+    <Identifier>
+      <Country>JPN</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- NZD : New Zealand -->
+  <!-- Data from http://www.stats.govt.nz -->
+  <!-- This is the "All Groups - SE9A" index -->
+  <InflationIndex>
+
+    <Identifier>
+      <Country>NZL</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <Attributes>
+      <Attribute>
+        <Name>Website</Name>
+        <Value>www.stats.govt.nz</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Description</Name>
+        <Value>All groups index</Value>
+      </Attribute>
+      <Attribute>
+        <Name>Series</Name>
+        <Value>SE9A</Value>
+      </Attribute>
+    </Attributes>
+    <BaseValue>1000.0</BaseValue>
+    <IndexMonths>
+      <Month>Mar</Month>
+      <Month>Jun</Month>
+      <Month>Sep</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- 33 Auckland business days, which should put around the 17th of the following month -->
+    <AnnouncementAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>AUB</Calendar>
+        <NumberOfBusinessDays>33</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+      <!-- POL : Poland -->
+
+    <InflationIndex>
+
+        <Identifier>
+            <Country>POL</Country>
+            <Name>CPI</Name>
+        </Identifier>
+
+        <BaseValue>100.0</BaseValue>
+        <IndexMonths>
+            <Month>Jan</Month>
+            <Month>Feb</Month>
+            <Month>Mar</Month>
+            <Month>Apr</Month>
+            <Month>May</Month>
+            <Month>Jun</Month>
+            <Month>Jul</Month>
+            <Month>Aug</Month>
+            <Month>Sep</Month>
+            <Month>Oct</Month>
+            <Month>Nov</Month>
+            <Month>Dec</Month>
+        </IndexMonths>
+
+        <AnnouncementAdjuster>
+            <Tenor>1M</Tenor>
+            <Tenor>15D</Tenor>
+            <RollForwardIfNotBusinessDay>
+                <Calendar>TRG</Calendar>
+            </RollForwardIfNotBusinessDay>
+        </AnnouncementAdjuster>
+    </InflationIndex>
+
+  <!-- SWE : SWEDEN -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>SWE</Country>
+      <Name>CPI</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <!-- 16th of month -->
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+
+
+  <!-- USD : United States -->
+
+  <InflationIndex>
+    <Identifier>
+      <Country>USA</Country>
+      <Name>CPI-U</Name>
+    </Identifier>
+
+    <BaseValue>100.0</BaseValue>
+    <IndexMonths>
+      <Month>Jan</Month>
+      <Month>Feb</Month>
+      <Month>Mar</Month>
+      <Month>Apr</Month>
+      <Month>May</Month>
+      <Month>Jun</Month>
+      <Month>Jul</Month>
+      <Month>Aug</Month>
+      <Month>Sep</Month>
+      <Month>Oct</Month>
+      <Month>Nov</Month>
+      <Month>Dec</Month>
+    </IndexMonths>
+
+    <AnnouncementAdjuster>
+      <Tenor>1M</Tenor>
+      <Tenor>15D</Tenor>
+      <RollForwardIfNotBusinessDay>
+        <Calendar>TRG</Calendar>
+      </RollForwardIfNotBusinessDay>
+    </AnnouncementAdjuster>
+  </InflationIndex>
+</Inflation>

@@ -1,0 +1,201 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.CHE</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>LON</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>CHE_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>CHE_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>CHE</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>CHF</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20140106.4.25</Identifier>
+        <Rate>0.04250</Rate>
+        <Effective>19950106</Effective>
+        <Maturity>20140106</Maturity>
+        <ISIN>CH0001480083</ISIN>
+        <Name>SWISS 4 1/4 01/06/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20141109.2.0</Identifier>
+        <Rate>0.02000</Rate>
+        <Effective>20061109</Effective>
+        <Maturity>20141109</Maturity>
+        <ISIN>CH0023139816</ISIN>
+        <Name>SWISS 2 11/09/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20150610.3.75</Identifier>
+        <Rate>0.03750</Rate>
+        <Effective>20020610</Effective>
+        <Maturity>20150610</Maturity>
+        <ISIN>CH0012385586</ISIN>
+        <Name>SWISS 3 3/4 06/10/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20160312.2.5</Identifier>
+        <Rate>0.02500</Rate>
+        <Effective>20040312</Effective>
+        <Maturity>20160312</Maturity>
+        <ISIN>CH0015633453</ISIN>
+        <Name>SWISS 2 1/2 03/12/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20161012.2.0</Identifier>
+        <Rate>0.02000</Rate>
+        <Effective>20061012</Effective>
+        <Maturity>20161012</Maturity>
+        <ISIN>CH0022859612</ISIN>
+        <Name>SWISS 2 10/12/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20170605.4.25</Identifier>
+        <Rate>0.04250</Rate>
+        <Effective>19980605</Effective>
+        <Maturity>20170605</Maturity>
+        <ISIN>CH0006448424</ISIN>
+        <Name>SWISS 4 1/4 06/05/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20180108.3.0</Identifier>
+        <Rate>0.03000</Rate>
+        <Effective>20040108</Effective>
+        <Maturity>20180108</Maturity>
+        <ISIN>CH0015221663</ISIN>
+        <Name>SWISS 3 01/08/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20190512.3.0</Identifier>
+        <Rate>0.03000</Rate>
+        <Effective>20050512</Effective>
+        <Maturity>20190512</Maturity>
+        <ISIN>CH0018454253</ISIN>
+        <Name>SWISS 3 05/12/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20200706.2.25</Identifier>
+        <Rate>0.02250</Rate>
+        <Effective>20060706</Effective>
+        <Maturity>20200706</Maturity>
+        <ISIN>CH0021908907</ISIN>
+        <Name>SWISS 2 1/4 07/06/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20210428.2.0</Identifier>
+        <Rate>0.02000</Rate>
+        <Effective>20110428</Effective>
+        <Maturity>20210428</Maturity>
+        <ISIN>CH0111999816</ISIN>
+        <Name>SWISS 2 04/28/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20220525.2.0</Identifier>
+        <Rate>0.02000</Rate>
+        <Effective>20120525</Effective>
+        <Maturity>20220525</Maturity>
+        <ISIN>CH0127181011</ISIN>
+        <Name>SWISS 2 05/25/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20230211.4.0</Identifier>
+        <Rate>0.04000</Rate>
+        <Effective>19990211</Effective>
+        <Maturity>20230211</Maturity>
+        <ISIN>CH0008435569</ISIN>
+        <Name>SWISS 4 02/11/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20270627.3.25</Identifier>
+        <Rate>0.03250</Rate>
+        <Effective>20080627</Effective>
+        <Maturity>20270627</Maturity>
+        <ISIN>CH0031835561</ISIN>
+        <Name>SWISS 3 1/4 06/27/27</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20280408.4.0</Identifier>
+        <Rate>0.04000</Rate>
+        <Effective>19990408</Effective>
+        <Maturity>20280408</Maturity>
+        <ISIN>CH0008680370</ISIN>
+        <Name>SWISS 4 04/08/28</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20310622.2.25</Identifier>
+        <Rate>0.02250</Rate>
+        <Effective>20120622</Effective>
+        <Maturity>20310622</Maturity>
+        <ISIN>CH0127181029</ISIN>
+        <Name>SWISS 2 1/4 06/22/31</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20330408.3.5</Identifier>
+        <Rate>0.03500</Rate>
+        <Effective>20040408</Effective>
+        <Maturity>20330408</Maturity>
+        <ISIN>CH0015803239</ISIN>
+        <Name>SWISS 3 1/2 04/08/33</Name>
+    </FixedRateBond>
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20360308.2.5</Identifier>
+        <Rate>0.02500</Rate>
+        <Effective>20070308</Effective>
+        <Maturity>20360308</Maturity>
+        <ISIN>CH0024524966</ISIN>
+        <Name>SWISS 2 1/2 03/08/36</Name>
+    </FixedRateBond>
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20420430.1.5</Identifier>
+        <Rate>0.01500</Rate>
+        <Effective>20130430</Effective>
+        <Maturity>20420430</Maturity>
+        <ISIN>CH0127181169</ISIN>
+        <Name>SWISS 1 1/2 04/30/42</Name>
+    </FixedRateBond>
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CHE.CHF.20490106.4.0</Identifier>
+        <Rate>0.04000</Rate>
+        <Effective>20000106</Effective>
+        <Maturity>20490106</Maturity>
+        <ISIN>CH0009755197</ISIN>
+        <Name>SWISS 4 01/06/49</Name>
+    </FixedRateBond>
+</Instruments>

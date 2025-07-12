@@ -1,0 +1,549 @@
+<Instruments>
+
+    <!-- https://www.finanse.mf.gov.pl/en/web/wp/public-debt/international-bonds/letters-of-issue -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.POL</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>POL_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>POL_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Country>POL</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Final/>
+            </NotionalDetails>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <!-- Domestic PLN denominated bonds -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.POL.PLN</Identifier>
+        <Frequency>SemiAnnual</Frequency>
+        <FixedLeg>
+            <NotionalDetails>
+                <Currency>PLN</Currency>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20150425.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20090425</Effective>
+        <Maturity>20150425</Maturity>
+        <ISIN>PL0000105953</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20151024.6.25</Identifier>
+        <Rate>0.0625</Rate>
+        <Effective>20041024</Effective>
+        <Maturity>20151024</Maturity>
+        <ISIN>PL0000103602</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20160425.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20100425</Effective>
+        <Maturity>20160425</Maturity>
+        <ISIN>PL0000106340</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20161025.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20111025</Effective>
+        <Maturity>20161025</Maturity>
+        <ISIN>PL0000106795</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20170425.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20120425</Effective>
+        <Maturity>20170425</Maturity>
+        <ISIN>PL0000107058</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20171025.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>20061025</Effective>
+        <Maturity>20171025</Maturity>
+        <ISIN>PL0000104543</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20180425.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20120425</Effective>
+        <Maturity>20180425</Maturity>
+        <ISIN>PL0000107314</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20180725.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20120725</Effective>
+        <Maturity>20180725</Maturity>
+        <ISIN>PL0000107595</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20190725.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20130725</Effective>
+        <Maturity>20190725</Maturity>
+        <ISIN>PL0000108148</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20191025.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20140425</Effective>
+        <Maturity>20191025</Maturity>
+        <ISIN>PL0000105441</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20200425.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20140425</Effective>
+        <Maturity>20200425</Maturity>
+        <ISIN>PL0000108510</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20201025.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>20091025</Effective>
+        <Maturity>20201025</Maturity>
+        <ISIN>PL0000106126</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20210425.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20150425</Effective>
+        <Maturity>20210425</Maturity>
+        <ISIN>PL0000108916</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20210725.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20150425</Effective>
+        <Maturity>20210725</Maturity>
+        <ISIN>PL0000109153</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20211025.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20101025</Effective>
+        <Maturity>20211025</Maturity>
+        <ISIN>PL0000106670</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20220425.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20160425</Effective>
+        <Maturity>20220425</Maturity>
+        <ISIN>PL0000109492</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20220923.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20010923</Effective>
+        <Maturity>20220923</Maturity>
+        <ISIN>PL0000102646</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20231025.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20121015</Effective>
+        <Maturity>20231025</Maturity>
+        <ISIN>PL0000107264</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20250725.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20130725</Effective>
+        <Maturity>20250725</Maturity>
+        <ISIN>PL0000108197</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20260725.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20150725</Effective>
+        <Maturity>20260725</Maturity>
+        <ISIN>PL0000108866</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20270725.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20160725</Effective>
+        <Maturity>20270725</Maturity>
+        <ISIN>PL0000109427</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20280425.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20130425</Effective>
+        <Maturity>20280425</Maturity>
+        <ISIN>PL0000107611</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20290425.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20080425</Effective>
+        <Maturity>20290425</Maturity>
+        <ISIN>PL0000105391</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.PLN.20370425.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20070425</Effective>
+        <Maturity>20370425</Maturity>
+        <ISIN>PL0000104857</ISIN>
+    </FixedRateBond>
+
+    <!-- EUR denominated bonds -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.POL.EUR</Identifier>
+        <Frequency>Annual</Frequency>
+        <FixedLeg>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20170329.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20100329</Effective>
+        <Maturity>20170329</Maturity>
+        <ISIN>XS0498285351</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20180620.5.625</Identifier>
+        <Rate>0.05625</Rate>
+        <Effective>20080620</Effective>
+        <Maturity>20180620</Maturity>
+        <ISIN>XS0371500611</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20190115.1.625</Identifier>
+        <Rate>0.01625</Rate>
+        <Effective>20130115</Effective>
+        <Maturity>20190115</Maturity>
+        <ISIN>XS0874841066</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20200415.4.2</Identifier>
+        <Rate>0.042</Rate>
+        <Effective>20050118</Effective>
+        <Maturity>20200415</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS0210314299</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20210323.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20100923</Effective>
+        <Maturity>20210323</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS0543882095</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20211014.0.875</Identifier>
+        <Rate>0.00875</Rate>
+        <Effective>20151014</Effective>
+        <Maturity>20211014</Maturity>
+        <ISIN>XS1306382364</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20220118.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20070118</Effective>
+        <Maturity>20220118</Maturity>
+        <ISIN>XS0282701514</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20230119.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20120618</Effective>
+        <Maturity>20230119</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS0794399674</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20230125.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20170125</Effective>
+        <FirstCouponDate>20180125</FirstCouponDate>
+        <Maturity>20230125</Maturity>
+        <ISIN>PL0000110151</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20240115.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20140115</Effective>
+        <Maturity>20240115</Maturity>
+        <ISIN>XS1015428821</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20240425.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20180425</Effective>
+        <FirstCouponDate>20190425</FirstCouponDate>
+        <Maturity>20240425</Maturity>
+        <ISIN>PL0000111191</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20240709.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20121009</Effective>
+        <Maturity>20240709</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS0841073793</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20241025.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20181025</Effective>
+        <FirstCouponDate>20191025</FirstCouponDate>
+        <Maturity>20241025</Maturity>
+        <ISIN>PL0000111720</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20250120.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>20100120</Effective>
+        <Maturity>20250120</Maturity>
+        <ISIN>XS0479333311</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20250425.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20200425</Effective>
+        <FirstCouponDate>20210425</FirstCouponDate>
+        <Maturity>20250425</Maturity>
+        <ISIN>PL0000112728</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20250909.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20150909</Effective>
+        <Maturity>20250909</Maturity>
+        <ISIN>XS1288467605</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20260119.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20160118</Effective>
+        <Maturity>20260119</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS1346201616</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20270510.8.75</Identifier>
+        <Rate>0.0875</Rate>
+        <Effective>20150407</Effective>
+        <Maturity>20270510</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>XS1209947271</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20281025.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20161025</Effective>
+        <Maturity>20281025</Maturity>
+        <ISIN>XS1508566392</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20291025.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20181025</Effective>
+        <FirstCouponDate>20191025</FirstCouponDate>
+        <Maturity>20291025</Maturity>
+        <ISIN>PL0000111498</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20301025.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20191025</Effective>
+        <FirstCouponDate>20201025</FirstCouponDate>
+        <Maturity>20301025</Maturity>
+        <ISIN>PL0000112736</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20360118.2.375</Identifier>
+        <Rate>0.02375</Rate>
+        <Effective>20160118</Effective>
+        <Maturity>20360118</Maturity>
+        <ISIN>XS1346201889</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20461025.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20161025</Effective>
+        <Maturity>20461025</Maturity>
+        <ISIN>XS1508566558</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.POL.EUR.20470425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20160425</Effective>
+        <FirstCouponDate>20170425</FirstCouponDate>
+        <Maturity>20470425</Maturity>
+        <ISIN>PL0000109765</ISIN>
+    </FixedRateBond>
+
+    <!-- Inflation linked -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.POL.PLN.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>2</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>SemiAnnual</Frequency>
+        <AccrualCalculator>POL_Accrual_CPI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>POL_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Country>POL</Country>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>PLN</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>POL</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.POL.PLN.CPI.20230825.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20080825</Effective>
+        <Maturity>20230825</Maturity>
+        <ISIN>PL0000105359</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <!-- Base index is for the 25th August 2008 -->
+                <BaseValue>115.14238</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>

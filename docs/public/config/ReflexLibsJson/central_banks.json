@@ -1,0 +1,911 @@
+{
+"centralBanks": [
+{
+"name": "ECB",
+"longName": "European Central Bank",
+"currency": "EUR",
+"symbologyName": "RE.0.Deposit.EONIA.D.1",
+"historicMeetings": [
+{{
+  "centralBanks": [
+    {
+      "name": "ECB",
+      "longName": "European Central Bank",
+      "currency": "EUR",
+      "symbologyName": "RE.0.Deposit.EONIA.D.1",
+      "historicMeetings": [
+        {
+          "meetingDate": "20150108"
+        },
+        {
+          "meetingDate": "20150212"
+        },
+        {
+          "meetingDate": "20150312"
+        },
+        {
+          "meetingDate": "20150409"
+        },
+        {
+          "meetingDate": "20150514"
+        },
+        {
+          "meetingDate": "20150611"
+        },
+        {
+          "meetingDate": "20150709"
+        },
+        {
+          "meetingDate": "20150813"
+        },
+        {
+          "meetingDate": "20150910"
+        },
+        {
+          "meetingDate": "20151008"
+        },
+        {
+          "meetingDate": "20151112"
+        },
+        {
+          "meetingDate": "20151210"
+        },
+        {
+          "meetingDate": "20160114"
+        },
+        {
+          "meetingDate": "20160211"
+        },
+        {
+          "meetingDate": "20160310"
+        },
+        {
+          "meetingDate": "20160414"
+        },
+        {
+          "meetingDate": "20160512"
+        },
+        {
+          "meetingDate": "20160609"
+        },
+        {
+          "meetingDate": "20160714"
+        },
+        {
+          "meetingDate": "20160811"
+        },
+        {
+          "meetingDate": "20160908"
+        },
+        {
+          "meetingDate": "20161013"
+        },
+        {
+          "meetingDate": "20161110"
+        },
+        {
+          "meetingDate": "20161208"
+        },
+        {
+          "meetingDate": "20170112"
+        },
+        {
+          "meetingDate": "20170209"
+        },
+        {
+          "meetingDate": "20170309"
+        },
+        {
+          "meetingDate": "20170413"
+        },
+        {
+          "meetingDate": "20170511"
+        },
+        {
+          "meetingDate": "20170608"
+        },
+        {
+          "meetingDate": "20170713"
+        },
+        {
+          "meetingDate": "20170810"
+        },
+        {
+          "meetingDate": "20170914"
+        },
+        {
+          "meetingDate": "20171012"
+        },
+        {
+          "meetingDate": "20171109"
+        },
+        {
+          "meetingDate": "20171214"
+        },
+        {
+          "meetingDate": "20180111"
+        },
+        {
+          "meetingDate": "20180208"
+        },
+        {
+          "meetingDate": "20180308"
+        },
+        {
+          "meetingDate": "20180412"
+        },
+        {
+          "meetingDate": "20180510"
+        },
+        {
+          "meetingDate": "20180614"
+        },
+        {
+          "meetingDate": "20180712"
+        },
+        {
+          "meetingDate": "20180809"
+        },
+        {
+          "meetingDate": "20180913"
+        },
+        {
+          "meetingDate": "20181011"
+        },
+        {
+          "meetingDate": "20181108"
+        },
+        {
+          "meetingDate": "20181213"
+        },
+        {
+          "meetingDate": "20190110"
+        },
+        {
+          "meetingDate": "20190214"
+        },
+        {
+          "meetingDate": "20190314"
+        },
+        {
+          "meetingDate": "20190411"
+        },
+        {
+          "meetingDate": "20190509"
+        },
+        {
+          "meetingDate": "20190613"
+        },
+        {
+          "meetingDate": "20190711"
+        },
+        {
+          "meetingDate": "20190808"
+        },
+        {
+          "meetingDate": "20190912"
+        },
+        {
+          "meetingDate": "20191010"
+        },
+        {
+          "meetingDate": "20191114"
+        },
+        {
+          "meetingDate": "20191212"
+        },
+        {
+          "meetingDate": "20200109"
+        },
+        {
+          "meetingDate": "20200213"
+        },
+        {
+          "meetingDate": "20200312"
+        },
+        {
+          "meetingDate": "20200409"
+        },
+        {
+          "meetingDate": "20200514"
+        },
+        {
+          "meetingDate": "20200611"
+        },
+        {
+          "meetingDate": "20200709"
+        },
+        {
+          "meetingDate": "20200813"
+        },
+        {
+          "meetingDate": "20200910"
+        },
+        {
+          "meetingDate": "20201008"
+        },
+        {
+          "meetingDate": "20201112"
+        },
+        {
+          "meetingDate": "20201210"
+        },
+        {
+          "meetingDate": "20210114"
+        },
+        {
+          "meetingDate": "20210211"
+        },
+        {
+          "meetingDate": "20210311"
+        },
+        {
+          "meetingDate": "20210408"
+        },
+        {
+          "meetingDate": "20210513"
+        },
+        {
+          "meetingDate": "20210610"
+        },
+        {
+          "meetingDate": "20210708"
+        },
+        {
+          "meetingDate": "20210812"
+        },
+        {
+          "meetingDate": "20210909"
+        },
+        {
+          "meetingDate": "20211014"
+        },
+        {
+          "meetingDate": "20211111"
+        },
+        {
+          "meetingDate": "20211209"
+        },
+        {
+          "meetingDate": "20220113"
+        },
+        {
+          "meetingDate": "20220210"
+        },
+        {
+          "meetingDate": "20220310"
+        },
+        {
+          "meetingDate": "20220414"
+        },
+        {
+          "meetingDate": "20220512"
+        },
+        {
+          "meetingDate": "20220609"
+        },
+        {
+          "meetingDate": "20220714"
+        },
+        {
+          "meetingDate": "20220811"
+        },
+        {
+          "meetingDate": "20220908"
+        },
+        {
+          "meetingDate": "20221013"
+        },
+        {
+          "meetingDate": "20221110"
+        },
+        {
+          "meetingDate": "20221208"
+        },
+        {
+          "meetingDate": "20230112"
+        },
+        {
+          "meetingDate": "20230209"
+        },
+        {
+          "meetingDate": "20230309"
+        },
+        {
+          "meetingDate": "20230413"
+        },
+        {
+          "meetingDate": "20230511"
+        },
+        {
+          "meetingDate": "20230608"
+        },
+        {
+          "meetingDate": "20230713"
+        },
+        {
+          "meetingDate": "20230810"
+        },
+        {
+          "meetingDate": "20230914"
+        },
+        {
+          "meetingDate": "20231012"
+        },
+        {
+          "meetingDate": "20231109"
+        },
+        {
+          "meetingDate": "20231214"
+        },
+        {
+          "meetingDate": "20240111"
+        },
+        {
+          "meetingDate": "20240208"
+        },
+        {
+          "meetingDate": "20240314"
+        },
+        {
+          "meetingDate": "20240411"
+        },
+        {
+          "meetingDate": "20240509"
+        },
+        {
+          "meetingDate": "20240613"
+        },
+        {
+          "meetingDate": "20240711"
+        },
+        {
+          "meetingDate": "20240808"
+        },
+        {
+          "meetingDate": "20240912"
+        },
+        {
+          "meetingDate": "20241010"
+        },
+        {
+          "meetingDate": "20241114"
+        },
+        {
+          "meetingDate": "20241212"
+        },
+        {
+          "meetingDate": "20250109"
+        },
+        {
+          "meetingDate": "20250213"
+        },
+        {
+          "meetingDate": "20250313"
+        },
+        {
+          "meetingDate": "20250410"
+        },
+        {
+          "meetingDate": "20250508"
+        },
+        {
+          "meetingDate": "20250612"
+        },
+        {
+          "meetingDate": "20250710"
+        },
+        {
+          "meetingDate": "20250814"
+        },
+        {
+          "meetingDate": "20250911"
+        },
+        {
+          "meetingDate": "20251009"
+        },
+        {
+          "meetingDate": "20251113"
+        },
+        {
+          "meetingDate": "20251211"
+        }
+      ],
+      "scheduledMeetings": [],
+      "projectedMeetings": {
+        "meetingRule": {
+          "dayOfWeekOfMonth": {
+            "weekOfMonth": "2",
+            "day": "Tue",
+            "adjuster": {
+              "rollForwardIfNotBusinessDay": {
+                "calendar": "TRG"
+              }
+            }
+          }
+        },
+        "meetingTime": "14:30:00",
+        "adjustmentFromMeetingToAnnouncement": {
+          "offsetByBusinessDays": {
+            "calendar": "TRG",
+            "numberOfBusinessDays": "1"
+          }
+        },
+        "announcementTime": "14:30:00",
+        "adjustmentFromMeetingToEffective": {
+          "offsetByBusinessDays": {
+            "calendar": "TRG",
+            "numberOfBusinessDays": "1"
+          }
+        },
+        "effectiveTime": "14:30:00",
+        "futureDates": [
+          {
+            "meetingDate": "20260108"
+          },
+          {
+            "meetingDate": "20260212"
+          },
+          {
+            "meetingDate": "20260312"
+          },
+          {
+            "meetingDate": "20260409"
+          },
+          {
+            "meetingDate": "20260514"
+          },
+          {
+            "meetingDate": "20260611"
+          },
+          {
+            "meetingDate": "20260709"
+          },
+          {
+            "meetingDate": "20260813"
+          },
+          {
+            "meetingDate": "20260910"
+          },
+          {
+            "meetingDate": "20261008"
+          },
+          {
+            "meetingDate": "20261112"
+          },
+          {
+            "meetingDate": "20261210"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FED",
+      "longName": "Federal Reserve",
+      "currency": "USD",
+      "symbologyName": "RE.0.Deposit.FEDFUND.D.1",
+      "historicMeetings": [
+        {
+          "meetingDate": "20250128"
+        },
+        {
+          "meetingDate": "20250318"
+        },
+        {
+          "meetingDate": "20250506"
+        },
+        {
+          "meetingDate": "20250617"
+        },
+        {
+          "meetingDate": "20250729"
+        },
+        {
+          "meetingDate": "20250916"
+        },
+        {
+          "meetingDate": "20251028"
+        },
+        {
+          "meetingDate": "20251209"
+        }
+      ],
+      "scheduledMeetings": [],
+      "projectedMeetings": {
+        "meetingRule": {
+          "dayOfWeekOfMonth": {
+            "weekOfMonth": "1",
+            "day": "Tue",
+            "adjuster": {
+              "rollForwardIfNotBusinessDay": {
+                "calendar": "NY"
+              }
+            }
+          }
+        },
+        "meetingTime": "14:30:00",
+        "adjustmentFromMeetingToAnnouncement": {
+          "offsetByBusinessDays": {
+            "calendar": "NYB",
+            "numberOfBusinessDays": "1"
+          }
+        },
+        "announcementTime": "14:30:00",
+        "adjustmentFromMeetingToEffective": {
+          "offsetByBusinessDays": {
+            "calendar": "NYB",
+            "numberOfBusinessDays": "1"
+          }
+        },
+        "effectiveTime": "14:30:00",
+        "futureDates": [
+          {
+            "meetingDate": "20260127"
+          },
+          {
+            "meetingDate": "20260317"
+          },
+          {
+            "meetingDate": "20260505"
+          },
+          {
+            "meetingDate": "20260616"
+          },
+          {
+            "meetingDate": "20260728"
+          },
+          {
+            "meetingDate": "20260915"
+          },
+          {
+            "meetingDate": "20261027"
+          },
+          {
+            "meetingDate": "20261208"
+          }
+        ]
+      }
+    }
+  ]
+}
+"meetingDate": "20110804"
+},
+{
+"meetingDate": "20110908"
+},
+{
+"meetingDate": "20111006"
+},
+{
+"meetingDate": "20111110"
+},
+{
+"meetingDate": "20111208"
+},
+{
+"meetingDate": "20120105"
+},
+{
+"meetingDate": "20120209"
+},
+{
+"meetingDate": "20120308"
+},
+{
+"meetingDate": "20120405"
+},
+{
+"meetingDate": "20120510"
+},
+{
+"meetingDate": "20120607"
+},
+{
+"meetingDate": "20120705"
+},
+{
+"meetingDate": "20120809"
+},
+{
+"meetingDate": "20120906"
+},
+{
+"meetingDate": "20121004"
+},
+{
+"meetingDate": "20121108"
+},
+{
+"meetingDate": "20121206"
+},
+{
+"meetingDate": "20130110"
+},
+{
+"meetingDate": "20130207"
+},
+{
+"meetingDate": "20130307"
+},
+{
+"meetingDate": "20130404"
+},
+{
+"meetingDate": "20130509"
+},
+{
+"meetingDate": "20130606"
+},
+{
+"meetingDate": "20130704"
+},
+{
+"meetingDate": "20130808"
+},
+{
+"meetingDate": "20130905"
+},
+{
+"meetingDate": "20131010"
+},
+{
+"meetingDate": "20131107"
+},
+{
+"meetingDate": "20131205"
+},
+{
+"meetingDate": "20140109"
+}
+],
+"scheduledMeetings": [
+{
+"meetingDate": "20140206"
+},
+{
+"meetingDate": "20140306"
+},
+{
+"meetingDate": "20140410"
+},
+{
+"meetingDate": "20140508"
+},
+{
+"meetingDate": "20140605"
+},
+{
+"meetingDate": "20140710"
+},
+{
+"meetingDate": "20140807"
+},
+{
+"meetingDate": "20140904"
+},
+{
+"meetingDate": "20141009"
+},
+{
+"meetingDate": "20141106"
+},
+{
+"meetingDate": "20141204"
+},
+{
+"meetingDate": "20150108"
+},
+{
+"meetingDate": "20150205"
+},
+{
+"meetingDate": "20150305"
+},
+{
+"meetingDate": "20150409"
+},
+{
+"meetingDate": "20150507"
+},
+{
+"meetingDate": "20150604"
+},
+{
+"meetingDate": "20150709"
+},
+{
+"meetingDate": "20150806"
+},
+{
+"meetingDate": "20150910"
+},
+{
+"meetingDate": "20151008"
+},
+{
+"meetingDate": "20151105"
+},
+{
+"meetingDate": "20151210"
+},
+{
+"meetingDate": "20160107"
+}
+],
+"projectedMeetings": {
+"meetingRule": {
+"dayOfWeekOfMonth": {
+"weekOfMonth": "2",
+"day": "Tue",
+"adjuster": {
+"rollForwardIfNotBusinessDay": {
+"calendar": "TRG"
+}
+}
+}
+},
+"meetingTime": "14:30:00",
+"adjustmentFromMeetingToAnnouncement": {
+"offsetByBusinessDays": {
+"calendar": "TRG",
+"numberOfBusinessDays": "1"
+}
+},
+"announcementTime": "14:30:00",
+"adjustmentFromMeetingToEffective": {
+"offsetByBusinessDays": {
+"calendar": "TRG",
+"numberOfBusinessDays": "1"
+}
+},
+"effectiveTime": "14:30:00"
+}
+},
+{
+"name": "FED",
+"longName": "Federal Reserve",
+"currency": "USD",
+"symbologyName": "RE.0.Deposit.FEDFUND.D.1",
+"historicMeetings": [
+{
+"meetingDate": "20120124"
+},
+{
+"meetingDate": "20120313"
+},
+{
+"meetingDate": "20120424"
+},
+{
+"meetingDate": "20120619"
+},
+{
+"meetingDate": "20120731"
+},
+{
+"meetingDate": "20120912"
+},
+{
+"meetingDate": "20121012"
+},
+{
+"meetingDate": "20121211"
+},
+{
+"meetingDate": "20130129",
+"announcementDate": "20130130",
+"effectiveDate": "20130130",
+"announced": "false"
+},
+{
+"meetingDate": "20130319",
+"announcementDate": "20130320",
+"effectiveDate": "20130320",
+"rate": "0.0025"
+},
+{
+"meetingDate": "20130430",
+"announcementDate": "20130502",
+"effectiveDate": "20130502",
+"rate": "0.0025"
+},
+{
+"meetingDate": "20130618"
+},
+{
+"meetingDate": "20130730"
+},
+{
+"meetingDate": "20130917"
+},
+{
+"meetingDate": "20131029"
+},
+{
+"meetingDate": "20131217"
+},
+{
+"meetingDate": "20140129"
+},
+{
+"meetingDate": "20140404"
+},
+{
+"meetingDate": "20140318"
+},
+{
+"meetingDate": "20140429"
+},
+{
+"meetingDate": "20140617"
+},
+{
+"meetingDate": "20140729"
+},
+{
+"meetingDate": "20140916"
+},
+{
+"meetingDate": "20141028"
+},
+{
+"meetingDate": "20141216"
+},
+{
+"meetingDate": "20150127"
+},
+{
+"meetingDate": "20150317"
+}
+],
+"scheduledMeetings": [
+{
+"meetingDate": "20150428"
+},
+{
+"meetingDate": "20150616"
+},
+{
+"meetingDate": "20150728"
+},
+{
+"meetingDate": "20150916"
+},
+{
+"meetingDate": "20151027"
+},
+{
+"meetingDate": "20151215"
+}
+],
+"projectedMeetings": {
+"meetingRule": {
+"dayOfWeekOfMonth": {
+"weekOfMonth": "1",
+"day": "Tue",
+"adjuster": {
+"rollForwardIfNotBusinessDay": {
+"calendar": "NY"
+}
+}
+}
+},
+"meetingTime": "14:30:00",
+"adjustmentFromMeetingToAnnouncement": {
+"offsetByBusinessDays": {
+"calendar": "NYB",
+"numberOfBusinessDays": "1"
+}
+},
+"announcementTime": "14:30:00",
+"adjustmentFromMeetingToEffective": {
+"offsetByBusinessDays": {
+"calendar": "NYB",
+"numberOfBusinessDays": "1"
+}
+},
+"effectiveTime": "14:30:00"
+}
+}
+]
+}

@@ -1,0 +1,908 @@
+<Instruments>
+
+  <!-- See GBR bond futures for comments -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA</Identifier>
+    <TypeName>Bond</TypeName>
+    <Exchange>CME</Exchange>
+    <Country>USA</Country>
+    <Currency>USD</Currency>
+    <Notional>100000.0</Notional>
+    <LastTradingRelativeTo>FirstOfDeliveryMonth</LastTradingRelativeTo>
+    <LastTradingAdjuster>
+      <LastBusinessDayInMonth>
+        <Calendar>NY</Calendar>
+      </LastBusinessDayInMonth>
+      <OffsetByBusinessDays>
+        <Calendar>NY</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </LastTradingAdjuster>
+    <LastTradingTime>11:00</LastTradingTime>
+    <FirstDeliveryNoticeRelativeTo>FirstOfDeliveryMonth</FirstDeliveryNoticeRelativeTo>
+    <FirstDeliveryNoticeAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>NY</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </FirstDeliveryNoticeAdjuster>
+    <LastDeliveryNoticeRelativeTo>LastTrading</LastDeliveryNoticeRelativeTo>
+    <LastDeliveryNoticeAdjuster>
+      <NextBusinessDay>
+        <Calendar>NY</Calendar>
+      </NextBusinessDay>
+    </LastDeliveryNoticeAdjuster>
+    <DeliveryNoticeCalendar>NY</DeliveryNoticeCalendar>
+    <DeliveryNoticeTime>11:00</DeliveryNoticeTime>
+    <SettlementAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>NY</Calendar>
+        <NumberOfBusinessDays>2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </SettlementAdjuster>
+    <LastDeliverableBasketChangeRelativeTo>FirstDeliveryNotice</LastDeliverableBasketChangeRelativeTo>
+    <LastDeliverableBasketChangeAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>NY</Calendar>
+        <NumberOfBusinessDays>-10</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </LastDeliverableBasketChangeAdjuster>
+  </BondFuture>
+
+  <!-- 2Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2</Identifier>
+    <DeliverableRule>USA2Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>2Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+
+  <!-- 3Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3</Identifier>
+    <DeliverableRule>USA3Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>3Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+
+  <!-- 5Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5</Identifier>
+    <DeliverableRule>USA5Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>5Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+
+  <!-- 10Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10</Identifier>
+    <DeliverableRule>USA10Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>10Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+
+  <!-- 20Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20</Identifier>
+    <DeliverableRule>USA20Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>20Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+
+  <!-- 30Y -->
+  <BondFuture>
+    <TypeName>TNote</TypeName>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30</Identifier>
+    <DeliverableRule>USA30Y</DeliverableRule>
+    <ConversionFactorCalculator>USA</ConversionFactorCalculator>
+    <IdealizedTenor>30Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+    <TradedContracts>3</TradedContracts>
+  </BondFuture>
+ 
+  <!-- 2Y --> 
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.2.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+  
+  <!-- 3Y -->
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.3.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+  
+    <!-- 5Y -->
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.5.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+  
+   <!-- 10Y -->
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.10.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+  
+    
+   <!-- 20Y -->
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.20.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+      
+   <!-- 30Y -->
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.USA.Y.30.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+  
+  <!-- USA.Y.2 -->
+  
+  <!-- USA.Y.2.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.2.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.2.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.2.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.2.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.2.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.2.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  
+    <!-- USA.Y.3 -->
+  
+    <!-- USA.Y.3.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.3.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.3.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.3.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.3.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.3.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.3.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+    <!-- USA.Y.5 -->
+  
+    <!-- USA.Y.5.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.5.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.5.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.5.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.5.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.5.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.5.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>  
+  
+  
+    <!-- USA.Y.10 -->
+  
+    <!-- USA.Y.10.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.10.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.10.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.10.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.10.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.10.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.10.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>  
+  
+    <!-- USA.Y.20 -->
+  
+    <!-- USA.Y.20.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.20.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.20.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.20.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.20.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.20.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.20.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>   
+
+
+    <!-- USA.Y.30 -->
+  
+    <!-- USA.Y.30.2011 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2011.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2011.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.30.2012 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.30.2013 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.30.2014 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+    <!-- USA.Y.30.2015 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <!-- USA.Y.30.2016 -->
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.USA.Y.30.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>    
+</Instruments>

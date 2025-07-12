@@ -1,0 +1,374 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.CZE.CZK</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>CZE_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>CZE_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>CZE</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>CZK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20160728.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20130128</Effective>
+        <FirstCouponDate>20130728</FirstCouponDate>
+        <Maturity>20160728</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001003842</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20170411.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20070430</Effective>
+        <FirstCouponDate>20080411</FirstCouponDate>
+        <Maturity>20170411</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001001903</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20171109.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150901</Effective>
+        <Maturity>20171109</Maturity>
+        <ISIN>CZ0001004592</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20180122.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160122</Effective>
+        <Maturity>20180122</Maturity>
+        <ISIN>CZ0001004709</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20180317.0.85</Identifier>
+        <Rate>0.0085</Rate>
+        <Effective>20140317</Effective>
+        <FirstCouponDate>20150317</FirstCouponDate>
+        <Maturity>20180317</Maturity>
+        <ISIN>CZ0001004246</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20180818.4.6</Identifier>
+        <Rate>0.046</Rate>
+        <Effective>20030818</Effective>
+        <FirstCouponDate>20040818</FirstCouponDate>
+        <Maturity>20180818</Maturity>
+        <ISIN>CZ0001000822</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20190411.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20090323</Effective>
+        <FirstCouponDate>20100411</FirstCouponDate>
+        <Maturity>20190411</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001002471</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20190717.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160115</Effective>
+        <Maturity>20190717</Maturity>
+        <ISIN>CZ0001004717</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20191029.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20130114</Effective>
+        <FirstCouponDate>20131029</FirstCouponDate>
+        <Maturity>20191029</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001003834</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20200210.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20170210</Effective>
+        <Maturity>20200210</Maturity>
+        <ISIN>CZ0001005011</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20200912.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20050912</Effective>
+        <FirstCouponDate>20060912</FirstCouponDate>
+        <Maturity>20200912</Maturity>
+        <ISIN>CZ0001001317</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20210223.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20180223</Effective>
+        <FirstCouponDate>20190223</FirstCouponDate>
+        <Maturity>20210223</Maturity>
+        <ISIN>CZ0001005367</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20210929.3.85</Identifier>
+        <Rate>0.0385</Rate>
+        <Effective>20101129</Effective>
+        <FirstCouponDate>20110929</FirstCouponDate>
+        <Maturity>20210929</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001002851</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20220224.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20170224</Effective>
+        <Maturity>20220224</Maturity>
+        <ISIN>CZ0001005029</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20220417.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20200417</Effective>
+        <FirstCouponDate>20210417</FirstCouponDate>
+        <Maturity>20220417</Maturity>
+        <ISIN>CZ0001005946</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20220912.4.7</Identifier>
+        <Rate>0.047</Rate>
+        <Effective>20070618</Effective>
+        <FirstCouponDate>20080912</FirstCouponDate>
+        <Maturity>20220912</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001001945</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20231025.0.45</Identifier>
+        <Rate>0.0045</Rate>
+        <Effective>20150925</Effective>
+        <FirstCouponDate>20161025</FirstCouponDate>
+        <Maturity>20231025</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001004600</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20240525.5.7</Identifier>
+        <Rate>0.057</Rate>
+        <Effective>20090525</Effective>
+        <FirstCouponDate>20100525</FirstCouponDate>
+        <Maturity>20240525</Maturity>
+        <ISIN>CZ0001002547</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20250214.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20200214</Effective>
+        <FirstCouponDate>20210214</FirstCouponDate>
+        <Maturity>20250214</Maturity>
+        <ISIN>CZ0001005870</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20250917.2.4</Identifier>
+        <Rate>0.024</Rate>
+        <Effective>20140317</Effective>
+        <FirstCouponDate>20150917</FirstCouponDate>
+        <Maturity>20250917</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001004253</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20260626.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20150626</Effective>
+        <FirstCouponDate>20160626</FirstCouponDate>
+        <Maturity>20260626</Maturity>
+        <ISIN>CZ0001004469</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20270210.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20170210</Effective>
+        <FirstCouponDate>20180210</FirstCouponDate>
+        <Maturity>20270210</Maturity>
+        <ISIN>CZ0001005037</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20280825.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20130225</Effective>
+        <FirstCouponDate>20130825</FirstCouponDate>
+        <Maturity>20280825</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001003859</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20290723.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20180223</Effective>
+        <FirstCouponDate>20190723</FirstCouponDate>
+        <Maturity>20290723</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001005375</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20291129.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20200828</Effective>
+        <FirstCouponDate>20201129</FirstCouponDate>
+        <Maturity>20291129</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CZ0001006076</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20300515.0.95</Identifier>
+        <Rate>0.0095</Rate>
+        <Effective>20150515</Effective>
+        <FirstCouponDate>20160515</FirstCouponDate>
+        <Maturity>20300515</Maturity>
+        <ISIN>CZ0001004477</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20310313.1.2</Identifier>
+        <Rate>0.012</Rate>
+        <Effective>20200313</Effective>
+        <FirstCouponDate>20210313</FirstCouponDate>
+        <Maturity>20310313</Maturity>
+        <ISIN>CZ0001005888</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20331013.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20171013</Effective>
+        <FirstCouponDate>20181013</FirstCouponDate>
+        <Maturity>20331013</Maturity>
+        <ISIN>CZ0001005243</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20361204.4.2</Identifier>
+        <Rate>0.042</Rate>
+        <Effective>20061204</Effective>
+        <FirstCouponDate>20071204</FirstCouponDate>
+        <Maturity>20361204</Maturity>
+        <ISIN>CZ0001001796</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.CZE.CZK.20400424.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200424</Effective>
+        <FirstCouponDate>20210424</FirstCouponDate>
+        <Maturity>20400424</Maturity>
+        <ISIN>CZ0001005920</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CZE.CZK.20571126.4.85</Identifier>
+        <Rate>0.0485</Rate>
+        <Effective>20071126</Effective>
+        <FirstCouponDate>20081126</FirstCouponDate>
+        <Maturity>20571126</Maturity>
+        <ISIN>CZ0001002059</ISIN>
+    </FixedRateBond>
+
+</Instruments>

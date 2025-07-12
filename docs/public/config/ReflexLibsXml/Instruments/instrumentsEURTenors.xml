@@ -1,0 +1,234 @@
+<Instruments>
+
+<!-- CMS issues, this is not the way to do CMS swaps!  -->
+<Deposit  Tenors1="1Y;2Y;3Y;5Y;7Y;10Y;15Y;20Y;25Y;30Y">
+    <Identifier>RE.0.Deposit.EUR.EURIBOR.CMS.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Tenor>${Tenor1}</Tenor>
+</Deposit>
+
+<!-- DEPOSITS -->
+
+<!-- One day and overnight are defined without tenor expansions -->
+<Deposit Tenors1="1W;2W;[1-12]M">
+    <Identifier>RE.0.Deposit.EUR.EURIBOR.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Tenor>${Tenor1}</Tenor>
+</Deposit>
+
+
+<!-- DEPOSIT FUTURES -->
+
+<DepositFuture Years="[1989-2030]" Months="3;6;9;12">
+    <Identifier>RE.0.DepositFuture.EUR.EURIBOR.M.3.${Year}.${MonthIndex}</Identifier>
+    <ContractYear>${Year}</ContractYear>
+    <ContractMonth>${MonthName}</ContractMonth>
+</DepositFuture>
+
+
+<!-- INTEREST RATE EURIOBOR -->
+
+<!-- Spot starting
+    Tenors1 : Swap term
+    Tenors2 : EURIBOR term
+-->
+<FixedRateSwap Tenors1="3M;6M;9M;12M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y;70Y" Tenors2="1M;3M;6M">
+    <Identifier>RE.0.InterestRateSwap.EUR.EURIBOR.${TenorPeriod2}.${TenorStep2}.M.12.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+
+<!-- Forward starting
+    Tenors1 : Forward start tenor
+    Tenors2 : Term of swap
+    Tenors3 : EURIBOR term
+-->
+
+<FixedRateSwap Tenors1="3M;6M;9M;12M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1Y;2Y;3Y;4Y;5Y;7Y;10Y;15Y;20Y;25Y;30Y" Tenors3="1M;3M;6M">
+    <Identifier>RE.0.InterestRateSwap.EUR.EURIBOR.${TenorPeriod3}.${TenorStep3}.M.12.${TenorPeriod2}.${TenorStep2}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Effective>
+        <Tenor>${Tenor1}</Tenor>
+    </Effective>
+    <Maturity>
+        <Tenor>${Tenor2}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor2}</Tenor>
+</FixedRateSwap>
+
+
+<!-- OIS SWAPS -->
+
+<!-- Spot start -->
+
+<!-- Annual payers -->
+<FixedRateSwap Tenors1="1W;2W;3W;[1-12]M;15M;18M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.OISRateSwap.EUR.EONIA.D.1.M.12.M.12.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+<!-- Zero coupon -->
+<FixedRateSwap Tenors1="1W;2W;3W;[1-12]M;15M;18M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.OISRateSwap.EUR.EONIA.D.1.ZERO.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+<!-- Forward start -->
+
+<!-- Annual payers
+    Tenors1 : Term of swap
+    Tenors2 : Forward tenor
+-->
+<FixedRateSwap Tenors1="1W;2W;3W;[1-12]M;15M;18M;[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1M;2M;3M;6M;[1-20]Y;25Y;30Y">
+    <Identifier>RE.0.OISRateSwap.EUR.EONIA.D.1.M.12.M.12.${TenorPeriod2}.${TenorStep2}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Effective>
+        <Tenor>${Tenor2}</Tenor>
+    </Effective>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</FixedRateSwap>
+
+
+<!-- CMS SWAPS -->
+
+<!-- Spot start
+    Floating 3M EURIBOR versus CMS
+    Tenors1 : Term of swap
+    Tenors2 : Tenor of floating swap rate
+-->
+
+<TenorBasisSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1Y;2Y;3Y;5Y;7Y;10Y;15Y;20Y;25Y;30Y;">
+    <Identifier>RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.${TenorPeriod2}.${TenorStep2}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+<!-- Forward start
+    Floating 3M EURIBOR versus CMS
+    Tenors1 : Term of swap
+    Tenors2 : Tenor of floating swap rate
+    Tenors3 : Forward tenor
+-->
+
+<TenorBasisSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1Y;2Y;3Y;5Y;7Y;10Y;15Y;20Y;25Y;30Y;" Tenors3="1M;2M;3M;7M;9M;[1-20]Y;25Y;30Y;">
+    <Identifier>RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.${TenorPeriod2}.${TenorStep2}.${TenorPeriod3}.${TenorStep3}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Effective>
+        <Tenor>${Tenor3}</Tenor>
+    </Effective>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+
+<!-- TENOR BASIS -->
+
+<!-- Spot start
+    Tenors1 : Term of swap
+    Tenors2 : EURIBOR tenor
+-->
+<TenorBasisSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="6M;12M">
+    <Identifier>RE.0.TenorBasisSwap.EUR.EURIBOR.M.1.${TenorPeriod2}.${TenorStep2}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+<TenorBasisSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.M.6.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+<!-- Forward start
+    Tenors1 : Term of swap
+    Tenors2 : Forward tenor
+-->
+<TenorBasisSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y" Tenors2="1M;2M;3M;7M;9M;[1-20]Y;25Y;30Y">
+    <Identifier>RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.M.6.${TenorPeriod2}.${TenorStep2}.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Effective>
+        <Tenor>${Tenor2}</Tenor>
+    </Effective>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</TenorBasisSwap>
+
+
+
+<!-- INFLATION SWAPS -->
+
+<InflationSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.INFLATIONSWAP.EUR.HICP.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</InflationSwap>
+
+<!-- With terrible instrument ids!!! -->
+<!--
+<InflationSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.INFLATIONSWAP.EUR.ESPCPI.ZERO..${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</InflationSwap>
+
+<InflationSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.INFLATIONSWAP.EUR.FRHICP.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</InflationSwap>
+
+<InflationSwap Tenors1="[1-30]Y;35Y;40Y;45Y;50Y;55Y;60Y">
+    <Identifier>RE.0.INFLATIONSWAP.EUR.ITALYCPI.ZERO.${TenorPeriod1}.${TenorStep1}</Identifier>
+    <Maturity>
+        <Tenor>${Tenor1}</Tenor>
+    </Maturity>
+    <Tenor>${Tenor1}</Tenor>
+</InflationSwap>
+-->
+
+<!-- CENTRAL BANK SWAPS -->
+
+<!-- From the next meeting for two meetings -->
+<FixedRateSwap><Identifier>RE.0.CentralBankSwap.EUR.ECB.0.2.EONIA.D.1</Identifier>
+    <Effective><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>0</Offset></CentralBankOffset></Effective>
+    <Maturity><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>2</Offset></CentralBankOffset></Maturity>
+</FixedRateSwap>
+
+<!-- From the next but one meeting for two meeting ( forward starting ) -->
+<FixedRateSwap><Identifier>RE.0.CentralBankSwap.EUR.ECB.1.2.EONIA.D.1</Identifier>
+    <Effective><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>1</Offset></CentralBankOffset></Effective>
+    <Maturity><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>2</Offset></CentralBankOffset></Maturity>
+</FixedRateSwap>
+
+<!-- From the nth meeting for one meeting -->
+
+<FixedRateSwap Values="[0-167]">
+    <Identifier>RE.0.CentralBankSwap.EUR.ECB.${Value}.1.EONIA.D.1</Identifier>
+    <Effective><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>${Value}</Offset></CentralBankOffset></Effective>
+    <Maturity><CentralBankOffset><CentralBank>ECB</CentralBank><Offset>1</Offset></CentralBankOffset></Maturity>
+</FixedRateSwap>
+
+
+</Instruments>

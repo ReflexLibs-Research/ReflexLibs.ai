@@ -1,0 +1,249 @@
+<Instruments>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.NOK.NIBOR</Identifier>
+  <Index>
+    <Currency>NOK</Currency>
+    <Name>CIBOR</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.NOK.NIBOR.D</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.NOK.NIBOR.W</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.NOK</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>NOK</Currency>
+    </NotionalDetails>
+    <Basis>30/360</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>NOK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.NOK.NIBOR</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.NOK.NIBOR.M.3</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.3</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.NOK.NIBOR.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.6</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>NOK</Currency>
+    </NotionalDetails>
+    <Basis>30/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>NOK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR.M.1</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.1</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR.M.1.M.3</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.3</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR.M.1.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR.M.3</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.NOK.NIBOR.M.3.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.NOK.NIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+<xi:include href="instrumentsNOKTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>

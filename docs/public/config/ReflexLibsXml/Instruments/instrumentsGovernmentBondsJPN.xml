@@ -1,0 +1,222 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.JPN</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TKB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>JPN_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>JPN_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>JPN</Country>
+        <FixedLeg>
+            <Basis>ACTUAL_365_FIXED</Basis>
+            <NotionalDetails>
+                <Currency>JPY</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TKB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+
+    <!-- Inflation bonds -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.JPN.JPY.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TKB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Semi</Frequency>
+        <Country>JPN</Country>
+        <AccrualCalculator>JPN_Accrual_CPI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>JPN_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACTUAL_365_FIXED</Basis>
+            <NotionalDetails>
+                <Currency>JPY</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>JPN</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TKB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20140310.1.2</Identifier>
+        <Rate>0.01200</Rate>
+        <Effective>20040310</Effective>
+        <Maturity>20140310</Maturity>
+        <ISIN>JP1120011430</ISIN>
+        <Name>JGBI 1.2 03/10/14</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20140610.1.1</Identifier>
+        <Rate>0.01100</Rate>
+        <Effective>20040610</Effective>
+        <Maturity>20140610</Maturity>
+        <ISIN>JP1120021462</ISIN>
+        <Name>JGBI 1.1 06/10/14</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20141210.0.5</Identifier>
+        <Rate>0.00500</Rate>
+        <Effective>20041210</Effective>
+        <Maturity>20141210</Maturity>
+        <ISIN>JP11200314C2</ISIN>
+        <Name>JGBI 0 1/2 12/10/14</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20150610.0.5</Identifier>
+        <Rate>0.00500</Rate>
+        <Effective>20050610</Effective>
+        <Maturity>20150610</Maturity>
+        <ISIN>JP1120041569</ISIN>
+        <Name>JGBI 0 1/2 06/10/15</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20150910.0.8</Identifier>
+        <Rate>0.00800</Rate>
+        <Effective>20050910</Effective>
+        <Maturity>20150910</Maturity>
+        <ISIN>JP1120051592</ISIN>
+        <Name>JGBI 0.8 09/10/15</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20151210.0.8</Identifier>
+        <Rate>0.00800</Rate>
+        <Effective>20051210</Effective>
+        <Maturity>20151210</Maturity>
+        <ISIN>JP11200615C2</ISIN>
+        <Name>JGBI 0.8 12/10/15</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20160310.0.8</Identifier>
+        <Rate>0.00800</Rate>
+        <Effective>20060310</Effective>
+        <Maturity>20160310</Maturity>
+        <ISIN>JP1120071632</ISIN>
+        <Name>JGBI 0.8 03/10/16</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20160610.1.0</Identifier>
+        <Rate>0.01000</Rate>
+        <Effective>20060610</Effective>
+        <Maturity>20160610</Maturity>
+        <ISIN>JP1120081664</ISIN>
+        <Name>JGBI 1 06/10/16</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20160910.1.1</Identifier>
+        <Rate>0.01100</Rate>
+        <Effective>20060910</Effective>
+        <Maturity>20160910</Maturity>
+        <ISIN>JP11200916A8</ISIN>
+        <Name>JGBI 1.1 09/10/16</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20161210.1.1</Identifier>
+        <Rate>0.01100</Rate>
+        <Effective>20061210</Effective>
+        <Maturity>20161210</Maturity>
+        <ISIN>JP11201016C2</ISIN>
+        <Name>JGBI 1.1 12/10/16</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20170310.1.2</Identifier>
+        <Rate>0.01200</Rate>
+        <Effective>20070310</Effective>
+        <Maturity>20170310</Maturity>
+        <ISIN>JP1120111743</ISIN>
+        <Name>JGBI 1.2 03/10/17</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20170610.1.2</Identifier>
+        <Rate>0.01200</Rate>
+        <Effective>20070610</Effective>
+        <Maturity>20170610</Maturity>
+        <ISIN>JP1120121767</ISIN>
+        <Name>JGBI 1.2 06/10/17</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20170910.1.3</Identifier>
+        <Rate>0.01300</Rate>
+        <Effective>20070910</Effective>
+        <Maturity>20170910</Maturity>
+        <ISIN>JP11201317A8</ISIN>
+        <Name>JGBI 1.3 09/10/17</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20171210.1.2</Identifier>
+        <Rate>0.01200</Rate>
+        <Effective>20071210</Effective>
+        <Maturity>20171210</Maturity>
+        <ISIN>JP11201417C2</ISIN>
+        <Name>JGBI 1.2 12/10/17</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20180310.1.4</Identifier>
+        <Rate>0.01400</Rate>
+        <Effective>20080310</Effective>
+        <Maturity>20180310</Maturity>
+        <ISIN>JP1120151848</ISIN>
+        <Name>JGBI 1.4 03/10/18</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.JPN.JPY.CPI.20180610.1.4</Identifier>
+        <Rate>0.01400</Rate>
+        <Effective>20080610</Effective>
+        <Maturity>20180610</Maturity>
+        <ISIN>JP1120161862</ISIN>
+        <Name>JGBI 1.4 06/10/18</Name>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>

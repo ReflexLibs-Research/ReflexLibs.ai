@@ -1,0 +1,1196 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.FRA.EUR</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>FRA_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>FRA_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>FRA</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <!--
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR...</Identifier>
+    <Rate></Rate>
+    <Effective></Effective>
+    <Maturity></Maturity>
+    <ISIN></ISIN>
+  </FixedRateBond>
+  -->
+
+    <!-- Standard fixed rate bonds -->
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20130425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20020425</Effective>
+        <FirstCouponDate>20030425</FirstCouponDate>
+        <Maturity>20130425</Maturity>
+        <ISIN>FR0000188989</ISIN>
+        <Name>FRTR 4 04/25/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20131025.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20021025</Effective>
+        <Maturity>20131025</Maturity>
+        <ISIN>FR0010011130</ISIN>
+        <Name>FRTR 4 10/25/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20140425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20030425</Effective>
+        <Maturity>20140425</Maturity>
+        <ISIN>FR0010061242</ISIN>
+        <Name>FRTR 4 04/25/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20141025.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20031025</Effective>
+        <Maturity>20141025</Maturity>
+        <ISIN>FR0010112052</ISIN>
+        <Name>FRTR 4 10/25/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20150425.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20040425</Effective>
+        <FirstCouponDate>20050425</FirstCouponDate>
+        <Maturity>20150425</Maturity>
+        <ISIN>FR0010163543</ISIN>
+        <Name>FRTR 3 1/2 04/25/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20151025.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20041025</Effective>
+        <Maturity>20151025</Maturity>
+        <ISIN>FR0010216481</ISIN>
+        <Name>FRTR 3 10/25/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20151125.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20131125</Effective>
+        <FirstCouponDate>20131125</FirstCouponDate>
+        <Maturity>20151125</Maturity>
+        <ISIN>FR0011452721</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20160425.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20050425</Effective>
+        <Maturity>20160425</Maturity>
+        <ISIN>FR0010288357</ISIN>
+        <Name>FRTR 3 1/4 04/25/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20160725.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20100725</Effective>
+        <Maturity>20160725</Maturity>
+        <ISIN>FR0119580050</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20161025.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20001025</Effective>
+        <Maturity>20161025</Maturity>
+        <ISIN>FR0000187361</ISIN>
+        <Name>FRTR 5 10/25/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20161125.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20131125</Effective>
+        <FirstCouponDate>20141125</FirstCouponDate>
+        <Maturity>20161125</Maturity>
+        <ISIN>FR0011857218</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20170225.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20110225</Effective>
+        <FirstCouponDate>20120225</FirstCouponDate>
+        <Maturity>20170225</Maturity>
+        <ISIN>FR0120473253</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20170425.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20060425</Effective>
+        <FirstCouponDate>20070425</FirstCouponDate>
+        <Maturity>20170425</Maturity>
+        <ISIN>FR0010415331</ISIN>
+        <Name>FRTR 3 3/4 04/25/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20170725.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20110725</Effective>
+        <FirstCouponDate>20120725</FirstCouponDate>
+        <Maturity>20170725</Maturity>
+        <ISIN>FR0120746609</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20171025.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20061025</Effective>
+        <Maturity>20171025</Maturity>
+        <ISIN>FR0010517417</ISIN>
+        <Name>FRTR 4 1/4 10/25/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20180225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150225</Effective>
+        <FirstCouponDate>20160225</FirstCouponDate>
+        <Maturity>20180225</Maturity>
+        <ISIN>FR0012634558</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20180425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20070425</Effective>
+        <FirstCouponDate>20080425</FirstCouponDate>
+        <Maturity>20180425</Maturity>
+        <ISIN>FR0010604983</ISIN>
+        <Name>FRTR 4 04/25/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20180525.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20120525</Effective>
+        <FirstCouponDate>20130525</FirstCouponDate>
+        <Maturity>20180525</Maturity>
+        <ISIN>FR0011394345</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20181025.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20071025</Effective>
+        <FirstCouponDate>20081025</FirstCouponDate>
+        <Maturity>20181025</Maturity>
+        <ISIN>FR0010670737</ISIN>
+        <Name>FRTR 4 1/4 10/25/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20181125.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20121125</Effective>
+        <FirstCouponDate>20131125</FirstCouponDate>
+        <Maturity>20181125</Maturity>
+        <ISIN>FR0011523257</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20190225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150225</Effective>
+        <Maturity>20190225</Maturity>
+        <ISIN>FR0013101466</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20190425.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20030425</Effective>
+        <FirstCouponDate>20040425</FirstCouponDate>
+        <Maturity>20190425</Maturity>
+        <ISIN>FR0000189151</ISIN>
+        <Name>FRTR 4 1/4 04/25/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20190525.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130525</Effective>
+        <FirstCouponDate>20140525</FirstCouponDate>
+        <Maturity>20190525</Maturity>
+        <ISIN>FR0011708080</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20191025.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20081025</Effective>
+        <FirstCouponDate>20091025</FirstCouponDate>
+        <Maturity>20191025</Maturity>
+        <ISIN>FR0010776161</ISIN>
+        <Name>FRTR 3 3/4 10/25/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20191025.8.5</Identifier>
+        <Rate>0.085</Rate>
+        <Effective>19881025</Effective>
+        <FirstCouponDate>19891025</FirstCouponDate>
+        <Maturity>20191025</Maturity>
+        <ISIN>FR0000570921</ISIN>
+        <Name>FRTR 8 1/2 10/25/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20191125.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20131125</Effective>
+        <FirstCouponDate>20141125</FirstCouponDate>
+        <Maturity>20191125</Maturity>
+        <ISIN>FR0011993179</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20200225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160225</Effective>
+        <Maturity>20200225</Maturity>
+        <ISIN>FR0013232485</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20200425.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20090425</Effective>
+        <FirstCouponDate>20100425</FirstCouponDate>
+        <Maturity>20200425</Maturity>
+        <ISIN>FR0010854182</ISIN>
+        <Name>FRTR 3 1/2 04/25/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20200525.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150223</Effective>
+        <Maturity>20200525</Maturity>
+        <ISIN>FR0012557957</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20201025.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20091025</Effective>
+        <FirstCouponDate>20101025</FirstCouponDate>
+        <Maturity>20201025</Maturity>
+        <ISIN>FR0010949651</ISIN>
+        <Name>FRTR 2 1/2 10/25/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20210225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20170225</Effective>
+        <Maturity>20210225</Maturity>
+        <ISIN>FR0013311016</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20210525.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20150525</Effective>
+        <Maturity>20210525</Maturity>
+        <ISIN>FR0013157096</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20201125.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20141125</Effective>
+        <FirstCouponDate>20151125</FirstCouponDate>
+        <Maturity>20201125</Maturity>
+        <ISIN>FR0012968337</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20210425.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20050425</Effective>
+        <FirstCouponDate>20060425</FirstCouponDate>
+        <Maturity>20210425</Maturity>
+        <ISIN>FR0010192997</ISIN>
+        <Name>FRTR 3 3/4 04/25/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20211025.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20101025</Effective>
+        <FirstCouponDate>20111025</FirstCouponDate>
+        <Maturity>20211025</Maturity>
+        <ISIN>FR0011059088</ISIN>
+        <Name>FRTR 3 1/4 10/25/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20220225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20190128</Effective>
+        <FirstCouponDate>20190225</FirstCouponDate>
+        <Maturity>20220225</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>FR0013398583</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20220425.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20110425</Effective>
+        <FirstCouponDate>20120425</FirstCouponDate>
+        <Maturity>20220425</Maturity>
+        <ISIN>FR0011196856</ISIN>
+        <Name>FRTR 3 04/25/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20220425.8.25</Identifier>
+        <Rate>0.0825</Rate>
+        <Effective>19920212</Effective>
+        <FirstCouponDate>19920425</FirstCouponDate>
+        <Maturity>20220425</Maturity>
+        <ISIN>FR0000571044</ISIN>
+        <Name>FRTR 8 1/4 04/25/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20220525.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20160525</Effective>
+        <Maturity>20220525</Maturity>
+        <ISIN>FR0013219177</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20221025.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20111025</Effective>
+        <FirstCouponDate>20121025</FirstCouponDate>
+        <Maturity>20221025</Maturity>
+        <ISIN>FR0011337880</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20230225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20190225</Effective>
+        <FirstCouponDate>20200225</FirstCouponDate>
+        <Maturity>20230225</Maturity>
+        <ISIN>FR0013479102</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20230325.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20170325</Effective>
+        <Maturity>20230325</Maturity>
+        <ISIN>FR0013283686</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20230425.8.5</Identifier>
+        <Rate>0.085</Rate>
+        <Effective>19920127</Effective>
+        <FirstCouponDate>19920425</FirstCouponDate>
+        <Maturity>20230425</Maturity>
+        <ISIN>FR0000571085</ISIN>
+        <Name>FRTR 8 1/2 04/25/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20230525.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20120525</Effective>
+        <FirstCouponDate>20130525</FirstCouponDate>
+        <Maturity>20230525</Maturity>
+        <ISIN>FR0011486067</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20231025.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20061025</Effective>
+        <FirstCouponDate>20071025</FirstCouponDate>
+        <Maturity>20231025</Maturity>
+        <ISIN>FR0010466938</ISIN>
+        <Name>FRTR 4 1/4 10/25/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20240325.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20180305</Effective>
+        <Maturity>20240325</Maturity>
+        <ISIN>FR0013344751</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20240525.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20130525</Effective>
+        <FirstCouponDate>20140525</FirstCouponDate>
+        <Maturity>20240525</Maturity>
+        <ISIN>FR0011619436</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20241125.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20131125</Effective>
+        <FirstCouponDate>20141125</FirstCouponDate>
+        <Maturity>20241125</Maturity>
+        <ISIN>FR0011962398</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20250325.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20190325</Effective>
+        <FirstCouponDate>20200325</FirstCouponDate>
+        <Maturity>20250325</Maturity>
+        <ISIN>FR0013415627</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20250525.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20140525</Effective>
+        <FirstCouponDate>20150525</FirstCouponDate>
+        <Maturity>20250525</Maturity>
+        <ISIN>FR0012517027</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20251025.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Effective>19931025</Effective>
+        <FirstCouponDate>19941025</FirstCouponDate>
+        <Maturity>20251025</Maturity>
+        <ISIN>FR0000571150</ISIN>
+        <Name>FRTR 6 10/25/25</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20251125.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20141125</Effective>
+        <FirstCouponDate>20151125</FirstCouponDate>
+        <Maturity>20251125</Maturity>
+        <ISIN>FR0012938116</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20260225.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200225</Effective>
+        <FirstCouponDate>20210225</FirstCouponDate>
+        <Maturity>20260225</Maturity>
+        <ISIN>FR0013508470</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20260425.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20100425</Effective>
+        <FirstCouponDate>20110425</FirstCouponDate>
+        <Maturity>20260425</Maturity>
+        <ISIN>FR0010916924</ISIN>
+        <Name>FRTR 3 1/2 04/25/26</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20260525.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20150525</Effective>
+        <FirstCouponDate>20160525</FirstCouponDate>
+        <Maturity>20260525</Maturity>
+        <ISIN>FR0013131877</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20261125.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20151125</Effective>
+        <FirstCouponDate>20161125</FirstCouponDate>
+        <Maturity>20261125</Maturity>
+        <ISIN>FR0013200813</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20270525.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20160525</Effective>
+        <FirstCouponDate>20170525</FirstCouponDate>
+        <Maturity>20270525</Maturity>
+        <ISIN>FR0013250560</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20271025.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20111025</Effective>
+        <FirstCouponDate>20121025</FirstCouponDate>
+        <Maturity>20271025</Maturity>
+        <ISIN>FR0011317783</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20280525.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170525</Effective>
+        <FirstCouponDate>20180525</FirstCouponDate>
+        <Maturity>20280525</Maturity>
+        <ISIN>FR0013286192</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20281125.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20171125</Effective>
+        <FirstCouponDate>20181125</FirstCouponDate>
+        <Maturity>20281125</Maturity>
+        <ISIN>FR0013341682</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20290425.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>19970425</Effective>
+        <FirstCouponDate>19980425</FirstCouponDate>
+        <Maturity>20290425</Maturity>
+        <ISIN>FR0000571218</ISIN>
+        <Name>FRTR 5 1/2 04/25/29</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20290525.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20180525</Effective>
+        <FirstCouponDate>20190525</FirstCouponDate>
+        <Maturity>20290525</Maturity>
+        <ISIN>FR0013407236</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20291125.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20181125</Effective>
+        <FirstCouponDate>20191125</FirstCouponDate>
+        <Maturity>20291125</Maturity>
+        <ISIN>FR0013451507</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20301125.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20191125</Effective>
+        <FirstCouponDate>20201125</FirstCouponDate>
+        <Maturity>20301125</Maturity>
+        <ISIN>FR0013516549</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20300525.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20130525</Effective>
+        <FirstCouponDate>20140525</FirstCouponDate>
+        <Maturity>20300525</Maturity>
+        <ISIN>FR0011883966</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20310525.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20150525</Effective>
+        <FirstCouponDate>20160525</FirstCouponDate>
+        <Maturity>20310525</Maturity>
+        <ISIN>FR0012993103</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20321025.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20001025</Effective>
+        <FirstCouponDate>20011025</FirstCouponDate>
+        <Maturity>20321025</Maturity>
+        <ISIN>FR0000187635</ISIN>
+        <Name>FRTR 5 3/4 10/25/32</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20340525.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20170525</Effective>
+        <FirstCouponDate>20180525</FirstCouponDate>
+        <Maturity>20340525</Maturity>
+        <ISIN>FR0013313582</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20350425.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20030425</Effective>
+        <FirstCouponDate>20040425</FirstCouponDate>
+        <Maturity>20350425</Maturity>
+        <ISIN>FR0010070060</ISIN>
+        <Name>FRTR 4 3/4 04/25/35</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20360525.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20150525</Effective>
+        <FirstCouponDate>20160525</FirstCouponDate>
+        <Maturity>20360525</Maturity>
+        <ISIN>FR0013154044</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20381025.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20051025</Effective>
+        <FirstCouponDate>20061025</FirstCouponDate>
+        <Maturity>20381025</Maturity>
+        <ISIN>FR0010371401</ISIN>
+        <Name>FRTR 4 10/25/38</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20390625.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20160625</Effective>
+        <FirstCouponDate>20170625</FirstCouponDate>
+        <Maturity>20390625</Maturity>
+        <ISIN>FR0013234333</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20400525.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200525</Effective>
+        <FirstCouponDate>20210525</FirstCouponDate>
+        <Maturity>20400525</Maturity>
+        <ISIN>FR0013515806</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20410425.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20090425</Effective>
+        <FirstCouponDate>20100425</FirstCouponDate>
+        <Maturity>20410425</Maturity>
+        <ISIN>FR0010773192</ISIN>
+        <Name>FRTR 4 1/2 04/25/41</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20450525.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20120525</Effective>
+        <FirstCouponDate>20130525</FirstCouponDate>
+        <Maturity>20450525</Maturity>
+        <ISIN>FR0011461037</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20480525.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20170525</Effective>
+        <FirstCouponDate>20180525</FirstCouponDate>
+        <Maturity>20480525</Maturity>
+        <ISIN>FR0013257524</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20500525.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20180525</Effective>
+        <FirstCouponDate>20190525</FirstCouponDate>
+        <Maturity>20500525</Maturity>
+        <ISIN>FR0013404969</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20520525.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20190525</Effective>
+        <FirstCouponDate>20200525</FirstCouponDate>
+        <Maturity>20520525</Maturity>
+        <ISIN>FR0013480613</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20550425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20040425</Effective>
+        <FirstCouponDate>20050425</FirstCouponDate>
+        <Maturity>20550425</Maturity>
+        <ISIN>FR0010171975</ISIN>
+        <Name>FRTR 4 04/25/55</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.FRA.EUR.20600425.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20090425</Effective>
+        <FirstCouponDate>20100425</FirstCouponDate>
+        <Maturity>20600425</Maturity>
+        <ISIN>FR0010870956</ISIN>
+        <Name>FRTR 4 04/25/60</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.FRA.EUR.20660525.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20150525</Effective>
+        <FirstCouponDate>20160525</FirstCouponDate>
+        <Maturity>20660525</Maturity>
+        <ISIN>FR0013154028</ISIN>
+    </FixedRateBond>
+
+    <!-- Inflation HICP -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.FRA.EUR.HICPXTOB</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>DEU_Accrual_HICP</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DEU_YieldToDirtyPrice_HICP</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>FRA</Country>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2005</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20120725.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20010725</Effective>
+        <FirstCouponDate>20020725</FirstCouponDate>
+        <Maturity>20120725</Maturity>
+        <ISIN>FR0000188013</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20150725.1.6</Identifier>
+        <Rate>0.016</Rate>
+        <Effective>20040725</Effective>
+        <FirstCouponDate>20050725</FirstCouponDate>
+        <Maturity>20150725</Maturity>
+        <ISIN>FR0010135525</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>98.05612</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20180725.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20110725</Effective>
+        <FirstCouponDate>20120725</FirstCouponDate>
+        <Maturity>20180725</Maturity>
+        <ISIN>FR0011237643</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>96.34216</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20210301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20150525</Effective>
+        <FirstCouponDate>20170301</FirstCouponDate>
+        <Maturity>20210301</Maturity>
+        <ISIN>FR0013140035</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>100.16</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20200725.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20030725</Effective>
+        <FirstCouponDate>20040725</FirstCouponDate>
+        <Maturity>20200725</Maturity>
+        <ISIN>FR0010050559</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>82.10846</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20220725.1.1</Identifier>
+        <Rate>0.011</Rate>
+        <Effective>20090725</Effective>
+        <FirstCouponDate>20100725</FirstCouponDate>
+        <Maturity>20220725</Maturity>
+        <ISIN>FR0010899765</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>92.36361</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20240725.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20120725</Effective>
+        <FirstCouponDate>20130725</FirstCouponDate>
+        <Maturity>20240725</Maturity>
+        <ISIN>FR0011427848</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>98.63094</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20260301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20200301</Effective>
+        <FirstCouponDate>20210301</FirstCouponDate>
+        <Maturity>20260301</Maturity>
+        <ISIN>FR0013519253</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20270725.1.85</Identifier>
+        <Rate>0.0185</Rate>
+        <Effective>20100725</Effective>
+        <FirstCouponDate>20110725</FirstCouponDate>
+        <Maturity>20270725</Maturity>
+        <ISIN>FR0011008705</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>93.72591</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20280301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20160301</Effective>
+        <FirstCouponDate>20170301</FirstCouponDate>
+        <Maturity>20280301</Maturity>
+        <ISIN>FR0013238268</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20290301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20190301</Effective>
+        <FirstCouponDate>20200301</FirstCouponDate>
+        <Maturity>20290301</Maturity>
+        <ISIN>FR0013410552</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20300725.0.7</Identifier>
+        <Rate>0.007</Rate>
+        <Effective>20130725</Effective>
+        <FirstCouponDate>20140725</FirstCouponDate>
+        <Maturity>20300725</Maturity>
+        <ISIN>FR0011982776</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.91467</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20320725.3.15</Identifier>
+        <Rate>0.0315</Rate>
+        <Effective>20020725</Effective>
+        <FirstCouponDate>20030725</FirstCouponDate>
+        <Maturity>20320725</Maturity>
+        <ISIN>FR0000188799</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>81.03839</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20360301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20200301</Effective>
+        <FirstCouponDate>20210301</FirstCouponDate>
+        <Maturity>20360301</Maturity>
+        <ISIN>FR0013524014</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20360725.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20170725</Effective>
+        <FirstCouponDate>20180725</FirstCouponDate>
+        <Maturity>20360725</Maturity>
+        <ISIN>FR0013327491</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20400725.1.8</Identifier>
+        <Rate>0.018</Rate>
+        <Effective>20060725</Effective>
+        <FirstCouponDate>20070725</FirstCouponDate>
+        <Maturity>20400725</Maturity>
+        <ISIN>FR0010447367</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>87.4845</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.HICPXTOB.20470725.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20160725</Effective>
+        <FirstCouponDate>20170725</FirstCouponDate>
+        <Maturity>20470725</Maturity>
+        <ISIN>FR0013209871</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>100.38871</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+
+    <!-- Inflation old French CPI bonds -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.FRA.EUR.CPI</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>DEU_Accrual_HICP</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DEU_YieldToDirtyPrice_HICP</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>FRA</Country>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>FRA</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20130725.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20020725</Effective>
+        <FirstCouponDate>20030725</FirstCouponDate>
+        <Maturity>20130725</Maturity>
+        <ISIN>FR0000188955</ISIN>
+        <Name>FRTR 2 1/2 07/25/13</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20160725.0.45</Identifier>
+        <Rate>0.0045</Rate>
+        <Effective>20100725</Effective>
+        <Maturity>20160725</Maturity>
+        <ISIN>FR0119105791</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20170725.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20050725</Effective>
+        <FirstCouponDate>20060725</FirstCouponDate>
+        <Maturity>20170725</Maturity>
+        <ISIN>FR0010235176</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>88.25033</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20190725.1.3</Identifier>
+        <Rate>0.013</Rate>
+        <Effective>20090725</Effective>
+        <FirstCouponDate>20100725</FirstCouponDate>
+        <Maturity>20190725</Maturity>
+        <ISIN>FR0010850032</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>93.77657</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20210725.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20120725</Effective>
+        <FirstCouponDate>20130725</FirstCouponDate>
+        <Maturity>20210725</Maturity>
+        <ISIN>FR0011347046</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.02064</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20230725.2.1</Identifier>
+        <Rate>0.021</Rate>
+        <Effective>20070725</Effective>
+        <FirstCouponDate>20080725</FirstCouponDate>
+        <Maturity>20230725</Maturity>
+        <ISIN>FR0010585901</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>91.03419</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20250301.0.1</Identifier>
+        <Rate>0.001</Rate>
+        <Effective>20140301</Effective>
+        <FirstCouponDate>20150301</FirstCouponDate>
+        <Maturity>20250301</Maturity>
+        <ISIN>FR0012558310</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>99.87331</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.FRA.EUR.CPI.20290725.3.4</Identifier>
+        <Rate>0.034</Rate>
+        <Effective>19990725</Effective>
+        <FirstCouponDate>20000725</FirstCouponDate>
+        <Maturity>20290725</Maturity>
+        <ISIN>FR0000186413</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>79.85419</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+</Instruments>

@@ -1,0 +1,30 @@
+<Instruments>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.MXN.TIIE</Identifier>
+  <Index>
+    <Currency>MXN</Currency>
+    <Name>TIIE</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<xi:include href="instrumentsMXNTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>

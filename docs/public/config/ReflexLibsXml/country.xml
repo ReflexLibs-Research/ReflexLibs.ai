@@ -1,0 +1,105 @@
+<!-- These are ISO 3166-1 country/region codes as described here http://en.wikipedia.org/wiki/ISO_3166 -->
+
+<Countries>
+    <Country><Id>EUR</Id><Name>European Union</Name><ShortCode>EU</ShortCode><NumericCode>999</NumericCode></Country>    
+    <Country><Id>ARG</Id><Name>Argentina</Name><ShortCode>AR</ShortCode><NumericCode>32</NumericCode><Currency>ARS</Currency></Country>
+    <Country><Id>AUS</Id><Name>Australia</Name><ShortCode>AU</ShortCode><NumericCode>36</NumericCode><Currency>AUD</Currency></Country>
+    <Country><Id>AUT</Id><Name>Austria</Name><ShortCode>AT</ShortCode><NumericCode>40</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>BHR</Id><Name>Bahrain</Name><ShortCode>BH</ShortCode><NumericCode>48</NumericCode><Currency>BHD</Currency></Country>
+    <Country><Id>BEL</Id><Name>Belgium</Name><ShortCode>BE</ShortCode><NumericCode>56</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>BOL</Id><Name>Bolivia</Name><ShortCode>BO</ShortCode><NumericCode>68</NumericCode><Currency>BOB</Currency></Country>
+    <Country><Id>BWA</Id><Name>Botswana</Name><ShortCode>BW</ShortCode><NumericCode>72</NumericCode><Currency>BWP</Currency></Country>
+    <Country><Id>BRA</Id><Name>Brazil</Name><ShortCode>BR</ShortCode><NumericCode>76</NumericCode><Currency>BRL</Currency></Country>
+    <Country><Id>BGR</Id><Name>Bulgaria</Name><ShortCode>BG</ShortCode><NumericCode>100</NumericCode><Currency>BGN</Currency></Country>
+    <Country><Id>BDI</Id><Name>Burundi</Name><ShortCode>BI</ShortCode><NumericCode>108</NumericCode><Currency>BIF</Currency></Country>
+    <Country><Id>KHM</Id><Name>Cambodia</Name><ShortCode>KH</ShortCode><NumericCode>116</NumericCode><Currency>KHR</Currency></Country>
+    <Country><Id>CAN</Id><Name>Canada</Name><ShortCode>CA</ShortCode><NumericCode>124</NumericCode><Currency>CAD</Currency></Country>
+    <Country><Id>CHL</Id><Name>Chile</Name><ShortCode>CL</ShortCode><NumericCode>152</NumericCode><Currency>CLP</Currency></Country>
+    <Country><Id>CHN</Id><Name>China</Name><ShortCode>CN</ShortCode><NumericCode>156</NumericCode><Currency>CNY</Currency></Country>
+    <Country><Id>COL</Id><Name>Colombia</Name><ShortCode>CO</ShortCode><NumericCode>170</NumericCode><Currency>COP</Currency></Country>
+    <Country><Id>CZE</Id><Name>Czech Republic</Name><ShortCode>CZ</ShortCode><NumericCode>203</NumericCode><Currency>CZK</Currency></Country>
+    <Country><Id>DNK</Id><Name>Denmark</Name><ShortCode>DK</ShortCode><NumericCode>208</NumericCode><Currency>DKK</Currency></Country>
+    <Country><Id>DOM</Id><Name>Dominican Republic</Name><ShortCode>DO</ShortCode><NumericCode>214</NumericCode><Currency>DOP</Currency></Country>
+    <Country><Id>ECU</Id><Name>Ecuador</Name><ShortCode>EC</ShortCode><NumericCode>218</NumericCode><Currency>USD</Currency></Country>
+    <Country><Id>EGY</Id><Name>Egypt</Name><ShortCode>EG</ShortCode><NumericCode>818</NumericCode><Currency>EGP</Currency></Country>
+    <Country><Id>SLV</Id><Name>El Salvador</Name><ShortCode>SV</ShortCode><NumericCode>222</NumericCode><Currency>SVC</Currency></Country>
+    <Country><Id>EST</Id><Name>Estonia</Name><ShortCode>EE</ShortCode><NumericCode>233</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>FIN</Id><Name>Finland</Name><ShortCode>FI</ShortCode><NumericCode>246</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>FRA</Id><Name>France</Name><ShortCode>FR</ShortCode><NumericCode>250</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>GEO</Id><Name>Georgia</Name><ShortCode>GE</ShortCode><NumericCode>268</NumericCode><Currency>GEL</Currency></Country>
+    <Country><Id>DEU</Id><Name>Germany</Name><ShortCode>DE</ShortCode><NumericCode>276</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>GRC</Id><Name>Greece</Name><ShortCode>GR</ShortCode><NumericCode>300</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>GTM</Id><Name>Guatemala</Name><ShortCode>GT</ShortCode><NumericCode>320</NumericCode><Currency>GTQ</Currency></Country>
+    <Country><Id>HND</Id><Name>Honduras</Name><ShortCode>HN</ShortCode><NumericCode>340</NumericCode><Currency>HNL</Currency></Country>
+    <Country><Id>HKG</Id><Name>Hong Kong</Name><ShortCode>HK</ShortCode><NumericCode>344</NumericCode><Currency>HKD</Currency></Country>
+    <Country><Id>HUN</Id><Name>Hungary</Name><ShortCode>HU</ShortCode><NumericCode>348</NumericCode><Currency>HUF</Currency></Country>
+    <Country><Id>ISL</Id><Name>Iceland</Name><ShortCode>IS</ShortCode><NumericCode>352</NumericCode><Currency>ISK</Currency></Country>
+    <Country><Id>IND</Id><Name>India</Name><ShortCode>IN</ShortCode><NumericCode>356</NumericCode><Currency>INR</Currency></Country>
+    <Country><Id>IDN</Id><Name>Indonesia</Name><ShortCode>ID</ShortCode><NumericCode>360</NumericCode><Currency>IDR</Currency></Country>
+    <Country><Id>IRN</Id><Name>Iran</Name><ShortCode>IR</ShortCode><NumericCode>364</NumericCode><Currency>IRR</Currency></Country>
+    <Country><Id>IRQ</Id><Name>Iraq</Name><ShortCode>IQ</ShortCode><NumericCode>368</NumericCode><Currency>IQD</Currency></Country>
+    <Country><Id>IRL</Id><Name>Ireland</Name><ShortCode>IE</ShortCode><NumericCode>372</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>ISR</Id><Name>Israel</Name><ShortCode>IL</ShortCode><NumericCode>376</NumericCode><Currency>ILS</Currency></Country>
+    <Country><Id>ITA</Id><Name>Italy</Name><ShortCode>IT</ShortCode><NumericCode>380</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>JPN</Id><Name>Japan</Name><ShortCode>JP</ShortCode><NumericCode>392</NumericCode><Currency>JPY</Currency></Country>
+    <Country><Id>KAZ</Id><Name>Kazakhstan</Name><ShortCode>KZ</ShortCode><NumericCode>398</NumericCode><Currency>KZT</Currency></Country>
+    <Country><Id>KEN</Id><Name>Kenya</Name><ShortCode>KE</ShortCode><NumericCode>404</NumericCode><Currency>KES</Currency></Country>
+    <Country><Id>KOR</Id><Name>South Korea</Name><ShortCode>KR</ShortCode><NumericCode>410</NumericCode><Currency>KRW</Currency></Country>
+    <Country><Id>KWT</Id><Name>Kuwait</Name><ShortCode>KW</ShortCode><NumericCode>414</NumericCode><Currency>KWD</Currency></Country>
+    <Country><Id>LVA</Id><Name>Latvia</Name><ShortCode>LV</ShortCode><NumericCode>428</NumericCode><Currency>LVL</Currency></Country>
+    <Country><Id>LBY</Id><Name>Libya</Name><ShortCode>LY</ShortCode><NumericCode>434</NumericCode><Currency>LYD</Currency></Country>
+    <Country><Id>LIE</Id><Name>Liechtenstein</Name><ShortCode>LI</ShortCode><NumericCode>438</NumericCode><Currency>CHF</Currency></Country>
+    <Country><Id>LTU</Id><Name>Lithuania</Name><ShortCode>LT</ShortCode><NumericCode>440</NumericCode><Currency>LTL</Currency></Country>
+    <Country><Id>LUX</Id><Name>Luxembourg</Name><ShortCode>LU</ShortCode><NumericCode>442</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>MAC</Id><Name>Macao</Name><ShortCode>MO</ShortCode><NumericCode>446</NumericCode><Currency>MOP</Currency></Country>
+    <Country><Id>MKD</Id><Name>Macedonia</Name><ShortCode>MK</ShortCode><NumericCode>807</NumericCode><Currency>MKD</Currency></Country>
+    <Country><Id>MYS</Id><Name>Malaysia</Name><ShortCode>MY</ShortCode><NumericCode>458</NumericCode><Currency>MYR</Currency></Country>
+    <Country><Id>MLT</Id><Name>Malta</Name><ShortCode>MT</ShortCode><NumericCode>470</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>MEX</Id><Name>Mexico</Name><ShortCode>MX</ShortCode><NumericCode>484</NumericCode><Currency>MXN</Currency></Country>
+    <Country><Id>MNG</Id><Name>Mongolia</Name><ShortCode>MN</ShortCode><NumericCode>496</NumericCode><Currency>MNT</Currency></Country>
+    <Country><Id>MNE</Id><Name>Montenegro</Name><ShortCode>ME</ShortCode><NumericCode>499</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>MAR</Id><Name>Morocco</Name><ShortCode>MA</ShortCode><NumericCode>504</NumericCode><Currency>MAD</Currency></Country>
+    <Country><Id>NLD</Id><Name>Netherlands</Name><ShortCode>NL</ShortCode><NumericCode>528</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>NZL</Id><Name>New Zealand</Name><ShortCode>NZ</ShortCode><NumericCode>554</NumericCode><Currency>NZD</Currency></Country>
+    <Country><Id>NIC</Id><Name>Nicaragua</Name><ShortCode>NI</ShortCode><NumericCode>558</NumericCode><Currency>NIO</Currency></Country>
+    <Country><Id>NGA</Id><Name>Nigeria</Name><ShortCode>NG</ShortCode><NumericCode>566</NumericCode><Currency>NGN</Currency></Country>
+    <Country><Id>NOR</Id><Name>Norway</Name><ShortCode>NO</ShortCode><NumericCode>578</NumericCode><Currency>NOK</Currency></Country>
+    <Country><Id>OMN</Id><Name>Oman</Name><ShortCode>OM</ShortCode><NumericCode>512</NumericCode><Currency>OMR</Currency></Country>
+    <Country><Id>PAK</Id><Name>Pakistan</Name><ShortCode>PK</ShortCode><NumericCode>586</NumericCode><Currency>PKR</Currency></Country>
+    <Country><Id>PAN</Id><Name>Panama</Name><ShortCode>PA</ShortCode><NumericCode>591</NumericCode><Currency>PAB</Currency></Country>
+    <Country><Id>PRY</Id><Name>Paraguay</Name><ShortCode>PY</ShortCode><NumericCode>600</NumericCode><Currency>PYG</Currency></Country>
+    <Country><Id>PER</Id><Name>Peru</Name><ShortCode>PE</ShortCode><NumericCode>604</NumericCode><Currency>PEN</Currency></Country>
+    <Country><Id>PHL</Id><Name>Philippines</Name><ShortCode>PH</ShortCode><NumericCode>608</NumericCode><Currency>PHP</Currency></Country>
+    <Country><Id>POL</Id><Name>Poland</Name><ShortCode>PL</ShortCode><NumericCode>616</NumericCode><Currency>PLN</Currency></Country>
+    <Country><Id>PRT</Id><Name>Portugal</Name><ShortCode>PT</ShortCode><NumericCode>620</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>PRI</Id><Name>Puerto Rico</Name><ShortCode>PR</ShortCode><NumericCode>630</NumericCode><Currency>USD</Currency></Country>
+    <Country><Id>QAT</Id><Name>Qatar</Name><ShortCode>QA</ShortCode><NumericCode>634</NumericCode><Currency>QAR</Currency></Country>
+    <Country><Id>ROU</Id><Name>Romania</Name><ShortCode>RO</ShortCode><NumericCode>642</NumericCode><Currency>RON</Currency></Country>
+    <Country><Id>RUS</Id><Name>Russian Federation</Name><ShortCode>RU</ShortCode><NumericCode>643</NumericCode><Currency>RUB</Currency></Country>
+    <Country><Id>SAU</Id><Name>Saudi Arabia</Name><ShortCode>SA</ShortCode><NumericCode>682</NumericCode><Currency>SAR</Currency></Country>
+    <Country><Id>SRB</Id><Name>Serbia</Name><ShortCode>RS</ShortCode><NumericCode>688</NumericCode><Currency>RSD</Currency></Country>
+    <Country><Id>SGP</Id><Name>Singapore</Name><ShortCode>SG</ShortCode><NumericCode>702</NumericCode><Currency>SGD</Currency></Country>
+    <Country><Id>SVK</Id><Name>Slovakia</Name><ShortCode>SK</ShortCode><NumericCode>703</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>SVN</Id><Name>Slovenia</Name><ShortCode>SI</ShortCode><NumericCode>705</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>ZAF</Id><Name>South Africa</Name><ShortCode>ZA</ShortCode><NumericCode>710</NumericCode><Currency>ZAR</Currency></Country>
+    <Country><Id>ESP</Id><Name>Spain</Name><ShortCode>ES</ShortCode><NumericCode>724</NumericCode><Currency>EUR</Currency></Country>
+    <Country><Id>SWE</Id><Name>Sweden</Name><ShortCode>SE</ShortCode><NumericCode>752</NumericCode><Currency>SEK</Currency></Country>
+    <Country><Id>CHE</Id><Name>Switzerland</Name><ShortCode>CH</ShortCode><NumericCode>756</NumericCode><Currency>CHF</Currency></Country>
+    <Country><Id>TWN</Id><Name>Taiwan</Name><ShortCode>TW</ShortCode><NumericCode>158</NumericCode><Currency>TWD</Currency></Country>
+    <Country><Id>THA</Id><Name>Thailand</Name><ShortCode>TH</ShortCode><NumericCode>764</NumericCode><Currency>THB</Currency></Country>
+    <Country><Id>TUR</Id><Name>Turkey</Name><ShortCode>TR</ShortCode><NumericCode>792</NumericCode><Currency>TRY</Currency></Country>
+    <Country><Id>TKM</Id><Name>Turkmenistan</Name><ShortCode>TM</ShortCode><NumericCode>795</NumericCode><Currency>TMT</Currency></Country>
+    <Country><Id>UGA</Id><Name>Uganda</Name><ShortCode>UG</ShortCode><NumericCode>800</NumericCode><Currency>UGX</Currency></Country>
+    <Country><Id>UKR</Id><Name>Ukraine</Name><ShortCode>UA</ShortCode><NumericCode>804</NumericCode><Currency>UAH</Currency></Country>
+    <Country><Id>ARE</Id><Name>United Arab Emirates</Name><ShortCode>AE</ShortCode><NumericCode>784</NumericCode><Currency>AED</Currency></Country>
+    <Country><Id>GBR</Id><Name>United Kingdom</Name><ShortCode>GB</ShortCode><NumericCode>826</NumericCode><Currency>GBP</Currency></Country>
+    <Country><Id>USA</Id><Name>United States</Name><ShortCode>US</ShortCode><NumericCode>840</NumericCode><Currency>USD</Currency></Country>
+    <Country><Id>URY</Id><Name>Uruguay</Name><ShortCode>UY</ShortCode><NumericCode>858</NumericCode><Currency>UYU</Currency></Country>
+    <Country><Id>UZB</Id><Name>Uzbekistan</Name><ShortCode>UZ</ShortCode><NumericCode>860</NumericCode><Currency>UZS</Currency></Country>
+    <Country><Id>VEN</Id><Name>Venezuela</Name><ShortCode>VE</ShortCode><NumericCode>862</NumericCode><Currency>VEF</Currency></Country>
+    <Country><Id>VNM</Id><Name>Viet Nam</Name><ShortCode>VN</ShortCode><NumericCode>704</NumericCode><Currency>VND</Currency></Country>
+
+    <!-- Special drawing rights -->
+    <Country><Id>SDR</Id><Name>International Monetary Fund</Name><ShortCode>IM</ShortCode><NumericCode>960</NumericCode><Currency>SDR</Currency></Country>
+    
+</Countries>

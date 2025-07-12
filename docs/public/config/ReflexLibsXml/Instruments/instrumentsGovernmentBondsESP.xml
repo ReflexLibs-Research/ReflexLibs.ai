@@ -1,0 +1,1189 @@
+<Instruments>
+
+    <!-- http://www.thespanisheconomy.com/portal/site/tse/ -->
+    <!-- http://www.bde.es/bde/en/ -->
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.ESP</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>2</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>ESP_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>ESP_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>ESP</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20160430.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20101109</Effective>
+        <FirstCouponDate>20110430</FirstCouponDate>
+        <Maturity>20160430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000122X5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20160730.3.3</Identifier>
+        <Rate>0.033</Rate>
+        <Effective>20130409</Effective>
+        <FirstCouponDate>20130730</FirstCouponDate>
+        <Maturity>20160730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123W5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20161031.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20110906</Effective>
+        <FirstCouponDate>20111031</FirstCouponDate>
+        <Maturity>20161031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123J2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20170131.3.8</Identifier>
+        <Rate>0.038</Rate>
+        <Effective>20061018</Effective>
+        <FirstCouponDate>20070131</FirstCouponDate>
+        <Maturity>20170131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000120J8</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20170430.2.1</Identifier>
+        <Rate>0.021</Rate>
+        <Effective>20131126</Effective>
+        <FirstCouponDate>20140430</FirstCouponDate>
+        <Maturity>20170430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124I2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20170730.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20021103</Effective>
+        <FirstCouponDate>20020730</FirstCouponDate>
+        <Maturity>20170730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012783</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20171031.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20140923</Effective>
+        <FirstCouponDate>20141031</FirstCouponDate>
+        <Maturity>20171031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000126V0</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20180131.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20121113</Effective>
+        <FirstCouponDate>20130131</FirstCouponDate>
+        <Maturity>20180131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123Q7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20180430.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20150526</Effective>
+        <FirstCouponDate>20160430</FirstCouponDate>
+        <Maturity>20180430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000127D6</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20180730.4.1</Identifier>
+        <Rate>0.041</Rate>
+        <Effective>20080219</Effective>
+        <FirstCouponDate>20080730</FirstCouponDate>
+        <Maturity>20180730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000121A5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20181031.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20130709</Effective>
+        <FirstCouponDate>20131031</FirstCouponDate>
+        <Maturity>20181031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124B7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20190131.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20160126</Effective>
+        <FirstCouponDate>20170131</FirstCouponDate>
+        <Maturity>20190131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128A0</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20190430.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140114</Effective>
+        <FirstCouponDate>20140430</FirstCouponDate>
+        <Maturity>20190430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124V5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20190730.4.6</Identifier>
+        <Rate>0.046</Rate>
+        <Effective>20090210</Effective>
+        <FirstCouponDate>20090730</FirstCouponDate>
+        <Maturity>20190730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000121L2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20191031.4.3</Identifier>
+        <Rate>0.043</Rate>
+        <Effective>20090602</Effective>
+        <FirstCouponDate>20091031</FirstCouponDate>
+        <Maturity>20191031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000121O6</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20200131.1.4</Identifier>
+        <Rate>0.014</Rate>
+        <Effective>20140708</Effective>
+        <FirstCouponDate>20150131</FirstCouponDate>
+        <Maturity>20200131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000126C0</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20200430.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20100120</Effective>
+        <FirstCouponDate>20100430</FirstCouponDate>
+        <Maturity>20200430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000122D7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20200730.1.15</Identifier>
+        <Rate>0.0115</Rate>
+        <Effective>20150616</Effective>
+        <FirstCouponDate>20150730</FirstCouponDate>
+        <Maturity>20200730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000127H7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20201031.4.85</Identifier>
+        <Rate>0.0485</Rate>
+        <Effective>20100713</Effective>
+        <FirstCouponDate>20101031</FirstCouponDate>
+        <Maturity>20201031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000122T3</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20210131.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20170606</Effective>
+        <FirstCouponDate>20180131</FirstCouponDate>
+        <Maturity>20210131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128X2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20210430.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Effective>20110124</Effective>
+        <FirstCouponDate>20110430</FirstCouponDate>
+        <Maturity>20210430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123B9</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20210730.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20160308</Effective>
+        <FirstCouponDate>20160730</FirstCouponDate>
+        <Maturity>20210730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128B8</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20211031.0.05</Identifier>
+        <Rate>0.0005</Rate>
+        <Effective>20181009</Effective>
+        <FirstCouponDate>20181031</FirstCouponDate>
+        <Maturity>20211031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012C46</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20220131.5.85</Identifier>
+        <Rate>0.0585</Rate>
+        <Effective>20111122</Effective>
+        <FirstCouponDate>20120131</FirstCouponDate>
+        <Maturity>20220131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123K0</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20220430.0.4</Identifier>
+        <Rate>0.004</Rate>
+        <Effective>20170124</Effective>
+        <FirstCouponDate>20170430</FirstCouponDate>
+        <Maturity>20220430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128O1</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20221031.0.45</Identifier>
+        <Rate>0.0045</Rate>
+        <Effective>20171010</Effective>
+        <FirstCouponDate>20171031</FirstCouponDate>
+        <Maturity>20221031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012A97</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20230131.5.4</Identifier>
+        <Rate>0.054</Rate>
+        <Effective>20130129</Effective>
+        <FirstCouponDate>20140131</FirstCouponDate>
+        <Maturity>20230131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123U9</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20230430.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200128</Effective>
+        <FirstCouponDate>20200430</FirstCouponDate>
+        <Maturity>20230430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012F84</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20230730.0.35</Identifier>
+        <Rate>0.0035</Rate>
+        <Effective>20180522</Effective>
+        <FirstCouponDate>20180730</FirstCouponDate>
+        <Maturity>20230730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012B62</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20231031.4.4</Identifier>
+        <Rate>0.044</Rate>
+        <Effective>20130521</Effective>
+        <FirstCouponDate>20131031</FirstCouponDate>
+        <Maturity>20231031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123X3</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20240131.4.8</Identifier>
+        <Rate>0.048</Rate>
+        <Effective>20080916</Effective>
+        <FirstCouponDate>20090131</FirstCouponDate>
+        <Maturity>20240131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000121G2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20240430.3.8</Identifier>
+        <Rate>0.038</Rate>
+        <Effective>20140129</Effective>
+        <FirstCouponDate>20140430</FirstCouponDate>
+        <Maturity>20240430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124W3</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20240730.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20190416</Effective>
+        <FirstCouponDate>20190730</FirstCouponDate>
+        <Maturity>20240730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012E85</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20241031.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140620</Effective>
+        <FirstCouponDate>20141031</FirstCouponDate>
+        <Maturity>20241031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000126B2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20250430.1.6</Identifier>
+        <Rate>0.016</Rate>
+        <Effective>20150127</Effective>
+        <FirstCouponDate>20150430</FirstCouponDate>
+        <Maturity>20250430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000126Z1</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20250730.4.65</Identifier>
+        <Rate>0.0465</Rate>
+        <Effective>20100224</Effective>
+        <FirstCouponDate>20100730</FirstCouponDate>
+        <Maturity>20250730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000122E5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20251031.2.15</Identifier>
+        <Rate>0.0215</Rate>
+        <Effective>20150609</Effective>
+        <FirstCouponDate>20151031</FirstCouponDate>
+        <Maturity>20251031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000127G9</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20250131.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20200225</Effective>
+        <FirstCouponDate>20210131</FirstCouponDate>
+        <Maturity>20250131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012F92</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20260131.0.0</Identifier>
+        <Rate>0.0</Rate>
+        <Effective>20201020</Effective>
+        <FirstCouponDate>20210131</FirstCouponDate>
+        <Maturity>20260131</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012G91</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20260430.1.95</Identifier>
+        <Rate>0.0195</Rate>
+        <Effective>20160119</Effective>
+        <FirstCouponDate>20160430</FirstCouponDate>
+        <Maturity>20260430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000127Z9</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20260730.5.9</Identifier>
+        <Rate>0.059</Rate>
+        <Effective>20110315</Effective>
+        <FirstCouponDate>20110730</FirstCouponDate>
+        <Maturity>20260730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000123C7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20261031.1.3</Identifier>
+        <Rate>0.013</Rate>
+        <Effective>20160726</Effective>
+        <FirstCouponDate>20161031</FirstCouponDate>
+        <Maturity>20261031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128H5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20270430.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20170131</Effective>
+        <FirstCouponDate>20170430</FirstCouponDate>
+        <Maturity>20270430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128P8</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20270730.0.8</Identifier>
+        <Rate>0.008</Rate>
+        <Effective>20200331</Effective>
+        <FirstCouponDate>20200730</FirstCouponDate>
+        <Maturity>20270730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012G26</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20271031.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20170704</Effective>
+        <FirstCouponDate>20171031</FirstCouponDate>
+        <Maturity>20271031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012A89</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20280430.1.4</Identifier>
+        <Rate>0.014</Rate>
+        <Effective>20180130</Effective>
+        <FirstCouponDate>20180430</FirstCouponDate>
+        <Maturity>20280430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012B39</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20280730.1.4</Identifier>
+        <Rate>0.014</Rate>
+        <Effective>20180703</Effective>
+        <FirstCouponDate>20180730</FirstCouponDate>
+        <Maturity>20280730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012B88</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20281031.5.15</Identifier>
+        <Rate>0.0515</Rate>
+        <Effective>20130716</Effective>
+        <FirstCouponDate>20131031</FirstCouponDate>
+        <Maturity>20281031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124C5</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20290131.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Effective>19990131</Effective>
+        <FirstCouponDate>20000131</FirstCouponDate>
+        <Maturity>20290131</Maturity>
+        <ISIN>ES0000011868</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20290430.1.45</Identifier>
+        <Rate>0.0145</Rate>
+        <Effective>20190129</Effective>
+        <FirstCouponDate>20190430</FirstCouponDate>
+        <Maturity>20290430</Maturity>
+        <ISIN>ES0000012E51</ISIN>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20291031.0.6</Identifier>
+        <Rate>0.006</Rate>
+        <Effective>20190619</Effective>
+        <FirstCouponDate>20191031</FirstCouponDate>
+        <Maturity>20291031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012F43</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20300430.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200121</Effective>
+        <FirstCouponDate>20200430</FirstCouponDate>
+        <Maturity>20300430</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012F76</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20300730.1.95</Identifier>
+        <Rate>0.0195</Rate>
+        <Effective>20150304</Effective>
+        <FirstCouponDate>20150730</FirstCouponDate>
+        <Maturity>20300730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000127A2</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20301031.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20200430</Effective>
+        <FirstCouponDate>20201031</FirstCouponDate>
+        <Maturity>20301031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012G34</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20320730.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20020730</Effective>
+        <FirstCouponDate>20030730</FirstCouponDate>
+        <Maturity>20320730</Maturity>
+        <ISIN>ES0000012411</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20330730.2.35</Identifier>
+        <Rate>0.0235</Rate>
+        <Effective>20170301</Effective>
+        <FirstCouponDate>20170730</FirstCouponDate>
+        <Maturity>20330730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128Q6</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20350730.1.85</Identifier>
+        <Rate>0.0185</Rate>
+        <Effective>20190305</Effective>
+        <FirstCouponDate>20190730</FirstCouponDate>
+        <Maturity>20350730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012E69</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20370131.4.2</Identifier>
+        <Rate>0.042</Rate>
+        <Effective>20050131</Effective>
+        <FirstCouponDate>20060131</FirstCouponDate>
+        <Maturity>20370131</Maturity>
+        <ISIN>ES0000012932</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20401031.1.2</Identifier>
+        <Rate>0.012</Rate>
+        <Effective>20200616</Effective>
+        <FirstCouponDate>20201031</FirstCouponDate>
+        <Maturity>20401031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012G42</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20400730.4.9</Identifier>
+        <Rate>0.049</Rate>
+        <Effective>20070620</Effective>
+        <FirstCouponDate>20070730</FirstCouponDate>
+        <Maturity>20400730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000120N0</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20410730.4.7</Identifier>
+        <Rate>0.047</Rate>
+        <Effective>20090928</Effective>
+        <FirstCouponDate>20100730</FirstCouponDate>
+        <Maturity>20410730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000121S7</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20441031.5.15</Identifier>
+        <Rate>0.0515</Rate>
+        <Effective>20131016</Effective>
+        <FirstCouponDate>20131031</FirstCouponDate>
+        <Maturity>20441031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000124H4</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20461031.2.9</Identifier>
+        <Rate>0.029</Rate>
+        <Effective>20160315</Effective>
+        <FirstCouponDate>20161031</FirstCouponDate>
+        <Maturity>20461031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128C6</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20501031.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20200303</Effective>
+        <FirstCouponDate>20201031</FirstCouponDate>
+        <Maturity>20501031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012G00</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.ESP.EUR.20641031.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20140908</Effective>
+        <FirstCouponDate>20141031</FirstCouponDate>
+        <Maturity>20641031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000126D8</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20481031.2.7</Identifier>
+        <Rate>0.027</Rate>
+        <Effective>20180227</Effective>
+        <FirstCouponDate>20181031</FirstCouponDate>
+        <Maturity>20481031</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES0000012B47</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.ESP.EUR.20660730.3.45</Identifier>
+        <Rate>0.0345</Rate>
+        <Effective>20160518</Effective>
+        <FirstCouponDate>20160730</FirstCouponDate>
+        <Maturity>20660730</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>ES00000128E2</ISIN>
+    </FixedRateBond>
+
+
+    <!-- Inflation linked -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.ESP.EUR.HICPXTOB</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>ESP</Country>
+        <AccrualCalculator>DEU_Accrual_HICP</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>DEU_YieldToDirtyPrice_HICP</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2005</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20191130.0.55</Identifier>
+        <Rate>0.0055</Rate>
+        <Effective>20131130</Effective>
+        <FirstCouponDate>20141130</FirstCouponDate>
+        <Maturity>20191130</Maturity>
+        <ISIN>ES00000126W8</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>117.09067</BaseValue>
+                <RebaseValue><Date>20160301</Date><RebaseYear>2015</RebaseYear><BaseValue>100.05803</BaseValue></RebaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20211130.0.3</Identifier>
+        <Rate>0.003</Rate>
+        <Effective>20151130</Effective>
+        <FirstCouponDate>20161130</FirstCouponDate>
+        <Maturity>20211130</Maturity>
+        <ISIN>ES00000128D4</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2015</BaseYear>
+                </InflationIndex>
+                <BaseValue>100.16968</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20231130.0.15</Identifier>
+        <Rate>0.0015</Rate>
+        <Effective>20180612</Effective>
+        <FirstCouponDate>20180730</FirstCouponDate>
+        <Maturity>20231130</Maturity>
+        <ISIN>ES0000012B70</ISIN>
+        <InflationLinkedFixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <InflationLinkedNotionalDetails>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2015</BaseYear>
+                </InflationIndex>
+                <BaseValue>102.02533</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20241130.1.8</Identifier>
+        <Rate>0.018</Rate>
+        <Effective>20131130</Effective>
+        <FirstCouponDate>20141130</FirstCouponDate>
+        <Maturity>20241130</Maturity>
+        <ISIN>ES00000126A4</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>117.09067</BaseValue>
+                <RebaseValue><Date>20160301</Date><RebaseYear>2015</RebaseYear><BaseValue>100.05803</BaseValue></RebaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+  <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20271130.0.65</Identifier>
+        <Rate>0.0065</Rate>
+        <Effective>20161130</Effective>
+        <FirstCouponDate>20171130</FirstCouponDate>
+        <Maturity>20271130</Maturity>
+        <ISIN>ES00000128S2</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <InflationIndex>
+                    <Region>EuroZone</Region>
+                    <Name>HICP</Name>
+                    <Component>TOT_X_TBC</Component>
+                    <BaseYear>2015</BaseYear>
+                </InflationIndex>
+                <BaseValue>100.52667</BaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20301130.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20141130</Effective>
+        <FirstCouponDate>20151130</FirstCouponDate>
+        <Maturity>20301130</Maturity>
+        <ISIN>ES00000127C8</ISIN>
+        <InflationLinkedFixedLeg>
+            <InflationLinkedNotionalDetails>
+                <BaseValue>117.41267</BaseValue>
+                <RebaseValue><Date>20160301</Date><RebaseYear>2015</RebaseYear><BaseValue>100.33319</BaseValue></RebaseValue>
+            </InflationLinkedNotionalDetails>
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf = "true">RE.0.InflationBond.ESP.EUR.HICPXTOB.20331130.0.7</Identifier>
+        <Rate>0.007</Rate>
+        <Effective>20171130</Effective>
+        <FirstCouponDate>20181130</FirstCouponDate>
+        <Maturity>20331130</Maturity>
+        <ISIN>ES0000012C12</ISIN>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>

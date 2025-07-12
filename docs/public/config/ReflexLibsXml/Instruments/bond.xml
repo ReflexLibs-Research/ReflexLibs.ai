@@ -1,0 +1,67 @@
+<Instruments>
+
+
+<xi:include href="instrumentsGovernmentBondsARG.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsAUS.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsAUT.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsBEL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsBRZ.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsBUL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCAN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCHE.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCHL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCHN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCOL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsCZE.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsDEU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsDNK.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsEGY.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsESP.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsEST.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsFIN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsFRA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsGBR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsGRC.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsHKG.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsHUN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsIDN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsIND.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsIRL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsISL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsISR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsITA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsJPN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsKAZ.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsKOR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsLTU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsLUX.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsLVA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsMEX.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsNLD.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsNOR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsNZL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsPER.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsPHL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsPOL.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsPRT.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsPRY.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsROU.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsRUS.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsSVK.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsSVN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />   
+<xi:include href="instrumentsGovernmentBondsSWE.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsTHA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsTUR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsTWN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsUKR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsUSA.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsVEN.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsVNM.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include href="instrumentsGovernmentBondsZAF.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+
+
+
+
+</Instruments>
+

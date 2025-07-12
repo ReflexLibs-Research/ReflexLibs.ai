@@ -1,0 +1,528 @@
+<Instruments>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR</Identifier>
+
+
+    <TypeName>Gilt</TypeName>
+    <Exchange>EuroNext</Exchange>
+    <Notional>100000.0</Notional>
+    <Country>GBR</Country>
+    <Currency>GBP</Currency>
+
+    <!-- Trading -->
+
+    <!--- Last trading date  -->
+    <LastTradingRelativeTo>FirstOfDeliveryMonth</LastTradingRelativeTo>
+    <LastTradingAdjuster>
+      <!-- Two business days prior to the last business day of the contract delivery month -->
+      <LastBusinessDayInMonth><Calendar>LON</Calendar></LastBusinessDayInMonth>
+      <OffsetByBusinessDays><Calendar>LON</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays>
+    </LastTradingAdjuster>
+
+    <!-- Time zone? -->
+    <LastTradingTime>11:00</LastTradingTime>
+
+    <!-- Delivery notice -->
+
+    <!-- What is the first valid delivery date -->
+    <FirstDeliveryNoticeRelativeTo>FirstOfDeliveryMonth</FirstDeliveryNoticeRelativeTo>
+    <FirstDeliveryNoticeAdjuster>
+      <!-- Two business days prior to the first day of the contract delivery month -->
+      <OffsetByBusinessDays><Calendar>LON</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays>
+    </FirstDeliveryNoticeAdjuster>
+
+    <!-- The last valid delivery notice date -->
+    <LastDeliveryNoticeRelativeTo>LastTrading</LastDeliveryNoticeRelativeTo>
+    <LastDeliveryNoticeAdjuster>
+      <NextBusinessDay><Calendar>LON</Calendar></NextBusinessDay>
+    </LastDeliveryNoticeAdjuster>
+
+    <!-- What days are valid delivery notice days  -->
+    <DeliveryNoticeCalendar>LON</DeliveryNoticeCalendar>
+
+    <!-- Time of day by which a delivery notice has to be made on a valid delivery notice date -->
+    <DeliveryNoticeTime>11:00</DeliveryNoticeTime>
+
+
+    <!-- Settlement -->
+
+    <SettlementAdjuster>
+      <!-- Adjust from notice date to settlement date -->
+      <OffsetByBusinessDays><Calendar>LON</Calendar><NumberOfBusinessDays>2</NumberOfBusinessDays></OffsetByBusinessDays>
+    </SettlementAdjuster>
+
+    <!-- What is the last date on which the deliverable basket can change -->
+    <LastDeliverableBasketChangeRelativeTo>FirstDeliveryNotice</LastDeliverableBasketChangeRelativeTo>
+    <LastDeliverableBasketChangeAdjuster>
+      <OffsetByBusinessDays><Calendar>LON</Calendar><NumberOfBusinessDays>-10</NumberOfBusinessDays></OffsetByBusinessDays>
+    </LastDeliverableBasketChangeAdjuster>
+
+  </BondFuture>
+
+
+  <!-- 2Y -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2</Identifier>
+
+    <DeliverableRule>GBR2Y</DeliverableRule>
+    <ConversionFactorCalculator>GBR</ConversionFactorCalculator>
+
+    <IdealizedTenor>2Y</IdealizedTenor>
+    <IdealizedRate>0.03</IdealizedRate>
+
+    <!-- The number of contracts that are normally traded -->
+    <TradedContracts>3</TradedContracts>
+
+  </BondFuture>
+
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.2.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.2.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+  <!-- 5Y -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5</Identifier>
+
+    <DeliverableRule>GBR5Y</DeliverableRule>
+    <ConversionFactorCalculator>GBR</ConversionFactorCalculator>
+
+    <IdealizedTenor>5Y</IdealizedTenor>
+    <IdealizedRate>0.04</IdealizedRate>
+
+    <!-- The number of contracts that are normally traded -->
+    <TradedContracts>2</TradedContracts>
+
+  </BondFuture>
+
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.5.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.5.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+
+  <!-- 10Y -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10</Identifier>
+
+    <DeliverableRule>GBR10Y</DeliverableRule>
+    <ConversionFactorCalculator>GBR</ConversionFactorCalculator>
+
+    <IdealizedTenor>10Y</IdealizedTenor>
+    <IdealizedRate>0.04</IdealizedRate>
+
+    <!-- The number of contracts that are normally traded -->
+    <TradedContracts>3</TradedContracts>
+
+  </BondFuture>
+
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.10.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.10.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+  <!-- 10Y -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30</Identifier>
+
+    <DeliverableRule>GBR30Y</DeliverableRule>
+    <ConversionFactorCalculator>GBR</ConversionFactorCalculator>
+
+    <IdealizedTenor>30Y</IdealizedTenor>
+    <IdealizedRate>0.04</IdealizedRate>
+
+    <!-- The number of contracts that are normally traded -->
+    <TradedContracts>3</TradedContracts>
+
+  </BondFuture>
+
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.GBR.Y.30.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.GBR.Y.30.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+
+
+
+</Instruments>

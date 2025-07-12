@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="light dark">
+  <title>ReflexLibs Timeline</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+    }
+    .column {
+      width: 50%;
+      overflow-y: auto;
+      padding: 1rem 2rem;
+      box-sizing: border-box;
+    }
+    .column ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+    .white-bg { background: #fff; color: #000; }
+    .black-bg { background: #000; color: #fff; }
+
+    .svg-header img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    .lang-box {
+      border-radius: 16px;
+      padding: 1rem;
+      width: 480px;
+      margin: 0 auto 1rem;
+    }
+    .white-bg .lang-box {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+    }
+    .black-bg .lang-box {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .white-bg .lang-box ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin: 0 0 1rem;
+    }
+    .black-bg .lang-box ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin: 0 0 1rem;
+    }
+    .lang-box li {
+      margin-bottom: 0.5rem;
+    }
+
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 0.5rem;
+    }
+    .icon-container img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .column .section ul {
+      list-style: none !important;
+      margin: 0;
+      padding-left: 0;
+    }
+    .column .section li {
+      margin-bottom: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="left-container" class="column"></div>
+  <div id="right-container" class="column"></div>
+
+<script>
+  const DevOrProd = 'Prod';  // 'Dev' or 'Prod'
+  const isLocal   = location.hostname === 'localhost' || location.protocol === 'file:';
+  const base      = isLocal ? 'public/' : '/public/';
+
+  // Remote vs. local base URLs
+  const domain         = DevOrProd === 'Dev'
+    ? 'https://devriskevolutionwebservice.azurewebsites.net'
+    : 'https://riskevolutioninflationservice.azurewebsites.net';
+  const apiRemoteBase  = `${domain}/reflexLibs/`;
+  const logoRemoteBase = `${apiRemoteBase}ReflexLibsLogo/`;
+  const iconRemoteBase = `${domain}/Icon/Generic/Get?Category=math&SubCategory=ProgLanguage&Size=64x64&Name=`;
+
+  const apiLocalBase   = `${base}data/`;
+  const logoLocalBase  = `${base}assets/img/ReflexLibsLogo/`;
+  const iconLocalBase  = `${base}assets/img/icons/`;
+
+  // fetch helper: try remote, then local, logging failures
+  async function fetchWithFallback(remoteUrl, localUrl) {
+    try {
+      const r = await fetch(remoteUrl, { cache: 'no-cache' });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return await r.json();
+    } catch (err) {
+      console.warn(`Remote failed: ${remoteUrl}`, err);
+      try {
+        const f = await fetch(localUrl);
+        if (!f.ok) throw new Error(`HTTP ${f.status}`);
+        return await f.json();
+      } catch (le) {
+        console.error(
+          `Both remote/local failed.\n  Remote: ${remoteUrl}\n  Local:  ${localUrl}`,
+          le
+        );
+        throw le;
+      }
+    }
+  }
+
+  // Configuration for DotCom vs AI
+  const configs = {
+    com: {
+      sectionApiRemote: `${apiRemoteBase}reflexlibs2018`,
+      sectionApiLocal:  `${apiLocalBase}reflexlibs2018.json`,
+      langApiRemote:    `${apiRemoteBase}reflexlanguages2018`,
+      langApiLocal:     `${apiLocalBase}reflexlanguages2018.json`,
+      logoKey:          'com',
+      icons:            ['CPlusPlus','CSharp'],
+      link:             'https://www.reflexlibs.com',
+      bgClass:          'white-bg'
+    },
+    ai: {
+      sectionApiRemote: `${apiRemoteBase}reflexlibs2025`,
+      sectionApiLocal:  `${apiLocalBase}reflexlibs2025.json`,
+      langApiRemote:    `${apiRemoteBase}reflexlanguages2025`,
+      langApiLocal:     `${apiLocalBase}reflexlanguages2025.json`,
+      logoKey:          'ai',
+      icons:            ['CPlusPlus','CSharp','Python','Rust','JavaScript'],
+      link:             'https://www.reflexlibs.ai',
+      bgClass:          'black-bg'
+    }
+  };
+
+  const DotComOrAI = 'AI'; // 'DotCom' or 'AI'
+  const layout      = { DotCom: configs.com, AI: configs.ai }[DotComOrAI];
+
+  function renderColumn(containerId, cfg) {
+    const c = document.getElementById(containerId);
+    c.className = `column ${cfg.bgClass}`;
+
+    // Header: Environment, Version, Timestamp
+    const header = document.createElement('div');
+    header.style.marginBottom = '1rem';
+    header.innerHTML = `
+      <div>Environment: <strong>${DevOrProd}${isLocal ? ' (local)' : ''}</strong></div>
+      <div class="version">Version: <em>…loading…</em></div>
+      <div class="timestamp">Last updated: <em>…loading…</em></div>
+    `;
+    c.appendChild(header);
+
+    // Logo (remote → local .png)
+    const link = document.createElement('a');
+    link.href   = cfg.link;
+    link.target = '_blank';
+	const logo = document.createElement('img');
+	// no extension—remote will serve the correct image
+	logo.src    = `${logoRemoteBase}${cfg.logoKey}`;
+	logo.alt    = 'ReflexLibs Logo';
+
+	// on error, fall back to the .svg in public/assets...
+	logo.onerror = () => {
+	  logo.onerror = null;
+	  console.warn(`Logo load failed, falling back to SVG.`);
+	  logo.src = `${logoLocalBase}${cfg.logoKey}.svg`;
+	};
+	
+	// ***** Make sure we actually insert it into the page *****
+	link.appendChild(logo);
+	c.appendChild(link);
+
+    // Icons (remote → local .png)
+    const box     = document.createElement('div'); box.className = 'lang-box';
+    const icons   = document.createElement('div'); icons.className = 'icon-container';
+    cfg.icons.forEach(name => {
+      const img = document.createElement('img');
+      img.src     = `${iconRemoteBase}${encodeURIComponent(name)}`;
+      img.alt     = name;
+      img.onerror = () => {
+        img.onerror = null;
+        console.warn(`Icon ${name} failed, falling back locally.`);
+        img.src = `${iconLocalBase}${name}.png`;
+      };
+      icons.appendChild(img);
+    });
+    box.appendChild(icons);
+    c.appendChild(box);
+
+    // Bullets
+    fetchWithFallback(cfg.langApiRemote, cfg.langApiLocal)
+      .then(data => {
+        const bullets = Array.isArray(data.bullets) ? data.bullets
+                      : Array.isArray(data.Bullets) ? data.Bullets
+                      : [];
+        if (bullets.length) {
+          const ul = document.createElement('ul');
+          bullets.forEach(txt => {
+            const li = document.createElement('li');
+            li.textContent = txt;
+            ul.appendChild(li);
+          });
+          box.appendChild(ul);
+        }
+      })
+      .catch(() => {});
+
+    // Sections + Version/Timestamp formatting
+    fetchWithFallback(cfg.sectionApiRemote, cfg.sectionApiLocal)
+      .then(payload => {
+        // Version
+        if (payload.version) {
+          header.querySelector('.version > em').textContent = payload.version;
+        }
+        // Timestamp formatting: dd-MMM-yyyy HH:mm:ss.fff UTC
+        if (payload.timestamp) {
+          const dt = new Date(payload.timestamp);
+          const pad = (n, z=2) => n.toString().padStart(z,'0');
+          const day   = pad(dt.getUTCDate());
+          const monthNames = ["Jan","Feb","Mar","Apr","May","Jun",
+                              "Jul","Aug","Sep","Oct","Nov","Dec"];
+          const mon   = monthNames[dt.getUTCMonth()];
+          const year  = dt.getUTCFullYear();
+          const hrs   = pad(dt.getUTCHours());
+          const mins  = pad(dt.getUTCMinutes());
+          const secs  = pad(dt.getUTCSeconds());
+          const msec  = pad(dt.getUTCMilliseconds(), 3);
+          const formatted = `${day}-${mon}-${year} ${hrs}:${mins}:${secs}.${msec} UTC`;
+          header.querySelector('.timestamp > em').textContent = formatted;
+        }
+
+        // Render sections
+        const sections = Array.isArray(payload.sections)
+          ? payload.sections
+          : Array.isArray(payload) ? payload : [];
+        sections.forEach(s => {
+          const sec = document.createElement('div'); sec.className = 'section';
+          const t   = document.createElement('div'); t.className = 'title';
+          t.textContent = `${s.sectionID}. ${s.title}`;
+          sec.appendChild(t);
+          const ul = document.createElement('ul');
+          (s.items || []).forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            ul.appendChild(li);
+          });
+          sec.appendChild(ul);
+          c.appendChild(sec);
+        });
+      })
+      .catch(() => {});
+  }
+
+  // Render both columns
+  renderColumn('left-container',  layout);
+  renderColumn('right-container', layout === configs.com ? configs.ai : configs.com);
+</script>
+
+
+</body>
+</html>

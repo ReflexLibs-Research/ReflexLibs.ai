@@ -1,0 +1,47 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.NOR.NOK</Identifier>
+        <ExCouponAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>-3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Annual</Frequency>
+        <Country>NOR</Country>
+        <AccrualCalculator>NOR_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>NOR_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>NOK</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NOR.NOK.20171115.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20060126</Effective>
+        <Maturity>20171115</Maturity>
+        <ISIN>NO0009921946</ISIN>
+        <Name>Bel</Name>
+    </FixedRateBond>
+</Instruments>

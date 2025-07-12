@@ -1,0 +1,346 @@
+<Instruments>
+
+<Deposit>
+  <Identifier>RE.0.Deposit.DKK.DKKTN.D.1</Identifier>
+  <Index>
+    <Currency>DKK</Currency>
+    <Name>DKKTN</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <Tenor>1D</Tenor>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.DKK.CIBOR</Identifier>
+  <Index>
+    <Currency>DKK</Currency>
+    <Name>CIBOR</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.DKK.CIBOR.D</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.DKK.CIBOR.W</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+
+  <FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.DKK</Identifier>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>30/360</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.DKK.CIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.DKK.CIBOR.M.3</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.3</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.DKK.CIBOR.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.6</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.DKK.OIS.D.1</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <Reset>
+      <Calendar>TRG</Calendar>
+    </Reset>
+    <Observable>RE.0.Deposit.DKK.DKKTN.D.1</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.DKK.OIS.D.1.M.12.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.DKK.OIS.D.1.ZERO.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+    <RateAccrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </RateAccrual>
+    <Compounding>True</Compounding>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>DKK</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR.M.1</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.1</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR.M.1.M.3</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.3</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR.M.1.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR.M.3</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.DKK.CIBOR.M.3.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.DKK.CIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+<xi:include href="instrumentsDKKTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>

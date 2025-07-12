@@ -1,0 +1,279 @@
+<Instruments>
+
+  <!-- See GBR bond futures for comments -->
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU</Identifier>
+    <Notional>100000.0</Notional>
+    <TypeName>Bund</TypeName>
+    <Country>DEU</Country>
+    <Currency>EUR</Currency>
+    <LastTradingRelativeTo>FirstOfDeliveryMonth</LastTradingRelativeTo>
+    <LastTradingAdjuster>
+        <LastBusinessDayInMonth>
+            <Calendar>TRG</Calendar>
+        </LastBusinessDayInMonth>
+        <OffsetByBusinessDays>
+            <Calendar>TRG</Calendar>
+            <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+        </OffsetByBusinessDays>
+    </LastTradingAdjuster>
+    <LastTradingTime>11:00</LastTradingTime>
+    <FirstDeliveryNoticeRelativeTo>FirstOfDeliveryMonth</FirstDeliveryNoticeRelativeTo>
+    <FirstDeliveryNoticeAdjuster>
+        <OffsetByBusinessDays>
+            <Calendar>TRG</Calendar>
+            <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+        </OffsetByBusinessDays>
+    </FirstDeliveryNoticeAdjuster>
+    <LastDeliveryNoticeRelativeTo>LastTrading</LastDeliveryNoticeRelativeTo>
+    <LastDeliveryNoticeAdjuster>
+        <NextBusinessDay>
+            <Calendar>TRG</Calendar>
+        </NextBusinessDay>
+    </LastDeliveryNoticeAdjuster>
+    <DeliveryNoticeCalendar>TRG</DeliveryNoticeCalendar>
+    <DeliveryNoticeTime>11:00</DeliveryNoticeTime>
+    <SettlementAdjuster>
+        <OffsetByBusinessDays>
+            <Calendar>TRG</Calendar>
+            <NumberOfBusinessDays>2</NumberOfBusinessDays>
+        </OffsetByBusinessDays>
+    </SettlementAdjuster>
+    <LastDeliverableBasketChangeRelativeTo>FirstDeliveryNotice</LastDeliverableBasketChangeRelativeTo>
+    <LastDeliverableBasketChangeAdjuster>
+        <OffsetByBusinessDays>
+            <Calendar>TRG</Calendar>
+            <NumberOfBusinessDays>-10</NumberOfBusinessDays>
+        </OffsetByBusinessDays>
+    </LastDeliverableBasketChangeAdjuster>
+  </BondFuture>
+
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10</Identifier>
+    <IdealizedTenor>10Y</IdealizedTenor>
+    <IdealizedRate>0.04</IdealizedRate>
+
+    <DeliverableRule>DEU10Y</DeliverableRule>
+    <ConversionFactorCalculator>DEU</ConversionFactorCalculator>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2011</Identifier>
+    <ContractYear>2011</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2012</Identifier>
+    <ContractYear>2012</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2013</Identifier>
+    <ContractYear>2013</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2014</Identifier>
+    <ContractYear>2014</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2015</Identifier>
+    <ContractYear>2015</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2016</Identifier>
+    <ContractYear>2016</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2017</Identifier>
+    <ContractYear>2017</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2018</Identifier>
+    <ContractYear>2018</ContractYear>
+  </BondFuture>
+
+  <BondFuture>
+    <Identifier leaf="false">RE.0.BondFuture.DEU.Y.10.2019</Identifier>
+    <ContractYear>2019</ContractYear>
+  </BondFuture>
+
+
+
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2011.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2011.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2012.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2012.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2012.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2012.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2013.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2013.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2013.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+    <DeliverableBasket>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20160704.4.0</Bond>
+        <ConversionFactor>0.09984</ConversionFactor>
+      </Deliverable>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20170407.0.5</Bond>
+        <ConversionFactor>0.8944</ConversionFactor>
+      </Deliverable>
+    </DeliverableBasket>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2013.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2014.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2014.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2014.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+    <DeliverableBasket>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20230815.2.0</Bond>
+        <ConversionFactor>0.729535</ConversionFactor>
+      </Deliverable>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20230515.1.5</Bond>
+        <ConversionFactor>0.702270</ConversionFactor>
+      </Deliverable>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20240215.1.75</Bond>
+        <ConversionFactor>0.700342</ConversionFactor>
+      </Deliverable>
+      <Deliverable>
+        <Bond>RE.0.FixedRateBond.DEU.EUR.20240515.1.5</Bond>
+        <ConversionFactor>0.676665</ConversionFactor>
+      </Deliverable>
+    </DeliverableBasket>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2014.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2015.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2015.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2015.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2015.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+    <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2016.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2016.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2016.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2016.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+
+    <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2017.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2017.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2017.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2017.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+    <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2018.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2018.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2018.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2018.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+    <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2019.03</Identifier>
+    <ContractMonth>Mar</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2019.06</Identifier>
+    <ContractMonth>Jun</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2019.09</Identifier>
+    <ContractMonth>Sep</ContractMonth>
+  </BondFuture>
+  <BondFuture>
+    <Identifier>RE.0.BondFuture.DEU.Y.10.2019.12</Identifier>
+    <ContractMonth>Dec</ContractMonth>
+  </BondFuture>
+
+</Instruments>

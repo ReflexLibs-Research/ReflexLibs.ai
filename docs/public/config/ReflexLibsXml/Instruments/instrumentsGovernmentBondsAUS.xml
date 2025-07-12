@@ -1,0 +1,664 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.AUS</Identifier>
+        <!-- Reduced to 7 business days in 1993 -->
+        <ExCouponAdjuster>
+            <Tenor>-7D</Tenor>
+            <RollBackwardIfNotBusinessDay>
+                <Calendar>SYB</Calendar>
+            </RollBackwardIfNotBusinessDay>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>SYB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <!-- We don't specify an accrual calculator as Australian bonds don't have one -->
+        <YieldToDirtyPriceCalculator>AUS_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>AUS</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>AUD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>SYB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20121115.4.75</Identifier>
+        <Rate>0.04750</Rate>
+        <Effective>20091115</Effective>
+        <Maturity>20121115</Maturity>
+        <ISIN>AU3TB0000044</ISIN>
+        <Name>ACGB 4 3/4 11/15/12</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20130515.6.5</Identifier>
+        <Rate>0.06500</Rate>
+        <Effective>20000515</Effective>
+        <Maturity>20130515</Maturity>
+        <ISIN>AU0000XCLWH5</ISIN>
+        <Name>ACGB 6 1/2 05/15/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20131215.5.5</Identifier>
+        <Rate>0.05500</Rate>
+        <Effective>20091215</Effective>
+        <Maturity>20131215</Maturity>
+        <ISIN>AU3TB0000069</ISIN>
+        <Name>ACGB 5 1/2 12/15/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20140615.6.25</Identifier>
+        <Rate>0.06250</Rate>
+        <Issue>20080721</Issue>
+        <Effective>20080615</Effective>
+        <Maturity>20140615</Maturity>
+        <ISIN>AU3TB0000028</ISIN>
+        <Name>GSBK14</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB125</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBK14</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20141021.4.5</Identifier>
+        <Rate>0.04500</Rate>
+        <Issue>20101010</Issue>
+        <Effective>20100421</Effective>
+        <Maturity>20141021</Maturity>
+        <ISIN>AU3TB0000085</ISIN>
+        <Name>GSBS14</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB131</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBS14</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20150415.6.25</Identifier>
+        <Rate>0.06250</Rate>
+        <Issue>20020528</Issue>
+        <Effective>20020415</Effective>
+        <Maturity>20150415</Maturity>
+        <ISIN>AU0000XCLWI3</ISIN>
+        <Name>GSBG15</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB119</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG15</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20151021.4.75</Identifier>
+        <Rate>0.04750</Rate>
+        <Issue>20110701</Issue>
+        <Effective>20110421</Effective>
+        <Maturity>20151021</Maturity>
+        <ISIN>AU3TB0000119</ISIN>
+        <Name>GSBS15</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB134</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBS15</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20160615.4.75</Identifier>
+        <Rate>0.04750</Rate>
+        <Issue>20100707</Issue>
+        <Effective>20100615</Effective>
+        <Maturity>20160615</Maturity>
+        <ISIN>AU3TB0000077</ISIN>
+        <Name>GSBK16</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB130</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBK16</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20170215.6.0</Identifier>
+        <Rate>0.06000</Rate>
+        <Issue>20040808</Issue>
+        <Effective>20040215</Effective>
+        <Maturity>20170215</Maturity>
+        <ISIN>AU300TB01208</ISIN>
+        <Name>GSBC17</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB120</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBC17</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20170721.4.25</Identifier>
+        <Rate>0.04250</Rate>
+        <Issue>20110902</Issue>
+        <Effective>20110721</Effective>
+        <Maturity>20170721</Maturity>
+        <ISIN>AU3TB0000127</ISIN>
+        <Name>GSBM17</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB135</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBM17</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20180121.5.5</Identifier>
+        <Rate>0.05500</Rate>
+        <Issue>20101124</Issue>
+        <Effective>20100721</Effective>
+        <Maturity>20180121</Maturity>
+        <ISIN>AU3TB0000093</ISIN>
+        <Name>GSBA18</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB132</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBA18</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20181021.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Issue>20131206</Issue>
+        <Effective>20131021</Effective>
+        <Maturity>20181021</Maturity>
+        <ISIN>AU3TB0000176</ISIN>
+        <Name>GSBS18</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB141</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBS18</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20190315.5.25</Identifier>
+        <Rate>0.05250</Rate>
+        <Issue>20060117</Issue>
+        <Effective>20050915</Effective>
+        <Maturity>20190315</Maturity>
+        <ISIN>AU300TB01224</ISIN>
+        <Name>GSBE19</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB122</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBE19</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20200415.4.5</Identifier>
+        <Rate>0.04500</Rate>
+        <Issue>20090429</Issue>
+        <Effective>20090415</Effective>
+        <Maturity>20200415</Maturity>
+        <ISIN>AU3TB0000036</ISIN>
+        <Name>GSBG20</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB126</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG20</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20210515.5.75</Identifier>
+        <Rate>0.05750</Rate>
+        <Issue>20070911</Issue>
+        <Effective>20070515</Effective>
+        <Maturity>20210515</Maturity>
+        <ISIN>AU0000XCLWM5</ISIN>
+        <Name>GSBI21</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB124</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBI21</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20220715.5.75</Identifier>
+        <Rate>0.05750</Rate>
+        <Issue>20100407</Issue>
+        <Effective>20100115</Effective>
+        <Maturity>20220715</Maturity>
+        <ISIN>AU3TB0000051</ISIN>
+        <Name>GSBM22</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB128</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBM22</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20230421.5.5</Identifier>
+        <Rate>0.05500</Rate>
+        <Issue>20110518</Issue>
+        <Effective>20110421</Effective>
+        <Maturity>20230421</Maturity>
+        <ISIN>AU3TB0000101</ISIN>
+        <Name>GSBG23</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB133</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG23</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20240421.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Issue>20120620</Issue>
+        <Effective>20120421</Effective>
+        <Maturity>20240421</Maturity>
+        <ISIN>AU3TB0000143</ISIN>
+        <Name>GSBG24</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB137</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG24</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20250421.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Issue>20120522</Issue>
+        <Effective>20130421</Effective>
+        <Maturity>20250421</Maturity>
+        <ISIN>AU3TB0000168</ISIN>
+        <Name>GSBG25</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB139</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG25</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20260421.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Issue>20140312</Issue>
+        <Effective>20131021</Effective>
+        <Maturity>20260421</Maturity>
+        <ISIN>AU000XCLWAI8</ISIN>
+        <Name>GSBG26</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB142</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG26</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20270421.4.75</Identifier>
+        <Rate>0.04750</Rate>
+        <Issue>20111020</Issue>
+        <Effective>20111021</Effective>
+        <Maturity>20270421</Maturity>
+        <ISIN>AU3TB0000135</ISIN>
+        <Name>GSBG27</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB136</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG27</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20290421.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Issue>20121010</Issue>
+        <Effective>20121021</Effective>
+        <Maturity>20290421</Maturity>
+        <ISIN>AU3TB0000150</ISIN>
+        <Name>GSBG29</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB138</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG29</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.AUS.AUD.20330421.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Issue>20131119</Issue>
+        <Effective>20131021</Effective>
+        <Maturity>20330421</Maturity>
+        <ISIN>AU000XCLWAG2</ISIN>
+        <Name>GSBG33</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>TB140</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSBG33</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <!-- Inflation linked bonds -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.AUS.AUD.CPI</Identifier>
+        <ExCouponAdjuster>
+            <Tenor>-8D</Tenor>
+            <RollBackwardIfNotBusinessDay>
+                <Calendar>SYB</Calendar>
+            </RollBackwardIfNotBusinessDay>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>SYB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Quarterly</Frequency>
+        <Country>AUS</Country>
+        <!-- We don't specify an accrual calculator as Australian bonds don't have one -->
+        <YieldToDirtyPriceCalculator>AUS_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACTUAL_ACTUAL_ISMA_QUARTERLY</Basis>
+            <NotionalDetails>
+                <Currency>AUD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>AUS</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>3M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>SYB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!-- These are ordered by maturity please insert new ones in the correct place -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20150820.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Issue>19940517</Issue>
+        <Effective>19940520</Effective>
+        <Maturity>20150820</Maturity>
+        <ISIN>AU0000XCLWD4</ISIN>
+        <Name>GSIO15</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN405</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIO35</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>6065230</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20200820.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Issue>19960810</Issue>
+        <Effective>19960820</Effective>
+        <Maturity>20200820</Maturity>
+        <ISIN>AU0000XCLWE2</ISIN>
+        <Name>GSIO20</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN406</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIO20</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>6080448</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20220221.1.25</Identifier>
+        <Rate>0.01250</Rate>
+        <Issue>20120221</Issue>
+        <Effective>20120221</Effective>
+        <Maturity>20220221</Maturity>
+        <ISIN>AU000XCLWAB3</ISIN>
+        <Name>GSIC22</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN409</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIC22</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>B65S8S4</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20250920.3.0</Identifier>
+        <Rate>0.03000</Rate>
+        <Issue>20090930</Issue>
+        <Effective>20090920</Effective>
+        <Maturity>20250920</Maturity>
+        <ISIN>AU0000XCLWP8</ISIN>
+        <Name>GSIQ25</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN407</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIC22</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>B4RNSX8</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20300920.2.5</Identifier>
+        <Rate>0.02500</Rate>
+        <Issue>20100916</Issue>
+        <Effective>20100920</Effective>
+        <Maturity>20300920</Maturity>
+        <ISIN>AU0000XCLWV6</ISIN>
+        <Name>GSIQ30</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN408</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIQ30</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>B3SSHY9</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.AUS.AUD.CPI.20350821.2.00</Identifier>
+        <Rate>0.02</Rate>
+        <Issue>20130826</Issue>
+        <Effective>20130821</Effective>
+        <Maturity>20350821</Maturity>
+        <ISIN>AU000XCLWAF4</ISIN>
+        <Name>GSIO35</Name>
+        <Attributes>
+            <Attribute>
+                <Key>Series</Key>
+                <Value>CAIN410</Value>
+            </Attribute>
+            <Attribute>
+                <Key>ASXCode</Key>
+                <Value>GSIO35</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>BDSTKV0</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+</Instruments>

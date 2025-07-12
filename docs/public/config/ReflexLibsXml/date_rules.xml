@@ -1,0 +1,142 @@
+<DateRules>
+
+<DateRule>
+  <Identifier>CME_DELIVERY</Identifier>
+  <DayOfWeekOfMonth>
+    <Months>
+      <Month>Mar</Month>
+      <Month>Jun</Month>
+      <Month>Sep</Month>
+      <Month>Dec</Month>
+    </Months>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>CME_TRADING</Identifier>
+    <DayOfWeekOfMonth>
+      <Months>
+        <Month>Mar</Month>
+        <Month>Jun</Month>
+        <Month>Sep</Month>
+        <Month>Dec</Month>
+      </Months>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>NY</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+<DateRule>
+  <Identifier>CME_DELIVERY_SERIAL</Identifier>
+  <DayOfWeekOfMonth>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>CME_TRADING_SERIAL</Identifier>
+    <DayOfWeekOfMonth>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>NY</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+<DateRule>
+  <Identifier>LIFFE_EURIBOR_DELIVERY</Identifier>
+  <DayOfWeekOfMonth>
+    <Months>
+      <Month>Mar</Month>
+      <Month>Jun</Month>
+      <Month>Sep</Month>
+      <Month>Dec</Month>
+    </Months>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>LIFFE_EURIBOR_TRADING</Identifier>
+    <DayOfWeekOfMonth>
+      <Months>
+        <Month>Mar</Month>
+        <Month>Jun</Month>
+        <Month>Sep</Month>
+        <Month>Dec</Month>
+      </Months>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>TRG</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+<DateRule>
+  <Identifier>LIFFE_EURIBOR_DELIVERY_SERIAL</Identifier>
+  <DayOfWeekOfMonth>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>LIFFE_EURIBOR_TRADING_SERIAL</Identifier>
+    <DayOfWeekOfMonth>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>TRG</Calendar><NumberOfBusinessDays>-2</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+<DateRule>
+  <Identifier>LIFFE_SHORT_STERING_DELIVERY</Identifier>
+  <DayOfWeekOfMonth>
+    <Months>
+      <Month>Mar</Month>
+      <Month>Jun</Month>
+      <Month>Sep</Month>
+      <Month>Dec</Month>
+    </Months>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>LIFFE_SHORT_STERING_TRADING</Identifier>
+    <DayOfWeekOfMonth>
+      <Months>
+        <Month>Mar</Month>
+        <Month>Jun</Month>
+        <Month>Sep</Month>
+        <Month>Dec</Month>
+      </Months>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>LNB</Calendar><NumberOfBusinessDays>0</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+<DateRule>
+  <Identifier>LIFFE_SHORT_STERING_DELIVERY_SERIAL</Identifier>
+  <DayOfWeekOfMonth>
+    <WeekOfMonth>3</WeekOfMonth>
+    <Day>Wed</Day>
+  </DayOfWeekOfMonth>
+</DateRule>
+
+ <DateRule>
+    <Identifier>LIFFE_SHORT_STERING_TRADING_SERIAL</Identifier>
+    <DayOfWeekOfMonth>
+      <WeekOfMonth>3</WeekOfMonth>
+      <Day>Wed</Day>
+      <Adjuster><OffsetByBusinessDays><Calendar>LNB</Calendar><NumberOfBusinessDays>0</NumberOfBusinessDays></OffsetByBusinessDays></Adjuster>
+    </DayOfWeekOfMonth>
+</DateRule>
+
+
+</DateRules> 

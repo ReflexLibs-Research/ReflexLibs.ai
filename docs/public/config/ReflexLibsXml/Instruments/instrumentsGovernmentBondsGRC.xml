@@ -1,0 +1,364 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.GRC</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>GRC_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>GRC_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>GRC</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20170717.3.375</Identifier>
+        <Rate>0.03375</Rate>
+        <Effective>20140717</Effective>
+        <FirstCouponDate>20150717</FirstCouponDate>
+        <Maturity>20170717</Maturity>
+        <ISIN>GR0110029312</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20190417.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20140417</Effective>
+        <FirstCouponDate>20150417</FirstCouponDate>
+        <Maturity>20190417</Maturity>
+        <ISIN>GR0114028534</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20220801.4.375</Identifier>
+        <Rate>0.04375</Rate>
+        <Effective>20170801</Effective>
+        <FirstCouponDate>20180801</FirstCouponDate>
+        <Maturity>20220801</Maturity>
+        <ISIN>GR0114029540</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20230130.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20180130</FirstCouponDate>
+        <Maturity>20230130</Maturity>
+        <ISIN>GR0114030555</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20230224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120312</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20230224</Maturity>
+        <ISIN>GR0128010676</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20240224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20240224</Maturity>
+        <ISIN>GR0128011682</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20240402.3.45</Identifier>
+        <Rate>0.0345</Rate>
+        <Effective>20190205</Effective>
+        <FirstCouponDate>20190402</FirstCouponDate>
+        <Maturity>20240402</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>GR0114031561</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20250215.3.375</Identifier>
+        <Rate>0.03375</Rate>
+        <Effective>20180215</Effective>
+        <FirstCouponDate>20190215</FirstCouponDate>
+        <Maturity>20250215</Maturity>
+        <ISIN>GR0118017657</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20250224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20250224</Maturity>
+        <ISIN>GR0128012698</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20260224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20260224</Maturity>
+        <ISIN>GR0128013704</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20260723.1.875</Identifier>
+        <Rate>0.01875</Rate>
+        <Effective>20190723</Effective>
+        <FirstCouponDate>20200723</FirstCouponDate>
+        <Maturity>20260723</Maturity>
+        <ISIN>GR0118019679</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20270224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20270224</Maturity>
+        <ISIN>GR0128014710</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20270422.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20200422</Effective>
+        <FirstCouponDate>20210422</FirstCouponDate>
+        <Maturity>20270422</Maturity>
+        <ISIN>GR0118020685</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20280130.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20180130</FirstCouponDate>
+        <Maturity>20280130</Maturity>
+        <ISIN>GR0124034688</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20280224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20280224</Maturity>
+        <ISIN>GR0133006198</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20290224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20290224</Maturity>
+        <ISIN>GR0133007204</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20290312.3.875</Identifier>
+        <Rate>0.03875</Rate>
+        <Effective>20190312</Effective>
+        <FirstCouponDate>20200312</FirstCouponDate>
+        <Maturity>20290312</Maturity>
+        <ISIN>GR0124035693</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20300224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20300224</Maturity>
+        <ISIN>GR0133008210</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20300618.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200618</Effective>
+        <FirstCouponDate>20210618</FirstCouponDate>
+        <Maturity>20300618</Maturity>
+        <ISIN>GR0124036709</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20310224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20310224</Maturity>
+        <ISIN>GR0133009226</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20320224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20320224</Maturity>
+        <ISIN>GR0133010232</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20330130.3.9</Identifier>
+        <Rate>0.039</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20180130</FirstCouponDate>
+        <Maturity>20330130</Maturity>
+        <ISIN>GR0128015725</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20330224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20330224</Maturity>
+        <ISIN>GR0138005716</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20340224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20340224</Maturity>
+        <ISIN>GR0138006722</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20350204.1.875</Identifier>
+        <Rate>0.01875</Rate>
+        <Effective>20200204</Effective>
+        <FirstCouponDate>20210204</FirstCouponDate>
+        <Maturity>20350204</Maturity>
+        <ISIN>GR0128016731</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20350224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20350224</Maturity>
+        <ISIN>GR0138007738</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20360224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20360224</Maturity>
+        <ISIN>GR0138008744</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20370130.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20180130</FirstCouponDate>
+        <Maturity>20370130</Maturity>
+        <ISIN>GR0133011248</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20370224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20370224</Maturity>
+        <ISIN>GR0138009759</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20380224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20380224</Maturity>
+        <ISIN>GR0138010765</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20390224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20390224</Maturity>
+        <ISIN>GR0138011771</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20400224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20400224</Maturity>
+        <ISIN>GR0138012787</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20410224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20410224</Maturity>
+        <ISIN>GR0138013793</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.GRC.EUR.20420224.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20120224</Effective>
+        <FirstCouponDate>20130224</FirstCouponDate>
+        <Maturity>20420224</Maturity>
+        <ISIN>GR0138014809</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20420130.4.2</Identifier>
+        <Rate>0.042</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20180130</FirstCouponDate>
+        <Maturity>20420130</Maturity>
+        <ISIN>GR0138015814</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.GRC.EUR.20500320.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20200320</Effective>
+        <FirstCouponDate>20210320</FirstCouponDate>
+        <Maturity>20500320</Maturity>
+        <ISIN>GR0138016820</ISIN>
+    </FixedRateBond>
+
+</Instruments>

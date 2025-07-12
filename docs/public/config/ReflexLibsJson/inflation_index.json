@@ -1,0 +1,925 @@
+[
+  {
+    "Identifier": {
+      "Country": "AUS",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.abs.gov.au"
+      },
+      {
+        "Name": "Description",
+        "Value": "All groups Australia index"
+      },
+      {
+        "Name": "Series",
+        "Value": "A2325846C"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Mar",
+      "Jun",
+      "Sep",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "SYB"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "CAN",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.statcan.gc.ca"
+      },
+      {
+        "Name": "Description",
+        "Value": "Canadian CPI"
+      },
+      {
+        "Name": "Series",
+        "Value": "v41690973"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M"
+      ],
+      "DayOfWeek": [
+        {
+          "Day": "Wednesday",
+          "NumberOfWeeks": "3"
+        },
+        {
+          "Day": "Friday",
+          "NumberOfWeeks": "0"
+        }
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRB"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "CAN",
+      "Name": "CORE_CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.statcan.gc.ca"
+      },
+      {
+        "Name": "Description",
+        "Value": "Bank of Canada Core CPI"
+      },
+      {
+        "Name": "Series",
+        "Value": "v41693242"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M"
+      ],
+      "DayOfWeek": [
+        {
+          "Day": "Wednesday",
+          "NumberOfWeeks": "3"
+        },
+        {
+          "Day": "Friday",
+          "NumberOfWeeks": "0"
+        }
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRB"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "DEU",
+      "Name": "HICPXTOB"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "DEU",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "DNK",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://www.dst.dk/"
+      },
+      {
+        "Name": "Description",
+        "Value": "Danish CPI"
+      },
+      {
+        "Name": "Series",
+        "Value": null
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "10D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ESP",
+      "Name": "HICPXTOB"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ESP",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "EUR",
+      "Name": "HICPXTOB"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "EUR",
+      "Name": "HICPXTOB-IMPL-14"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "FRA",
+      "Name": "HICPXTOB"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "FRA",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "FRA",
+      "Name": "CPIXTOB"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "GBR",
+      "Name": "RPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.ons.gov.uk"
+      },
+      {
+        "Name": "Description",
+        "Value": "UK Retail Price Index"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "LON"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "GBR",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.ons.gov.uk"
+      },
+      {
+        "Name": "Description",
+        "Value": "UK Retail Price Index"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "LON"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ISR",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ITA",
+      "Name": "HICPXTOB"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ITA",
+      "Name": "FOI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ITA",
+      "Name": "FOIXTOB"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "ITA",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "http://ec.europa.eu/eurostat"
+      },
+      {
+        "Name": "Description",
+        "Value": "Euro area harmonized all items excluding tobacco, provisional"
+      },
+      {
+        "Name": "Series",
+        "Value": "teicp240"
+      }
+    ],
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "JPN",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "NZL",
+      "Name": "CPI"
+    },
+    "Attributes": [
+      {
+        "Name": "Website",
+        "Value": "www.stats.govt.nz"
+      },
+      {
+        "Name": "Description",
+        "Value": "All groups index"
+      },
+      {
+        "Name": "Series",
+        "Value": "SE9A"
+      }
+    ],
+    "BaseValue": "1000.0",
+    "IndexMonths": [
+      "Mar",
+      "Jun",
+      "Sep",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "OffsetByBusinessDays": {
+        "Calendar": "AUB",
+        "NumberOfBusinessDays": "33"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "POL",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "SWE",
+      "Name": "CPI"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  },
+  {
+    "Identifier": {
+      "Country": "USA",
+      "Name": "CPI-U"
+    },
+    "BaseValue": "100.0",
+    "IndexMonths": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "AnnouncementAdjuster": {
+      "Tenor": [
+        "1M",
+        "15D"
+      ],
+      "RollForwardIfNotBusinessDay": {
+        "Calendar": "TRG"
+      }
+    }
+  }
+]

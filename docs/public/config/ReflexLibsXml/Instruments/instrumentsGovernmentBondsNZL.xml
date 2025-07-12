@@ -1,0 +1,412 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.NZL</Identifier>
+        <ExCouponAdjuster>
+            <Tenor>-10D</Tenor>
+            <RollBackwardIfNotBusinessDay>
+                <Calendar>AUB</Calendar>
+            </RollBackwardIfNotBusinessDay>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>AUB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <!-- We don't specify an accrual calculator as New Zealand bonds don't have one -->
+        <YieldToDirtyPriceCalculator>NZL_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>NZL</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>NZD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>AUB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+
+
+
+    <!-- 15th April 2015  6% -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20150415.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Issue>20030415</Issue>
+        <Effective>20030415</Effective>
+        <Maturity>20150415</Maturity>
+        <ISIN>NZGOVD0004R7</ISIN>
+        <Name>GOV360</Name>
+        <InitialNotionalAmount>3566000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>0415</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV360</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>957877</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <!-- 15th Dec 2017 6.0% -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20171215.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Issue>20041215</Issue>
+        <Effective>20041215</Effective>
+        <Maturity>20171215</Maturity>
+        <ISIN>NZGOVD0008C0</ISIN>
+        <Name>GOV380</Name>
+        <InitialNotionalAmount>929000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>1217</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV380</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A0GEJM</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+
+    <!-- 15th Mar 2019 5.0% -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20190315.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Issue>20100915</Issue>
+        <Effective>20100915</Effective>
+        <Maturity>20190315</Maturity>
+        <ISIN>NZGOVDT319C0</ISIN>
+        <Name>GOV400</Name>
+        <InitialNotionalAmount>7088000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>0319</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV400</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A1A2H9</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <!-- 15th Mar 2019 5.0% - This appears to be the same indicatives as the bond above, so it may have been re-issued/opened -->
+    <!--
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20190315.5.0</Identifier>
+    <Rate>0.05</Rate>
+    <Issue>20120315</Issue>
+    <Effective>20120315</Effective>
+    <Maturity>20190315</Maturity>
+    <ISIN>NZLGFDT003C3</ISIN>
+    <Name>GOV400</Name>
+    <InitialNotionalAmount>285000000</InitialNotionalAmount>
+    <Attributes>
+      <Attribute>
+        <Key>NZXCode</Key>
+        <Value>GOV400</Value>
+      </Attribute>
+      <Attribute>
+        <Key>WKN</Key>
+        <Value>A1G9XT</Value>
+      </Attribute>
+    </Attributes>
+  </FixedRateBond>
+-->
+
+
+
+    <!-- 15th Apr 2020 5.0% - Not listed on www.nzx.com -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20200415.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Issue>20130415</Issue>
+        <Effective>20130415</Effective>
+        <Maturity>20200415</Maturity>
+        <ISIN>NZGOVDT420C6</ISIN>
+        <Name>GOV420</Name>
+        <InitialNotionalAmount>2000000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>0420</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV420</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A1HJKU</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <!-- 15th May 2021 6.0% -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20210515.6.0</Identifier>
+        <Rate>0.06</Rate>
+        <Issue>20130515</Issue>
+        <Effective>20130515</Effective>
+        <Maturity>20210515</Maturity>
+        <ISIN>NZLGFDT004C1</ISIN>
+        <Name>GOV390</Name>
+        <InitialNotionalAmount>215000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>0512</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV390</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A1HK69</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+    <!-- 15th Apr 2023 5.5% -->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20230415.5.5</Identifier>
+        <Rate>0.055</Rate>
+        <Issue>20110415</Issue>
+        <Effective>20110415</Effective>
+        <Maturity>20230415</Maturity>
+        <ISIN>NZGOVDT423C0</ISIN>
+        <Name>GOV410</Name>
+        <InitialNotionalAmount>250000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>LoanPrefix</Key>
+                <Value>0423</Value>
+            </Attribute>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>GOV410</Value>
+            </Attribute>
+            <Attribute>
+                <Key>WKN</Key>
+                <Value>A1GS4K</Value>
+            </Attribute>
+        </Attributes>
+    </FixedRateBond>
+
+
+
+    <!-- Blank for copying for new bonds
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD...</Identifier>
+    <Rate></Rate>
+    <Issue></Issue>
+    <Effective></Effective>
+    <Maturity></Maturity>
+    <ISIN></ISIN>
+    <Name></Name>
+    <InitialNotionalAmount></InitialNotionalAmount>
+    <Attributes>
+      <Attribute>
+        <Key>NZXCode</Key>
+        <Value></Value>
+      </Attribute>
+    </Attributes>
+  </FixedRateBond>
+-->
+
+    <!-- Inflation linked -->
+
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.NZL.NZD.CPI</Identifier>
+        <ExCouponAdjuster>
+            <Tenor>-10D</Tenor>
+            <RollBackwardIfNotBusinessDay>
+                <Calendar>AUB</Calendar>
+            </RollBackwardIfNotBusinessDay>
+        </ExCouponAdjuster>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>AUB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Quarterly</Frequency>
+        <Country>NZL</Country>
+        <!-- We don't specify an accrual calculator as Australian bonds don't have one -->
+        <YieldToDirtyPriceCalculator>NZL_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACTUAL_ACTUAL_ISMA_QUARTERLY</Basis>
+            <NotionalDetails>
+                <Currency>NZD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>NZL</Region>
+                    <Name>CPI</Name>
+                    <Component>SE9A</Component>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>3M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>SYB</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <!-- 15th Feb 2016 4.5%   - Pays Quarterly - There is something very weird about this bond more research needed, old style formula used -->
+    <!--
+  <InflationLinkedFixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.NZL.NZD.20160215.4.5</Identifier>
+    <Rate>0.045</Rate>
+    <Issue>19951115</Issue>
+    <Effective>19951115</Effective>
+    <Maturity>20160215</Maturity>
+    <Frequency>Quarterly</Frequency>
+    <InflationLinkedFixedLeg>
+      <Basis>ACT365</Basis>
+      <NotionalDetails>
+        <Currency>NZD</Currency>
+        <Final/>
+      </NotionalDetails>
+      <Accrual>
+        <Tenor>3M</Tenor>
+      </Accrual>
+      <PaymentAdjuster>
+        <RollForwardIfNotBusinessDay>
+          <Calendar>AUB</Calendar>
+        </RollForwardIfNotBusinessDay>
+      </PaymentAdjuster>
+      <BreakEvenLeg />
+    </InflationLinkedFixedLeg>
+    <ISIN>NZIIBD0216R7</ISIN>
+    <Name></Name>
+    <InitialNotionalAmount>1521000000</InitialNotionalAmount>
+    <Attributes>
+      <Attribute>
+        <Key>LoanPrefix</Key>
+        <Value>0216</Value>
+      </Attribute>
+      <Attribute>
+        <Key>NZXCode</Key>
+        <Value>GOV290</Value>
+      </Attribute>
+      <Attribute>
+        <Key>WKN</Key>
+        <Value>191534</Value>
+      </Attribute>
+    </Attributes>
+  </InflationLinkedFixedRateBond>
+-->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.NZL.NZD.CPI.20250920.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Issue>20120920</Issue>
+        <Effective>20120920</Effective>
+        <Maturity>20250920</Maturity>
+        <ISIN>NZIIBDT002C2</ISIN>
+        <Name></Name>
+        <InitialNotionalAmount>2500000000</InitialNotionalAmount>
+        <Attributes>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>0925</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>B8NFKX0</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.NZL.NZD.CPI.20300920.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Issue>20130920</Issue>
+        <Effective>20130920</Effective>
+        <Maturity>20300920</Maturity>
+        <ISIN>NZIIBDT003C0</ISIN>
+        <Name></Name>
+        <Attributes>
+            <Attribute>
+                <Key>NZXCode</Key>
+                <Value>0930</Value>
+            </Attribute>
+            <Attribute>
+                <Key>SEDOL</Key>
+                <Value>BFNYBY4</Value>
+            </Attribute>
+        </Attributes>
+    </InflationLinkedFixedRateBond>
+
+
+    <!-- Blank for copying for new bonds
+  <FixedRateBond>
+    <Identifier leaf="true">RE.0.InflationBond.NZL.NZD.CPI....</Identifier>
+    <Rate></Rate>
+    <Issue></Issue>
+    <Effective></Effective>
+    <Maturity></Maturity>
+    <ISIN></ISIN>
+    <Name></Name>
+    <InitialNotionalAmount></InitialNotionalAmount>
+    <Attributes>
+      <Attribute>
+        <Key>NZXCode</Key>
+        <Value></Value>
+      </Attribute>
+    </Attributes>
+  </FixedRateBond>
+-->
+
+</Instruments>

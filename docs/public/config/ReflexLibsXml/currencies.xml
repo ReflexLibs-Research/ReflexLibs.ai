@@ -1,0 +1,795 @@
+<Currencies>
+
+  <!-- These are ISO 4127 currency codes as described here http://en.wikipedia.org/wiki/ISO_4217 -->
+  <!--     ISO 4127 is maintained and can be downloaded here http://www.currency-iso.org/en/home.html, there is a copy of the down load file in snv_currencies.xml -->
+  <!--     The SVN data has multiple countries if a currency is uses in multiple "regions" and it is not clear how to get the main region I.E USA for USD -->
+  <!--     Also it is not clear if this data is free for commercial use so for now we maintain our own based on public data from the web -->
+
+  <Currency>
+    <Name>AED</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>AED</ISO4127Name>
+    <ISO4127Code>784</ISO4127Code>
+    <ShortName>Dirham</ShortName>
+    <FullName>UAE Dirham</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>ARS</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>ARS</ISO4127Name>
+    <ISO4127Code>032</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Argentine Peso</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>AUD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>AUD</ISO4127Name>
+    <ISO4127Code>036</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Australian Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>BIF</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>BIF</ISO4127Name>
+    <ISO4127Code>108</ISO4127Code>
+    <ShortName>Franc</ShortName>
+    <FullName>Burundi Franc</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>BGN</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BGN</ISO4127Name>
+    <ISO4127Code>975</ISO4127Code>
+    <ShortName>Lev</ShortName>
+    <FullName>Bulgarian Lev</FullName>
+    <Symbol>1083,1074</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>BHD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BHD</ISO4127Name>
+    <ISO4127Code>048</ISO4127Code>
+    <ShortName>Dinar</ShortName>
+    <FullName>Bahraini Dinar</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>BOB</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BOB</ISO4127Name>
+    <ISO4127Code>068</ISO4127Code>
+    <ShortName>Boliviano</ShortName>
+    <FullName>Boliviano</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>BRL</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BRL</ISO4127Name>
+    <ISO4127Code>986</ISO4127Code>
+    <ShortName>Real</ShortName>
+    <FullName>Brazilian Real</FullName>
+    <Symbol>36,98</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>BWP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BWP</ISO4127Name>
+    <ISO4127Code>072</ISO4127Code>
+    <ShortName>Pula</ShortName>
+    <FullName>Botswanan Pula</FullName>
+    <Symbol>80</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>CAD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>CAD</ISO4127Name>
+    <ISO4127Code>124</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Canadian Dollar</FullName>
+    <SubDivisionName>Cent</SubDivisionName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>CHF</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>CHF</ISO4127Name>
+    <ISO4127Code>756</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Canadian Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>CLP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>CLP</ISO4127Name>
+    <ISO4127Code>970</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Columbian Peso</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>CNY</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>CNY</ISO4127Name>
+    <ISO4127Code>156</ISO4127Code>
+    <ShortName>Yuan Reminbi</ShortName>
+    <FullName>Chinese Yuan Reminbi</FullName>
+    <Symbol>165</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>COP</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>COP</ISO4127Name>
+    <ISO4127Code>152</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Columbian Peso</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>CZK</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>CZK</ISO4127Name>
+    <ISO4127Code>203</ISO4127Code>
+    <ShortName>Koruna</ShortName>
+    <FullName>Czech Koruna</FullName>
+    <Symbol>75,269</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>DKK</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>DKK</ISO4127Name>
+    <ISO4127Code>208</ISO4127Code>
+    <ShortName>Krone</ShortName>
+    <FullName>Danish Krone</FullName>
+    <Symbol>107,114</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>DOP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>DOP</ISO4127Name>
+    <ISO4127Code>214</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Dominican Peso</FullName>
+    <Symbol>82,68,36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>EGP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>EGP</ISO4127Name>
+    <ISO4127Code>818</ISO4127Code>
+    <ShortName>Pound</ShortName>
+    <FullName>Egyptian Pound</FullName>
+    <Symbol>163</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>EUR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>EUR</ISO4127Name>
+    <ISO4127Code>978</ISO4127Code>
+    <ShortName>Euro</ShortName>
+    <FullName>Euro</FullName>
+    <Symbol>8364</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>GEL</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>GEL</ISO4127Name>
+    <ISO4127Code>981</ISO4127Code>
+    <ShortName>Lari</ShortName>
+    <FullName>Georian Lari</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>GBP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>GBP</ISO4127Name>
+    <ISO4127Code>826</ISO4127Code>
+    <ShortName>Pound</ShortName>
+    <FullName>British Pound</FullName>
+    <Symbol>163</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>GTQ</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>GTQ</ISO4127Name>
+    <ISO4127Code>320</ISO4127Code>
+    <ShortName>Quetzal</ShortName>
+    <FullName>Guatemala Quetzal</FullName>
+    <Symbol>81</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>HNL</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>HNL</ISO4127Name>
+    <ISO4127Code>340</ISO4127Code>
+    <ShortName>Lempira</ShortName>
+    <FullName>Honduras Lempira</FullName>
+    <Symbol>76</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>HKD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>HKD</ISO4127Name>
+    <ISO4127Code>344</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Hong Kong Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>HUF</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>HUF</ISO4127Name>
+    <ISO4127Code>348</ISO4127Code>
+    <ShortName>Forint</ShortName>
+    <FullName>Hungarian Forint</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>IDR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>DIR</ISO4127Name>
+    <ISO4127Code>360</ISO4127Code>
+    <ShortName>Rupiah</ShortName>
+    <FullName>Indonesian Rupiah</FullName>
+    <Symbol>82,112</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>ILS</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>ILS</ISO4127Name>
+    <ISO4127Code>276</ISO4127Code>
+    <ShortName>Sheqel</ShortName>
+    <FullName>Israeli Sheqel</FullName>
+    <Symbol>8362</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>INR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>INR</ISO4127Name>
+    <ISO4127Code>356</ISO4127Code>
+    <ShortName>Rupee</ShortName>
+    <FullName>Indian Rupee</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>IQD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>IQD</ISO4127Name>
+    <ISO4127Code>368</ISO4127Code>
+    <ShortName>Dinar</ShortName>
+    <FullName>Iraqi Dinar</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>IRR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>IRR</ISO4127Name>
+    <ISO4127Code>364</ISO4127Code>
+    <ShortName>Rial</ShortName>
+    <FullName>Iranian Rial</FullName>
+    <Symbol>65020</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>ISK</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>ISK</ISO4127Name>
+    <ISO4127Code>352</ISO4127Code>
+    <ShortName>Krona</ShortName>
+    <FullName>Icelandic Krona</FullName>
+    <Symbol>107,114</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>JPY</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>JPY</ISO4127Name>
+    <ISO4127Code>392</ISO4127Code>
+    <ShortName>Yen</ShortName>
+    <FullName>Japanese Yen</FullName>
+    <Symbol>165</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>KES</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>KES</ISO4127Name>
+    <ISO4127Code>404</ISO4127Code>
+    <ShortName>Shilling</ShortName>
+    <FullName>Kenyan Shilling</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>KHR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>KHR</ISO4127Name>
+    <ISO4127Code>116</ISO4127Code>
+    <ShortName>Riel</ShortName>
+    <FullName>Cambodian Riel</FullName>
+    <Symbol>6107</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>KZT</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>KZT</ISO4127Name>
+    <ISO4127Code>398</ISO4127Code>
+    <ShortName>Tenge</ShortName>
+    <FullName>Kazakhstan Tenge</FullName>
+    <Symbol>1083, 1074</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>KRW</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>KRW</ISO4127Name>
+    <ISO4127Code>410</ISO4127Code>
+    <ShortName>Won</ShortName>
+    <FullName>Korean Won</FullName>
+    <Symbol>6107</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>KWD</Name>
+    <DecimalPlaces>3</DecimalPlaces>
+    <ISO4127Name>KWD</ISO4127Name>
+    <ISO4127Code>414</ISO4127Code>
+    <ShortName>Dinar</ShortName>
+    <FullName>Kuwati Dinar</FullName>
+    <Symbol>6107</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>LTL</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>LTL</ISO4127Name>
+    <ISO4127Code>440</ISO4127Code>
+    <ShortName>Litas</ShortName>
+    <FullName>Lithuanian Litas</FullName>
+    <Symbol>76,116</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>LVL</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>LVL</ISO4127Name>
+    <ISO4127Code>428</ISO4127Code>
+    <ShortName>Lat</ShortName>
+    <FullName>Latvian Lat</FullName>
+    <Symbol>76,115</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>LYD</Name>
+    <DecimalPlaces>3</DecimalPlaces>
+    <ISO4127Name>LYD</ISO4127Name>
+    <ISO4127Code>434</ISO4127Code>
+    <ShortName>Lat</ShortName>
+    <FullName>Lybian Pataca</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>MAD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MAD</ISO4127Name>
+    <ISO4127Code>504</ISO4127Code>
+    <ShortName>Dirham</ShortName>
+    <FullName>Moroccan Dirham</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>MKD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MKD</ISO4127Name>
+    <ISO4127Code>807</ISO4127Code>
+    <ShortName>Denar</ShortName>
+    <FullName>Macedonian Denar</FullName>
+    <Symbol>1076,1077,1085</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>MOP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MOP</ISO4127Name>
+    <ISO4127Code>446</ISO4127Code>
+    <ShortName>Pataca</ShortName>
+    <FullName>Macao Pataca</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>MNT</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MNT</ISO4127Name>
+    <ISO4127Code>496</ISO4127Code>
+    <ShortName>Tugrik</ShortName>
+    <FullName>Mogolia Tugrik</FullName>
+    <Symbol>8366</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>MXN</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MXN</ISO4127Name>
+    <ISO4127Code>484</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Mexican Peso</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>MYR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>MYR</ISO4127Name>
+    <ISO4127Code>458</ISO4127Code>
+    <ShortName>Ringgit</ShortName>
+    <FullName>Malaysian Ringgit</FullName>
+    <Symbol>82,77</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>NIO</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>NIO</ISO4127Name>
+    <ISO4127Code>558</ISO4127Code>
+    <ShortName>Cordoba Oro</ShortName>
+    <FullName>Nicaraguan Cordoba Oro</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>NGN</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>NGN</ISO4127Name>
+    <ISO4127Code>566</ISO4127Code>
+    <ShortName>Naira</ShortName>
+    <FullName>Nigriean Naira</FullName>
+    <Symbol>8358</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>NOK</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>NOK</ISO4127Name>
+    <ISO4127Code>578</ISO4127Code>
+    <ShortName>Krone</ShortName>
+    <FullName>Norwegian Krone</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>NZD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>NZD</ISO4127Name>
+    <ISO4127Code>554</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>New Zealand Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>OMR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>OMR</ISO4127Name>
+    <ISO4127Code>512</ISO4127Code>
+    <ShortName>Rial</ShortName>
+    <FullName>Omani Rial</FullName>
+    <Symbol>65020</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PAB</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>PAB</ISO4127Name>
+    <ISO4127Code>590</ISO4127Code>
+    <ShortName>Balboa</ShortName>
+    <FullName>Panamanian Balboa</FullName>
+    <Symbol>8360</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PEN</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>PEN</ISO4127Name>
+    <ISO4127Code>604</ISO4127Code>
+    <ShortName>Nuevo Sol</ShortName>
+    <FullName>Peruvian Nuevo Sol</FullName>
+    <Symbol>83,47,46</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PYG</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>PYG</ISO4127Name>
+    <ISO4127Code>600</ISO4127Code>
+    <ShortName>Guarani</ShortName>
+    <FullName>Paragyan Guarani</FullName>
+    <Symbol>71,115</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PKR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>PYG</ISO4127Name>    
+    <ISO4127Code>586</ISO4127Code>
+    <ShortName>Rupee</ShortName>
+    <FullName>Pakistan Rupee</FullName>
+    <Symbol>8360</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PHP</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>PHP</ISO4127Name>
+    <ISO4127Code>608</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Philippine Peso</FullName>
+    <Symbol>8369</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>PLN</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>PLN</ISO4127Name>
+    <ISO4127Code>985</ISO4127Code>
+    <ShortName>Zloty</ShortName>
+    <FullName>Polish Zloty</FullName>
+    <Symbol>122,322</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>QAR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>QAR</ISO4127Name>
+    <ISO4127Code>634</ISO4127Code>
+    <ShortName>Rial</ShortName>
+    <FullName>Qatari Rial</FullName>
+    <Symbol>65020</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>RON</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>RON</ISO4127Name>
+    <ISO4127Code>946</ISO4127Code>
+    <ShortName>Leu</ShortName>
+    <FullName>Romanian New Leu</FullName>
+    <Symbol>108,101,105</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>RSD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>RSD</ISO4127Name>
+    <ISO4127Code>941</ISO4127Code>
+    <ShortName>Dinar</ShortName>
+    <FullName>Serbian Dinar</FullName>
+    <Symbol>1044,1080,1085,46</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>RUB</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>RUB</ISO4127Name>
+    <ISO4127Code>643</ISO4127Code>
+    <ShortName>Ruble</ShortName>
+    <FullName>Russian Ruble</FullName>
+    <Symbol>1088,1091,1073</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>SAR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>SAR</ISO4127Name>
+    <ISO4127Code>682</ISO4127Code>
+    <ShortName>Riyal</ShortName>
+    <FullName>Saudi Riyal</FullName>
+    <Symbol>65020</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>SEK</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>SEK</ISO4127Name>
+    <ISO4127Code>752</ISO4127Code>
+    <ShortName>Krona</ShortName>
+    <FullName>Swedish Krona</FullName>
+    <Symbol>107,114</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>SGD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>SGD</ISO4127Name>
+    <ISO4127Code>702</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Singapore Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>SVC</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>SVC</ISO4127Name>
+    <ISO4127Code>222</ISO4127Code>
+    <ShortName>Colon</ShortName>
+    <FullName>El Salvador Colon</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>THB</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>THB</ISO4127Name>
+    <ISO4127Code>764</ISO4127Code>
+    <ShortName>Baht</ShortName>
+    <FullName>Thai Baht</FullName>
+    <Symbol>3647</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>TMT</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>TMT</ISO4127Name>
+    <ISO4127Code>934</ISO4127Code>
+    <ShortName>Manat</ShortName>
+    <FullName>Turkmenistan New Manat</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>TRY</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>TRY</ISO4127Name>
+    <ISO4127Code>972</ISO4127Code>
+    <ShortName>Somoni</ShortName>
+    <FullName>Tajik Somoni</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>TWD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>TWD</ISO4127Name>
+    <ISO4127Code>901</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>Taiwan Dollar</FullName>
+  </Currency>
+  
+  <Currency>
+    <Name>UAH</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>UAH</ISO4127Name>
+    <ISO4127Code>980</ISO4127Code>
+    <ShortName>Hryvnia</ShortName>
+    <FullName>Ukranian Hryvnia</FullName>
+    <Symbol>8372</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>UGX</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>UGX</ISO4127Name>
+    <ISO4127Code>800</ISO4127Code>
+    <ShortName>Shilling</ShortName>
+    <FullName>Uganda Shilling</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>USD</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>USD</ISO4127Name>
+    <ISO4127Code>840</ISO4127Code>
+    <ShortName>Dollar</ShortName>
+    <FullName>United States Dollar</FullName>
+    <Symbol>36</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>UYU</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>UYU</ISO4127Name>
+    <ISO4127Code>860</ISO4127Code>
+    <ShortName>Sum</ShortName>
+    <FullName>Uzbekistan Sum</FullName>
+    <Symbol>36,86</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>UZS</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>BOB</ISO4127Name>
+    <ISO4127Code>858</ISO4127Code>
+    <ShortName>Peso</ShortName>
+    <FullName>Urugyan Peso</FullName>
+  </Currency>
+
+  <Currency>
+    <Name>VEF</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>VEF</ISO4127Name>
+    <ISO4127Code>937</ISO4127Code>
+    <ShortName>Bolivar</ShortName>
+    <FullName>Venezuelan Bolivar</FullName>
+    <Symbol>66,115</Symbol>
+  </Currency>
+  
+  <Currency>
+    <Name>VND</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <ISO4127Name>VND</ISO4127Name>
+    <ISO4127Code>704</ISO4127Code>
+    <ShortName>Dong</ShortName>
+    <FullName>Vietnamese Dong</FullName>
+    <Symbol>8363</Symbol>
+  </Currency>
+
+  <Currency>
+    <Name>ZAR</Name>
+    <DecimalPlaces>2</DecimalPlaces>
+    <ISO4127Name>ZAR</ISO4127Name>
+    <ISO4127Code>710</ISO4127Code>
+    <ShortName>Rand</ShortName>
+    <FullName>South African Rand</FullName>
+    <Symbol>82</Symbol>
+  </Currency>
+
+  <!-- The following are not real countries, representing multi national agencies or other odd currencies -->
+
+  <Currency>
+    <Name>SDR</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <FullName>IMF Special drawing rights</FullName>
+    <ShortName>IMF Special drawing rights</ShortName>    
+    <ISO4127Name>SDR</ISO4127Name>
+    <ISO4127Code>960</ISO4127Code>
+  </Currency>
+  
+  <Currency>
+    <!-- BTC has also been used but XBT seem to be winning out given that non-standard currencies seem to start with an X -->
+    <Name>XBT</Name>
+    <!-- It's not really clear how many decimal places there are as this is not issued in real notes and coins, 5 seems reasonable for now altho0ugh this may increase if the Bit Coin FX rates increase -->
+    <DecimalPlaces>5</DecimalPlaces>
+    <ShortName>Bit Coin</ShortName>
+    <FullName>Bit Coin</FullName>
+    <!-- Not official yet -->
+    <ISO4127Name>Bit Coin</ISO4127Name>
+    <ISO4127Code>999</ISO4127Code>    
+  </Currency>
+
+
+  <Currency>
+    <Name>XUA</Name>
+    <DecimalPlaces>0</DecimalPlaces>
+    <FullName>African Development Bank, Unit of Account</FullName>
+    <ShortName>ADB Unit of Account</ShortName>
+    <ISO4127Name>XUA</ISO4127Name>
+    <ISO4127Code>965</ISO4127Code>
+  </Currency>
+  
+</Currencies>

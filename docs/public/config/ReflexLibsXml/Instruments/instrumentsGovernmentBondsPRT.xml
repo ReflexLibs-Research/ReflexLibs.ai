@@ -1,0 +1,295 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.PRT.EUR</Identifier>
+        <SettlementAdjuster>
+            <OffsetByBusinessDays>
+                <Calendar>TRG</Calendar>
+                <NumberOfBusinessDays>1</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>PRT_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>PRT_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>Annual</Frequency>
+        <Country>PRT</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_ANNUAL</Basis>
+            <NotionalDetails>
+                <Currency>EUR</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>12M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>TRG</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20161015.4.2</Identifier>
+        <Rate>0.042</Rate>
+        <Effective>20060717</Effective>
+        <FirstCouponDate>20071015</FirstCouponDate>
+        <Maturity>20161015</Maturity>
+        <ISIN>PTOTE6OE0006</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20171016.4.35</Identifier>
+        <Rate>0.0435</Rate>
+        <Effective>20060717</Effective>
+        <FirstCouponDate>20071015</FirstCouponDate>
+        <Maturity>20171016</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTELOE0010</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20180615.4.45</Identifier>
+        <Rate>0.0445</Rate>
+        <Effective>20080304</Effective>
+        <FirstCouponDate>20080615</FirstCouponDate>
+        <Maturity>20180615</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTENOE0018</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20190614.4.75</Identifier>
+        <Rate>0.0475</Rate>
+        <Effective>20090303</Effective>
+        <FirstCouponDate>20090614</FirstCouponDate>
+        <Maturity>20190614</Maturity>
+        <ISIN>PTOTEMOE0027</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20200615.4.8</Identifier>
+        <Rate>0.048</Rate>
+        <Effective>20100217</Effective>
+        <FirstCouponDate>20100615</FirstCouponDate>
+        <Maturity>20200615</Maturity>
+        <ISIN>PTOTECOE0029</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20210415.3.85</Identifier>
+        <Rate>0.0385</Rate>
+        <Effective>20050223</Effective>
+        <FirstCouponDate>20060415</FirstCouponDate>
+        <Maturity>20210415</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEYOE0007</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20221017.2.2</Identifier>
+        <Rate>0.022</Rate>
+        <Effective>20150909</Effective>
+        <FirstCouponDate>20161017</FirstCouponDate>
+        <Maturity>20221017</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTESOE0013</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20231025.4.95</Identifier>
+        <Rate>0.0495</Rate>
+        <Effective>20080610</Effective>
+        <FirstCouponDate>20091025</FirstCouponDate>
+        <Maturity>20231025</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEAOE0021</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20240215.5.65</Identifier>
+        <Rate>0.0565</Rate>
+        <Effective>20130514</Effective>
+        <FirstCouponDate>20140215</FirstCouponDate>
+        <Maturity>20240215</Maturity>
+        <ISIN>PTOTEQOE0015</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20251015.2.875</Identifier>
+        <Rate>0.02875</Rate>
+        <Effective>20150120</Effective>
+        <FirstCouponDate>20151015</FirstCouponDate>
+        <Maturity>20251015</Maturity>
+        <ISIN>PTOTEKOE0011</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20260721.2.875</Identifier>
+        <Rate>0.02875</Rate>
+        <Effective>20160121</Effective>
+        <FirstCouponDate>20160721</FirstCouponDate>
+        <Maturity>20260721</Maturity>
+        <ISIN>PTOTETOE0012</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20270414.4.125</Identifier>
+        <Rate>0.04125</Rate>
+        <Effective>20170118</Effective>
+        <FirstCouponDate>20180414</FirstCouponDate>
+        <Maturity>20270414</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEUOE0019</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20271015.0.7</Identifier>
+        <Rate>0.007</Rate>
+        <Effective>20200408</Effective>
+        <FirstCouponDate>20201015</FirstCouponDate>
+        <Maturity>20271015</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEMOE0035</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20281017.2.125</Identifier>
+        <Rate>0.02125</Rate>
+        <Effective>20180117</Effective>
+        <FirstCouponDate>20181017</FirstCouponDate>
+        <Maturity>20281017</Maturity>
+        <ISIN>PTOTEVOE0018</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20290615.1.95</Identifier>
+        <Rate>0.0195</Rate>
+        <Effective>20190116</Effective>
+        <FirstCouponDate>20190615</FirstCouponDate>
+        <Maturity>20290615</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEXOE0024</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20300215.3.875</Identifier>
+        <Rate>0.03875</Rate>
+        <Effective>20140910</Effective>
+        <FirstCouponDate>20150215</FirstCouponDate>
+        <Maturity>20300215</Maturity>
+        <ISIN>PTOTEROE0014</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20301018.0.475</Identifier>
+        <Rate>0.00475</Rate>
+        <Effective>20200115</Effective>
+        <FirstCouponDate>20201018</FirstCouponDate>
+        <Maturity>20301018</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTELOE0028</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20340418.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20180418</Effective>
+        <FirstCouponDate>20190418</FirstCouponDate>
+        <Maturity>20340418</Maturity>
+        <ISIN>PTOTEWOE0017</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf = "true">RE.0.FixedRateBond.PRT.EUR.20351012.0.9</Identifier>
+        <Rate>0.009</Rate>
+        <Effective>20200708</Effective>
+        <FirstCouponDate>20211012</FirstCouponDate>
+        <Maturity>20351012</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTENOE0034</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20370415.4.1</Identifier>
+        <Rate>0.041</Rate>
+        <Effective>20060322</Effective>
+        <FirstCouponDate>20070415</FirstCouponDate>
+        <Maturity>20370415</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTE5OE0007</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.PRT.EUR.20450215.4.1</Identifier>
+        <Rate>0.041</Rate>
+        <Effective>20150120</Effective>
+        <FirstCouponDate>20160215</FirstCouponDate>
+        <Maturity>20450215</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>12M</Tenor>
+                <Stub>LongStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>PTOTEBOE0020</ISIN>
+    </FixedRateBond>
+
+</Instruments>

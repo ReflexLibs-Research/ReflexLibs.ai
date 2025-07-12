@@ -1,0 +1,571 @@
+<Instruments>
+
+<Deposit>
+  <Identifier>RE.0.Deposit.EUR.EONIA.D.1</Identifier>
+  <Index>
+    <Currency>EUR</Currency>
+    <Name>EONIA</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <Tenor>1D</Tenor>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.EUR.EURIBOR</Identifier>
+  <Index>
+    <Currency>EUR</Currency>
+    <Name>EURIBOR</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<!--EURO CMS Deposits-->
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.EUR.EURIBOR.CMS</Identifier>
+  <Index>
+    <Currency>EUR</Currency>
+    <Name>EURIBOR</Name>
+  </Index>
+  <Basis>Act/360</Basis>
+  <CoverageStartAdjuster>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+  </CoverageStartAdjuster>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>MF</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.EUR.EURIBOR.D</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+<Deposit>
+  <Identifier leaf="false">RE.0.Deposit.EUR.EURIBOR.W</Identifier>
+  <CoverageEndAdjuster>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>TRG</Calendar>
+    </BusinessAdjustToMonth>
+  </CoverageEndAdjuster>
+</Deposit>
+
+
+<DepositFuture>
+  <Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3</Identifier>
+  <Underlying>RE.0.Deposit.EUR.EURIBOR.M.3</Underlying>
+  <Delivery>CME_DELIVERY</Delivery>
+  <LastTrading>CME_TRADING</LastTrading>
+  <Notional>10000.0</Notional>
+  <TickSize>25.0</TickSize>
+</DepositFuture>
+
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.1999</Identifier><ContractYear>1999</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2000</Identifier><ContractYear>2000</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2001</Identifier><ContractYear>2001</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2002</Identifier><ContractYear>2002</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2003</Identifier><ContractYear>2003</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2004</Identifier><ContractYear>2004</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2005</Identifier><ContractYear>2005</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2006</Identifier><ContractYear>2006</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2007</Identifier><ContractYear>2007</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2008</Identifier><ContractYear>2008</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2009</Identifier><ContractYear>2009</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2010</Identifier><ContractYear>2010</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2011</Identifier><ContractYear>2011</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2012</Identifier><ContractYear>2012</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2013</Identifier><ContractYear>2013</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2014</Identifier><ContractYear>2014</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2015</Identifier><ContractYear>2015</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2016</Identifier><ContractYear>2016</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2017</Identifier><ContractYear>2017</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2018</Identifier><ContractYear>2018</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2019</Identifier><ContractYear>2019</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2020</Identifier><ContractYear>2020</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2021</Identifier><ContractYear>2021</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2022</Identifier><ContractYear>2022</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2023</Identifier><ContractYear>2023</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2024</Identifier><ContractYear>2024</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2025</Identifier><ContractYear>2025</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2026</Identifier><ContractYear>2026</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2027</Identifier><ContractYear>2027</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2028</Identifier><ContractYear>2028</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2029</Identifier><ContractYear>2029</ContractYear></DepositFuture>
+<DepositFuture><Identifier leaf="false">RE.0.DepositFuture.EUR.EURIBOR.M.3.2030</Identifier><ContractYear>2030</ContractYear></DepositFuture>
+
+
+  <FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.EUR</Identifier>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.EUR.EURIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>30U/360</Basis>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.InterestRateSwap.EUR.EURIBOR.M.1</Identifier>
+    <FloatLeg>
+    <Accrual>
+        <Tenor>1M</Tenor>
+        <Adjuster>
+            <BusinessAdjustToMonth>
+                <BusinessDayRule>MF</BusinessDayRule>
+                <Calendar>TRG</Calendar>
+            </BusinessAdjustToMonth>
+        </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.1</Observable>
+    </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.EUR.EURIBOR.M.3</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.3</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.InterestRateSwap.EUR.EURIBOR.M.6</Identifier>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.6</Observable>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.EUR.EONIA.D.1</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+  <FloatLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <Reset>
+      <Calendar>TRG</Calendar>
+    </Reset>
+    <Observable>RE.0.Deposit.EUR.EONIA.D.1</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.EUR.EONIA.D.1.M.12.M.12</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<FixedRateSwap>
+  <Identifier leaf="false">RE.0.OISRateSwap.EUR.EONIA.D.1.ZERO.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+    <RateAccrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </RateAccrual>
+    <Compounding>True</Compounding>
+  </FixedLeg>
+  <FloatLeg>
+    <Accrual>
+      <Zero/>
+    </Accrual>
+  </FloatLeg>
+</FixedRateSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>LNB</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB&amp;NYB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FloatLeg id="1">
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+  <FloatLeg id="2">
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/360</Basis>
+    <ObservableAdjuster>
+      <OffsetByBusinessDays>
+        <Calendar>TRG</Calendar>
+        <NumberOfBusinessDays>-2</NumberOfBusinessDays>
+      </OffsetByBusinessDays>
+    </ObservableAdjuster>
+    <PaymentAdjuster/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.1</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.1</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.1.M.3</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.3</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.1.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.1.M.12</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.12</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.3</Identifier>
+  <FloatLeg id="1">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.3</Observable>
+    <BreakEvenLeg/>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.M.6</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>6M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.6</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<TenorBasisSwap>
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.M.12</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.M.12</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+
+<!--CMS Swaps EURO -->
+
+<TenorBasisSwap Tenors1="1Y;2Y;3Y;5Y;7Y;10Y;15Y;20Y;25Y;30Y">
+  <Identifier leaf="false">RE.0.TenorBasisSwap.EUR.EURIBOR.M.3.${TenorPeriod1}.${TenorStep1}</Identifier>
+  <FloatLeg id="2">
+    <Accrual>
+      <Tenor>3M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </Accrual>
+    <Observable>RE.0.Deposit.EUR.EURIBOR.CMS.${TenorPeriod1}.${TenorStep1}</Observable>
+  </FloatLeg>
+</TenorBasisSwap>
+
+<!-- Inflation swaps -->
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.EUR.HICP</Identifier>
+  <Effective>
+    <OffsetByBusinessDays>
+      <Calendar>TRG</Calendar>
+      <NumberOfBusinessDays>2</NumberOfBusinessDays>
+    </OffsetByBusinessDays>
+    <BusinessAdjustToMonth>
+      <BusinessDayRule>F</BusinessDayRule>
+      <Calendar>LNB</Calendar>
+    </BusinessAdjustToMonth>
+  </Effective>
+  <FixedLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+  </FixedLeg>
+    <InflationLinkedZeroCouponLeg>
+    <NotionalDetails>
+      <Currency>EUR</Currency>
+      <Final>true</Final>
+    </NotionalDetails>
+    <InflationLinkedNotionalDetails>
+        <InflationIndex><Region>EuroZone</Region><Name>HICP</Name><Component>TOT_X_TBC</Component><BaseYear>2015</BaseYear></InflationIndex>
+        <Final>UpliftOnly</Final>
+        <LookbackAdjuster>
+          <Tenor>-3M</Tenor>
+          <TargetDayOfMonth>
+            <DayOfMonth>1</DayOfMonth>
+          </TargetDayOfMonth>
+        </LookbackAdjuster>
+    </InflationLinkedNotionalDetails>
+  </InflationLinkedZeroCouponLeg>
+</InflationSwap>
+
+<InflationSwap>
+  <Identifier leaf="false">RE.0.INFLATIONSWAP.EUR.HICP.ZERO</Identifier>
+  <FixedLeg>
+    <Accrual>
+      <Tenor>12M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+      <DayOfMonth>15</DayOfMonth>
+    </Accrual>
+    <RateAccrual>
+      <Tenor>1M</Tenor>
+      <Adjuster>
+        <BusinessAdjustToMonth>
+          <BusinessDayRule>MF</BusinessDayRule>
+          <Calendar>TRG</Calendar>
+        </BusinessAdjustToMonth>
+      </Adjuster>
+    </RateAccrual>
+    <Compounding>True</Compounding>
+  </FixedLeg>
+</InflationSwap>
+
+
+
+<!-- Central bank swaps -->
+
+<FixedRateSwap>
+    <Identifier leaf="false">RE.0.CentralBankSwap.EUR.ECB</Identifier>
+    <FixedLeg>
+    <NotionalDetails>
+        <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Accrual>
+        <CentralBank>ECB</CentralBank>
+    </Accrual>
+    <Basis>ACT/365</Basis>
+    <BreakEvenLeg/>
+    </FixedLeg>
+    <FloatLeg>
+    <NotionalDetails>
+        <Currency>EUR</Currency>
+    </NotionalDetails>
+    <Accrual>
+        <Zero/>
+    </Accrual>
+    <Basis>ACT/365</Basis>
+    <Observable>RE.0.Deposit.EUR.EONIA.D.1</Observable>
+    <Compounding>INCLUSIVE</Compounding>
+    </FloatLeg>
+</FixedRateSwap>
+
+
+
+<xi:include href="instrumentsEURTenors.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</Instruments>

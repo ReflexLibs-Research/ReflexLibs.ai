@@ -1,0 +1,1317 @@
+<Instruments>
+
+    <FixedRateBond>
+        <Identifier leaf="false">RE.0.FixedRateBond.CAN</Identifier>
+        <SettlementAdjuster>
+            <RollForwardIfNotBusinessDay>
+                <Calendar>TRB</Calendar>
+            </RollForwardIfNotBusinessDay>
+            <OffsetByBusinessDays>
+                <Calendar>TRB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <AccrualCalculator>CAN_Accrual</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>CAN_YieldToDirtyPrice</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <Frequency>SemiAnnual</Frequency>
+        <Country>CAN</Country>
+        <FixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>CAD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </FixedLeg>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20130601.5.25</Identifier>
+        <Rate>0.0525</Rate>
+        <Effective>20021104</Effective>
+        <Maturity>20130601</Maturity>
+        <ISIN>CA135087XM17</ISIN>
+        <Name>CAN 5 1/4 06/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20130601.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20080225</Effective>
+        <Maturity>20130601</Maturity>
+        <ISIN>CA135087YN80</ISIN>
+        <Name>CAN 3 1/2 06/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20130801.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20110408</Effective>
+        <Maturity>20130801</Maturity>
+        <ISIN>CA135087ZP20</ISIN>
+        <Name>CAN 2 08/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20130901.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20100517</Effective>
+        <Maturity>20130901</Maturity>
+        <ISIN>CA135087ZG21</ISIN>
+        <Name>CAN 2 1/2 09/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20131101.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20110715</Effective>
+        <Maturity>20131101</Maturity>
+        <ISIN>CA135087ZT42</ISIN>
+        <Name>CAN 1 1/2 11/01/13</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140201.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20111021</Effective>
+        <Maturity>20140201</Maturity>
+        <ISIN>CA135087ZW70</ISIN>
+        <Name>CAN 1 02/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140301.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20101213</Effective>
+        <Maturity>20140301</Maturity>
+        <ISIN>CA135087ZN71</ISIN>
+        <Name>CAN 2 03/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140315.10.25</Identifier>
+        <Rate>0.1025</Rate>
+        <Effective>19890315</Effective>
+        <Maturity>20140315</Maturity>
+        <ISIN>CA135087TH77</ISIN>
+        <Name>CAN 10 1/4 03/15/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140501.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20120113</Effective>
+        <Maturity>20140501</Maturity>
+        <ISIN>CA135087ZY37</ISIN>
+        <Name>CAN 0 3/4 05/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140601.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20081021</Effective>
+        <Maturity>20140601</Maturity>
+        <ISIN>CA135087YS77</ISIN>
+        <Name>CAN 3 06/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140601.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20031020</Effective>
+        <Maturity>20140601</Maturity>
+        <ISIN>CA135087XS86</ISIN>
+        <Name>CAN 5 06/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20140801.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20110502</Effective>
+        <Maturity>20140801</Maturity>
+        <ISIN>CA135087ZR85</ISIN>
+        <Name>CAN 2 1/4 08/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20141101.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20120622</Effective>
+        <Maturity>20141101</Maturity>
+        <ISIN>CA135087A537</ISIN>
+        <Name></Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20141201.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20090420</Effective>
+        <Maturity>20141201</Maturity>
+        <ISIN>CA135087YU24</ISIN>
+        <Name>CAN 2 12/01/14</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150201.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20111107</Effective>
+        <Maturity>20150201</Maturity>
+        <ISIN>CA135087ZX53</ISIN>
+        <Name>CAN 1 02/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150501.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130118</Effective>
+        <Maturity>20150501</Maturity>
+        <ISIN>CA135087A958</ISIN>
+        <Name></Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150601.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20091123</Effective>
+        <Maturity>20150601</Maturity>
+        <ISIN>CA135087ZC17</ISIN>
+        <Name>CAN 2 1/2 06/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150601.4.5</Identifier>
+        <Rate>0.045</Rate>
+        <Effective>20041018</Effective>
+        <Maturity>20150601</Maturity>
+        <ISIN>CA135087XX71</ISIN>
+        <Name>CAN 4 1/2 06/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150601.11.25</Identifier>
+        <Rate>0.1125</Rate>
+        <Effective>19900501</Effective>
+        <Maturity>20150601</Maturity>
+        <ISIN>CA135087TU88</ISIN>
+        <Name>CAN 11 1/4 06/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20150801.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20120430</Effective>
+        <Maturity>20150801</Maturity>
+        <ISIN>CA135087A388</ISIN>
+        <Name>CAN 1 1/2 08/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20151201.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20100419</Effective>
+        <Maturity>20151201</Maturity>
+        <ISIN>CA135087ZF48</ISIN>
+        <Name>CAN 3 12/01/15</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160601.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20101108</Effective>
+        <Maturity>20160601</Maturity>
+        <ISIN>CA135087ZL16</ISIN>
+        <Name>CAN 2 06/01/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160201.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20121015</Effective>
+        <FirstCouponDate>20130201</FirstCouponDate>
+        <Maturity>20160201</Maturity>
+        <ISIN>CA135087A792</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160501.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20140131</Effective>
+        <FirstCouponDate>20140501</FirstCouponDate>
+        <Maturity>20160501</Maturity>
+        <ISIN>CA135087C699</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160601.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20051107</Effective>
+        <Maturity>20160601</Maturity>
+        <ISIN>CA135087YB43</ISIN>
+        <Name>CAN 4 06/01/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160801.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20130415</Effective>
+        <FirstCouponDate>20160731</FirstCouponDate>
+        <Maturity>20160801</Maturity>
+        <ISIN>CA135087B295</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20160901.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20110426</Effective>
+        <Maturity>20160901</Maturity>
+        <ISIN>CA135087ZQ03</ISIN>
+        <Name>CAN 2 3/4 09/01/16</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20170201.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20130801</Effective>
+        <Maturity>20170201</Maturity>
+        <ISIN>CA135087B600</ISIN>
+        <Name>CAN 1 1/2 02/01/17</Name>
+    </FixedRateBond>
+
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20170301.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20111017</Effective>
+        <Maturity>20170301</Maturity>
+        <ISIN>CA135087ZV97</ISIN>
+        <Name>CAN 1 1/2 03/01/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20170501.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20150213</Effective>
+        <FirstCouponDate>20150501</FirstCouponDate>
+        <Maturity>20170501</Maturity>
+        <ISIN>CA135087E349</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20170601.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20061016</Effective>
+        <Maturity>20170601</Maturity>
+        <ISIN>CA135087YF56</ISIN>
+        <Name>CAN 4 06/01/17</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20170801.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20140520</Effective>
+        <FirstCouponDate>20140801</FirstCouponDate>
+        <Maturity>20170801</Maturity>
+        <ISIN>CA135087D275</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180201.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20141110</Effective>
+        <FirstCouponDate>20150201</FirstCouponDate>
+        <Maturity>20180201</Maturity>
+        <ISIN>CA135087E265</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180301.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20121113</Effective>
+        <FirstCouponDate>20130301</FirstCouponDate>
+        <Maturity>20180301</Maturity>
+        <ISIN>CA135087A875</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180501.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20160205</Effective>
+        <FirstCouponDate>20160501</FirstCouponDate>
+        <Maturity>20180501</Maturity>
+        <ISIN>CA135087F338</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180601.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>20071029</Effective>
+        <Maturity>20180601</Maturity>
+        <ISIN>CA135087YL25</ISIN>
+        <Name>CAN 4 1/4 06/01/18</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180801.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20160506</Effective>
+        <FirstCouponDate>20160801</FirstCouponDate>
+        <Maturity>20180801</Maturity>
+        <ISIN>CA135087F668</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20180901.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20130513</Effective>
+        <FirstCouponDate>20130901</FirstCouponDate>
+        <Maturity>20180901</Maturity>
+        <ISIN>CA135087B378</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190201.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20161107</Effective>
+        <FirstCouponDate>20170201</FirstCouponDate>
+        <Maturity>20190201</Maturity>
+        <ISIN>CA135087G401</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190301.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20131112</Effective>
+        <FirstCouponDate>20140301</FirstCouponDate>
+        <Maturity>20190301</Maturity>
+        <ISIN>CA135087B865</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190501.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170206</Effective>
+        <FirstCouponDate>20170501</FirstCouponDate>
+        <Maturity>20190501</Maturity>
+        <ISIN>CA135087G658</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190601.3.75</Identifier>
+        <Rate>0.0375</Rate>
+        <Effective>20081006</Effective>
+        <Maturity>20190601</Maturity>
+        <ISIN>CA135087YR94</ISIN>
+        <Name>CAN 3 3/4 06/01/19</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190801.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20170512</Effective>
+        <FirstCouponDate>20170801</FirstCouponDate>
+        <Maturity>20190801</Maturity>
+        <ISIN>CA135087G815</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20190901.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20140414</Effective>
+        <FirstCouponDate>20140901</FirstCouponDate>
+        <Maturity>20190901</Maturity>
+        <ISIN>CA135087C855</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200201.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20171103</Effective>
+        <FirstCouponDate>20180201</FirstCouponDate>
+        <Maturity>20200201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087H565</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200301.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20141014</Effective>
+        <FirstCouponDate>20150301</FirstCouponDate>
+        <Maturity>20200301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087D929</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200501.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20100209</Effective>
+        <FirstCouponDate>20180501</FirstCouponDate>
+        <Maturity>20200501</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087H805</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200601.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20090908</Effective>
+        <FirstCouponDate>20091201</FirstCouponDate>
+        <Maturity>20200601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087YZ11</ISIN>
+        <Name>CAN 3 1/2 06/01/20</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200801.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20180511</Effective>
+        <FirstCouponDate>20180801</FirstCouponDate>
+        <Maturity>20200801</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J215</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20200901.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20150413</Effective>
+        <FirstCouponDate>20150901</FirstCouponDate>
+        <Maturity>20200901</Maturity>
+        <ISIN>CA135087E596</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20201101.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20180810</Effective>
+        <FirstCouponDate>20181101</FirstCouponDate>
+        <Maturity>20201101</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J470</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210201.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20181109</Effective>
+        <FirstCouponDate>20190201</FirstCouponDate>
+        <Maturity>20210201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J629</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210301.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20161019</Effective>
+        <FirstCouponDate>20160301</FirstCouponDate>
+        <Maturity>20210301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087F254</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210315.10.5</Identifier>
+        <Rate>0.105</Rate>
+        <Effective>19901215</Effective>
+        <Maturity>20210315</Maturity>
+        <ISIN>CA135087TZ75</ISIN>
+        <Name>CAN 10 1/2 03/15/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210501.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20190211</Effective>
+        <FirstCouponDate>20190501</FirstCouponDate>
+        <Maturity>20210501</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J884</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210601.3.25</Identifier>
+        <Rate>0.0325</Rate>
+        <Effective>20100719</Effective>
+        <Maturity>20210601</Maturity>
+        <ISIN>CA135087ZJ69</ISIN>
+        <Name>CAN 3 1/4 06/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210601.9.75</Identifier>
+        <Rate>0.0975</Rate>
+        <Effective>19910509</Effective>
+        <Maturity>20210601</Maturity>
+        <ISIN>CA135087UE28</ISIN>
+        <Name>CAN 9 3/4 06/01/21</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210801.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20190506</Effective>
+        <FirstCouponDate>20190801</FirstCouponDate>
+        <Maturity>20210801</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K296</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20210901.0.75</Identifier>
+        <Rate>0.0075</Rate>
+        <Effective>20160411</Effective>
+        <FirstCouponDate>20160901</FirstCouponDate>
+        <Maturity>20210901</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087F585</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20211101.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20190809</Effective>
+        <FirstCouponDate>20191101</FirstCouponDate>
+        <Maturity>20211101</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K452</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220201.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20191104</Effective>
+        <FirstCouponDate>20200201</FirstCouponDate>
+        <Maturity>20220201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K601</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220601.9.25</Identifier>
+        <Rate>0.0925</Rate>
+        <Effective>19911215</Effective>
+        <Maturity>20220601</Maturity>
+        <ISIN>CA135087UM44</ISIN>
+        <Name>CAN 9 1/4 06/01/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220301.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20161011</Effective>
+        <FirstCouponDate>20170301</FirstCouponDate>
+        <Maturity>20220301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087G328</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220601.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20110802</Effective>
+        <Maturity>20220601</Maturity>
+        <ISIN>CA135087ZU15</ISIN>
+        <Name>CAN 2 3/4 06/01/22</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220501.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20200127</Effective>
+        <FirstCouponDate>20200501</FirstCouponDate>
+        <Maturity>20220501</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K866</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220801.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20200504</Effective>
+        <FirstCouponDate>20200801</FirstCouponDate>
+        <Maturity>20220801</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L286</ISIN>
+    </FixedRateBond>
+
+<!-- Unable to find data
+<FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20220901.1.0</Identifier>
+    <Rate>0.01</Rate>
+    <Effective></Effective>
+    <FirstCouponDate></FirstCouponDate>
+    <Maturity>20220901</Maturity>
+    <ISIN>CA135087G732</ISIN>
+</FixedRateBond>
+-->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20221101.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20200817</Effective>
+        <FirstCouponDate>20201101</FirstCouponDate>
+        <Maturity>20221101</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L369</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20230201.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20201026</Effective>
+        <FirstCouponDate>20210201</FirstCouponDate>
+        <Maturity>20230201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L773</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20230301.1.75</Identifier>
+        <Rate>0.0175</Rate>
+        <Effective>20171006</Effective>
+        <FirstCouponDate>20180301</FirstCouponDate>
+        <Maturity>20230301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087H490</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20230601.8.0</Identifier>
+        <Rate>0.08</Rate>
+        <Effective>19920817</Effective>
+        <Maturity>20230601</Maturity>
+        <ISIN>CA135087UT96</ISIN>
+        <Name>CAN 8 06/01/23</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20230601.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20120730</Effective>
+        <FirstCouponDate>20121201</FirstCouponDate>
+        <Maturity>20230601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087A610</ISIN>
+    </FixedRateBond>
+
+<!-- Unable to find data
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20230901.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective></Effective>
+        <FirstCouponDate></FirstCouponDate>
+        <Maturity>20230901</Maturity>
+        <ISIN>CA135087H987</ISIN>
+    </FixedRateBond>
+-->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20240301.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20181005</Effective>
+        <FirstCouponDate>20190301</FirstCouponDate>
+        <Maturity>20240301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J546</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20240401.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20201016</Effective>
+        <FirstCouponDate>20210401</FirstCouponDate>
+        <Maturity>20240401</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L690</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20240601.2.5</Identifier>
+        <Rate>0.025</Rate>
+        <Effective>20130702</Effective>
+        <FirstCouponDate>20131201</FirstCouponDate>
+        <Maturity>20240601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087B451</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20240901.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20190405</Effective>
+        <FirstCouponDate>20190901</FirstCouponDate>
+        <Maturity>20240901</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J967</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20250301.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20191011</Effective>
+        <FirstCouponDate>20200301</FirstCouponDate>
+        <Maturity>20250301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K528</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20250601.9.0</Identifier>
+        <Rate>0.09</Rate>
+        <Effective>19940802</Effective>
+        <FirstCouponDate>19941201</FirstCouponDate>
+        <Maturity>20250601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087VH40</ISIN>
+        <Name>CAN 9 06/01/25</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20250601.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20140630</Effective>
+        <FirstCouponDate>20141201</FirstCouponDate>
+        <Maturity>20250601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087D507</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20250901.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20200403</Effective>
+        <FirstCouponDate>20200901</FirstCouponDate>
+        <Maturity>20250901</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087K940</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20260301.0.25</Identifier>
+        <Rate>0.0025</Rate>
+        <Effective>20201009</Effective>
+        <FirstCouponDate>20210301</FirstCouponDate>
+        <Maturity>20260301</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L518</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20260601.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20150721</Effective>
+        <FirstCouponDate>20151201</FirstCouponDate>
+        <Maturity>20260601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087E679</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20270601.1.0</Identifier>
+        <Rate>0.01</Rate>
+        <Effective>20160803</Effective>
+        <FirstCouponDate>20161201</FirstCouponDate>
+        <Maturity>20270601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087F825</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20270601.8.0</Identifier>
+        <Rate>0.08</Rate>
+        <Effective>19960501</Effective>
+        <Maturity>20270601</Maturity>
+        <ISIN>CA135087VW17</ISIN>
+        <Name>CAN 8 06/01/27</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20280601.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20170801</Effective>
+        <FirstCouponDate>20171201</FirstCouponDate>
+        <Maturity>20280601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087H235</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20290601.2.25</Identifier>
+        <Rate>0.0225</Rate>
+        <Effective>20180727</Effective>
+        <FirstCouponDate>20181201</FirstCouponDate>
+        <Maturity>20290601</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087J397</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20290601.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>19980202</Effective>
+        <Maturity>20290601</Maturity>
+        <ISIN>CA135087WL43</ISIN>
+        <Name>CAN 5 3/4 06/01/29</Name>
+    </FixedRateBond>
+
+<!-- No data found
+<FixedRateBond>
+    <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20300601.1.25</Identifier>
+    <Rate>0.0125</Rate>
+    <Effective></Effective>
+    <FirstCouponDate></FirstCouponDate>
+    <Maturity>20300601</Maturity>
+    <ISIN>CA135087K379</ISIN>
+</FixedRateBond>
+-->
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20301201.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20201005</Effective>
+        <FirstCouponDate>20201201</FirstCouponDate>
+        <Maturity>20301201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087L443</ISIN>
+    </FixedRateBond>
+
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20330601.5.75</Identifier>
+        <Rate>0.0575</Rate>
+        <Effective>20011015</Effective>
+        <Maturity>20330601</Maturity>
+        <ISIN>CA135087XG49</ISIN>
+        <Name>CAN 5 3/4 06/01/33</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20370601.5.0</Identifier>
+        <Rate>0.05</Rate>
+        <Effective>20040719</Effective>
+        <Maturity>20370601</Maturity>
+        <ISIN>CA135087XW98</ISIN>
+        <Name>CAN 5 06/01/37</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20410601.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>20080609</Effective>
+        <Maturity>20410601</Maturity>
+        <ISIN>CA135087YQ12</ISIN>
+        <Name>CAN 4 06/01/41</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20451201.3.5</Identifier>
+        <Rate>0.035</Rate>
+        <Effective>20110613</Effective>
+        <Maturity>20451201</Maturity>
+        <ISIN>CA135087ZS68</ISIN>
+        <Name>CAN 3 1/2 12/01/45</Name>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20481201.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140602</Effective>
+        <FirstCouponDate>20141202</FirstCouponDate>
+        <Maturity>20481201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087D358</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20511201.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20171222</Effective>
+        <FirstCouponDate>20180601</FirstCouponDate>
+        <Maturity>20511201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087H722</ISIN>
+    </FixedRateBond>
+
+    <FixedRateBond>
+        <Identifier leaf="true">RE.0.FixedRateBond.CAN.CAD.20641201.2.75</Identifier>
+        <Rate>0.0275</Rate>
+        <Effective>20140501</Effective>
+        <FirstCouponDate>20140601</FirstCouponDate>
+        <Maturity>20641201</Maturity>
+        <FixedLeg>
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </FixedLeg>
+        <ISIN>CA135087C939</ISIN>
+    </FixedRateBond>
+
+    <!-- Inflation linkers  -->
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="false">RE.0.InflationBond.CAN.CAD.CPI</Identifier>
+        <SettlementAdjuster>
+            <RollForwardIfNotBusinessDay>
+                <Calendar>TRB</Calendar>
+            </RollForwardIfNotBusinessDay>
+            <OffsetByBusinessDays>
+                <Calendar>TRB</Calendar>
+                <NumberOfBusinessDays>3</NumberOfBusinessDays>
+            </OffsetByBusinessDays>
+        </SettlementAdjuster>
+        <Frequency>Semi</Frequency>
+        <Country>CAN</Country>
+        <AccrualCalculator>CAN_Accrual_CPI</AccrualCalculator>
+        <YieldToDirtyPriceCalculator>CAN_YieldToDirtyPrice_CPI</YieldToDirtyPriceCalculator>
+        <DirtyPriceToYieldCalculator>DirtyPriceToYield</DirtyPriceToYieldCalculator>
+        <InflationLinkedFixedLeg>
+            <Basis>ACT_ACT_ISMA_SEMI</Basis>
+            <NotionalDetails>
+                <Currency>CAD</Currency>
+                <Final/>
+            </NotionalDetails>
+            <InflationLinkedNotionalDetails>
+                <Final>Full</Final>
+                <InflationIndex>
+                    <Region>CAN</Region>
+                    <Name>CPI</Name>
+                    <BaseYear>1950</BaseYear>
+                </InflationIndex>
+                <LookbackAdjuster>
+                    <Tenor>-3M</Tenor>
+                </LookbackAdjuster>
+            </InflationLinkedNotionalDetails>
+            <Accrual>
+                <Tenor>6M</Tenor>
+            </Accrual>
+            <PaymentAdjuster>
+                <RollForwardIfNotBusinessDay>
+                    <Calendar>LON</Calendar>
+                </RollForwardIfNotBusinessDay>
+            </PaymentAdjuster>
+            <BreakEvenLeg />
+        </InflationLinkedFixedLeg>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20211201.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>19911210</Effective>
+        <FirstCouponDate>19920601</FirstCouponDate>
+        <Maturity>20211201</Maturity>
+        <InflationLinkedFixedLeg>
+        <!--
+            <InflationLinkedNotionalDetails>
+                <BaseValue>999.99</BaseValue>
+            </InflationLinkedNotionalDetails>
+        -->
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>CA135087UL60</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20261201.4.25</Identifier>
+        <Rate>0.0425</Rate>
+        <Effective>19911210</Effective>
+        <FirstCouponDate>19920601</FirstCouponDate>
+        <Maturity>20261201</Maturity>
+        <InflationLinkedFixedLeg>
+        <!--
+            <InflationLinkedNotionalDetails>
+                <BaseValue>999.99</BaseValue>
+            </InflationLinkedNotionalDetails>
+        -->
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>CA135087VS05</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20311201.4.0</Identifier>
+        <Rate>0.04</Rate>
+        <Effective>19990308</Effective>
+        <FirstCouponDate>19990601</FirstCouponDate>
+        <Maturity>20311201</Maturity>
+        <InflationLinkedFixedLeg>
+        <!--
+            <InflationLinkedNotionalDetails>
+                <BaseValue>999.99</BaseValue>
+            </InflationLinkedNotionalDetails>
+        -->
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>CA135087WV25</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20361201.3.0</Identifier>
+        <Rate>0.03</Rate>
+        <Effective>20030609</Effective>
+        <Maturity>20361201</Maturity>
+        <ISIN>CA135087XQ21</ISIN>
+        <Name>CAN 3 12/01/36</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20411201.2.0</Identifier>
+        <Rate>0.02</Rate>
+        <Effective>20070604</Effective>
+        <Maturity>20411201</Maturity>
+        <ISIN>CA135087YK42</ISIN>
+        <Name>CAN 2 12/01/41</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20441201.1.5</Identifier>
+        <Rate>0.015</Rate>
+        <Effective>20100531</Effective>
+        <Maturity>20441201</Maturity>
+        <ISIN>CA135087ZH04</ISIN>
+        <Name>CAN 1 1/2 12/01/44</Name>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20471201.1.25</Identifier>
+        <Rate>0.0125</Rate>
+        <Effective>20131202</Effective>
+        <FirstCouponDate>20140601</FirstCouponDate>
+        <Maturity>20471201</Maturity>
+        <InflationLinkedFixedLeg>
+        <!--
+            <InflationLinkedNotionalDetails>
+                <BaseValue>999.99</BaseValue>
+            </InflationLinkedNotionalDetails>
+        -->
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>CA135087B949</ISIN>
+    </InflationLinkedFixedRateBond>
+
+    <InflationLinkedFixedRateBond>
+        <Identifier leaf="true">RE.0.InflationBond.CAN.CAD.CPI.20501201.0.5</Identifier>
+        <Rate>0.005</Rate>
+        <Effective>20170605</Effective>
+        <FirstCouponDate>20171201</FirstCouponDate>
+        <Maturity>20501201</Maturity>
+        <InflationLinkedFixedLeg>
+        <!--
+            <InflationLinkedNotionalDetails>
+                <BaseValue>999.99</BaseValue>
+            </InflationLinkedNotionalDetails>
+        -->
+            <Accrual>
+                <Tenor>6M</Tenor>
+                <Stub>ShortStart</Stub>
+            </Accrual>
+        </InflationLinkedFixedLeg>
+        <ISIN>CA135087G997</ISIN>
+    </InflationLinkedFixedRateBond>
+
+</Instruments>
